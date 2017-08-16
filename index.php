@@ -1,5 +1,7 @@
 <?php
 
-echo "Time to Start - ReCharge Marketing Style Guide";
+echo "ReCharge Marketing Style Guide";
+
+echo "See you soon";
 
 ?>
