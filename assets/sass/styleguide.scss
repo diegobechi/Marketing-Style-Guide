@@ -1,0 +1,50 @@
+.rc_sg{
+	background-color: #F4F4F4;
+	
+	&__navbar{
+		background-color: $white;
+		padding: 20px 0;
+
+		& img{
+			height: 34px;
+			vertical-align: middle;
+
+		}
+		h1{
+			color: $rc_grey;
+			font-size: 18px;
+			display:inline-block;
+			margin: 0px;
+			vertical-align: middle;
+			margin-left: 20px;
+		}
+	}
+
+	&__container{
+
+		& .container{
+			margin-top: 70px;
+		}
+		
+		&__menu{
+			max-width: 260px;
+			
+			li{
+				padding: 15px 0px;
+				padding-left: 30px;
+
+				a{
+					color: #424242;
+					font-size: 16px;
+				}
+
+			}
+			li:hover{
+				background-color: $grey_silver;
+			}
+		}
+	}
+
+	&__pagedetails{
+	}
+}

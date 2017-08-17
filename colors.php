@@ -1,6 +1,5 @@
 <?php include('templates/static/header.php'); ?>
 
-		Here we should make a description of the use for the page.
-
+Aca tenemos el contenedor de colores
 
 <?php include('templates/static/footer.php'); ?>

@@ -1,6 +1,5 @@
 <?php include('templates/static/header.php'); ?>
 
-		Here we should make a description of the use for the page.
-
+Este es el contenedor del uso del logo
 
 <?php include('templates/static/footer.php'); ?>

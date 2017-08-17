@@ -1,0 +1,47 @@
+
+h1, .h1 {
+	font-size: $h1-font-size;
+	font-family: 'ralewayregular', arial, san-serif;
+}
+
+h2, .h2 {
+	font-size: $h2-font-size;
+	font-family: 'ralewayregular', arial, san-serif;
+}
+h3, .h3 {
+	font-size: $h3-font-size;
+	font-family: 'ralewaysemibold', arial, san-serif;
+}
+
+h4, .h4 {
+	font-family: 'ralewayregular', arial, san-serif;
+	font-weight: normal;
+}
+h5, .h5 {
+	font-size: $h5-font-size;
+	font-family: 'ralewaysemibold', arial, san-serif;
+}
+
+body {
+	font-family: 'ralewayregular', arial, san-serif;
+	
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin-top: 0;
+	margin-bottom: 0;
+    line-height: 25px;
+}
+
+p + p {
+	margin-top: 18px;
+}
+
+strong {
+	font-weight: normal;
+	font-family: 'ralewaysemibold', arial, sans-serif;
+}

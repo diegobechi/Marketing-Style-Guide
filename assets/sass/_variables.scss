@@ -1,6 +1,6 @@
 //
 // Name: Variables
-// Description: Definition of the colors used and the values for the grid system.
+// Description: Definition of the colors used, basic font sizes and the values for the grid system.
 // Version: 1.0
 // Date: 08.18.2017
 // Author: Diego Bechi
@@ -31,6 +31,18 @@ $yellow: #FFF155;
 $orange: #FB8309;
 $red: #EC3D10;
 $pink: #D06EAB;
+
+// Basic Fonts Sizes
+
+$font-size-small: 14px !default;
+$font-size-base: 16px !default;
+$font-size-large: 24px !default;
+
+$h1-font-size: 35px !default;
+$h2-font-size: 30px !default;
+$h3-font-size: 24px !default;
+$h4-font-size: 20px !default;
+$h5-font-size: 16px !default;
 
 // Responsive Values
 $mobile-max: 400px !default;
@@ -71,3 +83,4 @@ $container-md:                 $container-desktop !default;
 $container-large-desktop:      (1145px + $grid-gutter-width) !default;
 //** For `$screen-lg-min` and up.
 $container-lg:                 $container-large-desktop !default;
+
