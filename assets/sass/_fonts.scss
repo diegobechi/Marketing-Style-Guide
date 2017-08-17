@@ -1,0 +1,55 @@
+//
+// Name: Fonts
+// Description: Definition of the font-family used and the sizes for each element.
+// Version: 1.0
+// Date: 08.18.2017
+// Author: Diego Bechi
+//
+
+@font-face {
+	font-family: 'ralewayregular';
+	src: url('../fonts/raleway/raleway-regular-webfont.eot');
+	src: url('../fonts/raleway/raleway-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/raleway/raleway-regular-webfont.woff2') format('woff2'),
+		url('../fonts/raleway/raleway-regular-webfont.woff') format('woff'),
+		url('../fonts/raleway/raleway-regular-webfont.ttf') format('truetype'),
+		url('../fonts/raleway/raleway-regular-webfont.svg#ralewayregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ralewaymedium';
+	src: url('../fonts/raleway/raleway-medium-webfont.eot');
+	src: url('../fonts/raleway/raleway-medium-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/raleway/raleway-medium-webfont.woff2') format('woff2'),
+		url('../fonts/raleway/raleway-medium-webfont.woff') format('woff'),
+		url('../fonts/raleway/raleway-medium-webfont.ttf') format('truetype'),
+		url('../fonts/raleway/raleway-medium-webfont.svg#ralewaymedium') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ralewaysemibold';
+	src: url('../fonts/raleway/raleway-semibold-webfont.eot');
+	src: url('../fonts/raleway/raleway-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/raleway/raleway-semibold-webfont.woff2') format('woff2'),
+		url('../fonts/raleway/raleway-semibold-webfont.woff') format('woff'),
+		url('../fonts/raleway/raleway-semibold-webfont.ttf') format('truetype'),
+		url('../fonts/raleway/raleway-semibold-webfont.svg#ralewaysemibold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ralewaybold';
+	src: url('../fonts/raleway/raleway-bold-webfont.eot');
+	src: url('../fonts/raleway/raleway-bold-webfont.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/raleway/raleway-bold-webfont.woff2') format('woff2'),
+		url('../fonts/raleway/raleway-bold-webfont.woff') format('woff'),
+		url('../fonts/raleway/raleway-bold-webfont.ttf') format('truetype'),
+		url('../fonts/raleway/raleway-bold-webfont.svg#ralewaybold') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

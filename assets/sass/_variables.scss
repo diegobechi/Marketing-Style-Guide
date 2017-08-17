@@ -1,0 +1,73 @@
+//
+// Name: Variables
+// Description: Definition of the colors used and the values for the grid system.
+// Version: 1.0
+// Date: 08.18.2017
+// Author: Diego Bechi
+//
+
+// Primary (Brand) Colors
+$rc_blue: #53BAD3;
+$rc_grey: #676767;
+$rc_green: #4DD6B7;
+
+// Secondary Colors
+$white: #FFFFFF !default;
+$grey_silver: #EEEEEE;
+$grey_light: #CCCCCC;
+$grey_medium: #8E8F8E;
+$grey_dark: #424242;
+$black: #000000 !default;
+
+$magenta: #C00399;
+$blue_dark: #004E82;
+$turquoise: #2c93AC;
+$green_pale: #BDF0E4;
+$green_bright: #17CC9D;
+$green_medium: #2BAC8F;
+
+// Tertiary Colors
+$yellow: #FFF155;
+$orange: #FB8309;
+$red: #EC3D10;
+$pink: #D06EAB;
+
+// Responsive Values
+$mobile-max: 400px !default;
+$screen-xxs-max: 480px !default;
+$screen-xxs-min: 700px !default;
+$screen-xs-max: 767px !default;
+$screen-sm-min: 768px !default;
+$screen-sm-max: 991px !default;
+$screen-md-min: 992px !default;
+$screen-md-max: 1199px !default;
+$screen-lg-min: 1200px !default;
+$screen-lg-max: 1399px !default;
+$screen-xl-min: 1400px !default;
+
+// Grid system
+
+//** Number of columns in the grid.
+$grid-columns:              12 !default;
+//** Padding between columns. Gets divided in half for the left and right.
+$grid-gutter-width:         28px !default;
+// Navbar collapse
+//** Point at which the navbar becomes uncollapsed.
+$grid-float-breakpoint:     $screen-sm-min !default;
+//** Point at which the navbar begins collapsing.
+$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+
+// Small screen / tablet
+$container-tablet:             (725px + $grid-gutter-width) !default;
+//** For `$screen-sm-min` and up.
+$container-sm:                 $container-tablet !default;
+
+// Medium screen / desktop
+$container-desktop:            (945px + $grid-gutter-width) !default;
+//** For `$screen-md-min` and up.
+$container-md:                 $container-desktop !default;
+
+// Large screen / wide desktop
+$container-large-desktop:      (1145px + $grid-gutter-width) !default;
+//** For `$screen-lg-min` and up.
+$container-lg:                 $container-large-desktop !default;
