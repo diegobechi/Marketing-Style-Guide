@@ -34,8 +34,8 @@
 				padding-left: 30px;
 
 				a{
-					color: #424242;
-					font-size: 16px;
+					color: $grey_dark;
+					font-size: $font-size-base;
 				}
 
 			}
@@ -46,5 +46,57 @@
 	}
 
 	&__pagedetails{
+
+
 	}
+
+	&_section{
+		& .typography_example{
+
+			&_item{
+				max-width: 309px;
+				width: 100%;
+				display:inline-block;
+				text-align: center;
+				padding: 34px;
+
+				&.light_example{
+					color: $grey_dark;
+					background-color: $white;
+				}
+				&.dark_example{
+					color: $white;
+					background-color: $rc_blue;
+					& .circle{
+						background-color: $white;
+					}
+				}
+			}
+		}
+
+		& .circle{
+			height: 80px;
+			width: 80px;
+			border-radius: 50%;
+			background-color: $grey_dark;
+			margin: 0 auto;
+			margin-bottom: 22px;
+		}
+
+		& .rc_sg_shadow_example{
+
+			div {display: inline-block;}
+
+			&_item{
+				height: 150px;
+				width: 150px;
+				background-color: $white;
+				text-align: center;
+				line-height: 150px;
+				margin: 15px;
+			}
+		}
+	}
+
+	
 }
