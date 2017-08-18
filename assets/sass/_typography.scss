@@ -1,21 +1,29 @@
 
+
+
 h1, .h1 {
 	font-size: $h1-font-size;
-	font-family: 'ralewayregular', arial, san-serif;
+	font-family: 'ralewaysemibold', arial, san-serif;
+	line-height: 48px;
 }
 
 h2, .h2 {
 	font-size: $h2-font-size;
-	font-family: 'ralewayregular', arial, san-serif;
+	font-family: 'ralewaysemibold', arial, san-serif;
+	line-height: 36px;
+	letter-spacing: -.25px;
 }
 h3, .h3 {
 	font-size: $h3-font-size;
 	font-family: 'ralewaysemibold', arial, san-serif;
+	line-height: 32px;
+	letter-spacing: -.25px;
 }
 
 h4, .h4 {
-	font-family: 'ralewayregular', arial, san-serif;
-	font-weight: normal;
+	font-size: $h4-font-size;
+	font-family: 'ralewaysemibold', arial, san-serif;
+	line-height: 24px;
 }
 h5, .h5 {
 	font-size: $h5-font-size;
@@ -24,7 +32,9 @@ h5, .h5 {
 
 body {
 	font-family: 'ralewayregular', arial, san-serif;
-	
+	font-size: 16px;
+	line-height: 24px;
+	color: $grey_dark;	
 }
 
 a {
@@ -44,4 +54,18 @@ p + p {
 strong {
 	font-weight: normal;
 	font-family: 'ralewaysemibold', arial, sans-serif;
+}
+
+.rc_small_copy{
+	font-family: 'ralewayregular', arial, san-serif;
+	font-size: 14px;
+	line-height: 18px;	
+}
+
+.rc_caption{
+	font-family: 'ralewayregular', arial, san-serif;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }

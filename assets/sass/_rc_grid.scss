@@ -1,0 +1,118 @@
+// Grid system
+// --------------------------------------------------
+// Container widths
+//
+// Set the container width, and override it for fixed navbars in media queries.
+// .container {
+//   @include container-fixed;
+
+//   @media (min-width: $screen-sm-min) {
+//     width: $container-sm;
+//   }
+//   @media (min-width: $screen-md-min) {
+//     width: $container-md;
+//   }
+//   @media (min-width: $screen-lg-min) {
+//     width: $container-lg;
+//   }
+// }
+
+// Fluid container
+// Utilizes the mixin meant for fixed width containers, but without any defined
+// width for fluid, full width layouts.
+
+.rc_layout__container {
+	@include container-fixed;
+
+	@media (min-width: $screen-sm-min) {
+		max-width: $container-sm;
+	}
+	@media (min-width: $screen-md-min) {
+		max-width: $container-md;
+	}
+	@media (min-width: $screen-lg-min) {
+		max-width: $container-lg;
+	}
+}
+
+
+// Row
+// Rows contain and clear the floats of your columns.
+.rc_layout {
+  @include make-row;
+}
+
+// // Columns
+// // Common styles for small and large grid columns
+// @include make-grid-columns;
+
+// // Extra small grid
+// // Columns, offsets, pushes, and pulls for extra small devices like
+// // smartphones.
+// @include make-grid(xs);
+
+// // Small grid
+// // Columns, offsets, pushes, and pulls for the small device range, from phones
+// // to tablets.
+// @media (min-width: $screen-sm-min) {
+//   @include make-grid(sm);
+// }
+
+// // Medium grid
+// // Columns, offsets, pushes, and pulls for the desktop device range.
+// @media (min-width: $screen-md-min) {
+//   @include make-grid(md);
+// }
+
+// // Large grid
+// // Columns, offsets, pushes, and pulls for the large desktop device range.
+// @media (min-width: $screen-lg-min) {
+//   @include make-grid(lg);
+// }
+
+// Pre-defined layotus
+.rc_layout__container {
+	box-sizing: border-box;
+	&:before {
+		display: table;
+		content: " ";
+	}
+}
+
+.rc_layout {
+	@include make-row;
+	box-sizing: border-box;
+}
+
+.rc_layout__sidebar {
+	box-sizing: border-box;
+	@include make-xs-column(12);
+	@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+		@include make-xs-column(3);
+	}
+	@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+		@include make-xs-column(3);
+	}
+	@media screen and (min-width: $screen-lg-min) {
+		@include make-xs-column(3);
+	}
+}
+
+.rc_layout__content {
+	box-sizing: border-box;
+	@include make-xs-column(12);
+	@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+		@include make-xs-column(8);
+	}
+	@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+		@include make-xs-column(9);
+	}
+	@media screen and (min-width: $screen-lg-min) {
+		@include make-xs-column(9);
+	}
+}
+
+.rc_layout__full {
+	box-sizing: border-box;
+	@include make-xs-column(12);
+}
