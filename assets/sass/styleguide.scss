@@ -27,7 +27,9 @@
 		}
 		
 		&__menu{
-			max-width: 260px;
+			ul{
+				max-width: 260px;
+			}
 			
 			li{
 				padding: 15px 0px;

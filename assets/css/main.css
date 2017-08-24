@@ -473,16 +473,16 @@ ol {
       margin-left: 20px; }
   .rc_sg__container .container {
     margin-top: 70px; }
-  .rc_sg__container__menu {
+  .rc_sg__container__menu ul {
     max-width: 260px; }
-    .rc_sg__container__menu li {
-      padding: 15px 0px;
-      padding-left: 30px; }
-      .rc_sg__container__menu li a {
-        color: #424242;
-        font-size: 16px; }
-    .rc_sg__container__menu li:hover {
-      background-color: #EEEEEE; }
+  .rc_sg__container__menu li {
+    padding: 15px 0px;
+    padding-left: 30px; }
+    .rc_sg__container__menu li a {
+      color: #424242;
+      font-size: 16px; }
+  .rc_sg__container__menu li:hover {
+    background-color: #EEEEEE; }
   .rc_sg_section .typography_example_item {
     max-width: 309px;
     width: 100%;
