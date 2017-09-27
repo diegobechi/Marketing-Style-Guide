@@ -1,118 +1,740 @@
-// Grid system
-// --------------------------------------------------
-// Container widths
-//
-// Set the container width, and override it for fixed navbars in media queries.
-// .container {
-//   @include container-fixed;
-
-//   @media (min-width: $screen-sm-min) {
-//     width: $container-sm;
-//   }
-//   @media (min-width: $screen-md-min) {
-//     width: $container-md;
-//   }
-//   @media (min-width: $screen-lg-min) {
-//     width: $container-lg;
-//   }
-// }
-
-// Fluid container
-// Utilizes the mixin meant for fixed width containers, but without any defined
-// width for fluid, full width layouts.
-
-.rc_layout__container {
-	@include container-fixed;
-
-	@media (min-width: $screen-sm-min) {
-		max-width: $container-sm;
-	}
-	@media (min-width: $screen-md-min) {
-		max-width: $container-md;
-	}
-	@media (min-width: $screen-lg-min) {
-		max-width: $container-lg;
-	}
-}
-
-
-// Row
-// Rows contain and clear the floats of your columns.
+.flex__layout,
 .rc_layout {
-  @include make-row;
-}
-
-// // Columns
-// // Common styles for small and large grid columns
-// @include make-grid-columns;
-
-// // Extra small grid
-// // Columns, offsets, pushes, and pulls for extra small devices like
-// // smartphones.
-// @include make-grid(xs);
-
-// // Small grid
-// // Columns, offsets, pushes, and pulls for the small device range, from phones
-// // to tablets.
-// @media (min-width: $screen-sm-min) {
-//   @include make-grid(sm);
-// }
-
-// // Medium grid
-// // Columns, offsets, pushes, and pulls for the desktop device range.
-// @media (min-width: $screen-md-min) {
-//   @include make-grid(md);
-// }
-
-// // Large grid
-// // Columns, offsets, pushes, and pulls for the large desktop device range.
-// @media (min-width: $screen-lg-min) {
-//   @include make-grid(lg);
-// }
-
-// Pre-defined layotus
-.rc_layout__container {
-	box-sizing: border-box;
-	&:before {
-		display: table;
-		content: " ";
+	display: flex;
+	flex-wrap: wrap;
+	.flex__full,
+	.flex__sidebar,
+	.flex__content,
+	.rc_layout__full,
+	.rc_layout__sidebar,
+	.rc_layout__content,
+	[class^="flex__xs"],
+	[class^="flex__sm"],
+	[class^="flex__md"],
+	[class^="flex__lg"],
+	[class^="flex__xl"] {
+		min-height: 1px;
 	}
-}
-
-.rc_layout {
-	@include make-row;
-	box-sizing: border-box;
-}
-
-.rc_layout__sidebar {
-	box-sizing: border-box;
-	@include make-xs-column(12);
-	@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-		@include make-xs-column(3);
+	[class^="flex__xs"],
+	[class^="flex__sm"],
+	[class^="flex__md"],
+	[class^="flex__lg"],
+	[class^="flex__xl"] {
+		padding-left: ($gutter / 2);
+		padding-right: ($gutter / 2);
+		width: 100%;
 	}
-	@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-		@include make-xs-column(3);
+	.flex__xs__1 {
+		flex-basis: percentage(1 / 12);
+		flex-grow: 1;
+		max-width: percentage(1 / 12);
+	}
+	.flex__xs__offset__1 {
+		margin-left: percentage(1 / 12);
+	}
+	@for $i from 2 through 12 {
+		.flex__xs__#{$i} {
+			flex-basis: percentage($i / 12);
+			flex-grow: 1;
+			flex-shrink: 0;
+			max-width: percentage($i / 12);
+		}
+		.flex__xs__offset__#{$i} {
+			margin-left: percentage($i / 12);
+		}
+	}
+	@media screen and (max-width: $screen-xs-max) {
+		.flex__xs__offset__0 {
+			margin-left: 0;
+		}
+	}
+	@media screen and (min-width: $screen-sm-min) {
+		@for $i from 1 through 12 {
+			.flex__sm__#{$i} {
+				flex-basis: percentage($i / 12);
+				flex-grow: 1;
+				flex-shrink: 0;
+				max-width: percentage($i / 12);
+			}
+			.flex__sm__offset__#{$i} {
+				margin-left: percentage($i / 12);
+			}
+		}
+		.flex__sm__offset__0 {
+			margin-left: 0;
+		}
+	}
+	@media screen and (min-width: $screen-md-min) {
+		@for $i from 1 through 12 {
+			.flex__md__#{$i} {
+				flex-basis: percentage($i / 12);
+				flex-grow: 1;
+				flex-shrink: 0;
+				max-width: percentage($i / 12);
+			}
+			.flex__md__offset__#{$i} {
+				margin-left: percentage($i / 12);
+			}
+		}
+		.flex__md__offset__0 {
+			margin-left: 0;
+		}
 	}
 	@media screen and (min-width: $screen-lg-min) {
-		@include make-xs-column(3);
+		@for $i from 1 through 12 {
+			.flex__lg__#{$i} {
+				flex-basis: percentage($i / 12);
+				flex-grow: 1;
+				flex-shrink: 0;
+				max-width: percentage($i / 12);
+			}
+			.flex__lg__offset__#{$i} {
+				margin-left: percentage($i / 12);
+			}
+		}
+		.flex__lg__offset__0 {
+			margin-left: 0;
+		}
+	}
+	@media screen and (min-width: $screen-xl-min) {
+		@for $i from 1 through 12 {
+			.flex__xl__#{$i} {
+				flex-basis: percentage($i / 12);
+				flex-grow: 1;
+				flex-shrink: 0;
+				max-width: percentage($i / 12);
+			}
+			.flex__xl__offset__#{$i} {
+				margin-left: percentage($i / 12);
+			}
+		}
+		.flex__xl__offset__0 {
+			margin-left: 0;
+		}
+	}
+	.flex__xs,
+	.flex__block {
+		flex-basis: 0;
+		flex-grow: 1;
+	}
+	.flex__sm {
+		@media screen and (min-width: $screen-sm-min) {
+			flex-basis: 0;
+			flex-grow: 1;
+		}
+	}
+	.flex__md {
+		@media screen and (min-width: $screen-md-min) {
+			flex-basis: 0;
+			flex-grow: 1;
+		}
+	}
+	.flex__lg {
+		@media screen and (min-width: $screen-lg-min) {
+			flex-basis: 0;
+			flex-grow: 1;
+		}
+	}
+	.flex__xl {
+		@media screen and (min-width: $screen-xl-min) {
+			flex-basis: 0;
+			flex-grow: 1;
+		}
 	}
 }
 
+[flex-reverse="true"],
+[flex-order="reverse"] {
+	.flex__layout,
+	.rc_layout {
+		flex-direction: row-reverse;
+	}
+}
+[flex-row="true"],
+[flex-order="false"],
+[flex-order="row"] {
+	.flex__layout,
+	.rc_layout {
+		flex-direction: row;
+	}
+}
+[flex-column="true"],
+[flex-order="column"] {
+	.flex__layout,
+	.rc_layout {
+		flex-direction: column;
+	}
+}
+[flex-unset="true"],
+[flex-order="unset"] {
+	.flex__layout,
+	.rc_layout {
+		flex-direction: unset;
+	}
+}
+
+.flex__layout,
+.rc_layout {
+	&[flex-reverse="true"],
+	&[flex-order="reverse"] {
+		flex-direction: row-reverse;
+	}
+	&[flex-row="true"],
+	&[flex-order="false"],
+	&[flex-order="row"] {
+		flex-direction: row;
+	}
+	&[flex-column="true"],
+	&[flex-order="column"] {
+		flex-direction: column;
+	}
+	&[flex-unset="true"],
+	&[flex-order="unset"] {
+		flex-direction: unset;
+	}
+}
+
+.flex__container,
+.rc_layout__container {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left: ($gutter / 2);
+	padding-right: ($gutter / 2);
+
+	.flex__layout,
+	.rc_layout {
+		margin-left: -($gutter / 2);
+		margin-right: -($gutter / 2);
+	}
+}
+
+// Fix padding on columns outside of max scope of media-query width
+.flex__layout,
+.rc_layout {
+	@media screen and (max-width: $screen-xs-max) {
+		[class^="flex__sm"] {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+	}
+	@media screen and (max-width: $screen-sm-max) {
+		[class^="flex__md"] {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+	}
+	@media screen and (max-width: $screen-md-max) {
+		[class^="flex__lg"] {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+	}
+	@media screen and (max-width: $screen-lg-max) {
+		[class^="flex__xl"] {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+	}
+	@media screen and (max-width: $mobile-nav-max) {
+		[class^="flex__sm"] {
+			padding-left: $gutter / 2;
+			padding-right: $gutter / 2;
+		}
+	}
+}
+
+/* Fixing the first and last-column padding */
+.flex__layout,
+.rc_layout {
+	@media screen and (max-width: $screen-xs-max) {
+		.flex__xs__12 {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+	}
+	@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+		.flex__sm__12 {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+	}
+	@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+		.flex__md__12 {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+	}
+	@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+		.flex__lg__12 {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+	}
+	@media screen and (min-width: $screen-xl-min) {
+		.flex__xl__12 {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+	}
+	@media screen and (max-width: $mobile-nav-max) {
+		.flex__xs__12,
+		.flex__sm__12 {
+			padding-left: $gutter / 2;
+			padding-right: $gutter / 2;
+		}
+	}
+}
+
+.flex__layout,
+.rc_layout {
+	.flex__full,
+	.rc_layout__full {
+		padding-top: ($gutter - 5); // -5px to account for the header that will likely follow. This is a safe assumption
+		padding-bottom: $gutter;
+		padding-left: $gutter;
+		padding-right: $gutter;
+	}
+	.flex__sidebar,
+	.rc_layout__sidebar {
+		padding-top: ($gutter - 5); // -5px to account for the header that will likely follow. This is a safe assumption
+		padding-bottom: $gutter;
+		padding-left: $gutter;
+		padding-right: ($gutter / 2);
+	}
+	.flex__content,
+	.rc_layout__content {
+		padding-top: ($gutter - 5); // -5px to account for the header that will likely follow. This is a safe assumption
+		padding-bottom: $gutter;
+		padding-right: $gutter;
+		padding-left: ($gutter / 2);
+	}
+	@media screen and (max-width: $mobile-nav-max) {
+		.flex__sidebar,
+		.flex__content,
+		.rc_layout__sidebar,
+		.rc_layout__content {
+			padding-left: $gutter;
+			padding-right: $gutter;
+		}
+		.flex__sidebar,
+		.rc_layout__sidebar,
+		.rc_layout__content {
+			padding-bottom: 0;
+		}
+	}
+	[class^="flex__xs"],
+	[class^="flex__sm"],
+	[class^="flex__md"],
+	[class^="flex__lg"],
+	[class^="flex__xl"] {
+		&:first-child {
+			padding-left: $gutter;
+		}
+		&:last-child {
+			padding-right: $gutter;
+		}
+	}
+	.flex__layout,
+	.rc_layout {
+		[class^="flex__xs"],
+		[class^="flex__sm"],
+		[class^="flex__md"],
+		[class^="flex__lg"],
+		[class^="flex__xl"] {
+			&:first-child {
+				padding-left: ($gutter / 2);
+			}
+			&:last-child {
+				padding-right: ($gutter / 2);
+			}
+		}
+	}
+}
+
+.flex__container[flex-reverse="true"],
+.flex__container[flex-order="reverse"],
+.rc_layout__container[flex-reverse="true"],
+.rc_layout__container[flex-order="reverse"] {
+	.flex__layout,
+	.rc_layout {
+		.flex__sidebar,
+		.rc_layout__sidebar {
+			padding-left: ($gutter / 2);
+			padding-right: $gutter;
+		}
+		.flex__content,
+		.rc_layout__content {
+			padding-right: ($gutter / 2);
+			padding-left: $gutter;
+		}
+		@media screen and (max-width: $mobile-nav-max) {
+			.flex__sidebar,
+			.flex__content,
+			.rc_layout__sidebar,
+			.rc_layout__content {
+				padding-left: $gutter;
+				padding-right: $gutter;
+			}
+		}
+		[class^="flex__xs"],
+		[class^="flex__sm"],
+		[class^="flex__md"],
+		[class^="flex__lg"],
+		[class^="flex__xl"] {
+			&:first-child {
+				padding-right: $gutter;
+			}
+			&:last-child {
+				padding-left: $gutter;
+			}
+		}
+		.flex__layout,
+		.rc_layout {
+			[class^="flex__xs"],
+			[class^="flex__sm"],
+			[class^="flex__md"],
+			[class^="flex__lg"],
+			[class^="flex__xl"] {
+				&:first-child {
+					padding-right: ($gutter / 2);
+				}
+				&:last-child {
+					padding-left: ($gutter / 2);
+				}
+			}
+		}
+	}
+}
+
+.flex__container[flex-style="static"],
+.flex__container[flex-static="true"],
+.rc_layout__container[flex-style="static"],
+.rc_layout__container[flex-static="true"] {
+	margin-left: auto;
+	margin-right: auto;
+	@media screen and (max-width: $screen-xs-max) {
+		max-width: 100%;
+	}
+	@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+		max-width: $screen-sm-min;
+	}
+	@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+		max-width: $screen-md-min;
+	}
+	@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+		max-width: $screen-lg-min;
+	}
+	@media screen and (min-width: $screen-xl-min) {
+		max-width: $screen-xl-min;
+	}
+}
+
+.flex__container[flex-style="seamless"],
+.flex__container[flex-seamless="true"],
+.rc_layout__container[flex-style="seamless"],
+.rc_layout__container[flex-seamless="true"] {
+	padding-left: 0;
+	padding-right: 0;
+	> .flex__layout,
+	> .rc_layout {
+		margin-left: 0;
+		margin-right: 0;
+		> .flex__full,
+		> .flex__sidebar,
+		> .flex__content,
+		> .rc_layout__full,
+		> .rc_layout__sidebar,
+		> .rc_layout__content,
+		> div[class^="flex__xs"],
+		> div[class^="flex__sm"],
+		> div[class^="flex__md"],
+		> div[class^="flex__lg"],
+		> div[class^="flex__xl"] {
+			padding-left: 0;
+			padding-right: 0;
+		}
+	}
+}
+
+.flex__container[flex-max="xs"],
+.rc_layout__container[flex-max="xs"] {
+	max-width: $screen-xs-max !important;
+}
+.flex__container[flex-max="sm"],
+.rc_layout__container[flex-max="sm"] {
+	max-width: $screen-sm-max !important;
+}
+.flex__container[flex-max="md"],
+.rc_layout__container[flex-max="md"] {
+	max-width: $screen-md-max !important;
+}
+.flex__container[flex-max="lg"],
+.rc_layout__container[flex-max="lg"] {
+	max-width: $screen-lg-max !important;
+}
+
+.flex__container[flex-anchor="left"],
+.rc_layout__container[flex-anchor="left"] {
+	margin-left: 0;
+}
+.flex__container[flex-anchor="right"],
+.rc_layout__container[flex-anchor="right"] {
+	margin-right: 0;
+}
+
+.flex__layout,
+.rc_layout {
+	.flex__full,
+	.rc_layout__full,
+	.flex__sidebar,
+	.rc_layout__sidebar,
+	.flex__content,
+	.rc_layout__content {
+		flex-grow: 1;
+		flex-shrink: 0;
+	}
+	.flex__full,
+	.rc_layout__full {
+		flex-basis: percentage(12 / 12);
+		max-width: percentage(12 / 12);
+	}
+	.flex__sidebar,
+	.rc_layout__sidebar {
+		@media screen and (max-width: $mobile-nav-max) {
+			flex-basis: percentage(12 / 12);
+			max-width: percentage(12 / 12);
+		}
+		@media screen and (min-width: $mobile-nav-max + 1) and (max-width: $screen-sm-max) {
+			flex-basis: percentage(4 / 12);
+			max-width: percentage(4 / 12);
+		}
+		@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+			flex-basis: percentage(3 / 12);
+			max-width: percentage(3 / 12);
+		}
+		@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+			flex-basis: percentage(3 / 12);
+			max-width: percentage(3 / 12);
+		}
+		@media screen and (min-width: $screen-xl-min) {
+			flex-basis: percentage(2 / 12);
+			max-width: percentage(2 / 12);
+		}
+	}
+	.flex__content,
+	.rc_layout__content {
+		@media screen and (max-width: $mobile-nav-max) {
+			flex-basis: percentage(12 / 12);
+			max-width: percentage(12 / 12);
+		}
+		@media screen and (min-width: $mobile-nav-max + 1) and (max-width: $screen-sm-max) {
+			flex-basis: percentage(8 / 12);
+			max-width: percentage(8 / 12);
+		}
+		@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+			flex-basis: percentage(9 / 12);
+			max-width: percentage(9 / 12);
+		}
+		@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+			flex-basis: percentage(9 / 12);
+			max-width: percentage(9 / 12);
+		}
+		@media screen and (min-width: $screen-xl-min) {
+			flex-basis: percentage(10 / 12);
+			max-width: percentage(10 / 12);
+		}
+	}
+}
+
+.flex__container[flex-max="sm"],
+.flex__container[flex-max="md"],
+.flex__container[flex-max="lg"],
+.rc_layout__container[flex-max="sm"],
+.rc_layout__container[flex-max="md"],
+.rc_layout__container[flex-max="lg"] {
+	.flex__sidebar,
+	.rc_layout__sidebar {
+		@media screen and (max-width: $mobile-nav-max) {
+			flex-basis: percentage(12 / 12);
+			max-width: percentage(12 / 12);
+		}
+		@media screen and (min-width: $mobile-nav-max + 1) {
+			flex-basis: percentage(3 / 12);
+			max-width: percentage(3 / 12);
+		}
+	}
+	.flex__content,
+	.rc_layout__content {
+		@media screen and (max-width: $mobile-nav-max) {
+			flex-basis: percentage(12 / 12);
+			max-width: percentage(12 / 12);
+		}
+		@media screen and (min-width: $mobile-nav-max + 1) {
+			flex-basis: percentage(8 / 12);
+			max-width: percentage(8 / 12);
+		}
+	}
+}
+.flex__container[flex-max="md"],
+.flex__container[flex-max="lg"],
+.rc_layout__container[flex-max="md"],
+.rc_layout__container[flex-max="lg"] {
+	.flex__sidebar,
+	.rc_layout__sidebar {
+		@media screen and (min-width: $screen-md-min) {
+			flex-basis: percentage(4 / 12);
+			max-width: percentage(4 / 12);
+		}
+	}
+	.flex__content,
+	.rc_layout__content {
+		@media screen and (min-width: $screen-md-min) {
+			flex-basis: percentage(8 / 12);
+			max-width: percentage(8 / 12);
+		}
+	}
+}
+.flex__container[flex-max="lg"],
+.rc_layout__container[flex-max="lg"] {
+	.flex__sidebar,
+	.rc_layout__sidebar {
+		@media screen and (min-width: $screen-lg-min) {
+			flex-basis: percentage(3 / 12);
+			max-width: percentage(3 / 12);
+		}
+	}
+	.flex__content,
+	.rc_layout__content {
+		@media screen and (min-width: $screen-lg-min) {
+			flex-basis: percentage(9 / 12);
+			max-width: percentage(9 / 12);
+		}
+	}
+}
+
+.flex--visible {
+	&[flex-order="reverse"] {
+		div[class^="flex__"] {
+			+ div[class^="flex__"] {
+				@media screen and (min-width: $screen-sm-min) {
+					border-right: 1px solid #fff;
+					border-left: 0;
+					&:last-child {
+						border-left: 0 !important;
+					}
+				}
+			}
+		}
+	}
+
+
+	.flex__layout {
+		background-color: #6bddc3;
+
+		> .flex__full,
+		> .flex__sidebar,
+		> .flex__content,
+		> div[class^="flex__xs"],
+		> div[class^="flex__sm"],
+		> div[class^="flex__md"],
+		> div[class^="flex__lg"],
+		> div[class^="flex__xl"] {
+			p {
+				text-align: center;
+				background-color: #bef0e5;
+				padding-top: 5px;
+				padding-bottom: 5px;
+			}
+			+ .flex__full,
+			+ .flex__sidebar,
+			+ .flex__content,
+			+ div[class^="flex__xs"],
+			+ div[class^="flex__sm"],
+			+ div[class^="flex__md"],
+			+ div[class^="flex__lg"],
+			+ div[class^="flex__xl"] {
+				border-left: 1px solid #FFF;
+				overflow: hidden;
+			}
+		}
+		+ .flex__layout {
+			border-top: 1px solid #FFF;
+		}
+	}
+	+ .flex--visible {
+		border-top: 1px solid #FFF;
+	}
+}
+
+.flex__content,
 .rc_layout__content {
-	box-sizing: border-box;
-	@include make-xs-column(12);
-	@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-		@include make-xs-column(8);
-	}
-	@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-		@include make-xs-column(9);
-	}
-	@media screen and (min-width: $screen-lg-min) {
-		@include make-xs-column(9);
+	> .flex__container,
+	> .rc_layout__container {
+		padding-left: 0;
+		padding-right: 0;
 	}
 }
 
-.rc_layout__full {
-	box-sizing: border-box;
-	@include make-xs-column(12);
+[flex-padded="true"] {
+	[class^="flex__xs"],
+	[class^="flex__sm"],
+	[class^="flex__md"],
+	[class^="flex__lg"],
+	[class^="flex__xl"] {
+		@media screen and (max-width: $mobile-nav-max) {
+			margin-top: $gutter / 2;
+			margin-bottom: $gutter / 2;
+		}
+	}
+
+	.flex__layout,
+	.rc_layout {
+		+ .flex__layout,
+		+ .rc_layout {
+			@media screen and (min-width: $mobile-nav-max + 1) {
+				margin-top: $gutter;
+			}
+		}
+	}
+}
+
+// Minimal layouts with a sidebar will utilize this, such as the Partners page
+.flex__full-height {
+	> .flex__container {
+		> .flex__layout {
+			> .flex__sidebar {
+				padding-top: 0;
+				padding-bottom: 0;
+			}
+		}
+	}
+}
+@media screen and (min-width: $mobile-nav-max + 1) {
+	.flex__full-height {
+		height: 100%;
+		> .navbar {
+			z-index: 1;
+		}
+		> .navbar + .flex__container {
+			margin-top: -61px;
+			padding-top: 61px;
+			z-index: 0;
+		}
+		> .flex__container {
+			height: 100%;
+			> .flex__layout {
+				min-height: 100%;
+				> .flex__sidebar {
+					padding-top: 0;
+					padding-bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+// A fix for notification-enabled pages with a supposed full-height
+.flex__full-height > .rc_notification + .flex__container {
+    height: auto;
 }

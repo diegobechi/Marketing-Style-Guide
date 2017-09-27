@@ -7,81 +7,113 @@
 //
 
 // Primary (Brand) Colors
-$rc_blue: #53BAD3;
-$rc_grey: #676767;
+$rc_blue:  #53BAD3;
+$rc_grey:  #676767;
 $rc_green: #4DD6B7;
 
-// Secondary Colors
-$white: #FFFFFF !default;
-$grey_silver: #EEEEEE;
-$grey_light: #CCCCCC;
-$grey_medium: #8E8F8E;
-$grey_dark: #424242;
-$black: #000000 !default;
+$rc_blue_rgba: rgba(83, 186, 211, .25);
 
-$magenta: #C00399;
-$blue_dark: #004E82;
-$turquoise: #2c93AC;
-$green_pale: #BDF0E4;
+// Secondary Colors
+$white:        #FFFFFF !default;
+$grey_silver:  #EEEEEE;
+$grey_light:   #CCCCCC;
+$grey_medium:  #8E8F8E;
+$grey_dark:    #424242;
+$black:        #000000 !default;
+$magenta:      #C00399;
+$blue_dark:    #004E82;
+$turquoise:    #2c93AC;
+$green_pale:   #BDF0E4;
 $green_bright: #17CC9D;
 $green_medium: #2BAC8F;
 
 // Tertiary Colors
 $yellow: #FFF155;
 $orange: #FB8309;
-$red: #EC3D10;
-$pink: #D06EAB;
+$red:    #EC3D10;
+$pink:   #D06EAB;
 
 // Basic Fonts Sizes
+$font-size-extra-small: 12px !default;
+$font-size-small: 		14px !default;
+$font-size-base:  		16px !default;
+$font-size-large: 		24px !default;
 
-$font-size-small: 14px !default;
-$font-size-base: 16px !default;
-$font-size-large: 24px !default;
+// Basic Fonts Weight
+$font-thin:     100;
+$font-regular:  400;
+$font-medium:   500;
+$font-semibold: 600;
+$font-bold:     700;
+$font-black:    900;
 
+// Head Tag Sizes
 $h1-font-size: 42px !default;
 $h2-font-size: 30px !default;
 $h3-font-size: 24px !default;
 $h4-font-size: 18px !default;
 $h5-font-size: 16px !default;
 
+// Container
+$container-width: 1045px !default;
+
+// Navbar Basic Styles
+$navbar-font-size:         16px !default;
+$navbar-height:            43px !default;
+$navbar-brand-height:      39px !default;
+$navbar-brand-width:       149px !default;
+$navbar-background:        $white !default;
+$navbar-color:             $grey_dark !default;
+$navbar-active-color:      $rc_blue !default;
+$navbar-active-background: $rc_blue_rgba !default;
+$navbar-option-height:	   43px;
+
+// Dropdown
+$dropdown-color: 			#424242 !default;
+$dropdown-color-hover: 		$rc_blue !default;
+$dropdown-background: 		$white !default;
+$dropdown-background-hover: $rc_blue_rgba !default;
+$dropdown-divider: 			$white !default;
+$dropdown-height: 			48px;
+$dropdown-width: 			176px;
 
 // Responsive Values
-$mobile-max: 400px !default;
-$screen-xxs-max: 480px !default;
-$screen-xxs-min: 700px !default;
-$screen-xs-max: 767px !default;
-$screen-sm-min: 768px !default;
-$screen-sm-max: 991px !default;
-$screen-md-min: 992px !default;
-$screen-md-max: 1199px !default;
-$screen-lg-min: 1200px !default;
-$screen-lg-max: 1399px !default;
-$screen-xl-min: 1400px !default;
+$screen-xs-max: 575px !default;
+$screen-sm-min: 576px !default;
+$screen-sm-max: 767px !default;
+$screen-md-min: 768px !default;
+$screen-md-max: 991px !default;
+$screen-lg-min: 992px !default;
+$screen-lg-max: 1199px !default;
+$screen-xl-min: 1200px !default;
 
-// Grid system
+$gutter: 28px;
+$mobile-nav-max: $screen-sm-max;
 
-//** Number of columns in the grid.
-$grid-columns:              12 !default;
-//** Padding between columns. Gets divided in half for the left and right.
-$grid-gutter-width:         28px !default;
-// Navbar collapse
-//** Point at which the navbar becomes uncollapsed.
-$grid-float-breakpoint:     $screen-sm-min !default;
-//** Point at which the navbar begins collapsing.
-$grid-float-breakpoint-max: ($grid-float-breakpoint - 1) !default;
+// ZIndex Values
+$zindex-base:			   100000 !default;
+$zindex-tooltip:           $zindex-base + 30 !default;
+$zindex-popover:           $zindex-base + 40 !default;
+$zindex-dropdown:          $zindex-base + 50 !default;
+$zindex-navbar:            $zindex-base + 60 !default;
+$zindex-navbar-fixed:      $zindex-base + 70 !default;
+$zindex-modal-background:  $zindex-base + 80 !default;
+$zindex-modal:             $zindex-base + 90 !default;
 
-// Small screen / tablet
-$container-tablet:             (725px + $grid-gutter-width) !default;
-//** For `$screen-sm-min` and up.
-$container-sm:                 $container-tablet !default;
+// Buttons
+$button-color: 			$white !default;
+$button-bg-color:       $rc_blue !default;
+$button-bg-hover-color: $rc_blue !default;
+$button-bg-disabled:    $grey_silver;
 
-// Medium screen / desktop
-$container-desktop:            (945px + $grid-gutter-width) !default;
-//** For `$screen-md-min` and up.
-$container-md:                 $container-desktop !default;
+$button-primary-color: 			$white !default;
+$button-primary-hover-color: 	$white !default;
+$button-primary-bg-color: 		$rc_blue !default;
+$button-primary-bg-hover-color: $rc_blue !default;
 
-// Large screen / wide desktop
-$container-large-desktop:      (1145px + $grid-gutter-width) !default;
-//** For `$screen-lg-min` and up.
-$container-lg:                 $container-large-desktop !default;
+$button-secondary-color: 		  $rc_blue !default;
+$button-secondary-hover-color: 	  $rc_blue !default;
+$button-secondary-bg-color: 	  $white !default;
+$button-secondary-bg-hover-color: $white !default;
 
+$button-padding: 20px 60px;
