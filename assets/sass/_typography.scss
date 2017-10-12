@@ -3,36 +3,42 @@
 
 h1, .h1 {
 	font-size: $h1-font-size;
-	font-family: 'ralewaysemibold', arial, san-serif;
+	font-weight: $font-semibold;
 	line-height: 48px;
+	margin-bottom: 10px;
 }
 
 h2, .h2 {
 	font-size: $h2-font-size;
-	font-family: 'ralewaysemibold', arial, san-serif;
+	font-weight: $font-semibold;
 	line-height: 36px;
 	letter-spacing: -.25px;
+	margin-bottom: 10px;
 }
 h3, .h3 {
 	font-size: $h3-font-size;
-	font-family: 'ralewaysemibold', arial, san-serif;
+	font-weight: $font-semibold;
 	line-height: 32px;
 	letter-spacing: -.25px;
+	margin-bottom: 10px;
 }
 
 h4, .h4 {
 	font-size: $h4-font-size;
-	font-family: 'ralewaysemibold', arial, san-serif;
+	font-weight: $font-semibold;
 	line-height: 24px;
+	margin-bottom: 10px;
 }
 h5, .h5 {
 	font-size: $h5-font-size;
-	font-family: 'ralewaysemibold', arial, san-serif;
+	font-weight: $font-semibold;
+	margin-bottom: 10px;
 }
 
 body {
-	font-family: 'ralewayregular', arial, san-serif;
-	font-size: 16px;
+	font-family: 'Raleway', arial, san-serif;
+	font-weight: $font-regular;
+	font-size: $font-size-base;
 	line-height: 24px;
 	color: $grey_dark;	
 }
@@ -57,15 +63,16 @@ strong {
 }
 
 .rc_small_copy{
-	font-family: 'ralewayregular', arial, san-serif;
-	font-size: 14px;
+	font-weight: $font-regular;
+	font-size: $font-size-small;
 	line-height: 18px;	
 }
 
 .rc_caption{
-	font-family: 'ralewayregular', arial, san-serif;
-	font-size: 12px;
+	font-weight: $font-regular;
+	font-size: $font-size-extra-small;
 	line-height: 24px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
+	opacity: 0.5;
 }

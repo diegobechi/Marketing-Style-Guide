@@ -517,32 +517,38 @@ ol {
 
 h1, .h1 {
   font-size: 42px;
-  font-family: 'ralewaysemibold', arial, san-serif;
-  line-height: 48px; }
+  font-weight: 600;
+  line-height: 48px;
+  margin-bottom: 10px; }
 
 h2, .h2 {
-  font-size: 30px;
-  font-family: 'ralewaysemibold', arial, san-serif;
+  font-size: 28px;
+  font-weight: 600;
   line-height: 36px;
-  letter-spacing: -.25px; }
+  letter-spacing: -.25px;
+  margin-bottom: 10px; }
 
 h3, .h3 {
   font-size: 24px;
-  font-family: 'ralewaysemibold', arial, san-serif;
+  font-weight: 600;
   line-height: 32px;
-  letter-spacing: -.25px; }
+  letter-spacing: -.25px;
+  margin-bottom: 10px; }
 
 h4, .h4 {
-  font-size: 18px;
-  font-family: 'ralewaysemibold', arial, san-serif;
-  line-height: 24px; }
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 24px;
+  margin-bottom: 10px; }
 
 h5, .h5 {
   font-size: 16px;
-  font-family: 'ralewaysemibold', arial, san-serif; }
+  font-weight: 600;
+  margin-bottom: 10px; }
 
 body {
-  font-family: 'ralewayregular', arial, san-serif;
+  font-family: 'Raleway', arial, san-serif;
+  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   color: #424242; }
@@ -563,16 +569,17 @@ strong {
   font-family: 'ralewaysemibold', arial, sans-serif; }
 
 .rc_small_copy {
-  font-family: 'ralewayregular', arial, san-serif;
+  font-weight: 400;
   font-size: 14px;
   line-height: 18px; }
 
 .rc_caption {
-  font-family: 'ralewayregular', arial, san-serif;
+  font-weight: 400;
   font-size: 12px;
   line-height: 24px;
   letter-spacing: 2px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  opacity: 0.5; }
 
 .flex__layout,
 .rc_layout {
