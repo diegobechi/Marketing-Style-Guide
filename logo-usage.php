@@ -7,20 +7,20 @@
 	<div class="rc_sg_section">
 		<h3>Full Logo</h3>
 		<p>When using the full ReCharge logo, use the colored logo on the white and light backgrounds. Use the white logo on dark background to create enough constrast. On photograph, the same principle applies. Use the colored logo on lighter areas of the photograph and the white logo on darker areas of the photograph. When in dount, ask a designer which logo you should use in which circumstance.</p>
-		<div class="">
-			<div class="grid__xs__6">
+		<div class="rc_layout">
+			<div class="rc_layout__xs__6">
 				<div><img src=""></div>
 				<label class="rc_caption">ON LIGHT</label>
 			</div>
-			<div class="grid__xs__6">
+			<div class="rc_layout__xs__6">
 				<div><img src=""></div>
 				<label class="rc_caption">ON DARK</label>
 			</div>
-			<div class="grid__xs__6">
+			<div class="rc_layout__xs__6">
 				<div><img src=""></div>
 				<label class="rc_caption">ON LIGHT PHOTOGRAPHY</label>
 			</div>
-			<div class="grid__xs__6">
+			<div class="rc_layout__xs__6">
 				<div><img src=""></div>
 				<label class="rc_caption">ON DARK PHOTOGRAPHY</label>
 			</div>
@@ -29,20 +29,20 @@
 	<div class="rc_sg_section">
 		<h3>Logomark</h3>
 		<p>It’s acceptable to use just the logomark in places where ReCharge’s brand will be obviously recognized without the full logo. For example, on social media the logomark can be used as a profile picture because it’s accompanied with text that says, “ReCharge.” The logomark can be used for internal and external swag, as employees recognize the logo and swag is typically accompanied by the full logo in some form or another at a booth. Please consult a designer for the proper logo and color.</p>
-		<div>
-			<div class="grid__xs__3">
+		<div class="rc_layout">
+			<div class="rc_layout__xs__3">
 				<div><img src=""></div>
 				<label class="rc_caption">ON LIGHT</label>
 			</div>
-			<div class="grid__xs__3">
+			<div class="rc_layout__xs__3">
 				<div><img src=""></div>
 				<label class="rc_caption">ON DARK</label>
 			</div>
-			<div class="grid__xs__3">
+			<div class="rc_layout__xs__3">
 				<div><img src=""></div>
 				<label class="rc_caption">BLACK</label>
 			</div>
-			<div class="grid__xs__3">
+			<div class="rc_layout__xs__3">
 				<div><img src=""></div>
 				<label class="rc_caption">GREY</label>
 			</div>

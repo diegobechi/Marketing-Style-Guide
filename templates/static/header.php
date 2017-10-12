@@ -6,10 +6,11 @@
 	<body class="rc_sg">
 		<?php include('navbar.php'); ?>
 		<div class="rc_sg__container">
-			<div class="container flex__layout">
-				<div class="rc_sg__container__menu flex__sm__12 flex__md__3 flex__lg__3">
-					<?php include('main_menu.php'); ?>
-				</div>
-				
-				<div class="rc_sg__pagedetails flex__sm__12 flex__md__9 flex__lg__9">
+			<div class="rc_layout__container">
+				<div class="rc_layout">
+					<div class="rc_sg__container__menu rc_layout__sm__12 rc_layout__md__3 rc_layout__lg__3">
+						<?php include('main_menu.php'); ?>
+					</div>
+					
+					<div class="rc_sg__pagedetails rc_layout__sm__12 rc_layout__md__9 rc_layout__lg__9">
 				
