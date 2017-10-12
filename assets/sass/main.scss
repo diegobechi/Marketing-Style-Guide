@@ -1,11 +1,14 @@
 @import '_variables.scss';
-@import '_fonts.scss';
-@import '_normalize.scss';
-@import '_lists.scss';
-@import 'styleguide.scss';
-@import '_typography.scss';
-@import '_rc_grid.scss';
 @import '_mixins.scss';
+
+@import '_normalize.scss';
+@import '_fonts.scss';
+@import '_typography.scss';
+
+@import '_grid.scss';
+@import '_lists.scss';
+
+@import 'styleguide.scss';
 
 .container{
 	width: 100%;

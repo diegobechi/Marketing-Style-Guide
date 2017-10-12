@@ -87,8 +87,8 @@ $screen-lg-min: 992px !default;
 $screen-lg-max: 1199px !default;
 $screen-xl-min: 1200px !default;
 
-$gutter: 28px;
-$mobile-nav-max: $screen-sm-max;
+$gutter: 28px !default;
+$mobile-nav-max: $screen-sm-max !default;
 
 // ZIndex Values
 $zindex-base:			   100000 !default;
