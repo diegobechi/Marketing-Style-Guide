@@ -8,24 +8,24 @@
 
 // Primary (Brand) Colors
 $rc_blue:  #53BAD3;
-$rc_grey:  #676767;
+$white:    #FFFFFF !default;
 $rc_green: #4DD6B7;
 
 $rc_blue_rgba: rgba(83, 186, 211, .25);
 
 // Secondary Colors
-$white:        #FFFFFF !default;
-$grey_silver:  #EEEEEE;
-$grey_light:   #CCCCCC;
-$grey_medium:  #8E8F8E;
-$grey_dark:    #424242;
-$black:        #000000 !default;
-$magenta:      #C00399;
-$blue_dark:    #004E82;
-$turquoise:    #2c93AC;
-$green_pale:   #BDF0E4;
-$green_bright: #17CC9D;
-$green_medium: #2BAC8F;
+$green_bright:  #17CC9D;
+$green_pale:    #BDF0E4;
+$turquoise:     #2c93AC;
+$blue_dark:     #004E82;
+$magenta:       #C00399;
+$magenta_hover: #AC0289;
+$black:         #000000 !default;
+$grey_dark:     #424242;
+$rc_grey: 	    #676767;
+$grey_medium:   #8E8F8E;
+$grey_light:    #CCCCCC;
+$grey_silver:   #EEEEEE;
 
 // Tertiary Colors
 $yellow: #FFF155;

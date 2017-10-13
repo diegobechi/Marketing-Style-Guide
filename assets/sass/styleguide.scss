@@ -19,6 +19,31 @@
 			vertical-align: middle;
 			margin-left: 20px;
 		}
+
+		& #mobile_logo{
+			display: none;
+		}
+
+		& .mobile-menu-icon{
+			display: none;
+		    font-family: Fontawesome;
+		    float: right;
+		    font-size: 24px;
+		    line-height: 37px;
+		}
+
+		@media screen and (max-width: $screen-sm-max) {
+			& #mobile_logo,
+			.mobile-menu-icon{
+				display: inline-block;;
+			}
+			& #desktop_logo{
+				display: none;
+			}
+
+		}
+
+
 	}
 
 	&__container{
@@ -81,9 +106,12 @@
 			height: 80px;
 			width: 80px;
 			border-radius: 50%;
-			background-color: $grey_dark;
 			margin: 0 auto;
 			margin-bottom: 22px;
+
+			&.bg_white{
+				color: $black;
+			}
 		}
 
 		& .rc_sg_shadow_example{
@@ -101,5 +129,54 @@
 		}
 	}
 
+	&_full_logo{
+
+		&_container{
+			width: 100%;			
+			max-width: 357px;
+			height: 140px;
+			text-align: center;
+
+			& img{
+				max-width: 201px;
+				max-height: 50px;
+				position: relative;
+				top: 45px;
+			}
+
+			&.light_bg{
+				background-color: $white;
+			}
+			&.dark_bg{
+				background-color: $rc_blue;
+			}
+			&.light_photo_bg{
+				background-image: url('../images/logos/photo_light.png');
+				background-size: contain;
+			}
+			&.dark_photo_bg{
+				background-image: url('../images/logos/photo_dark.png');
+				background-size: contain;
+			}
+		}
+	}
+
+	&_color-container{
+		max-width: 96px;
+		height: 129px;
+		display: inline-block;
+		margin-right: 26px;
+	    color: #fff;
+	    text-align: center;
+	    font-size: 14px;
+	    vertical-align: middle;
+
+
+		& .rc_caption{
+			color: $black;
+		}
+	}
 	
 }
+
+

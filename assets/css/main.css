@@ -80,7 +80,6 @@ figure {
  * 2. Show the overflow in Edge and IE.
  */
 hr {
-  -webkit-box-sizing: content-box;
   box-sizing: content-box;
   /* 1 */
   height: 0;
@@ -294,7 +293,6 @@ fieldset {
  *    `fieldset` elements in all browsers.
  */
 legend {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   color: inherit;
@@ -330,7 +328,6 @@ textarea {
  */
 [type="checkbox"],
 [type="radio"] {
-  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -502,8 +499,16 @@ strong {
   text-transform: uppercase;
   opacity: 0.5; }
 
+.button {
+  padding: 24px 54px;
+  font-weight: 600px; }
+  .button_primary {
+    font-size: 16px;
+    color: white; }
+  .button_secondary {
+    font-size: 14px; }
+
 .rc_layout {
-  display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -531,7 +536,6 @@ strong {
     -webkit-flex-basis: 8.33333%;
     -ms-flex-preferred-size: 8.33333%;
     flex-basis: 8.33333%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -542,7 +546,6 @@ strong {
     -webkit-flex-basis: 16.66667%;
     -ms-flex-preferred-size: 16.66667%;
     flex-basis: 16.66667%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -556,7 +559,6 @@ strong {
     -webkit-flex-basis: 25%;
     -ms-flex-preferred-size: 25%;
     flex-basis: 25%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -570,7 +572,6 @@ strong {
     -webkit-flex-basis: 33.33333%;
     -ms-flex-preferred-size: 33.33333%;
     flex-basis: 33.33333%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -584,7 +585,6 @@ strong {
     -webkit-flex-basis: 41.66667%;
     -ms-flex-preferred-size: 41.66667%;
     flex-basis: 41.66667%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -598,7 +598,6 @@ strong {
     -webkit-flex-basis: 50%;
     -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -612,7 +611,6 @@ strong {
     -webkit-flex-basis: 58.33333%;
     -ms-flex-preferred-size: 58.33333%;
     flex-basis: 58.33333%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -626,7 +624,6 @@ strong {
     -webkit-flex-basis: 66.66667%;
     -ms-flex-preferred-size: 66.66667%;
     flex-basis: 66.66667%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -640,7 +637,6 @@ strong {
     -webkit-flex-basis: 75%;
     -ms-flex-preferred-size: 75%;
     flex-basis: 75%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -654,7 +650,6 @@ strong {
     -webkit-flex-basis: 83.33333%;
     -ms-flex-preferred-size: 83.33333%;
     flex-basis: 83.33333%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -668,7 +663,6 @@ strong {
     -webkit-flex-basis: 91.66667%;
     -ms-flex-preferred-size: 91.66667%;
     flex-basis: 91.66667%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -682,7 +676,6 @@ strong {
     -webkit-flex-basis: 100%;
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1;
@@ -700,7 +693,6 @@ strong {
       -webkit-flex-basis: 8.33333%;
       -ms-flex-preferred-size: 8.33333%;
       flex-basis: 8.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -714,7 +706,6 @@ strong {
       -webkit-flex-basis: 16.66667%;
       -ms-flex-preferred-size: 16.66667%;
       flex-basis: 16.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -728,7 +719,6 @@ strong {
       -webkit-flex-basis: 25%;
       -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -742,7 +732,6 @@ strong {
       -webkit-flex-basis: 33.33333%;
       -ms-flex-preferred-size: 33.33333%;
       flex-basis: 33.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -756,7 +745,6 @@ strong {
       -webkit-flex-basis: 41.66667%;
       -ms-flex-preferred-size: 41.66667%;
       flex-basis: 41.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -770,7 +758,6 @@ strong {
       -webkit-flex-basis: 50%;
       -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -784,7 +771,6 @@ strong {
       -webkit-flex-basis: 58.33333%;
       -ms-flex-preferred-size: 58.33333%;
       flex-basis: 58.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -798,7 +784,6 @@ strong {
       -webkit-flex-basis: 66.66667%;
       -ms-flex-preferred-size: 66.66667%;
       flex-basis: 66.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -812,7 +797,6 @@ strong {
       -webkit-flex-basis: 75%;
       -ms-flex-preferred-size: 75%;
       flex-basis: 75%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -826,7 +810,6 @@ strong {
       -webkit-flex-basis: 83.33333%;
       -ms-flex-preferred-size: 83.33333%;
       flex-basis: 83.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -840,7 +823,6 @@ strong {
       -webkit-flex-basis: 91.66667%;
       -ms-flex-preferred-size: 91.66667%;
       flex-basis: 91.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -854,7 +836,6 @@ strong {
       -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -871,7 +852,6 @@ strong {
       -webkit-flex-basis: 8.33333%;
       -ms-flex-preferred-size: 8.33333%;
       flex-basis: 8.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -885,7 +865,6 @@ strong {
       -webkit-flex-basis: 16.66667%;
       -ms-flex-preferred-size: 16.66667%;
       flex-basis: 16.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -899,7 +878,6 @@ strong {
       -webkit-flex-basis: 25%;
       -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -913,7 +891,6 @@ strong {
       -webkit-flex-basis: 33.33333%;
       -ms-flex-preferred-size: 33.33333%;
       flex-basis: 33.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -927,7 +904,6 @@ strong {
       -webkit-flex-basis: 41.66667%;
       -ms-flex-preferred-size: 41.66667%;
       flex-basis: 41.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -941,7 +917,6 @@ strong {
       -webkit-flex-basis: 50%;
       -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -955,7 +930,6 @@ strong {
       -webkit-flex-basis: 58.33333%;
       -ms-flex-preferred-size: 58.33333%;
       flex-basis: 58.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -969,7 +943,6 @@ strong {
       -webkit-flex-basis: 66.66667%;
       -ms-flex-preferred-size: 66.66667%;
       flex-basis: 66.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -983,7 +956,6 @@ strong {
       -webkit-flex-basis: 75%;
       -ms-flex-preferred-size: 75%;
       flex-basis: 75%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -997,7 +969,6 @@ strong {
       -webkit-flex-basis: 83.33333%;
       -ms-flex-preferred-size: 83.33333%;
       flex-basis: 83.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1011,7 +982,6 @@ strong {
       -webkit-flex-basis: 91.66667%;
       -ms-flex-preferred-size: 91.66667%;
       flex-basis: 91.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1025,7 +995,6 @@ strong {
       -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1042,7 +1011,6 @@ strong {
       -webkit-flex-basis: 8.33333%;
       -ms-flex-preferred-size: 8.33333%;
       flex-basis: 8.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1056,7 +1024,6 @@ strong {
       -webkit-flex-basis: 16.66667%;
       -ms-flex-preferred-size: 16.66667%;
       flex-basis: 16.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1070,7 +1037,6 @@ strong {
       -webkit-flex-basis: 25%;
       -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1084,7 +1050,6 @@ strong {
       -webkit-flex-basis: 33.33333%;
       -ms-flex-preferred-size: 33.33333%;
       flex-basis: 33.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1098,7 +1063,6 @@ strong {
       -webkit-flex-basis: 41.66667%;
       -ms-flex-preferred-size: 41.66667%;
       flex-basis: 41.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1112,7 +1076,6 @@ strong {
       -webkit-flex-basis: 50%;
       -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1126,7 +1089,6 @@ strong {
       -webkit-flex-basis: 58.33333%;
       -ms-flex-preferred-size: 58.33333%;
       flex-basis: 58.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1140,7 +1102,6 @@ strong {
       -webkit-flex-basis: 66.66667%;
       -ms-flex-preferred-size: 66.66667%;
       flex-basis: 66.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1154,7 +1115,6 @@ strong {
       -webkit-flex-basis: 75%;
       -ms-flex-preferred-size: 75%;
       flex-basis: 75%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1168,7 +1128,6 @@ strong {
       -webkit-flex-basis: 83.33333%;
       -ms-flex-preferred-size: 83.33333%;
       flex-basis: 83.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1182,7 +1141,6 @@ strong {
       -webkit-flex-basis: 91.66667%;
       -ms-flex-preferred-size: 91.66667%;
       flex-basis: 91.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1196,7 +1154,6 @@ strong {
       -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1213,7 +1170,6 @@ strong {
       -webkit-flex-basis: 8.33333%;
       -ms-flex-preferred-size: 8.33333%;
       flex-basis: 8.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1227,7 +1183,6 @@ strong {
       -webkit-flex-basis: 16.66667%;
       -ms-flex-preferred-size: 16.66667%;
       flex-basis: 16.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1241,7 +1196,6 @@ strong {
       -webkit-flex-basis: 25%;
       -ms-flex-preferred-size: 25%;
       flex-basis: 25%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1255,7 +1209,6 @@ strong {
       -webkit-flex-basis: 33.33333%;
       -ms-flex-preferred-size: 33.33333%;
       flex-basis: 33.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1269,7 +1222,6 @@ strong {
       -webkit-flex-basis: 41.66667%;
       -ms-flex-preferred-size: 41.66667%;
       flex-basis: 41.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1283,7 +1235,6 @@ strong {
       -webkit-flex-basis: 50%;
       -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1297,7 +1248,6 @@ strong {
       -webkit-flex-basis: 58.33333%;
       -ms-flex-preferred-size: 58.33333%;
       flex-basis: 58.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1311,7 +1261,6 @@ strong {
       -webkit-flex-basis: 66.66667%;
       -ms-flex-preferred-size: 66.66667%;
       flex-basis: 66.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1325,7 +1274,6 @@ strong {
       -webkit-flex-basis: 75%;
       -ms-flex-preferred-size: 75%;
       flex-basis: 75%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1339,7 +1287,6 @@ strong {
       -webkit-flex-basis: 83.33333%;
       -ms-flex-preferred-size: 83.33333%;
       flex-basis: 83.33333%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1353,7 +1300,6 @@ strong {
       -webkit-flex-basis: 91.66667%;
       -ms-flex-preferred-size: 91.66667%;
       flex-basis: 91.66667%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1367,7 +1313,6 @@ strong {
       -webkit-flex-basis: 100%;
       -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1;
@@ -1384,7 +1329,6 @@ strong {
     -webkit-flex-basis: 0;
     -ms-flex-preferred-size: 0;
     flex-basis: 0;
-    -webkit-box-flex: 1;
     -webkit-flex-grow: 1;
     -ms-flex-positive: 1;
     flex-grow: 1; }
@@ -1393,7 +1337,6 @@ strong {
       -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
       flex-basis: 0;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1; } }
@@ -1402,7 +1345,6 @@ strong {
       -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
       flex-basis: 0;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1; } }
@@ -1411,7 +1353,6 @@ strong {
       -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
       flex-basis: 0;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1; } }
@@ -1420,15 +1361,12 @@ strong {
       -webkit-flex-basis: 0;
       -ms-flex-preferred-size: 0;
       flex-basis: 0;
-      -webkit-box-flex: 1;
       -webkit-flex-grow: 1;
       -ms-flex-positive: 1;
       flex-grow: 1; } }
 
 [rc_layout-reverse="true"] .rc_layout,
 [rc_layout-order="reverse"] .rc_layout {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse; }
@@ -1436,52 +1374,38 @@ strong {
 [rc_layout-row="true"] .rc_layout,
 [rc_layout-order="false"] .rc_layout,
 [rc_layout-order="row"] .rc_layout {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row; }
 
 [rc_layout-column="true"] .rc_layout,
 [rc_layout-order="column"] .rc_layout {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
 
 [rc_layout-unset="true"] .rc_layout,
 [rc_layout-order="unset"] .rc_layout {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   -webkit-flex-direction: unset;
   -ms-flex-direction: unset;
   flex-direction: unset; }
 
 .rc_layout[rc_layout-reverse="true"], .rc_layout[rc_layout-order="reverse"] {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
   -webkit-flex-direction: row-reverse;
   -ms-flex-direction: row-reverse;
   flex-direction: row-reverse; }
 
 .rc_layout[rc_layout-row="true"], .rc_layout[rc_layout-order="false"], .rc_layout[rc_layout-order="row"] {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
   -webkit-flex-direction: row;
   -ms-flex-direction: row;
   flex-direction: row; }
 
 .rc_layout[rc_layout-column="true"], .rc_layout[rc_layout-order="column"] {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column; }
 
 .rc_layout[rc_layout-unset="true"], .rc_layout[rc_layout-order="unset"] {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
   -webkit-flex-direction: unset;
   -ms-flex-direction: unset;
   flex-direction: unset; }
@@ -1746,7 +1670,6 @@ strong {
 .rc_layout .rc_layout__full,
 .rc_layout .rc_layout__sidebar,
 .rc_layout .rc_layout__content {
-  -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
@@ -2085,6 +2008,20 @@ ol {
       margin: 0px;
       vertical-align: middle;
       margin-left: 20px; }
+    .rc_sg__navbar #mobile_logo {
+      display: none; }
+    .rc_sg__navbar .mobile-menu-icon {
+      display: none;
+      font-family: Fontawesome;
+      float: right;
+      font-size: 24px;
+      line-height: 37px; }
+    @media screen and (max-width: 767px) {
+      .rc_sg__navbar #mobile_logo,
+      .rc_sg__navbar .mobile-menu-icon {
+        display: inline-block; }
+      .rc_sg__navbar #desktop_logo {
+        display: none; } }
   .rc_sg__container .rc_layout__container {
     margin-top: 70px; }
   .rc_sg__container__menu ul {
@@ -2115,9 +2052,10 @@ ol {
     height: 80px;
     width: 80px;
     border-radius: 50%;
-    background-color: #424242;
     margin: 0 auto;
     margin-bottom: 22px; }
+    .rc_sg_section .circle.bg_white {
+      color: #000000; }
   .rc_sg_section .rc_sg_shadow_example div {
     display: inline-block; }
   .rc_sg_section .rc_sg_shadow_example_item {
@@ -2127,11 +2065,100 @@ ol {
     text-align: center;
     line-height: 150px;
     margin: 15px; }
+  .rc_sg_full_logo_container {
+    width: 100%;
+    max-width: 357px;
+    height: 140px;
+    text-align: center; }
+    .rc_sg_full_logo_container img {
+      max-width: 201px;
+      max-height: 50px;
+      position: relative;
+      top: 45px; }
+    .rc_sg_full_logo_container.light_bg {
+      background-color: #FFFFFF; }
+    .rc_sg_full_logo_container.dark_bg {
+      background-color: #53BAD3; }
+    .rc_sg_full_logo_container.light_photo_bg {
+      background-image: url("../images/logos/photo_light.png");
+      background-size: contain; }
+    .rc_sg_full_logo_container.dark_photo_bg {
+      background-image: url("../images/logos/photo_dark.png");
+      background-size: contain; }
+  .rc_sg_color-container {
+    max-width: 96px;
+    height: 129px;
+    display: inline-block;
+    margin-right: 26px;
+    color: #fff;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle; }
+    .rc_sg_color-container .rc_caption {
+      color: #000000; }
 
+.rc_layout__container,
 .container {
   width: 100%;
   max-width: 1170px;
   margin: 0 auto; }
+
+.bg_rc_blue {
+  background-color: #53BAD3; }
+
+.bg_white {
+  background-color: #FFFFFF; }
+
+.bg_rc_green {
+  background-color: #4DD6B7; }
+
+.bg_black {
+  background-color: #000000; }
+
+.bg_grey_dark {
+  background-color: #424242; }
+
+.bg_rc_grey {
+  background-color: #676767; }
+
+.bg_grey_medium {
+  background-color: #8E8F8E; }
+
+.bg_grey_light {
+  background-color: #CCCCCC; }
+
+.bg_grey_silver {
+  background-color: #EEEEEE; }
+
+.bg_green_bright {
+  background-color: #17CC9D; }
+
+.bg_green_pale {
+  background-color: #BDF0E4; }
+
+.bg_turquoise {
+  background-color: #2c93AC; }
+
+.bg_blue_dark {
+  background-color: #004E82; }
+
+.bg_magenta {
+  background-color: #C00399; }
+
+.bg_magenta_hover {
+  background-color: #AC0289; }
+
+.bg_yellow {
+  background-color: #FFF155; }
+
+.bg_orange {
+  background-color: #FB8309; }
+
+.bg_red {
+  background-color: #EC3D10; }
+
+.bg_pink {
+  background-color: #D06EAB; }
 
 .rc_shadow_level1 {
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);

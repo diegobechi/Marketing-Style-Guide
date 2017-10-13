@@ -1,0 +1,42 @@
+.button{
+	
+	padding: 24px 54px;
+	font-weight: 600px;
+
+	&_primary{
+
+		font-size: $font-size-base;
+		color: white;
+
+		&:hover{
+
+		}
+
+		&_small{
+
+		}
+
+		&:disabled{
+
+		}
+	}
+
+	&_secondary{
+
+		font-size: $font-size-small;
+
+		&:hover{
+		
+		}
+
+		&_small{
+		
+		}
+
+		&:disabled{
+
+		}
+
+	}
+
+}
