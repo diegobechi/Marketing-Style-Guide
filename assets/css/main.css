@@ -2038,10 +2038,13 @@ ol {
   .rc_sg_section.typography_section h1, .rc_sg_section.typography_section h2, .rc_sg_section.typography_section h3, .rc_sg_section.typography_section h4,
   .rc_sg_section.typography_section .rc_small_copy,
   .rc_sg_section.typography_section .rc_caption.example_caption,
-  .rc_sg_section.typography_section .body_text {
+  .rc_sg_section.typography_section .body_text, .rc_sg_section.colors_section h1, .rc_sg_section.colors_section h2, .rc_sg_section.colors_section h3, .rc_sg_section.colors_section h4,
+  .rc_sg_section.colors_section .rc_small_copy,
+  .rc_sg_section.colors_section .rc_caption.example_caption,
+  .rc_sg_section.colors_section .body_text {
     margin-top: 60px;
     margin-bottom: 0; }
-  .rc_sg_section.typography_section p + p {
+  .rc_sg_section.typography_section p + p, .rc_sg_section.colors_section p + p {
     margin-top: 0; }
   .rc_sg_section .typography_example {
     margin-top: 60px; }
@@ -2065,10 +2068,11 @@ ol {
           background-color: #FFFFFF; }
   .rc_sg_section .circle {
     height: 80px;
+    line-height: 80px;
     width: 80px;
     border-radius: 50%;
     margin: 0 auto;
-    margin-bottom: 22px; }
+    margin-bottom: 14px; }
     .rc_sg_section .circle.bg_white {
       color: #000000; }
   .rc_sg_section .rc_sg_shadow_example div {
@@ -2100,6 +2104,8 @@ ol {
     .rc_sg_full_logo_container.dark_photo_bg {
       background-image: url("../images/logos/photo_dark.png");
       background-size: contain; }
+  .rc_sg .colors_pallete {
+    margin: 18px 0; }
   .rc_sg_color-container {
     max-width: 96px;
     height: 129px;
@@ -2109,6 +2115,10 @@ ol {
     text-align: center;
     font-size: 14px;
     vertical-align: middle; }
+    .rc_sg_color-container label {
+      display: inline-block;
+      vertical-align: middle;
+      line-height: normal; }
     .rc_sg_color-container .rc_caption {
       color: #000000; }
 

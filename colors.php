@@ -5,17 +5,17 @@
 		<h2>Colors</h2>
 		<p>Our color palette revolves around blues, greens, and greys with bright accent colors.</p>
 	</div>
-	<div class="rc_sg_section">
+	<div class="rc_sg_section colors_section">
 		<h3>Primary</h3>
-		<div>
+		<div class="colors_pallete">
 			<div class="rc_sg_color-container"><div class="circle bg_rc_blue"><label for="">ReCharge blue</label></div><p class="rc_caption">#53BAD3</p></div>
 			<div class="rc_sg_color-container"><div class="circle bg_white"><label for="">White</label></div><p class="rc_caption">#FFFFFF</p></div>
 			<div class="rc_sg_color-container"><div class="circle bg_rc_green"><label for="">ReCharge green</label></div><p class="rc_caption">#4DDD687</p></div>
 		</div>
 	</div>
-	<div class="rc_sg_section">
+	<div class="rc_sg_section colors_section">
 		<h3>Secondary</h3>
-		<div>
+		<div class="colors_pallete">
 			<div class="rc_sg_color-container"><div class="circle bg_green_bright"><label for="">Bright green</label></div><p class="rc_caption">#17CC90</p></div>
 			<div class="rc_sg_color-container"><div class="circle bg_green_pale"><label for="">Pale green</label></div><p class="rc_caption">#BDF0E4</p></div>
 			<div class="rc_sg_color-container"><div class="circle bg_turquoise"><label for="">Turquoise</label></div><p class="rc_caption">#2c93AC</p></div>
@@ -31,9 +31,9 @@
 			
 		</div>
 	</div>
-	<div class="rc_sg_section">
+	<div class="rc_sg_section colors_section">
 		<h3>Tertiary</h3>
-		<div>
+		<div class="colors_pallete">
 			<div class="rc_sg_color-container"><div class="circle bg_yellow"><label for="">Yellow</label></div><p class="rc_caption">#FFF155</p></div>
 			<div class="rc_sg_color-container"><div class="circle bg_orange"><label for="">Orange</label></div><p class="rc_caption">#FB8309</p></div>
 			<div class="rc_sg_color-container"><div class="circle bg_red"><label for="">Red</label></div><p class="rc_caption">#EC3D10</p></div>

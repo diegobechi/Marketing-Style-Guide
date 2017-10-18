@@ -81,7 +81,8 @@
 
 	&_section{
 
-		&.typography_section{
+		&.typography_section,
+		&.colors_section{
 			h1,h2,h3,h4,
 			.rc_small_copy,
 			.rc_caption.example_caption,
@@ -126,10 +127,11 @@
 
 		& .circle{
 			height: 80px;
+			line-height: 80px;
 			width: 80px;
 			border-radius: 50%;
 			margin: 0 auto;
-			margin-bottom: 22px;
+			margin-bottom: 14px;
 
 			&.bg_white{
 				color: $black;
@@ -183,6 +185,10 @@
 		}
 	}
 
+	& .colors_pallete{
+		margin: 18px 0;
+	}
+
 	&_color-container{
 		max-width: 96px;
 		height: 129px;
@@ -192,6 +198,12 @@
 	    text-align: center;
 	    font-size: 14px;
 	    vertical-align: middle;
+
+	    & label{
+			display: inline-block;
+			vertical-align: middle;
+			line-height: normal;
+	    }
 
 
 		& .rc_caption{
