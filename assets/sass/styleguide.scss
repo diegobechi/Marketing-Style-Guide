@@ -74,6 +74,14 @@
 		}
 	}
 
+	&_page_header{
+
+		& h2{
+			margin-bottom: 40px;
+		}
+	}
+
+
 	&__pagedetails{
 
 
@@ -82,7 +90,8 @@
 	&_section{
 
 		&.typography_section,
-		&.colors_section{
+		&.colors_section,
+		&.shadow_section{
 			h1,h2,h3,h4,
 			.rc_small_copy,
 			.rc_caption.example_caption,
@@ -94,6 +103,10 @@
 			p + p{
 				margin-top: 0;
 			}
+		}
+
+		&.shadow_section h3{
+			margin-bottom: 20px;
 		}
 
 		& .typography_example{
@@ -140,15 +153,21 @@
 
 		& .rc_sg_shadow_example{
 
-			div {display: inline-block;}
+			div {
+				display: inline-block;
+				margin-top: 50px;			
+			}
+
+			& div:not(:last-child){
+				margin-right: 25px;
+			}
 
 			&_item{
-				height: 150px;
-				width: 150px;
+				height: 155px;
+				width: 155px;
 				background-color: $white;
 				text-align: center;
 				line-height: 150px;
-				margin: 15px;
 			}
 		}
 	}

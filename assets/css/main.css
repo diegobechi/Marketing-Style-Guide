@@ -2035,17 +2035,24 @@ ol {
       font-size: 16px; }
   .rc_sg__container__menu li:hover {
     background-color: #EEEEEE; }
+  .rc_sg_page_header h2 {
+    margin-bottom: 40px; }
   .rc_sg_section.typography_section h1, .rc_sg_section.typography_section h2, .rc_sg_section.typography_section h3, .rc_sg_section.typography_section h4,
   .rc_sg_section.typography_section .rc_small_copy,
   .rc_sg_section.typography_section .rc_caption.example_caption,
   .rc_sg_section.typography_section .body_text, .rc_sg_section.colors_section h1, .rc_sg_section.colors_section h2, .rc_sg_section.colors_section h3, .rc_sg_section.colors_section h4,
   .rc_sg_section.colors_section .rc_small_copy,
   .rc_sg_section.colors_section .rc_caption.example_caption,
-  .rc_sg_section.colors_section .body_text {
+  .rc_sg_section.colors_section .body_text, .rc_sg_section.shadow_section h1, .rc_sg_section.shadow_section h2, .rc_sg_section.shadow_section h3, .rc_sg_section.shadow_section h4,
+  .rc_sg_section.shadow_section .rc_small_copy,
+  .rc_sg_section.shadow_section .rc_caption.example_caption,
+  .rc_sg_section.shadow_section .body_text {
     margin-top: 60px;
     margin-bottom: 0; }
-  .rc_sg_section.typography_section p + p, .rc_sg_section.colors_section p + p {
+  .rc_sg_section.typography_section p + p, .rc_sg_section.colors_section p + p, .rc_sg_section.shadow_section p + p {
     margin-top: 0; }
+  .rc_sg_section.shadow_section h3 {
+    margin-bottom: 20px; }
   .rc_sg_section .typography_example {
     margin-top: 60px; }
     .rc_sg_section .typography_example_item {
@@ -2076,14 +2083,16 @@ ol {
     .rc_sg_section .circle.bg_white {
       color: #000000; }
   .rc_sg_section .rc_sg_shadow_example div {
-    display: inline-block; }
+    display: inline-block;
+    margin-top: 50px; }
+  .rc_sg_section .rc_sg_shadow_example div:not(:last-child) {
+    margin-right: 25px; }
   .rc_sg_section .rc_sg_shadow_example_item {
-    height: 150px;
-    width: 150px;
+    height: 155px;
+    width: 155px;
     background-color: #FFFFFF;
     text-align: center;
-    line-height: 150px;
-    margin: 15px; }
+    line-height: 150px; }
   .rc_sg_full_logo_container {
     width: 100%;
     max-width: 357px;
