@@ -50,6 +50,7 @@
 
 		& .rc_layout__container {
 			margin-top: 70px;
+			margin-bottom: 100px;
 		}
 		
 		&__menu{
@@ -79,18 +80,39 @@
 	}
 
 	&_section{
+
+		&.typography_section{
+			h1,h2,h3,h4,
+			.rc_small_copy,
+			.rc_caption.example_caption,
+			.body_text{
+				margin-top: 60px;
+				margin-bottom: 0;
+			}
+
+			p + p{
+				margin-top: 0;
+			}
+		}
+
 		& .typography_example{
+			margin-top: 60px;
 
 			&_item{
-				max-width: 309px;
+				max-width: 242px;
 				width: 100%;
 				display:inline-block;
 				text-align: center;
 				padding: 34px;
+				margin-right: 40px;
+				margin-bottom: 40px;
 
 				&.light_example{
 					color: $grey_dark;
 					background-color: $white;
+					& .circle{
+						background-color: $grey_dark;
+					}
 				}
 				&.dark_example{
 					color: $white;

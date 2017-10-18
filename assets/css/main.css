@@ -2023,7 +2023,8 @@ ol {
       .rc_sg__navbar #desktop_logo {
         display: none; } }
   .rc_sg__container .rc_layout__container {
-    margin-top: 70px; }
+    margin-top: 70px;
+    margin-bottom: 100px; }
   .rc_sg__container__menu ul {
     max-width: 260px; }
   .rc_sg__container__menu li {
@@ -2034,20 +2035,34 @@ ol {
       font-size: 16px; }
   .rc_sg__container__menu li:hover {
     background-color: #EEEEEE; }
-  .rc_sg_section .typography_example_item {
-    max-width: 309px;
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-    padding: 34px; }
-    .rc_sg_section .typography_example_item.light_example {
-      color: #424242;
-      background-color: #FFFFFF; }
-    .rc_sg_section .typography_example_item.dark_example {
-      color: #FFFFFF;
-      background-color: #53BAD3; }
-      .rc_sg_section .typography_example_item.dark_example .circle {
+  .rc_sg_section.typography_section h1, .rc_sg_section.typography_section h2, .rc_sg_section.typography_section h3, .rc_sg_section.typography_section h4,
+  .rc_sg_section.typography_section .rc_small_copy,
+  .rc_sg_section.typography_section .rc_caption.example_caption,
+  .rc_sg_section.typography_section .body_text {
+    margin-top: 60px;
+    margin-bottom: 0; }
+  .rc_sg_section.typography_section p + p {
+    margin-top: 0; }
+  .rc_sg_section .typography_example {
+    margin-top: 60px; }
+    .rc_sg_section .typography_example_item {
+      max-width: 242px;
+      width: 100%;
+      display: inline-block;
+      text-align: center;
+      padding: 34px;
+      margin-right: 40px;
+      margin-bottom: 40px; }
+      .rc_sg_section .typography_example_item.light_example {
+        color: #424242;
         background-color: #FFFFFF; }
+        .rc_sg_section .typography_example_item.light_example .circle {
+          background-color: #424242; }
+      .rc_sg_section .typography_example_item.dark_example {
+        color: #FFFFFF;
+        background-color: #53BAD3; }
+        .rc_sg_section .typography_example_item.dark_example .circle {
+          background-color: #FFFFFF; }
   .rc_sg_section .circle {
     height: 80px;
     width: 80px;
