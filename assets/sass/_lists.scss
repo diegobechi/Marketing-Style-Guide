@@ -42,8 +42,6 @@ ol {
 		padding-left: 25px;
 
 		&:before{
-			content: "\f00c";
-		    font-family: fontawesome;
 		    font-size: 16px;
 		    color: #424242;
 		    position: absolute;
@@ -51,10 +49,12 @@ ol {
 		    left: 0;
 	    }
 
-	    &.rc_green {
-	    	color: $green_bright;
+	    &.rc_tick_ok:before {
+		    font-family: fontawesome;	    
+			content: "\f00c";
+	    	color: #4DD6B7;
 	    }
-	    &.rc_magenta{
+	    &.rc_tick_wrong:before{
 			content: "\f00d";
 		    font-family: fontawesome;
 	    	color: $magenta;

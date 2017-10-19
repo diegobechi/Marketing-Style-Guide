@@ -37,11 +37,11 @@
 		<div class="rc_sg_section typography_example">
 			<div class="typography_example_item light_example">
 				<div class="circle"></div>	
-				<p>By default, text is #424242 on light backgrounds</p>
+				<p class="rc_caption">By default, text is #424242 on light backgrounds</p>
 			</div>
 			<div class="typography_example_item dark_example">
 				<div class="circle"></div>	
-				<p>By default, text is #FFFFFF on Dark backgrounds</p>				
+				<p class="rc_caption">By default, text is #FFFFFF on Dark backgrounds</p>				
 			</div>
 		</div>
 	</div>

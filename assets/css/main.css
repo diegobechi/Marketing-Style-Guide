@@ -433,6 +433,9 @@ template {
   font-weight: normal;
   font-style: normal; }
 
+html {
+  -webkit-font-smoothing: antialiased; }
+
 h1, .h1 {
   font-size: 42px;
   font-weight: 600;
@@ -492,9 +495,9 @@ strong {
   line-height: 18px; }
 
 .rc_caption {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 12px;
-  line-height: 24px;
+  line-height: 18px;
   letter-spacing: 2px;
   text-transform: uppercase;
   opacity: 0.5; }
@@ -1978,16 +1981,16 @@ ol {
     position: relative;
     padding-left: 25px; }
     .rc_list_items li:before {
-      content: "\f00c";
-      font-family: fontawesome;
       font-size: 16px;
       color: #424242;
       position: absolute;
       top: 0;
       left: 0; }
-    .rc_list_items li.rc_green {
-      color: #17CC9D; }
-    .rc_list_items li.rc_magenta {
+    .rc_list_items li.rc_tick_ok:before {
+      font-family: fontawesome;
+      content: "\f00c";
+      color: #4DD6B7; }
+    .rc_list_items li.rc_tick_wrong:before {
       content: "\f00d";
       font-family: fontawesome;
       color: #C00399; }
@@ -2024,7 +2027,8 @@ ol {
         display: none; } }
   .rc_sg__container .rc_layout__container {
     margin-top: 70px;
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+    box-sizing: border-box; }
   .rc_sg__container__menu ul {
     max-width: 260px; }
   .rc_sg__container__menu li {
@@ -2035,28 +2039,23 @@ ol {
       font-size: 16px; }
   .rc_sg__container__menu li:hover {
     background-color: #EEEEEE; }
-  .rc_sg_page_header h2 {
-    margin-bottom: 40px; }
-  .rc_sg_section.typography_section h1, .rc_sg_section.typography_section h2, .rc_sg_section.typography_section h3, .rc_sg_section.typography_section h4,
-  .rc_sg_section.typography_section .rc_small_copy,
-  .rc_sg_section.typography_section .rc_caption.example_caption,
-  .rc_sg_section.typography_section .body_text, .rc_sg_section.colors_section h1, .rc_sg_section.colors_section h2, .rc_sg_section.colors_section h3, .rc_sg_section.colors_section h4,
-  .rc_sg_section.colors_section .rc_small_copy,
-  .rc_sg_section.colors_section .rc_caption.example_caption,
-  .rc_sg_section.colors_section .body_text, .rc_sg_section.shadow_section h1, .rc_sg_section.shadow_section h2, .rc_sg_section.shadow_section h3, .rc_sg_section.shadow_section h4,
-  .rc_sg_section.shadow_section .rc_small_copy,
-  .rc_sg_section.shadow_section .rc_caption.example_caption,
-  .rc_sg_section.shadow_section .body_text, .rc_sg_section.visual-elements_section h1, .rc_sg_section.visual-elements_section h2, .rc_sg_section.visual-elements_section h3, .rc_sg_section.visual-elements_section h4,
-  .rc_sg_section.visual-elements_section .rc_small_copy,
-  .rc_sg_section.visual-elements_section .rc_caption.example_caption,
-  .rc_sg_section.visual-elements_section .body_text, .rc_sg_section.logo-usage_section h1, .rc_sg_section.logo-usage_section h2, .rc_sg_section.logo-usage_section h3, .rc_sg_section.logo-usage_section h4,
-  .rc_sg_section.logo-usage_section .rc_small_copy,
-  .rc_sg_section.logo-usage_section .rc_caption.example_caption,
-  .rc_sg_section.logo-usage_section .body_text {
+  .rc_sg__container .typography_section,
+  .rc_sg__container .colors_section,
+  .rc_sg__container .shadow_section,
+  .rc_sg__container .visual-elements_section,
+  .rc_sg__container .logo-usage_section {
     margin-top: 60px;
     margin-bottom: 0; }
-  .rc_sg_section.typography_section p + p, .rc_sg_section.colors_section p + p, .rc_sg_section.shadow_section p + p, .rc_sg_section.visual-elements_section p + p, .rc_sg_section.logo-usage_section p + p {
-    margin-top: 0; }
+    .rc_sg__container .typography_section p + p,
+    .rc_sg__container .colors_section p + p,
+    .rc_sg__container .shadow_section p + p,
+    .rc_sg__container .visual-elements_section p + p,
+    .rc_sg__container .logo-usage_section p + p {
+      margin-top: 0; }
+  .rc_sg__container .logo-usage_section h3 {
+    margin-bottom: 30px; }
+  .rc_sg_page_header h2 {
+    margin-bottom: 40px; }
   .rc_sg_section.shadow_section h3 {
     margin-bottom: 20px; }
   .rc_sg_section .typography_example {
@@ -2073,16 +2072,22 @@ ol {
         color: #424242;
         background-color: #FFFFFF; }
         .rc_sg_section .typography_example_item.light_example .circle {
-          background-color: #424242; }
+          background-color: #424242;
+          max-width: 74px;
+          max-height: 74px; }
       .rc_sg_section .typography_example_item.dark_example {
         color: #FFFFFF;
         background-color: #53BAD3; }
         .rc_sg_section .typography_example_item.dark_example .circle {
-          background-color: #FFFFFF; }
+          background-color: #FFFFFF;
+          max-width: 74px;
+          max-height: 74px; }
+      .rc_sg_section .typography_example_item p.rc_caption {
+        opacity: 1; }
   .rc_sg_section .circle {
-    height: 80px;
-    line-height: 80px;
-    width: 80px;
+    height: 96px;
+    line-height: 96px;
+    width: 96px;
     border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 14px; }
@@ -2100,11 +2105,12 @@ ol {
     text-align: center;
     line-height: 150px; }
   .rc_sg_full_logo {
-    margin-top: 50px; }
+    margin-top: 30px; }
     .rc_sg_full_logo div:not(:last-child) {
       margin-right: 30px; }
     .rc_sg_full_logo_container {
-      display: inline-block; }
+      display: inline-block;
+      margin-top: 20px; }
       .rc_sg_full_logo_container_item {
         width: 357px;
         max-width: 100%;
@@ -2123,8 +2129,8 @@ ol {
           background-size: contain; }
   .rc_sg_icon_logo {
     margin-top: 50px; }
-    .rc_sg_icon_logo div:not(:last-child) {
-      margin-right: 30px; }
+    .rc_sg_icon_logo div.rc_sg_icon_logo_container:not(:last-child) {
+      margin-right: 26px; }
     .rc_sg_icon_logo_container {
       display: inline-block; }
       .rc_sg_icon_logo_container_item {
@@ -2143,10 +2149,11 @@ ol {
     max-width: 96px;
     height: 129px;
     display: inline-block;
-    margin-right: 26px;
-    color: #fff;
+    margin: 20px 26px 35px 0px;
+    color: #FFFFFF;
     text-align: center;
     font-size: 14px;
+    font-weight: 600;
     vertical-align: middle; }
     .rc_sg_color-container label {
       display: inline-block;

@@ -51,13 +51,13 @@
 	<div class="rc_sg_section logo-usage_section">
 		<h3>Logo Best Practices</h3>
 		<ul class="rc_list_items">
-			<li>Use the colored logo on light/white backgrounds.</li>
-			<li>Use the white logo on dark backgrounds.</li>
-			<li>Provide ample amount of white space around the ReCharge logo. Bigger does not equal better.</li>
-			<li>Don’t modify the logo in any way.</li>
-			<li>Don’t change the logo’s color.</li>
-			<li>Don’t add effects such as drop shadows, gradients, or bevels to the logo.</li>
-			<li>Don’t apply the logo to backgrounds that are busy and cluttered. </li>
+			<li class="rc_tick_ok">Use the colored logo on light/white backgrounds.</li>
+			<li class="rc_tick_ok">Use the white logo on dark backgrounds.</li>
+			<li class="rc_tick_ok">Provide ample amount of white space around the ReCharge logo. Bigger does not equal better.</li>
+			<li class="rc_tick_wrong">Don’t modify the logo in any way.</li>
+			<li class="rc_tick_wrong">Don’t change the logo’s color.</li>
+			<li class="rc_tick_wrong">Don’t add effects such as drop shadows, gradients, or bevels to the logo.</li>
+			<li class="rc_tick_wrong">Don’t apply the logo to backgrounds that are busy and cluttered. </li>
 		</ul>
 	</div>
 </div>
