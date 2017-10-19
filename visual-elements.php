@@ -16,6 +16,11 @@
 		<h3>Iconography</h3>
 		<p>Our iconography uses shades and tints of ReCharge colors to create a soft and beautiful palette. A combination of fills and strokes is used to create visually striking icons with attention-to-detail.</p>		
 		<div>
+			<div class="rc_big_icon">
+				<img src="../assets/images/visuals/icon1.png" alt="">
+				<img src="../assets/images/visuals/icon2.png" alt="">
+				<img src="../assets/images/visuals/icon3.png" alt="">
+			</div>
 			<div>
 				<img src="" alt="">
 				<img src="" alt="">
@@ -26,11 +31,16 @@
 	<div class="rc_sg_section visual-elements_section">
 		<h3>Illustration</h3>
 		<p>Our illustrations mirror many aspects found in our iconography. Shades and tints of ReCharge color are used to create enticing and interesting scenes. The scenes are not meant to be interpreted literally and are used primarily as a finishing touch to enhance page content.</p>		
-		<div>
+		<div class="big_illustration">
 			<img src="../assets/images/visuals/skyline.png" alt="">
 		</div>
-		<div>
-			<img src="" alt="">
+		<div class="medium_illustration">
+			<img src="../assets/images/visuals/conveyor.png" alt="">
+		</div>
+		<div class="small_illustration">
+			<img src="../assets/images/visuals/recurring.svg" alt="">
+			<img src="../assets/images/visuals/boxes.svg" alt="">
+			<img src="../assets/images/visuals/subscribe-save.svg" alt="">
 		</div>
 	</div>	
 </div>

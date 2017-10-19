@@ -1,5 +1,5 @@
 .rc_sg{
-	background-color: #F4F4F4;
+	background-color: #F5F5F5;
 
 	
 	&__navbar{
@@ -79,7 +79,8 @@
 		& .colors_section,
 		& .shadow_section,
 		& .visual-elements_section,
-		& .logo-usage_section{
+		& .logo-usage_section,
+		& .buttons_links_section{
 		
 			margin-top: 60px;
 			margin-bottom: 0;
@@ -175,11 +176,37 @@
 			}
 
 			&_item{
-				height: 155px;
-				width: 155px;
+				height: 145px;
+				width: 145px;
 				background-color: $white;
 				text-align: center;
-				line-height: 150px;
+				line-height: 145px;
+			}
+		}
+
+		&.visual-elements_section{
+
+			& img{
+				max-width: 100%;
+				margin-top: 55px;
+			}
+
+			& .medium_illustration{
+				width: 529px;
+			}
+
+			& .small_illustration{
+
+				& img:not(:last-child){
+					margin-right: 95px;
+				}
+			}
+		}
+
+		&.buttons_links_section{
+
+			& button{
+				margin: 20px 20px 20px 0;
 			}
 		}
 	}

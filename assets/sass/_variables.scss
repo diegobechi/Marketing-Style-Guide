@@ -104,16 +104,21 @@ $zindex-modal:             $zindex-base + 90 !default;
 $button-color: 			$white !default;
 $button-bg-color:       $rc_blue !default;
 $button-bg-hover-color: $rc_blue !default;
-$button-bg-disabled:    $grey_silver;
+$button-bg-disabled:    $grey_light;
 
 $button-primary-color: 			$white !default;
 $button-primary-hover-color: 	$white !default;
 $button-primary-bg-color: 		$rc_blue !default;
-$button-primary-bg-hover-color: $rc_blue !default;
+$button-primary-bg-hover-color: #2DA4C2 !default;
 
 $button-secondary-color: 		  $rc_blue !default;
 $button-secondary-hover-color: 	  $rc_blue !default;
-$button-secondary-bg-color: 	  $white !default;
-$button-secondary-bg-hover-color: $white !default;
+$button-secondary-bg-color: 	  transparent !default;
+$button-secondary-bg-hover-color: transparent !default;
+
+$button-secondary-v2-color: 		  $white !default;
+$button-secondary-v2-hover-color: 	  $white !default;
+$button-secondary-v2-bg-color: 	  	  $rc_blue !default;
+$button-secondary-v2-bg-hover-color:  $rc_blue !default;
 
 $button-padding: 20px 60px;
