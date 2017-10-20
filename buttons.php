@@ -27,6 +27,7 @@
 	<div class="rc_sg_section buttons_links_section">
 		<h3>Large Secondary:Hover</h3>
 		<button class="rc_button rc_button_large rc_button_secondary">Book Demo</button>
+		<button class="rc_button rc_button_large rc_button_secondary_reverse rc_sg_button_secondary_reverse">Book Demo</button>
 		<p>On hover, the styles of the hollow buttons should reverse. The background should get the fill of the borders.</p>
 	</div>
 	<div class="rc_sg_section buttons_links_section">
@@ -38,7 +39,7 @@
 	<div class="rc_sg_section buttons_links_section">
 		<h3>Small Primary</h3>
 		<button class="rc_button rc_button_small rc_button_primary">Sign Up Free</button>
-		<p class="rc_Caption">font-family: ralewaysemibold; font-size: 14px; padding: 10px 36px;</p>
+		<p class="rc_caption">font-family: ralewaysemibold; font-size: 14px; padding: 10px 36px;</p>
 	</div>
 	<div class="rc_sg_section buttons_links_section">
 		<h3>Small Secondary</h3>
@@ -52,8 +53,10 @@
 	</div>
 	<div class="rc_sg_section buttons_links_section">
 		<h3>Links</h3>
-		<p>In paragraph or sentence form, <a href="">links</a> should be #2C93AC and semibold. </p>
-		<p class="bg_rc_blue">On dark backgrounds, <a href="">links</a> should remain white like the rest of the text but should have an underline. </p>
+		<div class="rc_sg_link">
+			<p>In paragraph or sentence form, <a href="" class="rc_link">links</a> should be #2C93AC and semibold. </p>
+			<p class="bg_rc_blue">On dark backgrounds, <a href="" class="rc_link color_rc_white">links</a> should remain white like the rest of the text but should have an underline. </p>
+		</div>
 	</div>
 </div>
 

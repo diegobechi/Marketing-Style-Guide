@@ -14,6 +14,7 @@
 
 		&:hover{
 			color: $button-primary-hover-color;
+			transform: translateY(-1px);
 			background-color: $button-primary-bg-hover-color;
 			box-shadow: 0 6px 20px 0 rgba(83,186,211,0.60); 
 		}		
@@ -36,6 +37,11 @@
 			-webkit-box-shadow:inset 0px 0px 0px 1px $rc_white;
 		    -moz-box-shadow:inset 0px 0px 0px 1px $rc_white;
 		    box-shadow:inset 0px 0px 0px 1px $rc_white;
+
+			&:hover{
+				color: $button-secondary-reverse-hover-color;
+				background-color: $button-secondary-reverse-bg-hover-color;
+			}		    
 		}
 	}
 
@@ -54,6 +60,7 @@
 		color: $rc_white;
 		background-color: $button-bg-disabled;
 		box-shadow: none;
+		cursor: inherit;
 	}
 
 }

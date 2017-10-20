@@ -64,17 +64,28 @@ strong {
 	font-family: 'ralewaysemibold', arial, sans-serif;
 }
 
-.rc_small_copy{
-	font-weight: $font-regular;
-	font-size: $font-size-small;
-	line-height: 18px;	
-}
+.rc{
+	&_small_copy{
+		font-weight: $font-regular;
+		font-size: $font-size-small;
+		line-height: 18px;	
+	}
 
-.rc_caption{
-	font-weight: $font-semibold;
-	font-size: $font-size-extra-small;
-	line-height: 18px;
-	letter-spacing: 2px;
-	text-transform: uppercase;
-	color: $rc_grey_medium;
+	&_caption{
+		font-weight: $font-semibold;
+		font-size: $font-size-extra-small;
+		line-height: 18px;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: $rc_grey_medium;
+	}
+
+	&_link{
+		font-weight: $font-semibold;
+		color: $rc_blue;
+
+		&.color_rc_white{
+			text-decoration: underline;
+		}
+	}
 }

@@ -61,8 +61,13 @@
 	&_yellow,
 	&_orange,
 	&_red,
-	&_pink{ 
-		color: $rc_white !important; 
+	&_pink{
+		color: $rc_white;
+		& a,
+		& p,
+		& span,
+		& label{
+			color: $rc_white; 
+		}	
 	}
 }
-

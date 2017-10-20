@@ -111,13 +111,13 @@ $button-primary-bg-color: 		$rc_blue !default;
 $button-primary-bg-hover-color: #2DA4C2 !default;
 
 $button-secondary-color: 		  $rc_blue !default;
-$button-secondary-hover-color: 	  $rc_blue !default;
+$button-secondary-hover-color: 	  $rc_white !default;
 $button-secondary-bg-color: 	  transparent !default;
-$button-secondary-bg-hover-color: transparent !default;
+$button-secondary-bg-hover-color: $rc_blue !default;
 
 $button-secondary-reverse-color: 		  $rc_white !default;
-$button-secondary-reverse-hover-color: 	  $rc_white !default;
+$button-secondary-reverse-hover-color: 	  $rc_blue !default;
 $button-secondary-reverse-bg-color: 	  $rc_blue !default;
-$button-secondary-reverse-bg-hover-color: $rc_blue !default;
+$button-secondary-reverse-bg-hover-color: $rc_white !default;
 
 $button-padding: 20px 60px;

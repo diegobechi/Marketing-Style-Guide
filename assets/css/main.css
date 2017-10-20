@@ -474,6 +474,12 @@ strong {
   text-transform: uppercase;
   color: #8E8F8E; }
 
+.rc_link {
+  font-weight: 600;
+  color: #53BAD3; }
+  .rc_link.color_rc_white {
+    text-decoration: underline; }
+
 .rc_button {
   transition: all 0.5s ease;
   padding: 20px 60px;
@@ -487,6 +493,9 @@ strong {
     box-shadow: 0 4px 8px 0 rgba(83, 186, 211, 0.4); }
     .rc_button_primary:hover {
       color: #FFFFFF;
+      -webkit-transform: translateY(-1px);
+      -ms-transform: translateY(-1px);
+      transform: translateY(-1px);
       background-color: #2DA4C2;
       box-shadow: 0 6px 20px 0 rgba(83, 186, 211, 0.6); }
   .rc_button_secondary {
@@ -494,14 +503,17 @@ strong {
     background-color: transparent;
     border: 1px solid #53BAD3; }
     .rc_button_secondary:hover {
-      color: #53BAD3;
-      background-color: transparent; }
+      color: #FFFFFF;
+      background-color: #53BAD3; }
     .rc_button_secondary_reverse {
       color: #FFFFFF;
       background-color: #53BAD3;
       -webkit-box-shadow: inset 0px 0px 0px 1px #FFFFFF;
       -moz-box-shadow: inset 0px 0px 0px 1px #FFFFFF;
       box-shadow: inset 0px 0px 0px 1px #FFFFFF; }
+      .rc_button_secondary_reverse:hover {
+        color: #53BAD3;
+        background-color: #FFFFFF; }
   .rc_button_large {
     padding: 24px 54px;
     min-width: 203px; }
@@ -512,7 +524,8 @@ strong {
   .rc_button:disabled {
     color: #FFFFFF;
     background-color: #CCCCCC;
-    box-shadow: none; }
+    box-shadow: none;
+    cursor: inherit; }
 
 .rc_shadow_level1 {
   -webkit-box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.1);
@@ -678,7 +691,63 @@ strong {
   background-color: #D06EAB; }
 
 .bg_rc_blue, .bg_rc_green, .bg_rc_black, .bg_rc_grey_dark, .bg_rc_grey, .bg_rc_grey_medium, .bg_rc_grey_light, .bg_rc_grey_silver, .bg_rc_green_bright, .bg_rc_green_pale, .bg_rc_turquoise, .bg_rc_blue_dark, .bg_rc_magenta, .bg_rc_magenta_hover, .bg_rc_yellow, .bg_rc_orange, .bg_rc_red, .bg_rc_pink {
-  color: #FFFFFF !important; }
+  color: #FFFFFF; }
+  .bg_rc_blue a,
+  .bg_rc_blue p,
+  .bg_rc_blue span,
+  .bg_rc_blue label, .bg_rc_green a,
+  .bg_rc_green p,
+  .bg_rc_green span,
+  .bg_rc_green label, .bg_rc_black a,
+  .bg_rc_black p,
+  .bg_rc_black span,
+  .bg_rc_black label, .bg_rc_grey_dark a,
+  .bg_rc_grey_dark p,
+  .bg_rc_grey_dark span,
+  .bg_rc_grey_dark label, .bg_rc_grey a,
+  .bg_rc_grey p,
+  .bg_rc_grey span,
+  .bg_rc_grey label, .bg_rc_grey_medium a,
+  .bg_rc_grey_medium p,
+  .bg_rc_grey_medium span,
+  .bg_rc_grey_medium label, .bg_rc_grey_light a,
+  .bg_rc_grey_light p,
+  .bg_rc_grey_light span,
+  .bg_rc_grey_light label, .bg_rc_grey_silver a,
+  .bg_rc_grey_silver p,
+  .bg_rc_grey_silver span,
+  .bg_rc_grey_silver label, .bg_rc_green_bright a,
+  .bg_rc_green_bright p,
+  .bg_rc_green_bright span,
+  .bg_rc_green_bright label, .bg_rc_green_pale a,
+  .bg_rc_green_pale p,
+  .bg_rc_green_pale span,
+  .bg_rc_green_pale label, .bg_rc_turquoise a,
+  .bg_rc_turquoise p,
+  .bg_rc_turquoise span,
+  .bg_rc_turquoise label, .bg_rc_blue_dark a,
+  .bg_rc_blue_dark p,
+  .bg_rc_blue_dark span,
+  .bg_rc_blue_dark label, .bg_rc_magenta a,
+  .bg_rc_magenta p,
+  .bg_rc_magenta span,
+  .bg_rc_magenta label, .bg_rc_magenta_hover a,
+  .bg_rc_magenta_hover p,
+  .bg_rc_magenta_hover span,
+  .bg_rc_magenta_hover label, .bg_rc_yellow a,
+  .bg_rc_yellow p,
+  .bg_rc_yellow span,
+  .bg_rc_yellow label, .bg_rc_orange a,
+  .bg_rc_orange p,
+  .bg_rc_orange span,
+  .bg_rc_orange label, .bg_rc_red a,
+  .bg_rc_red p,
+  .bg_rc_red span,
+  .bg_rc_red label, .bg_rc_pink a,
+  .bg_rc_pink p,
+  .bg_rc_pink span,
+  .bg_rc_pink label {
+    color: #FFFFFF; }
 
 .rc_layout {
   display: -webkit-flex;
@@ -690,7 +759,8 @@ strong {
   .rc_layout__container {
     width: 100%;
     max-width: 1170px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    box-sizing: border-box; }
   .rc_layout .rc_layout__full,
   .rc_layout .rc_layout__sidebar,
   .rc_layout .rc_layout__content,
@@ -2190,7 +2260,8 @@ ol {
       font-family: Fontawesome;
       float: right;
       font-size: 24px;
-      line-height: 37px; }
+      line-height: 37px;
+      cursor: pointer; }
     @media screen and (max-width: 767px) {
       .rc_sg__navbar #mobile_logo,
       .rc_sg__navbar .mobile-menu-icon {
@@ -2199,8 +2270,7 @@ ol {
         display: none; } }
   .rc_sg__container .rc_layout__container {
     margin-top: 70px;
-    margin-bottom: 100px;
-    box-sizing: border-box; }
+    margin-bottom: 100px; }
   .rc_sg__container__menu ul {
     max-width: 260px; }
   .rc_sg__container__menu li {
@@ -2219,17 +2289,13 @@ ol {
   .rc_sg__container .buttons_links_section {
     margin-top: 60px;
     margin-bottom: 0; }
-    .rc_sg__container .typography_section p + p,
-    .rc_sg__container .colors_section p + p,
-    .rc_sg__container .shadow_section p + p,
-    .rc_sg__container .visual-elements_section p + p,
-    .rc_sg__container .logo-usage_section p + p,
-    .rc_sg__container .buttons_links_section p + p {
-      margin-top: 0; }
   .rc_sg__container .logo-usage_section h3 {
     margin-bottom: 30px; }
   .rc_sg_page_header h2 {
     margin-bottom: 40px; }
+  .rc_sg_link p.bg_rc_blue {
+    padding: 15px;
+    margin: 20px 0; }
   .rc_sg_section.shadow_section h3 {
     margin-bottom: 20px; }
   .rc_sg_section .typography_example {
@@ -2275,6 +2341,8 @@ ol {
     margin-top: 50px; }
   .rc_sg_section.buttons_links_section button {
     margin: 20px 20px 20px 0; }
+  .rc_sg_section.buttons_links_section .rc_caption {
+    margin-bottom: 20px; }
   .rc_sg_full_logo {
     margin-top: 30px; }
     .rc_sg_full_logo div:not(:last-child) {
