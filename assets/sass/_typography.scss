@@ -42,7 +42,7 @@ body {
 	font-weight: $font-regular;
 	font-size: $font-size-base;
 	line-height: 25px;
-	color: $grey_dark;	
+	color: $rc_grey_dark;	
 }
 
 a {
@@ -76,5 +76,5 @@ strong {
 	line-height: 18px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
-	opacity: 0.5;
+	color: $rc_grey_medium;
 }

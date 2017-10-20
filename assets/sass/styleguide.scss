@@ -1,9 +1,9 @@
 .rc_sg{
-	background-color: #F5F5F5;
+	background-color: #F8F8F8;
 
 	
 	&__navbar{
-		background-color: $white;
+		background-color: $rc_white;
 		padding: 20px 0;
 
 		& img{
@@ -65,13 +65,13 @@
 				padding-left: 30px;
 
 				a{
-					color: $grey_dark;
+					color: $rc_grey_dark;
 					font-size: $font-size-base;
 				}
 
 			}
 			li:hover{
-				background-color: $grey_silver;
+				background-color: $rc_grey_silver;
 			}
 		}
 
@@ -128,19 +128,19 @@
 				margin-bottom: 40px;
 
 				&.light_example{
-					color: $grey_dark;
-					background-color: $white;
+					color: $rc_grey_dark;
+					background-color: $rc_white;
 					& .circle{
-						background-color: $grey_dark;
+						background-color: $rc_grey_dark;
 						max-width: 74px;
 						max-height: 74px;
 					}
 				}
 				&.dark_example{
-					color: $white;
+					color: $rc_white;
 					background-color: $rc_blue;
 					& .circle{
-						background-color: $white;
+						background-color: $rc_white;
 						max-width: 74px;
 						max-height: 74px;
 					}
@@ -160,7 +160,7 @@
 			margin-bottom: 14px;
 
 			&.bg_white{
-				color: $black;
+				color: $rc_black;
 			}
 		}
 
@@ -178,7 +178,7 @@
 			&_item{
 				height: 145px;
 				width: 145px;
-				background-color: $white;
+				background-color: $rc_white;
 				text-align: center;
 				line-height: 145px;
 			}
@@ -237,11 +237,11 @@
 
 				&.light_photo_bg{
 					background-image: url('../images/logos/photo_light.png');
-					background-size: contain;
+					background-size: 100% 100%;
 				}
 				&.dark_photo_bg{
 					background-image: url('../images/logos/photo_dark.png');
-					background-size: contain;
+					background-size: 100% 100%;
 				}
 			}
 		}
@@ -274,6 +274,14 @@
 		}
 	}
 
+	&_button{
+		&_secondary{
+
+			&_reverse{
+				border: 5px solid $button-secondary-reverse-bg-color;
+			}
+		}
+	}
 
 	& .colors_pallete{
 		margin: 18px 0;
@@ -284,7 +292,7 @@
 		height: 129px;
 		display: inline-block;
 		margin: 20px 26px 35px 0px;
-	    color: $white;
+	    color: $rc_white;
 	    text-align: center;
 	    font-size: $font-size-small;
 	    font-weight: $font-semibold;
@@ -298,7 +306,7 @@
 
 
 		& .rc_caption{
-			color: $black;
+			color: $rc_black;
 		}
 	}
 	

@@ -1,4 +1,5 @@
-.button{
+.rc_button{
+	transition: all 0.5s ease;
 	padding: $button-padding;
 	font-weight: $font-semibold;
 	border: 0;
@@ -11,7 +12,7 @@
 		background-color: $button-primary-bg-color;
 		box-shadow: 0 4px 8px 0 rgba(83,186,211,0.40);
 
-		&:hover:enabled{
+		&:hover{
 			color: $button-primary-hover-color;
 			background-color: $button-primary-bg-hover-color;
 			box-shadow: 0 6px 20px 0 rgba(83,186,211,0.60); 
@@ -24,18 +25,17 @@
 		background-color: $button-secondary-bg-color;
 		border: 1px solid $rc_blue;
 
-		&:hover:enabled{
+		&:hover{
 			color: $button-secondary-hover-color;
 			background-color: $button-secondary-bg-hover-color;
 		}
 
-		&_v2{
-			color: $button-secondary-v2-color;
-			background-color: $button-secondary-v2-bg-color;
-			border: 5px solid $button-secondary-v2-bg-color;
-			-webkit-box-shadow:inset 0px 0px 0px 1px $white;
-		    -moz-box-shadow:inset 0px 0px 0px 1px $white;
-		    box-shadow:inset 0px 0px 0px 1px $white;
+		&_reverse{
+			color: $button-secondary-reverse-color;
+			background-color: $button-secondary-reverse-bg-color;
+			-webkit-box-shadow:inset 0px 0px 0px 1px $rc_white;
+		    -moz-box-shadow:inset 0px 0px 0px 1px $rc_white;
+		    box-shadow:inset 0px 0px 0px 1px $rc_white;
 		}
 	}
 
@@ -51,7 +51,7 @@
 	}
 
 	&:disabled{
-		color: $white;
+		color: $rc_white;
 		background-color: $button-bg-disabled;
 		box-shadow: none;
 	}

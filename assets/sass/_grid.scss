@@ -2,6 +2,12 @@
 	display: flex;
 	flex-wrap: wrap;
 
+	&__container{
+		width: 100%;
+		max-width: 1170px;
+		margin: 0 auto;
+	}
+
 	.rc_layout__full,
 	.rc_layout__sidebar,
 	.rc_layout__content,

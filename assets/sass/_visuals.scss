@@ -1,0 +1,39 @@
+.rc{
+
+	&_shadow{
+	
+		&_level1{
+			-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+			-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+			box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
+		}
+		&_level2{
+			-webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+			-moz-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+			box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
+		}
+		&_level3{
+			-webkit-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.1);
+			-moz-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.1);
+			box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.1);
+		}
+		&_level4{
+			-webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+			-moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+			box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
+		}
+		&_level5{
+			-webkit-box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
+			-moz-box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
+			box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
+		}
+	}
+
+	&_big_icon img{
+		width: 100px;
+		max-width: 100%;
+		height: auto;
+		margin: 30px 30px 30px 0;
+	}
+	
+}

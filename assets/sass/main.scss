@@ -2,78 +2,12 @@
 @import '_mixins.scss';
 
 @import '_normalize.scss';
-@import '_fonts.scss';
+@import '_colors.scss';
 @import '_typography.scss';
 @import '_buttons.scss';
+@import	'_visuals.scss';
 
 @import '_grid.scss';
 @import '_lists.scss';
 
 @import 'styleguide.scss';
-
-.rc_layout__container,
-.container{
-	width: 100%;
-	max-width: 1170px;
-	margin: 0 auto;
-}
-
-.bg_rc_blue{ background-color: $rc_blue; }
-.bg_white{background-color: $white; }
-.bg_rc_green{ background-color: $rc_green; }
-
-.bg_black{ background-color: $black; }
-.bg_grey_dark{ background-color: $grey_dark; }
-.bg_rc_grey{ background-color: $rc_grey; }
-.bg_grey_medium{ background-color: $grey_medium; }
-.bg_grey_light{ background-color: $grey_light; }
-.bg_grey_silver{ background-color: $grey_silver; }
-
-
-.bg_green_bright{ background-color: $green_bright; }
-.bg_green_pale{ background-color: $green_pale; }
-.bg_turquoise{ background-color: $turquoise; }
-.bg_blue_dark{ background-color: $blue_dark; }
-.bg_magenta{ background-color: $magenta; }
-.bg_magenta_hover{ background-color: $magenta_hover; }
-
-.bg_yellow{ background-color: $yellow; }
-.bg_orange{ background-color: $orange; }
-.bg_red{ background-color: $red; }
-.bg_pink{ background-color: $pink; }
-
-.rc_shadow{
-	
-	&_level1{
-		-webkit-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
-		-moz-box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
-		box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.1);
-	}
-	&_level2{
-		-webkit-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
-		-moz-box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
-		box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.1);
-	}
-	&_level3{
-		-webkit-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.1);
-		-moz-box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.1);
-		box-shadow: 0px 6px 12px 0px rgba(0,0,0,0.1);
-	}
-	&_level4{
-		-webkit-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
-		-moz-box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
-		box-shadow: 0px 10px 30px 0px rgba(0,0,0,0.1);
-	}
-	&_level5{
-		-webkit-box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
-		-moz-box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
-		box-shadow: 0px 20px 40px 0px rgba(0,0,0,0.1);
-	}
-}
-
-.rc_big_icon img{
-	width: 100px;
-	max-width: 100%;
-	height: auto;
-	margin: 30px 30px 30px 0;
-}

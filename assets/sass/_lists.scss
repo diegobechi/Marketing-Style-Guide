@@ -42,22 +42,21 @@ ol {
 		padding-left: 25px;
 
 		&:before{
+			font-family: fontawesome;
 		    font-size: 16px;
-		    color: #424242;
+		    color: $rc_grey_dark;
 		    position: absolute;
 		    top: 0;
 		    left: 0;
 	    }
 
-	    &.rc_tick_ok:before {
-		    font-family: fontawesome;	    
+	    &.rc_tick_ok:before {	    
 			content: "\f00c";
-	    	color: #4DD6B7;
+	    	color: $rc_green;
 	    }
 	    &.rc_tick_wrong:before{
 			content: "\f00d";
-		    font-family: fontawesome;
-	    	color: $magenta;
+	    	color: $rc_magenta;
 	    }
 	}
 }

@@ -8,30 +8,30 @@
 
 // Primary (Brand) Colors
 $rc_blue:  #53BAD3;
-$white:    #FFFFFF !default;
+$rc_white: #FFFFFF !default;
 $rc_green: #4DD6B7;
 
 $rc_blue_rgba: rgba(83, 186, 211, .25);
 
 // Secondary Colors
-$green_bright:  #17CC9D;
-$green_pale:    #BDF0E4;
-$turquoise:     #2c93AC;
-$blue_dark:     #004E82;
-$magenta:       #C00399;
-$magenta_hover: #AC0289;
-$black:         #000000 !default;
-$grey_dark:     #424242;
-$rc_grey: 	    #676767;
-$grey_medium:   #8E8F8E;
-$grey_light:    #CCCCCC;
-$grey_silver:   #EEEEEE;
+$rc_green_bright:  #17CC9D;
+$rc_green_pale:    #BDF0E4;
+$rc_turquoise:     #2C93AC;
+$rc_blue_dark:     #004E82;
+$rc_magenta:       #C00399;
+$rc_magenta_hover: #AC0289;
+$rc_black:         #000000 !default;
+$rc_grey_dark:     #424242;
+$rc_grey: 	 	   #676767;
+$rc_grey_medium:   #8E8F8E;
+$rc_grey_light:    #CCCCCC;
+$rc_grey_silver:   #EEEEEE;
 
 // Tertiary Colors
-$yellow: #FFF155;
-$orange: #FB8309;
-$red:    #EC3D10;
-$pink:   #D06EAB;
+$rc_yellow: #FFF155;
+$rc_orange: #FB8309;
+$rc_red:    #EC3D10;
+$rc_pink:   #D06EAB;
 
 // Basic Fonts Sizes
 $font-size-extra-small: 12px !default;
@@ -62,18 +62,18 @@ $navbar-font-size:         16px !default;
 $navbar-height:            43px !default;
 $navbar-brand-height:      39px !default;
 $navbar-brand-width:       149px !default;
-$navbar-background:        $white !default;
-$navbar-color:             $grey_dark !default;
+$navbar-background:        $rc_white !default;
+$navbar-color:             $rc_grey_dark !default;
 $navbar-active-color:      $rc_blue !default;
 $navbar-active-background: $rc_blue_rgba !default;
 $navbar-option-height:	   43px;
 
 // Dropdown
-$dropdown-color: 			#424242 !default;
+$dropdown-color: 			$rc_grey_dark !default;
 $dropdown-color-hover: 		$rc_blue !default;
-$dropdown-background: 		$white !default;
+$dropdown-background: 		$rc_white !default;
 $dropdown-background-hover: $rc_blue_rgba !default;
-$dropdown-divider: 			$white !default;
+$dropdown-divider: 			$rc_white !default;
 $dropdown-height: 			48px;
 $dropdown-width: 			176px;
 
@@ -101,13 +101,13 @@ $zindex-modal-background:  $zindex-base + 80 !default;
 $zindex-modal:             $zindex-base + 90 !default;
 
 // Buttons
-$button-color: 			$white !default;
+$button-color: 			$rc_white !default;
 $button-bg-color:       $rc_blue !default;
 $button-bg-hover-color: $rc_blue !default;
-$button-bg-disabled:    $grey_light;
+$button-bg-disabled:    $rc_grey_light;
 
-$button-primary-color: 			$white !default;
-$button-primary-hover-color: 	$white !default;
+$button-primary-color: 			$rc_white !default;
+$button-primary-hover-color: 	$rc_white !default;
 $button-primary-bg-color: 		$rc_blue !default;
 $button-primary-bg-hover-color: #2DA4C2 !default;
 
@@ -116,9 +116,9 @@ $button-secondary-hover-color: 	  $rc_blue !default;
 $button-secondary-bg-color: 	  transparent !default;
 $button-secondary-bg-hover-color: transparent !default;
 
-$button-secondary-v2-color: 		  $white !default;
-$button-secondary-v2-hover-color: 	  $white !default;
-$button-secondary-v2-bg-color: 	  	  $rc_blue !default;
-$button-secondary-v2-bg-hover-color:  $rc_blue !default;
+$button-secondary-reverse-color: 		  $rc_white !default;
+$button-secondary-reverse-hover-color: 	  $rc_white !default;
+$button-secondary-reverse-bg-color: 	  $rc_blue !default;
+$button-secondary-reverse-bg-hover-color: $rc_blue !default;
 
 $button-padding: 20px 60px;
