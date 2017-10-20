@@ -31,17 +31,17 @@
 	</div>
 	<div class="rc_sg_section typography_section">
 		<p class="rc_caption example_caption">This is a caption</p>
-		<p class="rc_caption">font-family: Ralewayregular; font-size: 12px; line-height: 18px; letter-sapcing: 2; text-transform: uppercase; color: #424242; opacity: .5;</p>
+		<p class="rc_caption">font-family: Ralewayregular; font-size: 12px; line-height: 18px; letter-sapcing: 2; text-transform: uppercase; color: #8E8F8E;</p>
 	</div>
 	<div class="rc_sg_section typography_section">
 		<div class="rc_sg_section typography_example">
-			<div class="typography_example_item light_example">
+			<div class="typography_example_item bg_rc_white">
 				<div class="circle"></div>	
 				<p class="rc_caption">By default, text is #424242 on light backgrounds</p>
 			</div>
-			<div class="typography_example_item dark_example">
+			<div class="typography_example_item bg_rc_blue">
 				<div class="circle"></div>	
-				<p class="rc_caption">By default, text is #FFFFFF on Dark backgrounds</p>				
+				<p class="rc_caption color_rc_white">By default, text is #FFFFFF on Dark backgrounds</p>				
 			</div>
 		</div>
 	</div>

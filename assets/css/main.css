@@ -405,120 +405,6 @@ template {
 [hidden] {
   display: none; }
 
-.color_rc_blue {
-  color: #53BAD3; }
-
-.color_rc_white {
-  color: #FFFFFF; }
-
-.color_rc_green {
-  color: #4DD6B7; }
-
-.color_rc_black {
-  color: #000000; }
-
-.color_rc_grey_dark {
-  color: #424242; }
-
-.color_rc_rc_grey {
-  color: #676767; }
-
-.color_rc_grey_medium {
-  color: #8E8F8E; }
-
-.color_rc_grey_light {
-  color: #CCCCCC; }
-
-.color_rc_grey_silver {
-  color: #EEEEEE; }
-
-.color_rc_green_bright {
-  color: #17CC9D; }
-
-.color_rc_green_pale {
-  color: #BDF0E4; }
-
-.color_rc_turquoise {
-  color: #2C93AC; }
-
-.color_rc_blue_dark {
-  color: #004E82; }
-
-.color_rc_magenta {
-  color: #C00399; }
-
-.color_rc_magenta_hover {
-  color: #AC0289; }
-
-.color_rc_yellow {
-  color: #FFF155; }
-
-.color_rc_orange {
-  color: #FB8309; }
-
-.color_rc_red {
-  color: #EC3D10; }
-
-.color_rc_pink {
-  color: #D06EAB; }
-
-.bg_rc_blue {
-  background-color: #53BAD3; }
-
-.bg_rc_white {
-  background-color: #FFFFFF; }
-
-.bg_rc_green {
-  background-color: #4DD6B7; }
-
-.bg_rc_black {
-  background-color: #000000; }
-
-.bg_rc_grey_dark {
-  background-color: #424242; }
-
-.bg_rc_rc_grey {
-  background-color: #676767; }
-
-.bg_rc_grey_medium {
-  background-color: #8E8F8E; }
-
-.bg_rc_grey_light {
-  background-color: #CCCCCC; }
-
-.bg_rc_grey_silver {
-  background-color: #EEEEEE; }
-
-.bg_rc_green_bright {
-  background-color: #17CC9D; }
-
-.bg_rc_green_pale {
-  background-color: #BDF0E4; }
-
-.bg_rc_turquoise {
-  background-color: #2C93AC; }
-
-.bg_rc_blue_dark {
-  background-color: #004E82; }
-
-.bg_rc_magenta {
-  background-color: #C00399; }
-
-.bg_rc_magenta_hover {
-  background-color: #AC0289; }
-
-.bg_rc_yellow {
-  background-color: #FFF155; }
-
-.bg_rc_orange {
-  background-color: #FB8309; }
-
-.bg_rc_red {
-  background-color: #EC3D10; }
-
-.bg_rc_pink {
-  background-color: #D06EAB; }
-
 html {
   -webkit-font-smoothing: antialiased; }
 
@@ -653,11 +539,146 @@ strong {
   -moz-box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1);
   box-shadow: 0px 20px 40px 0px rgba(0, 0, 0, 0.1); }
 
-.rc_big_icon img {
-  width: 100px;
-  max-width: 100%;
-  height: auto;
+.rc_icon img {
+  width: 100%;
+  max-width: 100px;
+  height: auto; }
+
+.rc_icon_big img {
   margin: 30px 30px 30px 0; }
+
+.rc_icon_small img {
+  max-width: 40px;
+  margin: 15px 15px 15px 0; }
+
+.rc_illustration img {
+  width: 100%;
+  height: auto; }
+
+.rc_illustration_small img {
+  max-width: 148px; }
+  .rc_illustration_small img:not(:last-child) {
+    margin-right: 95px; }
+
+.rc_illustration_medium img {
+  max-width: 529px; }
+
+.color_rc_blue {
+  color: #53BAD3; }
+
+.color_rc_white {
+  color: #FFFFFF; }
+
+.color_rc_green {
+  color: #4DD6B7; }
+
+.color_rc_black {
+  color: #000000; }
+
+.color_rc_grey_dark {
+  color: #424242; }
+
+.color_rc_grey {
+  color: #676767; }
+
+.color_rc_grey_medium {
+  color: #8E8F8E; }
+
+.color_rc_grey_light {
+  color: #CCCCCC; }
+
+.color_rc_grey_silver {
+  color: #EEEEEE; }
+
+.color_rc_green_bright {
+  color: #17CC9D; }
+
+.color_rc_green_pale {
+  color: #BDF0E4; }
+
+.color_rc_turquoise {
+  color: #2C93AC; }
+
+.color_rc_blue_dark {
+  color: #004E82; }
+
+.color_rc_magenta {
+  color: #C00399; }
+
+.color_rc_magenta_hover {
+  color: #AC0289; }
+
+.color_rc_yellow {
+  color: #FFF155; }
+
+.color_rc_orange {
+  color: #FB8309; }
+
+.color_rc_red {
+  color: #EC3D10; }
+
+.color_rc_pink {
+  color: #D06EAB; }
+
+.bg_rc_blue {
+  background-color: #53BAD3; }
+
+.bg_rc_white {
+  background-color: #FFFFFF; }
+
+.bg_rc_green {
+  background-color: #4DD6B7; }
+
+.bg_rc_black {
+  background-color: #000000; }
+
+.bg_rc_grey_dark {
+  background-color: #424242; }
+
+.bg_rc_grey {
+  background-color: #676767; }
+
+.bg_rc_grey_medium {
+  background-color: #8E8F8E; }
+
+.bg_rc_grey_light {
+  background-color: #CCCCCC; }
+
+.bg_rc_grey_silver {
+  background-color: #EEEEEE; }
+
+.bg_rc_green_bright {
+  background-color: #17CC9D; }
+
+.bg_rc_green_pale {
+  background-color: #BDF0E4; }
+
+.bg_rc_turquoise {
+  background-color: #2C93AC; }
+
+.bg_rc_blue_dark {
+  background-color: #004E82; }
+
+.bg_rc_magenta {
+  background-color: #C00399; }
+
+.bg_rc_magenta_hover {
+  background-color: #AC0289; }
+
+.bg_rc_yellow {
+  background-color: #FFF155; }
+
+.bg_rc_orange {
+  background-color: #FB8309; }
+
+.bg_rc_red {
+  background-color: #EC3D10; }
+
+.bg_rc_pink {
+  background-color: #D06EAB; }
+
+.bg_rc_blue, .bg_rc_green, .bg_rc_black, .bg_rc_grey_dark, .bg_rc_grey, .bg_rc_grey_medium, .bg_rc_grey_light, .bg_rc_grey_silver, .bg_rc_green_bright, .bg_rc_green_pale, .bg_rc_turquoise, .bg_rc_blue_dark, .bg_rc_magenta, .bg_rc_magenta_hover, .bg_rc_yellow, .bg_rc_orange, .bg_rc_red, .bg_rc_pink {
+  color: #FFFFFF !important; }
 
 .rc_layout {
   display: -webkit-flex;
@@ -2221,22 +2242,14 @@ ol {
       padding: 34px;
       margin-right: 40px;
       margin-bottom: 40px; }
-      .rc_sg_section .typography_example_item.light_example {
-        color: #424242;
-        background-color: #FFFFFF; }
-        .rc_sg_section .typography_example_item.light_example .circle {
-          background-color: #424242;
-          max-width: 74px;
-          max-height: 74px; }
-      .rc_sg_section .typography_example_item.dark_example {
-        color: #FFFFFF;
-        background-color: #53BAD3; }
-        .rc_sg_section .typography_example_item.dark_example .circle {
-          background-color: #FFFFFF;
-          max-width: 74px;
-          max-height: 74px; }
-      .rc_sg_section .typography_example_item p.rc_caption {
-        opacity: 1; }
+      .rc_sg_section .typography_example_item.bg_rc_white .circle {
+        background-color: #424242;
+        max-width: 74px;
+        max-height: 74px; }
+      .rc_sg_section .typography_example_item.bg_rc_blue .circle {
+        background-color: #FFFFFF;
+        max-width: 74px;
+        max-height: 74px; }
   .rc_sg_section .circle {
     height: 96px;
     line-height: 96px;
@@ -2244,8 +2257,6 @@ ol {
     border-radius: 50%;
     margin: 0 auto;
     margin-bottom: 14px; }
-    .rc_sg_section .circle.bg_white {
-      color: #000000; }
   .rc_sg_section .rc_sg_shadow_example div {
     display: inline-block;
     margin-top: 50px; }
@@ -2258,12 +2269,10 @@ ol {
     text-align: center;
     line-height: 145px; }
   .rc_sg_section.visual-elements_section img {
-    max-width: 100%;
-    margin-top: 55px; }
-  .rc_sg_section.visual-elements_section .medium_illustration {
-    width: 529px; }
-  .rc_sg_section.visual-elements_section .small_illustration img:not(:last-child) {
-    margin-right: 95px; }
+    width: 100%; }
+  .rc_sg_section.visual-elements_section .rc_illustration img,
+  .rc_sg_section.visual-elements_section .rc_banner {
+    margin-top: 50px; }
   .rc_sg_section.buttons_links_section button {
     margin: 20px 20px 20px 0; }
   .rc_sg_full_logo {
@@ -2274,15 +2283,14 @@ ol {
       display: inline-block;
       margin-top: 20px; }
       .rc_sg_full_logo_container_item {
-        width: 357px;
-        max-width: 100%;
-        height: 140px;
+        width: 100%;
+        max-width: 357px;
         text-align: center; }
         .rc_sg_full_logo_container_item img {
+          width: 100%;
           max-width: 201px;
-          max-height: 50px;
           position: relative;
-          top: 45px; }
+          padding: 45px 75px; }
         .rc_sg_full_logo_container_item.light_photo_bg {
           background-image: url("../images/logos/photo_light.png");
           background-size: 100% 100%; }
@@ -2296,15 +2304,15 @@ ol {
     .rc_sg_icon_logo_container {
       display: inline-block; }
       .rc_sg_icon_logo_container_item {
-        width: 194px;
-        max-width: 100%;
-        height: 194px;
+        width: 100%;
+        max-width: 194px;
         text-align: center; }
         .rc_sg_icon_logo_container_item img {
+          width: 100%;
           position: relative;
           max-width: 80px;
-          max-height: 95px;
-          top: 49px; }
+          height: auto;
+          padding: 50px 55px; }
   .rc_sg_button_secondary_reverse {
     border: 5px solid #53BAD3; }
   .rc_sg .colors_pallete {
@@ -2314,7 +2322,6 @@ ol {
     height: 129px;
     display: inline-block;
     margin: 20px 26px 35px 0px;
-    color: #FFFFFF;
     text-align: center;
     font-size: 14px;
     font-weight: 600;
@@ -2323,5 +2330,3 @@ ol {
       display: inline-block;
       vertical-align: middle;
       line-height: normal; }
-    .rc_sg_color-container .rc_caption {
-      color: #000000; }

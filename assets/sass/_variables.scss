@@ -13,6 +13,8 @@ $rc_green: #4DD6B7;
 
 $rc_blue_rgba: rgba(83, 186, 211, .25);
 
+$rc_black_shadows: rgba(0,0,0,0.1);
+
 // Secondary Colors
 $rc_green_bright:  #17CC9D;
 $rc_green_pale:    #BDF0E4;
@@ -53,9 +55,6 @@ $h2-font-size: 28px !default;
 $h3-font-size: 24px !default;
 $h4-font-size: 20px !default;
 $h5-font-size: 16px !default;
-
-// Container
-$container-width: 1045px !default;
 
 // Navbar Basic Styles
 $navbar-font-size:         16px !default;
