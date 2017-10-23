@@ -1,0 +1,81 @@
+.rc{
+	&_form{
+		width: 100%;
+		max-width: 743px;
+		background-color: $rc_white;
+		margin: 54px 0;
+
+		& fieldset{
+			border: none;
+		}
+
+		& form{
+			text-align: left;
+		}
+
+		&_container{
+			padding: 60px;
+			text-align: center;
+		}
+
+		& .rc_layout div{
+			box-sizing: border-box;
+		}
+
+		& label{
+			letter-spacing: 0;
+			max-width: 100%;
+			display: block;
+		}
+
+		& button{
+			&#submit-button{
+				margin-top: 40px;
+			}
+		}
+	}
+}
+
+input[type="radio"].rc_form__input{
+	margin: 15px 7px 7px;
+
+	&:first-child{
+		margin-left: 0;
+	}
+}
+
+input[type="number"].rc_form__number,
+input[type="text"].rc_form__input,
+input[type="email"].rc_form__input{
+	height: 40px;
+	width: 100%;
+	padding: 7px 15px 8px;
+    box-sizing: border-box;
+    margin: 12px 0 30px;
+}
+
+input[type="number"].rc_form__number,
+input[type="text"].rc_form__input,
+input[type="email"].rc_form__input{
+	border-width: 1px;
+	border-style: solid;
+	border-color: $rc_grey;
+	&:focus,
+	&.rc_form__input--focus {
+		border-color: $rc_green;
+		outline: none;
+		box-shadow: none;
+	}
+	&.rc_form__input--invalid {
+		border-color: $rc_red !important;
+	}
+}
+
+.form__select {
+	&.form__select--invalid,
+	&.form__input--invalid {
+		.dk-selected {
+			border-color: $rc_red !important;
+		}
+	}
+}

@@ -16,4 +16,4 @@
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="stylesheet" href="assets/css/font-awesome.css">
 
-<title>ReCharge - Style Guide</title>
+<title>ReCharge - Styleguide</title>
