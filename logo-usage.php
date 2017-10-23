@@ -1,11 +1,11 @@
 <?php include('templates/static/header.php'); ?>
 <div>
 	<div class="rc_sg_page_header">
-		<h2>Logo Usage</h2>
+		<h2>Logo usage</h2>
 		<p>The ReCharge logo should be used with care. Treat the logo right and it will love you forever</p>		
 	</div>
 	<div class="rc_sg_section logo-usage_section">
-		<h3>Full Logo</h3>
+		<h3>Full logo</h3>
 		<p>When using the full ReCharge logo, use the colored logo on the white and light backgrounds. Use the white logo on dark background to create enough constrast. On photograph, the same principle applies. Use the colored logo on lighter areas of the photograph and the white logo on darker areas of the photograph. When in dount, ask a designer which logo you should use in which circumstance.</p>
 		<div class="rc_sg_full_logo">
 			<div class="rc_sg_full_logo_container">
@@ -49,7 +49,7 @@
 		</div>			
 	</div>
 	<div class="rc_sg_section logo-usage_section">
-		<h3>Logo Best Practices</h3>
+		<h3>Logo best practices</h3>
 		<ul class="rc_list_items">
 			<li class="rc_tick_ok">Use the colored logo on light/white backgrounds.</li>
 			<li class="rc_tick_ok">Use the white logo on dark backgrounds.</li>

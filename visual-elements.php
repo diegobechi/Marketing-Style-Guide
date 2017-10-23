@@ -2,7 +2,7 @@
 
 <div>
 	<div class="rc_sg_page_header">
-		<h2>Visual Elements</h2>
+		<h2>Visual elements</h2>
 		<p>ReCharge uses a combination of photography, custom illustrations, and custom graphics to communicate its visual style. ReCharge strives to make recurring billing look simple and rewarding. Our graphics show successful, empowered businesses and people. Our illustrations are crafted with attention to detail, demonstrating our attentive care to our customers.</p>
 	</div>
 	<div class="rc_sg_section visual-elements_section">
