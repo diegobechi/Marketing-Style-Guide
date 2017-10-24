@@ -15,35 +15,35 @@
 						<div class="rc_layout">
 		            		<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
 		                		<label>First Name</label>
-			                    <input type="text" class="rc_form__input" name="first_name" placeholder="First Name" data-message="Please enter your first name" required>
+			                    <input type="text" class="rc_form_input" name="first_name" placeholder="First Name" data-message="Please enter your first name" required>
 		                	</div>
 		            		<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
 		                		<label>Last Name</label>
-			                    <input type="text" class="rc_form__input" name="last_name" placeholder="Last Name" data-message="Please enter your last name" required>
+			                    <input type="text" class="rc_form_input" name="last_name" placeholder="Active" data-message="Please enter your last name" required>
 		               		</div>
 		                </div>
 		                <div class="rc_layout">
 		            		<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
 			                	<label>Email Address</label>
-			                    <input type="email" class="rc_form__input" name="email" placeholder="email.address@something.com" data-message="Please enter your email address" data-regex="/.+@.+\..+/i" required>
+			                    <input type="email" class="rc_form_input" name="email" placeholder="Error field" data-message="Please enter your email address" data-regex="/.+@.+\..+/i" required>
 		                	</div>
 		            		<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
 			                	<label>Website Address</label>
-		                    	<input type="text" class="rc_form__input" name="website" placeholder="http://" data-message="Please enter the url of your website" required>
+		                    	<input type="text" class="rc_form_input" name="website" placeholder="http://" data-message="Please enter the url of your website" required>
 							</div>
 		                </div>			
 		            	<label>PayPal Address</label>
-		                <input type="text" class="rc_form__input" name="paypal_address" placeholder="Which address should we send your rewards to?" data-message="Please enter your PayPal Address" required>
+		                <input type="text" class="rc_form_input" name="paypal_address" placeholder="Which address should we send your rewards to?" data-message="Please enter your PayPal Address" required>
 						<label>Include Shopify URL that currently has ReCharge installed:</label>
-		                <input type="text" class="rc_form__input" name="storeUrl" placeholder="Store URL" data-message="Please enter the store URL where you have ReCharge installed" required>
+		                <input type="text" class="rc_form_input" name="storeUrl" placeholder="Store URL" data-message="Please enter the store URL where you have ReCharge installed" required>
 		            	<label>Does your client already offer subscriptions?</label>
 		            	<div class="rc_form_radio_group">
-		                	<input type="radio" name="offer_subscriptions" class="rc_form__input" value="yes" checked>Yes
-		                	<input type="radio" name="offer_subscriptions" class="rc_form__input" value="no">No
+		                	<input type="radio" name="offer_subscriptions" class="rc_form_input" value="yes" checked>Yes
+		                	<input type="radio" name="offer_subscriptions" class="rc_form_input" value="no">No
 		                </div>
 	                </fieldset>
 	            </form>
-	            <button id="submit-button" class="rc_button bg_rc_magenta button-become-partner">Submit</button>       
+	            <button id="submit-button" class="rc_button rc_button_primary button-become-partner">Submit</button>       
 			</div>
 		</div>
 
@@ -52,10 +52,72 @@
 	<div class="rc_sg_section form-elements_section">
 		<h3>Radio buttons & checkboxes</h3>
 		<p>Radio buttons and checkboxes should inherit the same styles as the ReCharge app.</p>
+		<div>
+			<div>
+				<div>
+					<div>
+						<input type="checkbox">
+						<input type="checkbox">
+						<input type="checkbox">
+						<input type="checkbox">
+					</div>
+					<div>
+						<input type="radio">
+						<input type="radio">
+						<input type="radio">
+					</div>
+					<div>
+						<input type="checkbox"><label>Checkbox Label</label>
+						<input type="radio"><label>Radio Label</label>
+					</div>
+				</div>
+				<div>
+					<div>
+						<input type="radio">
+						<div>
+							<label>Radio Label</label>
+							<span>Radio option Info</span>
+						</div>
+					</div>
+					<div>
+						<input type="checkbox"><label>Checkbox Label</label>
+						<input type="checkbox"><label>Checkbox Label</label>
+						<input type="checkbox"><label>Checkbox Label</label>
+						<input type="checkbox"><label>Checkbox Label</label>
+					</div>
+				</div>
+			</div>
+			<div>
+				
+			</div>
+		</div>
 	</div>
 	<div class="rc_sg_section form-elements_section">
 		<h3>Dropdowns</h3>
 		<p>Dropdowns should inherit the same styles as the ReCharge app. Notice the inactive and active states.</p>
+		<div>
+			<div>
+				<select class="rc_dropdown">
+					<option value="">Please choose one</option>
+					<option value="">Option 1</option>
+					<option value="">Option 2</option>
+				</select>
+			</div>
+			<div>
+				<select class="rc_dropdown">
+					<option>Please choose one</option>
+					<option>Option 1</option>
+					<option>Option 2</option>
+				</select>
+			</div>
+			<div>
+				<select class="rc_dropdown rc_dropdown">
+					<option value="">999</option>
+					<option value="">99</option>
+					<option value="">9</option>
+				</select>
+			</div>
+		</div>
 	</div>
 </div>
 

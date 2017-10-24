@@ -16,4 +16,7 @@
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="stylesheet" href="assets/css/font-awesome.css">
 
+<!-- Added JS Files -->
+<script src="/assets/js/selects.js"></script>
+
 <title>ReCharge - Styleguide</title>

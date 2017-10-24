@@ -57,7 +57,7 @@
 	}
 
 	&:disabled{
-		color: $rc_white;
+		color: $button-color-disabled;
 		background-color: $button-bg-disabled;
 		box-shadow: none;
 		cursor: inherit;

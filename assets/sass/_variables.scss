@@ -68,13 +68,13 @@ $navbar-active-background: $rc_blue_rgba !default;
 $navbar-option-height:	   43px;
 
 // Dropdown
-$dropdown-color: 			$rc_grey_dark !default;
-$dropdown-color-hover: 		$rc_blue !default;
-$dropdown-background: 		$rc_white !default;
-$dropdown-background-hover: $rc_blue_rgba !default;
-$dropdown-divider: 			$rc_white !default;
-$dropdown-height: 			48px;
-$dropdown-width: 			176px;
+$dropdown_color: 			$rc_grey_dark !default;
+$dropdown_color-hover: 		$rc_blue !default;
+$dropdown_background: 		$rc_white !default;
+$dropdown_background-hover: $rc_blue_rgba !default;
+$dropdown_divider: 			$rc_white !default;
+$dropdown_height: 			48px;
+$dropdown_width: 			176px;
 
 // Responsive Values
 $screen-xs-max: 575px !default;
@@ -103,6 +103,7 @@ $zindex-modal:             $zindex-base + 90 !default;
 $button-color: 			$rc_white !default;
 $button-bg-color:       $rc_blue !default;
 $button-bg-hover-color: $rc_blue !default;
+$button-color-disabled: $rc_white;
 $button-bg-disabled:    $rc_grey_light;
 
 $button-primary-color: 			$rc_white !default;
@@ -121,3 +122,42 @@ $button-secondary-reverse-bg-color: 	  $rc_blue !default;
 $button-secondary-reverse-bg-hover-color: $rc_white !default;
 
 $button-padding: 20px 60px;
+
+// Dropdowns
+$rc_dropdown_color: 			$rc_green_pale;
+$rc_dropdown_hover_color: 		$rc_white;
+$rc_dropdown_bg_color:			$rc_white;
+$rc_dropdown_bg_hover_color:	$rc_green_pale;
+$rc_dropdown_border_color:		$rc_green_pale;
+$rc_dropdown_width:				419px;
+$rc_dropdown_min_width: 		240px;
+$rc_dropdown_height:			40px;
+$rc_dropdown_num_width:			65PX;
+
+$rc_dropdown_link_color: 			$rc_white;
+$rc_dropdown_link_hover_color:  	$rc_white;
+$rc_dropdown_link_hover_bg: 		$rc_black;
+$rc_dropdown_link_active_color: 	$rc_white;
+$rc_dropdown_link_active_bg: 		$rc_black;
+$rc_dropdown_link_disabled_color: 	#888;
+$rc_dropdown_link_disabled_bg: 		#333;
+$rc_dropdown_font_weight: 			700;
+$rc_dropdown_link_font_weight: 		400;
+$rc_dropdown_margin_top: 			0;
+$rc_dropdown_padding_y: 			0;
+$rc_dropdown_divider_bg: 			$rc_white;
+$rc_dropdown_item_padding_y: 		12px;
+$rc_dropdown_item_padding_x: 		15px;
+$rc_dropdown_header_color: 			#C00;
+
+// Cursors
+$rc_cursor_disabled: 	not-allowed;
+$rc_cursor_hover: 		pointer;
+$rc_cursor_normal: 		inerith;
+
+// Status
+$rc_status_primary: 	$rc_green;
+$rc_status_success: 	$rc_green;
+$rc_status_danger: 		$rc_red;
+$rc_status_info: 		$rc_blue;
+$rc_status_disabled: 	$rc_grey_light; 
