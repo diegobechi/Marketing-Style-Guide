@@ -98,3 +98,119 @@ input[type="email"].rc_form_input{
 		border-color: $rc_red !important;
 	}
 }
+
+.form__checkbox__label,
+.form__radio__label {
+	+ .form__help {
+		margin-top: -19px;
+		padding-left: 25px;
+	}
+}
+
+input[type="radio"],
+input[type="checkbox"],
+.form__radio,
+.form__checkbox {
+	display: none;
+	&:first-of-type {
+		+ .form__radio__label,
+		+ .form__checkbox__label {
+			margin-top: 6px; // Make adjustments to spacing above radio and checkbox buttons in form groups, so it matches better with other elements in form groups
+		}
+	}
+	+ label,
+	+ .form__radio__label,
+	+ .form__checkbox__label {
+		cursor: pointer;
+		display: block;
+		line-height: 20px;
+		&:before {
+			width: 16px;
+			height: 16px;
+			content: "";
+			display: inline-block;
+			box-sizing: border-box;
+			background-color: #FFF;
+
+			margin-right: 9px;
+
+			line-height: 15px;
+			text-indent: 1px;
+			font-size: 11px;
+
+			color: #FFF;
+			font-family: fontawesome;
+
+			border-width: 1px;
+			border-style: solid;
+			border-color: #676767;
+
+			vertical-align: middle;
+			position: relative;
+			top: -2px;
+		}
+		&:after {
+			display: table;
+			content: "";
+			margin: 10px 0;
+		}
+	}
+}
+
+input[type="radio"],
+.form__radio {
+	+ label,
+	+ .form__radio__label {
+		&:before {
+			border-radius: 50%;
+		}
+	}
+}
+
+input[type="radio"],
+input[type="checkbox"],
+.form__radio,
+.form__checkbox {
+	&:checked,
+	&.form__input--checked {
+		+ label,
+		+ .form__radio__label,
+		+ .form__checkbox__label {
+			&:before {
+				content: "\f00c";
+				background-color: #767676;
+			}
+		}
+	}
+	&:required,
+	&.form__input--required {
+		+ label,
+		+ .form__radio__label,
+		+ .form__checkbox__label {
+			&::before {
+				border-color: #EC3D10
+			}
+		}
+		&:checked,
+		+ .form__radio__label,
+		+ .form__checkbox__label {
+			+ label {
+				&::before {
+					background-color: #EC3D10;
+				}
+			}
+		}
+	}
+	&:disabled,
+	&.form__input--disabled {
+		+ label,
+		+ .form__radio__label,
+		+ .form__checkbox__label {
+			&:before {
+				content: "\f068";
+				color: #767676;
+				text-indent: 3px;
+			}
+		}
+	}
+}

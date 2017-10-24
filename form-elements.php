@@ -53,42 +53,52 @@
 		<h3>Radio buttons & checkboxes</h3>
 		<p>Radio buttons and checkboxes should inherit the same styles as the ReCharge app.</p>
 		<div>
-			<div>
+			<div class="rc_layout">
 				<div>
-					<div>
-						<input type="checkbox">
-						<input type="checkbox">
-						<input type="checkbox">
-						<input type="checkbox">
+					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
+						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox1">
+						<label class="form__checkbox__label" for="rc_sg_checkbox1"></label>
+						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox2">
+						<label class="form__checkbox__label" for="rc_sg_checkbox2"></label>
+						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox3">
+						<label class="form__checkbox__label" for="rc_sg_checkbox3"></label>
+						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox4">
+						<label class="form__checkbox__label" for="rc_sg_checkbox4"></label>
 					</div>
-					<div>
-						<input type="radio">
-						<input type="radio">
-						<input type="radio">
+					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
+						<input type="radio" class="form__radio" id="rc_sg_radio1">
+						<label class="form__radio__label" for="rc_sg_radio1"></label>
+						<input type="radio" class="form__radio" id="rc_sg_radio2">
+						<label class="form__radio__label" for="rc_sg_radio2"></label>
+						<input type="radio" class="form__radio" id="rc_sg_radio3">
+						<label class="form__radio__label" for="rc_sg_radio3"></label>
 					</div>
-					<div>
-						<input type="checkbox"><label>Checkbox Label</label>
-						<input type="radio"><label>Radio Label</label>
+					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
+						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox5">
+						<label class="form__checkbox__label" for="rc_sg_checkbox5">Checkbox Label</label>
+						<input type="radio" class="form__radio" id="rc_sg_radio4">
+						<label class="form__radio__label" for="rc_sg_radio4">Radio Label</label>
 					</div>
 				</div>
 				<div>
-					<div>
-						<input type="radio">
+					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
+						<input type="radio" class="form__radio" id="rc_sg_radio5">
 						<div>
-							<label>Radio Label</label>
+							<label class="form__radio__label" for="rc_sg_radio5">Radio Label</label>
 							<span>Radio option Info</span>
 						</div>
 					</div>
-					<div>
-						<input type="checkbox"><label>Checkbox Label</label>
-						<input type="checkbox"><label>Checkbox Label</label>
-						<input type="checkbox"><label>Checkbox Label</label>
-						<input type="checkbox"><label>Checkbox Label</label>
+					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
+						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox6">
+						<label class="form__checkbox__label" for="rc_sg_checkbox6">Checkbox Label</label>
+						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox7">
+						<label class="form__checkbox__label" for="rc_sg_checkbox7">Checkbox Label</label>
+						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox8">
+						<label class="form__checkbox__label" for="rc_sg_checkbox8">Checkbox Label</label>
+						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox9">
+						<label class="form__checkbox__label" for="rc_sg_checkbox9">Checkbox Label</label>
 					</div>
 				</div>
-			</div>
-			<div>
-				
 			</div>
 		</div>
 	</div>
