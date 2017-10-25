@@ -1,5 +1,5 @@
 
-ul{
+ul {
 	margin: 0;
 	padding: 0;
 }
@@ -34,14 +34,14 @@ ol {
 	}
 }
 
-.rc_list_items{
+.rc_list_items {
 	list-style-type: none;
 
-	li{ 
+	li { 
 		position: relative;
 		padding-left: 25px;
 
-		&:before{
+		&:before {
 			font-family: fontawesome;
 		    font-size: 16px;
 		    color: $rc_grey_dark;
@@ -54,7 +54,7 @@ ol {
 			content: "\f00c";
 	    	color: $rc_green;
 	    }
-	    &.rc_tick_wrong:before{
+	    &.rc_tick_wrong:before {
 			content: "\f00d";
 	    	color: $rc_magenta;
 	    }

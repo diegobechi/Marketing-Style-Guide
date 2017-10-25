@@ -1,75 +1,75 @@
-.rc{
+.rc {
 
-	&_shadow{
+	&_shadow {
 	
-		&_level1{
+		&_level1 {
 			-webkit-box-shadow: 0px 2px 4px 0px $rc_black_shadows;
 			-moz-box-shadow: 0px 2px 4px 0px $rc_black_shadows;
 			box-shadow: 0px 2px 4px 0px $rc_black_shadows;
 		}
-		&_level2{
+		&_level2 {
 			-webkit-box-shadow: 0px 4px 8px 0px $rc_black_shadows;
 			-moz-box-shadow: 0px 4px 8px 0px $rc_black_shadows;
 			box-shadow: 0px 4px 8px 0px $rc_black_shadows;
 		}
-		&_level3{
+		&_level3 {
 			-webkit-box-shadow: 0px 6px 12px 0px $rc_black_shadows;
 			-moz-box-shadow: 0px 6px 12px 0px $rc_black_shadows;
 			box-shadow: 0px 6px 12px 0px $rc_black_shadows;
 		}
-		&_level4{
+		&_level4 {
 			-webkit-box-shadow: 0px 10px 30px 0px $rc_black_shadows;
 			-moz-box-shadow: 0px 10px 30px 0px $rc_black_shadows;
 			box-shadow: 0px 10px 30px 0px $rc_black_shadows;
 		}
-		&_level5{
+		&_level5 {
 			-webkit-box-shadow: 0px 20px 40px 0px $rc_black_shadows;
 			-moz-box-shadow: 0px 20px 40px 0px $rc_black_shadows;
 			box-shadow: 0px 20px 40px 0px $rc_black_shadows;
 		}
 	}
 
-	&_banner{
+	&_banner {
 	
 	}
 
-	&_icon{
-		& img{
+	&_icon {
+		& img {
 			width: 100%;
 			max-width: 100px;
 			height: auto;
 		}
 
-		&_big img{
+		&_big img {
 			margin: 30px 30px 30px 0;
 		}
 
-		&_small img{
+		&_small img {
 			max-width: 40px;
 			margin: 15px 15px 15px 0;
 		}
 	}
 
-	&_illustration{
+	&_illustration {
 
-		& img{
+		& img {
 			width: 100%;
 			height: auto;
 		}
 
-		&_small img{
+		&_small img {
 			max-width: 148px;
 
-			&:not(:last-child){
+			&:not(:last-child) {
 				margin-right: 95px;
 			}
 		}
 
-		&_medium img{
+		&_medium img {
 			max-width: 529px;
 		}
 		
-		&_big img{
+		&_big img {
 
 		}
 	}

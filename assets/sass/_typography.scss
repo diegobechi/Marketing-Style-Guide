@@ -64,14 +64,14 @@ strong {
 	font-family: 'ralewaysemibold', arial, sans-serif;
 }
 
-.rc{
-	&_small_copy{
+.rc {
+	&_small_copy {
 		font-weight: $font-regular;
 		font-size: $font-size-small;
 		line-height: 18px;	
 	}
 
-	&_caption{
+	&_caption {
 		font-weight: $font-semibold;
 		font-size: $font-size-extra-small;
 		line-height: 18px;
@@ -80,11 +80,11 @@ strong {
 		color: $rc_grey_medium;
 	}
 
-	&_link{
+	&_link {
 		font-weight: $font-semibold;
 		color: $rc_blue;
 
-		&.color_rc_white{
+		&.color_rc_white {
 			text-decoration: underline;
 		}
 	}

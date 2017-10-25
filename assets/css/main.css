@@ -792,120 +792,120 @@ strong {
 .color_rc_pink {
   color: #D06EAB; }
 
-.bg_rc_blue {
+.rc_bg_blue {
   background-color: #53BAD3; }
 
-.bg_rc_white {
+.rc_bg_white {
   background-color: #FFFFFF; }
 
-.bg_rc_green {
+.rc_bg_green {
   background-color: #4DD6B7; }
 
-.bg_rc_black {
+.rc_bg_black {
   background-color: #000000; }
 
-.bg_rc_grey_dark {
+.rc_bg_grey_dark {
   background-color: #424242; }
 
-.bg_rc_grey {
+.rc_bg_grey {
   background-color: #676767; }
 
-.bg_rc_grey_medium {
+.rc_bg_grey_medium {
   background-color: #8E8F8E; }
 
-.bg_rc_grey_light {
+.rc_bg_grey_light {
   background-color: #CCCCCC; }
 
-.bg_rc_grey_silver {
+.rc_bg_grey_silver {
   background-color: #EEEEEE; }
 
-.bg_rc_green_bright {
+.rc_bg_green_bright {
   background-color: #17CC9D; }
 
-.bg_rc_green_pale {
+.rc_bg_green_pale {
   background-color: #BDF0E4; }
 
-.bg_rc_turquoise {
+.rc_bg_turquoise {
   background-color: #2C93AC; }
 
-.bg_rc_blue_dark {
+.rc_bg_blue_dark {
   background-color: #004E82; }
 
-.bg_rc_magenta {
+.rc_bg_magenta {
   background-color: #C00399; }
 
-.bg_rc_magenta_hover {
+.rc_bg_magenta_hover {
   background-color: #AC0289; }
 
-.bg_rc_yellow {
+.rc_bg_yellow {
   background-color: #FFF155; }
 
-.bg_rc_orange {
+.rc_bg_orange {
   background-color: #FB8309; }
 
-.bg_rc_red {
+.rc_bg_red {
   background-color: #EC3D10; }
 
-.bg_rc_pink {
+.rc_bg_pink {
   background-color: #D06EAB; }
 
-.bg_rc_blue, .bg_rc_green, .bg_rc_black, .bg_rc_grey_dark, .bg_rc_grey, .bg_rc_grey_medium, .bg_rc_grey_light, .bg_rc_grey_silver, .bg_rc_green_bright, .bg_rc_green_pale, .bg_rc_turquoise, .bg_rc_blue_dark, .bg_rc_magenta, .bg_rc_magenta_hover, .bg_rc_yellow, .bg_rc_orange, .bg_rc_red, .bg_rc_pink {
+.rc_bg_blue, .rc_bg_green, .rc_bg_black, .rc_bg_grey_dark, .rc_bg_grey, .rc_bg_grey_medium, .rc_bg_grey_light, .rc_bg_grey_silver, .rc_bg_green_bright, .rc_bg_green_pale, .rc_bg_turquoise, .rc_bg_blue_dark, .rc_bg_magenta, .rc_bg_magenta_hover, .rc_bg_yellow, .rc_bg_orange, .rc_bg_red, .rc_bg_pink {
   color: #FFFFFF; }
-  .bg_rc_blue a,
-  .bg_rc_blue p,
-  .bg_rc_blue span,
-  .bg_rc_blue label, .bg_rc_green a,
-  .bg_rc_green p,
-  .bg_rc_green span,
-  .bg_rc_green label, .bg_rc_black a,
-  .bg_rc_black p,
-  .bg_rc_black span,
-  .bg_rc_black label, .bg_rc_grey_dark a,
-  .bg_rc_grey_dark p,
-  .bg_rc_grey_dark span,
-  .bg_rc_grey_dark label, .bg_rc_grey a,
-  .bg_rc_grey p,
-  .bg_rc_grey span,
-  .bg_rc_grey label, .bg_rc_grey_medium a,
-  .bg_rc_grey_medium p,
-  .bg_rc_grey_medium span,
-  .bg_rc_grey_medium label, .bg_rc_grey_light a,
-  .bg_rc_grey_light p,
-  .bg_rc_grey_light span,
-  .bg_rc_grey_light label, .bg_rc_grey_silver a,
-  .bg_rc_grey_silver p,
-  .bg_rc_grey_silver span,
-  .bg_rc_grey_silver label, .bg_rc_green_bright a,
-  .bg_rc_green_bright p,
-  .bg_rc_green_bright span,
-  .bg_rc_green_bright label, .bg_rc_green_pale a,
-  .bg_rc_green_pale p,
-  .bg_rc_green_pale span,
-  .bg_rc_green_pale label, .bg_rc_turquoise a,
-  .bg_rc_turquoise p,
-  .bg_rc_turquoise span,
-  .bg_rc_turquoise label, .bg_rc_blue_dark a,
-  .bg_rc_blue_dark p,
-  .bg_rc_blue_dark span,
-  .bg_rc_blue_dark label, .bg_rc_magenta a,
-  .bg_rc_magenta p,
-  .bg_rc_magenta span,
-  .bg_rc_magenta label, .bg_rc_magenta_hover a,
-  .bg_rc_magenta_hover p,
-  .bg_rc_magenta_hover span,
-  .bg_rc_magenta_hover label, .bg_rc_yellow a,
-  .bg_rc_yellow p,
-  .bg_rc_yellow span,
-  .bg_rc_yellow label, .bg_rc_orange a,
-  .bg_rc_orange p,
-  .bg_rc_orange span,
-  .bg_rc_orange label, .bg_rc_red a,
-  .bg_rc_red p,
-  .bg_rc_red span,
-  .bg_rc_red label, .bg_rc_pink a,
-  .bg_rc_pink p,
-  .bg_rc_pink span,
-  .bg_rc_pink label {
+  .rc_bg_blue a,
+  .rc_bg_blue p,
+  .rc_bg_blue span,
+  .rc_bg_blue label, .rc_bg_green a,
+  .rc_bg_green p,
+  .rc_bg_green span,
+  .rc_bg_green label, .rc_bg_black a,
+  .rc_bg_black p,
+  .rc_bg_black span,
+  .rc_bg_black label, .rc_bg_grey_dark a,
+  .rc_bg_grey_dark p,
+  .rc_bg_grey_dark span,
+  .rc_bg_grey_dark label, .rc_bg_grey a,
+  .rc_bg_grey p,
+  .rc_bg_grey span,
+  .rc_bg_grey label, .rc_bg_grey_medium a,
+  .rc_bg_grey_medium p,
+  .rc_bg_grey_medium span,
+  .rc_bg_grey_medium label, .rc_bg_grey_light a,
+  .rc_bg_grey_light p,
+  .rc_bg_grey_light span,
+  .rc_bg_grey_light label, .rc_bg_grey_silver a,
+  .rc_bg_grey_silver p,
+  .rc_bg_grey_silver span,
+  .rc_bg_grey_silver label, .rc_bg_green_bright a,
+  .rc_bg_green_bright p,
+  .rc_bg_green_bright span,
+  .rc_bg_green_bright label, .rc_bg_green_pale a,
+  .rc_bg_green_pale p,
+  .rc_bg_green_pale span,
+  .rc_bg_green_pale label, .rc_bg_turquoise a,
+  .rc_bg_turquoise p,
+  .rc_bg_turquoise span,
+  .rc_bg_turquoise label, .rc_bg_blue_dark a,
+  .rc_bg_blue_dark p,
+  .rc_bg_blue_dark span,
+  .rc_bg_blue_dark label, .rc_bg_magenta a,
+  .rc_bg_magenta p,
+  .rc_bg_magenta span,
+  .rc_bg_magenta label, .rc_bg_magenta_hover a,
+  .rc_bg_magenta_hover p,
+  .rc_bg_magenta_hover span,
+  .rc_bg_magenta_hover label, .rc_bg_yellow a,
+  .rc_bg_yellow p,
+  .rc_bg_yellow span,
+  .rc_bg_yellow label, .rc_bg_orange a,
+  .rc_bg_orange p,
+  .rc_bg_orange span,
+  .rc_bg_orange label, .rc_bg_red a,
+  .rc_bg_red p,
+  .rc_bg_red span,
+  .rc_bg_red label, .rc_bg_pink a,
+  .rc_bg_pink p,
+  .rc_bg_pink span,
+  .rc_bg_pink label {
     color: #FFFFFF; }
 
 .rc_form {
@@ -2729,23 +2729,23 @@ ol {
       font-size: 16px; }
   .rc_sg__container__menu li:hover {
     background-color: #EEEEEE; }
-  .rc_sg__container .typography_section,
+  .rc_sg__container .rc_sg_typography_section,
   .rc_sg__container .rc_sg_colors_section,
-  .rc_sg__container .shadow_section,
-  .rc_sg__container .visual-elements_section,
-  .rc_sg__container .logo-usage_section,
+  .rc_sg__container .rc_sg_shadow_section,
+  .rc_sg__container .rc_sg_visual-elements_section,
+  .rc_sg__container .rc_sg_logo-usage_section,
   .rc_sg__container .rc_sg_buttons_links_section,
   .rc_sg__container .rc_sg_form-elements_section {
     margin-top: 60px;
     margin-bottom: 0; }
-  .rc_sg__container .logo-usage_section h3 {
+  .rc_sg__container .rc_sg_logo-usage_section h3 {
     margin-bottom: 30px; }
   .rc_sg_page_header h2 {
     margin-bottom: 40px; }
-  .rc_sg_link p.bg_rc_blue {
+  .rc_sg_link p.rc_bg_blue {
     padding: 15px;
     margin: 20px 0; }
-  .rc_sg_section.shadow_section h3 {
+  .rc_sg_section.rc_sg_shadow_section h3 {
     margin-bottom: 20px; }
   .rc_sg_section .typography_example {
     margin-top: 60px; }
@@ -2757,11 +2757,11 @@ ol {
       padding: 34px;
       margin-right: 40px;
       margin-bottom: 40px; }
-      .rc_sg_section .typography_example_item.bg_rc_white .circle {
+      .rc_sg_section .typography_example_item.rc_bg_white .circle {
         background-color: #424242;
         max-width: 74px;
         max-height: 74px; }
-      .rc_sg_section .typography_example_item.bg_rc_blue .circle {
+      .rc_sg_section .typography_example_item.rc_bg_blue .circle {
         background-color: #FFFFFF;
         max-width: 74px;
         max-height: 74px; }
@@ -2783,10 +2783,10 @@ ol {
     background-color: #FFFFFF;
     text-align: center;
     line-height: 145px; }
-  .rc_sg_section.visual-elements_section img {
+  .rc_sg_section.rc_sg_visual-elements_section img {
     width: 100%; }
-  .rc_sg_section.visual-elements_section .rc_illustration img,
-  .rc_sg_section.visual-elements_section .rc_banner {
+  .rc_sg_section.rc_sg_visual-elements_section .rc_illustration img,
+  .rc_sg_section.rc_sg_visual-elements_section .rc_banner {
     margin-top: 50px; }
   .rc_sg_section.rc_sg_buttons_links_section button {
     margin: 20px 20px 20px 0; }

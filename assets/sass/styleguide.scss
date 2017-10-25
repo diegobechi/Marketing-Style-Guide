@@ -1,17 +1,16 @@
-.rc_sag{
+.rc_sag {
 	background-color: #F8F8F8;
 
-	
-	&__navbar{
+	&__navbar {
 		background-color: $rc_white;
 		padding: 20px 0;
 
-		& img{
+		& img {
 			height: 34px;
 			vertical-align: middle;
 
 		}
-		h1{
+		h1 {
 			color: $rc_grey;
 			font-size: 18px;
 			line-height: 20px;
@@ -21,11 +20,11 @@
 			margin-left: 20px;
 		}
 
-		& #mobile_logo{
+		& #mobile_logo {
 			display: none;
 		}
 
-		& .mobile-menu-icon{
+		& .mobile-menu-icon {
 			display: none;
 		    font-family: Fontawesome;
 		    float: right;
@@ -36,85 +35,85 @@
 
 		@media screen and (max-width: $screen-sm-max) {
 			& #mobile_logo,
-			.mobile-menu-icon{
+			.mobile-menu-icon {
 				display: inline-block;;
 			}
-			& #desktop_logo{
+			& #desktop_logo {
 				display: none;
 			}
 		}
 	}
 
-	&__container{
+	&__container {
 
 		& .rc_layout__container {
 			margin-top: 70px;
 			margin-bottom: 100px;
 		}
 		
-		&__menu{
-			ul{
+		&__menu {
+			ul {
 				max-width: 260px;
 			}
 			
-			li{
+			li {
 				padding: 15px 0px;
 				padding-left: 30px;
 
-				a{
+				a {
 					color: $rc_grey_dark;
 					font-size: $font-size-base;
 				}
 
 			}
-			li:hover{
+			li:hover {
 				background-color: $rc_grey_silver;
 			}
 		}
 
-		& .typography_section,
+		& .rc_sg_typography_section,
 		& .rc_sg_colors_section,
-		& .shadow_section,
-		& .visual-elements_section,
-		& .logo-usage_section,
+		& .rc_sg_shadow_section,
+		& .rc_sg_visual-elements_section,
+		& .rc_sg_logo-usage_section,
 		& .rc_sg_buttons_links_section,
-		& .rc_sg_form-elements_section{
+		& .rc_sg_form-elements_section {
 		
 			margin-top: 60px;
 			margin-bottom: 0;
 		}
 
-		& .logo-usage_section h3{
+		& .rc_sg_logo-usage_section h3 {
 			margin-bottom: 30px;
 		}
 	}
 
-	&_page_header{
+	&_page_header {
 
-		& h2{
+		& h2 {
 			margin-bottom: 40px;
 		}
 	}
 
 
-	&_link{
-		& p.bg_rc_blue{
+	&_link {
+		& p.rc_bg_blue {
 			padding: 15px;
 			margin: 20px 0;
 		}
 	}
 
-	&_section{
+	&_section {
 
-		&.shadow_section h3{
+		&.rc_sg_shadow_section h3 {
 			margin-bottom: 20px;
 		}
 
 
-		& .typography_example{
+		& .typography_example {
 			margin-top: 60px;
 
-			&_item{
+			&_item {
 				max-width: 242px;
 				width: 100%;
 				display:inline-block;
@@ -123,16 +122,16 @@
 				margin-right: 40px;
 				margin-bottom: 40px;
 
-				&.bg_rc_white{
+				&.rc_bg_white {
 
-					& .circle{
+					& .circle {
 						background-color: $rc_grey_dark;
 						max-width: 74px;
 						max-height: 74px;
 					}
 				}
-				&.bg_rc_blue{
-					& .circle{
+				&.rc_bg_blue {
+					& .circle {
 						background-color: $rc_white;
 						max-width: 74px;
 						max-height: 74px;
@@ -141,7 +140,7 @@
 			}
 		}
 
-		& .circle{
+		& .circle {
 			height: 96px;
 			line-height: 96px;
 			width: 96px;
@@ -150,18 +149,18 @@
 			margin-bottom: 14px;
 		}
 
-		& .rc_sg_shadow_example{
+		& .rc_sg_shadow_example {
 
 			div {
 				display: inline-block;
 				margin-top: 50px;			
 			}
 
-			& div:not(:last-child){
+			& div:not(:last-child) {
 				margin-right: 25px;
 			}
 
-			&_item{
+			&_item {
 				height: 145px;
 				width: 145px;
 				background-color: $rc_white;
@@ -170,58 +169,58 @@
 			}
 		}
 
-		&.visual-elements_section{
+		&.rc_sg_visual-elements_section {
 
-			& img{
+			& img {
 				width: 100%;
 			}
 
 			& .rc_illustration img,
-			& .rc_banner{
+			& .rc_banner {
 				margin-top: 50px;
 			}
 		}
 
-		&.rc_sg_buttons_links_section{
+		&.rc_sg_buttons_links_section {
 
-			& button{
+			& button {
 				margin: 20px 20px 20px 0;
 			}
 
-			& .rc_caption{
+			& .rc_caption {
 				margin-bottom: 20px;
 			}
 		}
 	}
 
-	&_full_logo{
+	&_full_logo {
 		margin-top: 30px;
 
-		& div:not(:last-child){
+		& div:not(:last-child) {
 			margin-right: 30px;
 		}
 
-		&_container{
+		&_container {
 			display: inline-block;
 			margin-top: 20px;
 
-			&_item{
+			&_item {
 				width: 100%;			
 				max-width: 357px;
 				text-align: center;
 
-				& img{
+				& img {
 					width: 100%;
 					max-width: 201px;
 					position: relative;
 					padding: 45px 75px;
 				}
 
-				&.light_photo_bg{
+				&.light_photo_bg {
 					background-image: url('../images/logos/photo_light.png');
 					background-size: 100% 100%;
 				}
-				&.dark_photo_bg{
+				&.dark_photo_bg {
 					background-image: url('../images/logos/photo_dark.png');
 					background-size: 100% 100%;
 				}
@@ -229,22 +228,22 @@
 		}
 	}
 
-	&_icon_logo{
+	&_icon_logo {
 		margin-top: 50px;
 
-		& div.rc_sg_icon_logo_container:not(:last-child){
+		& div.rc_sg_icon_logo_container:not(:last-child) {
 			margin-right: 26px;
 		}
 
-		&_container{
+		&_container {
 			display: inline-block;
 
-			&_item{
+			&_item {
 				width: 100%;
 				max-width: 194px;
 				text-align: center;
 
-				& img{
+				& img {
 					width: 100%;
 					position: relative;
 					max-width: 80px;
@@ -256,20 +255,20 @@
 		}
 	}
 
-	&_button{
-		&_secondary{
+	&_button {
+		&_secondary {
 
-			&_reverse{
+			&_reverse {
 				border: 5px solid $button-secondary-reverse-bg-color;
 			}
 		}
 	}
 
-	& .rc_sg_colors_pallete{
+	& .rc_sg_colors_pallete {
 		margin: 18px 0;
 	}
 
-	&_color-container{
+	&_color-container {
 		max-width: 96px;
 		height: 129px;
 		display: inline-block;
@@ -279,7 +278,7 @@
 	    font-weight: $font-semibold;
 	    vertical-align: middle;
 
-	    & label{
+	    & label {
 			display: inline-block;
 			vertical-align: middle;
 			line-height: normal;
@@ -287,5 +286,3 @@
 	}
 	
 }
-
-

@@ -5,14 +5,14 @@
 		<h2>Visual elements</h2>
 		<p>ReCharge uses a combination of photography, custom illustrations, and custom graphics to communicate its visual style. ReCharge strives to make recurring billing look simple and rewarding. Our graphics show successful, empowered businesses and people. Our illustrations are crafted with attention to detail, demonstrating our attentive care to our customers.</p>
 	</div>
-	<div class="rc_sg_section visual-elements_section">
+	<div class="rc_sg_section rc_sg_visual-elements_section">
 		<h3>Photography</h3>
 		<p>We use stock photography but showcase realistic environments with realistic people. Our photos showcase natural lighting, bright spaces, and colors that vibe well with ReCharge colors.</p>
 		<div class="rc_banner">
 			<img src="/assets/images/visuals/photography.png" alt="Photography uses">
 		</div>
 	</div>
-	<div class="rc_sg_section visual-elements_section">
+	<div class="rc_sg_section rc_sg_visual-elements_section">
 		<h3>Iconography</h3>
 		<p>Our iconography uses shades and tints of ReCharge colors to create a soft and beautiful palette. A combination of fills and strokes is used to create visually striking icons with attention-to-detail.</p>
 		<div class="rc_icon">
@@ -28,7 +28,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="rc_sg_section visual-elements_section">
+	<div class="rc_sg_section rc_sg_visual-elements_section">
 		<h3>Illustration</h3>
 		<p>Our illustrations mirror many aspects found in our iconography. Shades and tints of ReCharge color are used to create enticing and interesting scenes. The scenes are not meant to be interpreted literally and are used primarily as a finishing touch to enhance page content.</p>
 		<div class="rc_illustration">

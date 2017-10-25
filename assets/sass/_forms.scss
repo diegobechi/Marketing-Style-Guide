@@ -1,80 +1,80 @@
-.rc{
-	&_form{
+.rc {
+	&_form {
 		width: 100%;
 		max-width: 743px;
 		background-color: $rc_white;
 		margin: 54px 0;
 
-		& fieldset{
+		& fieldset {
 			border: none;
 			margin: 0;
 			padding: 0;
 		}
 
-		& form{
+		& form {
 			text-align: left;
 		}
 
-		&_container{
+		&_container {
 			padding: 60px;
 			text-align: center;
 		}
 
-		& .rc_layout div{
+		& .rc_layout div {
 			box-sizing: border-box;
 		}
 
-		& label{
+		& label {
 			letter-spacing: 0;
 			max-width: 100%;
 			display: block;
 		}
 
-		& button{
-			&#submit-button{
+		& button {
+			&#submit-button {
 				margin-top: 40px;
 			}
 		}
 
-		&_input{
-			&::placeholder{
+		&_input {
+			&::placeholder {
 				opacity: 0.6;
 				color: $rc_grey;
 			}
 		}
 
-		&_select{
+		&_select {
 			width: 100%;
 			max-width: $rc_dropdown_width;
 			height: $rc_dropdown_height;
 			border: 1px solid $rc_grey;
 			margin: 10px 0;
 
-			& option{
+			& option {
 
-				&:hover{
+				&:hover {
 					background-color: $rc_dropdown_bg_hover_color;
 				}
 			}
 
-			&_num{
+			&_num {
 				max-width: $rc_dropdown_num_width
 			}
 		}
 	}
 }
 
-input[type="radio"].rc_form_input{
+input[type="radio"].rc_form_input {
 	margin: 15px 7px 7px;
 
-	&:first-child{
+	&:first-child {
 		margin-left: 0;
 	}
 }
 
 input[type="number"].rc_form_number,
 input[type="text"].rc_form_input,
-input[type="email"].rc_form_input{
+input[type="email"].rc_form_input {
 	height: 40px;
 	width: 100%;
 	padding: 7px 15px 8px;
@@ -84,7 +84,7 @@ input[type="email"].rc_form_input{
 
 input[type="number"].rc_form_number,
 input[type="text"].rc_form_input,
-input[type="email"].rc_form_input{
+input[type="email"].rc_form_input {
 	border-width: 1px;
 	border-style: solid;
 	border-color: $rc_grey;
@@ -224,13 +224,13 @@ input[type="checkbox"],
 	}
 }
 
-p.has_error{
+p.has_error {
     color: $rc_red;
     font-size: 14px;
     margin-top: -26px;
     padding-left: 10px;
 
-    &:after{
+    &:after {
 	    position: relative;
 	    font-family: 'fontawesome', arial, sans-serif;
 	    font-size: 20px;
@@ -244,9 +244,9 @@ p.has_error{
 
 
 // Temporary styles until we update the form design in each page
-.input_layout{
+.input_layout {
 
-	& .has_error{
+	& .has_error {
 	    margin-top: -8px;
 	    text-align: left;
     }
