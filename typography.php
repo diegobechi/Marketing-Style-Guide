@@ -45,7 +45,6 @@
 			</div>
 		</div>
 	</div>
-
 </div>
 
 <?php include('templates/static/footer.php'); ?>

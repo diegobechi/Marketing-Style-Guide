@@ -1,4 +1,5 @@
 <?php include('templates/static/header.php'); ?>
+
 <div>
 	<div class="rc_sg_page_header">
 		<h2>Form elements</h2>
