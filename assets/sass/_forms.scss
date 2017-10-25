@@ -2,7 +2,7 @@
 	&_form {
 		width: 100%;
 		max-width: 743px;
-		background-color: $rc_white;
+		background-color: $color-white;
 		margin: 54px 0;
 
 		& fieldset {
@@ -39,26 +39,26 @@
 		&_input {
 			&::placeholder {
 				opacity: 0.6;
-				color: $rc_grey;
+				color: $color-grey;
 			}
 		}
 
 		&_select {
 			width: 100%;
-			max-width: $rc_dropdown_width;
-			height: $rc_dropdown_height;
-			border: 1px solid $rc_grey;
+			max-width: $dropdown-width;
+			height: $dropdown-height;
+			border: 1px solid $color-grey;
 			margin: 10px 0;
 
 			& option {
 
 				&:hover {
-					background-color: $rc_dropdown_bg_hover_color;
+					background-color: $dropdown-bg-hover-color;
 				}
 			}
 
 			&_num {
-				max-width: $rc_dropdown_num_width
+				max-width: $dropdown-num_width
 			}
 		}
 	}
@@ -87,15 +87,15 @@ input[type="text"].rc_form_input,
 input[type="email"].rc_form_input {
 	border-width: 1px;
 	border-style: solid;
-	border-color: $rc_grey;
+	border-color: $color-grey;
 	&:focus,
 	&.rc_form_input--focus {
-		border-color: $rc_green;
+		border-color: $color-green;
 		outline: none;
 		box-shadow: none;
 	}
 	&.form__input--invalid {
-		border-color: $rc_red !important;
+		border-color: $color-red !important;
 	}
 }
 
@@ -103,7 +103,7 @@ input[type="email"].rc_form_input {
 	&.form_select--invalid,
 	&.form__input--invalid {
 		.dk-selected {
-			border-color: $rc_red!important;
+			border-color: $color-red!important;
 		}
 	}
 }
@@ -225,7 +225,7 @@ input[type="checkbox"],
 }
 
 p.has_error {
-    color: $rc_red;
+    color: $color-red;
     font-size: 14px;
     margin-top: -26px;
     padding-left: 10px;
@@ -238,7 +238,7 @@ p.has_error {
 	    float: right;
 	    top: -35px;
     	right: 10px;
-    	background-color: $rc_white;
+    	background-color: $color-white;
     }
 }
 

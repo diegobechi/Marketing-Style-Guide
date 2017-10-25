@@ -23,7 +23,7 @@
 
 		color: $button-secondary-color;
 		background-color: $button-secondary-bg-color;
-		border: 1px solid $rc_blue;
+		border: 1px solid $color-blue;
 
 		&:hover {
 			color: $button-secondary-hover-color;
@@ -33,9 +33,9 @@
 		&_reverse {
 			color: $button-secondary-reverse-color;
 			background-color: $button-secondary-reverse-bg-color;
-			-webkit-box-shadow:inset 0px 0px 0px 1px $rc_white;
-		    -moz-box-shadow:inset 0px 0px 0px 1px $rc_white;
-		    box-shadow:inset 0px 0px 0px 1px $rc_white;
+			-webkit-box-shadow:inset 0px 0px 0px 1px $color-white;
+		    -moz-box-shadow:inset 0px 0px 0px 1px $color-white;
+		    box-shadow:inset 0px 0px 0px 1px $color-white;
 
 			&:hover {
 				color: $button-secondary-reverse-hover-color;

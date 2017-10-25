@@ -2,7 +2,7 @@
 	background-color: #F8F8F8;
 
 	&__navbar {
-		background-color: $rc_white;
+		background-color: $color-white;
 		padding: 20px 0;
 
 		& img {
@@ -11,7 +11,7 @@
 
 		}
 		h1 {
-			color: $rc_grey;
+			color: $color-grey;
 			font-size: 18px;
 			line-height: 20px;
 			display:inline-block;
@@ -61,13 +61,13 @@
 				padding-left: 30px;
 
 				a {
-					color: $rc_grey_dark;
+					color: $color-grey-dark;
 					font-size: $font-size-base;
 				}
 
 			}
 			li:hover {
-				background-color: $rc_grey_silver;
+				background-color: $color-grey-silver;
 			}
 		}
 
@@ -124,14 +124,14 @@
 				&.rc_bg_white {
 
 					& .circle {
-						background-color: $rc_grey_dark;
+						background-color: $color-grey-dark;
 						max-width: 74px;
 						max-height: 74px;
 					}
 				}
 				&.rc_bg_blue {
 					& .circle {
-						background-color: $rc_white;
+						background-color: $color-white;
 						max-width: 74px;
 						max-height: 74px;
 					}
@@ -162,7 +162,7 @@
 			&_item {
 				height: 145px;
 				width: 145px;
-				background-color: $rc_white;
+				background-color: $color-white;
 				text-align: center;
 				line-height: 145px;
 			}

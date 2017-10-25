@@ -1,47 +1,47 @@
 .rc_color {
 
-	&_blue { color: $rc_blue; }
-	&_white { color: $rc_white; }
-	&_green { color: $rc_green; }
-	&_black { color: $rc_black; }
-	&_grey_dark { color: $rc_grey_dark; }
-	&_grey { color: $rc_grey; }
-	&_grey_medium { color: $rc_grey_medium; }
-	&_grey_light { color: $rc_grey_light; }
-	&_grey_silver { color: $rc_grey_silver; }
-	&_green_bright { color: $rc_green_bright; }
-	&_green_pale { color: $rc_green_pale; }
-	&_turquoise { color: $rc_turquoise; }
-	&_blue_dark { color: $rc_blue_dark; }
-	&_magenta { color: $rc_magenta; }
-	&_magenta_hover { color: $rc_magenta_hover; }
-	&_yellow { color: $rc_yellow; }
-	&_orange { color: $rc_orange; }
-	&_red { color: $rc_red; }
-	&_pink { color: $rc_pink; }
+	&_blue { color: $color-blue; }
+	&_white { color: $color-white; }
+	&_green { color: $color-green; }
+	&_black { color: $color-black; }
+	&_grey_dark { color: $color-grey-dark; }
+	&_grey { color: $color-grey; }
+	&_grey_medium { color: $color-grey-medium; }
+	&_grey_light { color: $color-grey-light; }
+	&_grey_silver { color: $color-grey-silver; }
+	&_green_bright { color: $color-green-bright; }
+	&_green_pale { color: $color-green-pale; }
+	&_turquoise { color: $color-turquoise; }
+	&_blue_dark { color: $color-blue-dark; }
+	&_magenta { color: $color-magenta; }
+	&_magenta_hover { color: $color-magenta-hover; }
+	&_yellow { color: $color-yellow; }
+	&_orange { color: $color-orange; }
+	&_red { color: $color-red; }
+	&_pink { color: $color-pink; }
 }
 
 .bg_rc {
 
-	&_blue { background-color: $rc_blue; }
-	&_white {background-color: $rc_white; }
-	&_green { background-color: $rc_green; }
-	&_black { background-color: $rc_black; }
-	&_grey_dark { background-color: $rc_grey_dark; }
-	&_grey { background-color: $rc_grey; }
-	&_grey_medium { background-color: $rc_grey_medium; }
-	&_grey_light { background-color: $rc_grey_light; }
-	&_grey_silver { background-color: $rc_grey_silver; }
-	&_green_bright { background-color: $rc_green_bright; }
-	&_green_pale { background-color: $rc_green_pale; }
-	&_turquoise { background-color: $rc_turquoise; }
-	&_blue_dark { background-color: $rc_blue_dark; }
-	&_magenta { background-color: $rc_magenta; }
-	&_magenta_hover { background-color: $rc_magenta_hover; }
-	&_yellow { background-color: $rc_yellow; }
-	&_orange { background-color: $rc_orange; }
-	&_red { background-color: $rc_red; }
-	&_pink { background-color: $rc_pink; }
+	&_blue { background-color: $color-blue; }
+	&_white {background-color: $color-white; }
+	&_green { background-color: $color-green; }
+	&_black { background-color: $color-black; }
+	&_grey_dark { background-color: $color-grey-dark; }
+	&_grey { background-color: $color-grey; }
+	&_grey_medium { background-color: $color-grey-medium; }
+	&_grey_light { background-color: $color-grey-light; }
+	&_grey_silver { background-color: $color-grey-silver; }
+	&_green_bright { background-color: $color-green-bright; }
+	&_green_pale { background-color: $color-green-pale; }
+	&_turquoise { background-color: $color-turquoise; }
+	&_blue_dark { background-color: $color-blue-dark; }
+	&_magenta { background-color: $color-magenta; }
+	&_magenta_hover { background-color: $color-magenta-hover; }
+	&_yellow { background-color: $color-yellow; }
+	&_orange { background-color: $color-orange; }
+	&_red { background-color: $color-red; }
+	&_pink { background-color: $color-pink; }
 
 	&_blue,
 	&_green,
@@ -61,12 +61,12 @@
 	&_orange,
 	&_red,
 	&_pink {
-		color: $rc_white;
+		color: $color-white;
 		& a,
 		& p,
 		& span,
 		& label {
-			color: $rc_white;
+			color: $color-white;
 		}
 	}
 }

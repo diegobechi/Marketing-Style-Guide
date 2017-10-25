@@ -2,7 +2,7 @@
   @if (lightness($color) > 50) {
     @return $gray-darker;
   } @else {
-    @return $white;
+    @return $color-white;
   }
 }
 

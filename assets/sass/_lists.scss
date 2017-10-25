@@ -38,7 +38,7 @@ li.rc_divider {
 		&:before {
 			font-family: fontawesome;
 			font-size: 16px;
-			color: $rc_grey_dark;
+			color: $color-grey-dark;
 			position: absolute;
 			top: 0;
 			left: 0;
@@ -46,12 +46,12 @@ li.rc_divider {
 
 		&.rc_tick_ok:before {
 			content: "\f00c";
-			color: $rc_green;
+			color: $color-green;
 		}
 
 		&.rc_tick_wrong:before {
 			content: "\f00d";
-			color: $rc_magenta;
+			color: $color-magenta;
 		}
 	}
 }

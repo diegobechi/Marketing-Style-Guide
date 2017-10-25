@@ -41,7 +41,7 @@ body {
 	font-weight: $font-regular;
 	font-size: $font-size-base;
 	line-height: 25px;
-	color: $rc_grey_dark;
+	color: $color-grey-dark;
 }
 
 a {
@@ -76,12 +76,12 @@ strong {
 		line-height: 18px;
 		letter-spacing: 2px;
 		text-transform: uppercase;
-		color: $rc_grey_medium;
+		color: $color-grey-medium;
 	}
 
 	&_link {
 		font-weight: $font-semibold;
-		color: $rc_blue;
+		color: $color-blue;
 
 		&.rc_color_white {
 			text-decoration: underline;
