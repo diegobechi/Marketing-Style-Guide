@@ -1,0 +1,111 @@
+$checkboxBackgroundColor: #424242;
+
+.rc_form__checkbox {
+	display: none;
+
+	+ .rc_form__label {
+		cursor: pointer;
+		margin-bottom: 0;
+
+		+ .rc_form__checkbox + .rc_form__label {
+			margin-top: 20px;
+		}
+
+		&:after {
+			display: table;
+			content: "";
+			// margin: 10px 0;
+		}
+
+		&:before {
+			width: 16px;
+			height: 16px;
+			content: "";
+			display: inline-block;
+			box-sizing: border-box;
+			background-color: #FFF;
+
+			margin-right: 9px;
+
+			line-height: 16px;
+			text-indent: 1px;
+			font-size: 11px;
+
+			color: #FFF;
+			font-family: fontawesome;
+
+			border: 1px solid $input-border;
+
+			vertical-align: middle;
+			position: relative;
+			top: -2px;
+		}
+	}
+}
+
+.rc_form__checkbox {
+	&.rc_error {
+		+ .rc_form__label {
+			color: #EC3D10;
+
+			&:before {
+				border-color: #EC3D10;
+			}
+		}
+
+		&:checked,
+		&.rc_checked {
+			+ .rc_form__label {
+				&:before {
+					background-color: #EC3D10;
+				}
+			}
+		}
+	}
+}
+
+.rc_form__group {
+	.rc_form__checkbox:first-of-type {
+		+ .rc_form__label {
+			// margin-top: 6px; // Make adjustments to spacing above radio and checkbox buttons in form groups, so it matches better with other elements in form groups
+		}
+	}
+}
+
+.rc_form__checkbox {
+	&:checked,
+	&.rc_checked {
+		+ .rc_form__label {
+			&:before {
+				content: "\f00c";
+				background-color: $checkboxBackgroundColor;
+			}
+		}
+	}
+}
+
+.rc_form__checkbox {
+	&:disabled,
+	&.rc_disabled {
+		+ .rc_form__label {
+			&:before {
+				content: "\f068";
+				color: #999;
+				text-indent: 3px;
+				border-color: #CCC;
+			}
+		}
+
+		&:checked,
+		&.rc_checked {
+			+ .rc_form__label {
+				&:before {
+					content: "\f00c";
+					color: #999;
+					background-color: #f9f9f9;
+					text-indent: 1px;
+				}
+			}
+		}
+	}
+}

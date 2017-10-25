@@ -15,42 +15,42 @@
 					<fieldset>
 						<div class="rc_layout">
 							<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
-								<label>First Name</label>
-								<input type="text" class="rc_form_input" name="first_name" placeholder="First Name" data-message="Please enter your first name" required>
+								<label for="" class="rc_form__label">First Name</label>
+								<input type="text" name="first_name" placeholder="First Name" class="rc_form_input" data-message="Please enter your first name" required>
 							</div>
 							<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
-								<label>Last Name</label>
-								<input type="text" class="rc_form_input" name="last_name" placeholder="Active" data-message="Please enter your last name" required>
+								<label for="" class="rc_form__label">Last Name</label>
+								<input type="text" name="last_name" placeholder="Active" class="rc_form_input" data-message="Please enter your last name" required>
 							</div>
 						</div>
 						<div class="rc_layout">
 							<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
-								<label>Email Address</label>
-								<input type="email" class="rc_form_input" name="email" placeholder="Error field" data-message="Please enter your email address" data-regex="/.+@.+\..+/i" required>
+								<label for="" class="rc_form__label">Email Address</label>
+								<input type="email" name="email" placeholder="Error field" class="rc_form_input" data-message="Please enter your email address" data-regex="/.+@.+\..+/i" required>
 							</div>
 							<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
-								<label>Website Address</label>
-								<input type="text" class="rc_form_input" name="website" placeholder="http://" data-message="Please enter the url of your website" required>
-							</div>
-						</div>
-						<div class="rc_layout">
-							<div class="rc_layout__sm__12">
-								<label>PayPal Email Address</label>
-								<input type="text" class="rc_form_input" name="paypal_address" placeholder="Which email address should we send your rewards to?" data-message="Please enter your PayPal Email Address" data-regex="/.+@.+\..+/i" required>
+								<label for="" class="rc_form__label">Website Address</label>
+								<input type="text" name="website" placeholder="http://" class="rc_form_input" data-message="Please enter the url of your website" required>
 							</div>
 						</div>
 						<div class="rc_layout">
 							<div class="rc_layout__sm__12">
-								<label>Include Shopify URL that currently has ReCharge installed:</label>
-								<input type="text" class="rc_form_input" name="storeUrl" placeholder="Store URL" data-message="Please enter the store URL where you have ReCharge installed" required>
+								<label for="" class="rc_form__label">PayPal Email Address</label>
+								<input type="text" name="paypal_address" placeholder="Which email address should we send your rewards to?" class="rc_form_input" data-message="Please enter your PayPal Email Address" data-regex="/.+@.+\..+/i" required>
+							</div>
+						</div>
+						<div class="rc_layout">
+							<div class="rc_layout__sm__12">
+								<label for="" class="rc_form__label">Include Shopify URL that currently has ReCharge installed:</label>
+								<input type="text" name="storeUrl" placeholder="Store URL" class="rc_form_input" data-message="Please enter the store URL where you have ReCharge installed" required>
 							</div>
 						</div>
 						<label>Does your client already offer subscriptions?</label>
 						<div class="rc_form_radio_group">
-							<input type="radio" name="offer_subscriptions" class="rc_form_input" id="rc_radio_form_yes" value="yes" checked>
-							<label class="form__radio__label" for="rc_radio_form_yes">Yes</label>
-							<input type="radio" name="offer_subscriptions" class="rc_form_input" id="rc_radio_form_no" value="no">
-							<label class="form__radio__label" for="rc_radio_form_no">No</label>
+							<input type="radio" name="offer_subscriptions" id="rc_radio_form_yes" value="yes" class="rc_form_input" checked>
+							<label for="rc_radio_form_yes" class="rc_form__label">Yes</label>
+							<input type="radio" name="offer_subscriptions" id="rc_radio_form_no" value="no" class="rc_form_input">
+							<label for="rc_radio_form_no" class="rc_form__label">No</label>
 						</div>
 					</fieldset>
 				</form>
@@ -66,47 +66,45 @@
 			<div class="rc_layout">
 				<div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="checkbox" class="form__checkbox" id="sg_checkbox1">
-						<label class="form__checkbox__label" for="sg_checkbox1"></label>
-						<input type="checkbox" class="form__checkbox" id="sg_checkbox2">
-						<label class="form__checkbox__label" for="sg_checkbox2"></label>
-						<input type="checkbox" class="form__checkbox" id="sg_checkbox3">
-						<label class="form__checkbox__label" for="sg_checkbox3"></label>
-						<input type="checkbox" class="form__checkbox" id="sg_checkbox4">
-						<label class="form__checkbox__label" for="sg_checkbox4"></label>
+						<input type="checkbox" id="sg_checkbox1" class="rc_form__checkbox">
+						<label for="sg_checkbox1" class="rc_form__checkbox"></label>
+						<input type="checkbox" id="sg_checkbox2" class="rc_form__checkbox">
+						<label for="sg_checkbox2" class="rc_form__checkbox"></label>
+						<input type="checkbox" id="sg_checkbox3" class="rc_form__checkbox">
+						<label for="sg_checkbox3" class="rc_form__checkbox"></label>
+						<input type="checkbox" id="sg_checkbox4" class="rc_form__checkbox">
+						<label for="sg_checkbox4" class="rc_form__checkbox"></label>
 					</div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="radio" class="form__radio" id="sg_radio1">
-						<label class="form__radio__label" for="sg_radio1"></label>
-						<input type="radio" class="form__radio" id="sg_radio2">
-						<label class="form__radio__label" for="sg_radio2"></label>
-						<input type="radio" class="form__radio" id="sg_radio3">
-						<label class="form__radio__label" for="sg_radio3"></label>
+						<input type="radio" id="sg_radio1" class="rc_form__radio">
+						<label for="sg_radio1" class="rc_form__label"></label>
+						<input type="radio" id="sg_radio2" class="rc_form__radio">
+						<label for="sg_radio2" class="rc_form__label"></label>
+						<input type="radio" id="sg_radio3" class="rc_form__radio">
+						<label for="sg_radio3" class="rc_form__label"></label>
 					</div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="checkbox" class="form__checkbox" id="sg_checkbox5">
-						<label class="form__checkbox__label" for="sg_checkbox5">Checkbox Label</label>
-						<input type="radio" class="form__radio" id="sg_radio4">
-						<label class="form__radio__label" for="sg_radio4">Radio Label</label>
+						<input type="checkbox" id="sg_checkbox5" class="rc_form__checkbox">
+						<label for="sg_checkbox5" class="rc_form__checkbox">Checkbox Label</label>
+						<input type="radio" id="sg_radio4" class="rc_form__radio">
+						<label for="sg_radio4" class="rc_form__label">Radio Label</label>
 					</div>
 				</div>
 				<div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="radio" class="form__radio" id="sg_radio5">
-						<div>
-							<label class="form__radio__label" for="sg_radio5">Radio Label</label>
-							<span>Radio option Info</span>
-						</div>
+						<input type="radio" id="sg_radio5" class="rc_form__radio">
+						<label for="sg_radio5" class="form__label">Radio Label</label>
+						<span>Radio option Info</span>
 					</div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="checkbox" class="form__checkbox" id="sg_checkbox6">
-						<label class="form__checkbox__label" for="sg_checkbox6">Checkbox Label</label>
-						<input type="checkbox" class="form__checkbox" id="sg_checkbox7">
-						<label class="form__checkbox__label" for="sg_checkbox7">Checkbox Label</label>
-						<input type="checkbox" class="form__checkbox" id="sg_checkbox8">
-						<label class="form__checkbox__label" for="sg_checkbox8">Checkbox Label</label>
-						<input type="checkbox" class="form__checkbox" id="sg_checkbox9">
-						<label class="form__checkbox__label" for="sg_checkbox9">Checkbox Label</label>
+						<input type="checkbox" id="sg_checkbox6" class="rc_form__checkbox">
+						<label for="sg_checkbox6" class="rc_form__checkbox">Checkbox Label</label>
+						<input type="checkbox" id="sg_checkbox7" class="rc_form__checkbox">
+						<label for="sg_checkbox7" class="rc_form__checkbox">Checkbox Label</label>
+						<input type="checkbox" id="sg_checkbox8" class="rc_form__checkbox">
+						<label for="sg_checkbox8" class="rc_form__checkbox">Checkbox Label</label>
+						<input type="checkbox" id="sg_checkbox9" class="rc_form__checkbox">
+						<label for="sg_checkbox9" class="rc_form__checkbox">Checkbox Label</label>
 					</div>
 				</div>
 			</div>
