@@ -14,7 +14,7 @@
 	</div>
 	<div class="rc_sg_section visual-elements_section">
 		<h3>Iconography</h3>
-		<p>Our iconography uses shades and tints of ReCharge colors to create a soft and beautiful palette. A combination of fills and strokes is used to create visually striking icons with attention-to-detail.</p>		
+		<p>Our iconography uses shades and tints of ReCharge colors to create a soft and beautiful palette. A combination of fills and strokes is used to create visually striking icons with attention-to-detail.</p>
 		<div class="rc_icon">
 			<div class="rc_icon_big">
 				<img src="/assets/images/visuals/icon1.png" alt="">
@@ -30,7 +30,7 @@
 	</div>
 	<div class="rc_sg_section visual-elements_section">
 		<h3>Illustration</h3>
-		<p>Our illustrations mirror many aspects found in our iconography. Shades and tints of ReCharge color are used to create enticing and interesting scenes. The scenes are not meant to be interpreted literally and are used primarily as a finishing touch to enhance page content.</p>		
+		<p>Our illustrations mirror many aspects found in our iconography. Shades and tints of ReCharge color are used to create enticing and interesting scenes. The scenes are not meant to be interpreted literally and are used primarily as a finishing touch to enhance page content.</p>
 		<div class="rc_illustration">
 			<div class="rc_illustration_big">
 				<img src="/assets/images/visuals/skyline.png" alt="">
@@ -44,7 +44,7 @@
 				<img src="/assets/images/visuals/subscribe-save.svg" alt="">
 			</div>
 		</div>
-	</div>	
+	</div>
 </div>
 
 <?php include('templates/static/footer.php'); ?>

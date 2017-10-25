@@ -4,63 +4,62 @@
 		<h2>Form elements</h2>
 		<p>Forms aren’t super prevalent on the marketing website, but they follow the same styles as the app for the most part.</p>
 	</div>
-	<div class="rc_sg_section form-elements_section">
+	<div class="rc_sg_section rc_sg_form-elements_section">
 		<h3>Example form</h3>
 		<p>Forms on the marketing website should inherit a lot of the styles from the product forms, including font sizes and padding. Our marketing form fields should be full-width by default, however we should feel free to bump form fields up next to each other when applicable. Forms can live on multiple backgrounds, such as white with a box shadow, white without a shadow, and on dark backgrounds.</p>
 
 		<div class="rc_form rc_shadow_level5" id="rc_become_a_partner">
-			<div class="rc_form_container" id="">
-				<form method="post" id="contact-form" target="_blank" class="">
+			<div class="rc_form_container">
+				<form method="post" id="contact-form" target="_blank">
 					<fieldset>
 						<div class="rc_layout">
-		            		<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
-		                		<label>First Name</label>
-			                    <input type="text" class="rc_form_input" name="first_name" placeholder="First Name" data-message="Please enter your first name" required>
-		                	</div>
-		            		<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
-		                		<label>Last Name</label>
-			                    <input type="text" class="rc_form_input" name="last_name" placeholder="Active" data-message="Please enter your last name" required>
-		               		</div>
-		                </div>
-		                <div class="rc_layout">
-		            		<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
-			                	<label>Email Address</label>
-			                    <input type="email" class="rc_form_input" name="email" placeholder="Error field" data-message="Please enter your email address" data-regex="/.+@.+\..+/i" required>
-		                	</div>
-		            		<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
-			                	<label>Website Address</label>
-		                    	<input type="text" class="rc_form_input" name="website" placeholder="http://" data-message="Please enter the url of your website" required>
+							<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
+								<label>First Name</label>
+								<input type="text" class="rc_form_input" name="first_name" placeholder="First Name" data-message="Please enter your first name" required>
 							</div>
-		                </div>
-	                    <div class="layout">
-	                    	<div class="grid__sm__12">
-		                    	<label>PayPal Email Address</label>
-			                    <input type="text" class="rc_form_input" name="paypal_address" placeholder="Which email address should we send your rewards to?" data-message="Please enter your PayPal Email Address" data-regex="/.+@.+\..+/i" required>
-	                    	</div>
+							<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
+								<label>Last Name</label>
+								<input type="text" class="rc_form_input" name="last_name" placeholder="Active" data-message="Please enter your last name" required>
+							</div>
+						</div>
+						<div class="rc_layout">
+							<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
+								<label>Email Address</label>
+								<input type="email" class="rc_form_input" name="email" placeholder="Error field" data-message="Please enter your email address" data-regex="/.+@.+\..+/i" required>
+							</div>
+							<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
+								<label>Website Address</label>
+								<input type="text" class="rc_form_input" name="website" placeholder="http://" data-message="Please enter the url of your website" required>
+							</div>
 						</div>
 						<div class="layout">
-	                    	<div class="grid__sm__12">
-		                    	<label>Include Shopify URL that currently has ReCharge installed:</label>
-			                    <input type="text" class="rc_form_input" name="storeUrl" placeholder="Store URL" data-message="Please enter the store URL where you have ReCharge installed" required>	
-	                    	</div>								
-                    	</div>
-                    	<label>Does your client already offer subscriptions?</label>
-		            	<div class="rc_form_radio_group">
-		                	<input type="radio" name="offer_subscriptions" class="rc_form_input" id="rc_radio_form_yes" value="yes" checked>
+							<div class="grid__sm__12">
+								<label>PayPal Email Address</label>
+								<input type="text" class="rc_form_input" name="paypal_address" placeholder="Which email address should we send your rewards to?" data-message="Please enter your PayPal Email Address" data-regex="/.+@.+\..+/i" required>
+							</div>
+						</div>
+						<div class="layout">
+							<div class="grid__sm__12">
+								<label>Include Shopify URL that currently has ReCharge installed:</label>
+								<input type="text" class="rc_form_input" name="storeUrl" placeholder="Store URL" data-message="Please enter the store URL where you have ReCharge installed" required>
+							</div>
+						</div>
+						<label>Does your client already offer subscriptions?</label>
+						<div class="rc_form_radio_group">
+							<input type="radio" name="offer_subscriptions" class="rc_form_input" id="rc_radio_form_yes" value="yes" checked>
 							<label class="form__radio__label" for="rc_radio_form_yes">Yes</label>
-		                	<input type="radio" name="offer_subscriptions" class="rc_form_input" id="rc_radio_form_no" value="no">
+							<input type="radio" name="offer_subscriptions" class="rc_form_input" id="rc_radio_form_no" value="no">
 							<label class="form__radio__label" for="rc_radio_form_no">No</label>
-		                </div>
-	                </fieldset>
-	            </form>
-	            <button id="submit-button" class="rc_button rc_button_primary button-become-partner">Submit</button>       
+						</div>
+					</fieldset>
+				</form>
+				<button id="submit-button" class="rc_button rc_button_primary button-become-partner">Submit</button>
 			</div>
 		</div>
 
-
 	</div>
-	<div class="rc_sg_section form-elements_section">
-		<h3>Radio buttons & checkboxes</h3>
+	<div class="rc_sg_section rc_sg_form-elements_section">
+		<h3>Radio buttons &amp; checkboxes</h3>
 		<p>Radio buttons and checkboxes should inherit the same styles as the ReCharge app.</p>
 		<div>
 			<div class="rc_layout">
@@ -112,7 +111,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="rc_sg_section form-elements_section">
+	<div class="rc_sg_section rc_sg_form-elements_section">
 		<h3>Dropdowns</h3>
 		<p>Dropdowns should inherit the same styles as the ReCharge app. Notice the inactive and active states.</p>
 		<div>
@@ -131,7 +130,7 @@
 				</select>
 			</div>
 			<div>
-				<select class="rc_dropdown rc_dropdown">
+				<select class="rc_dropdown">
 					<option value="">999</option>
 					<option value="">99</option>
 					<option value="">9</option>
@@ -142,40 +141,39 @@
 </div>
 
 <script type="text/javascript">
-    $(function() {
-        let jForm = $('#contact-form'),
-            submitButton = $('#submit-button');
+	$(function() {
+		let jForm = $('#contact-form'),
+			submitButton = $('#submit-button');
 
-        submitButton.prop('disabled', true);
-        recharge.validations.addValidations(jForm, submitButton);
+		submitButton.prop('disabled', true);
+		recharge.validations.addValidations(jForm, submitButton);
 
-        submitButton.click(function(e) {
-        	e.preventDefault();
-            rc_submitForm();
-        });
+		submitButton.click(function(e) {
+			e.preventDefault();
+			rc_submitForm();
+		});
 
-        function rc_submitForm(){
-        	var $form = $('#contact-form');
-		    	serializedData = $form.serialize();
-		    	$inputs = $form.find('input, select, button, textarea');
+		function rc_submitForm(){
+			var $form = $('#contact-form');
+				serializedData = $form.serialize();
+				$inputs = $form.find('input, select, button, textarea');
 
-		    $inputs.prop("disabled", true);
+			$inputs.prop("disabled", true);
 
-		    $.ajax({
-		        url: '/thank-you-template.php',
-		        type: 'post',
-		        data: serializedData
-		    }).done(function (response, textStatus, jqXHR){
-		    	$('.form-page-container').hide();
-		    	$('.thank-you-container').show();
-		    }).fail(function (jqXHR, textStatus, errorThrown){
-		        console.error('The following error occurred: '+textStatus, errorThrown);
-		    }).always(function () {
-		        $inputs.prop('disabled', false);
-		    });
+			$.ajax({
+				url: '/thank-you-template.php',
+				type: 'post',
+				data: serializedData
+			}).done(function (response, textStatus, jqXHR){
+				$('.form-page-container').hide();
+				$('.thank-you-container').show();
+			}).fail(function (jqXHR, textStatus, errorThrown){
+				console.error('The following error occurred: '+textStatus, errorThrown);
+			}).always(function () {
+				$inputs.prop('disabled', false);
+			});
 		}
-    });
+	});
 </script>
-
 
 <?php include('templates/static/footer.php'); ?>

@@ -2730,12 +2730,12 @@ ol {
   .rc_sg__container__menu li:hover {
     background-color: #EEEEEE; }
   .rc_sg__container .typography_section,
-  .rc_sg__container .colors_section,
+  .rc_sg__container .rc_sg_colors_section,
   .rc_sg__container .shadow_section,
   .rc_sg__container .visual-elements_section,
   .rc_sg__container .logo-usage_section,
-  .rc_sg__container .buttons_links_section,
-  .rc_sg__container .form-elements_section {
+  .rc_sg__container .rc_sg_buttons_links_section,
+  .rc_sg__container .rc_sg_form-elements_section {
     margin-top: 60px;
     margin-bottom: 0; }
   .rc_sg__container .logo-usage_section h3 {
@@ -2788,9 +2788,9 @@ ol {
   .rc_sg_section.visual-elements_section .rc_illustration img,
   .rc_sg_section.visual-elements_section .rc_banner {
     margin-top: 50px; }
-  .rc_sg_section.buttons_links_section button {
+  .rc_sg_section.rc_sg_buttons_links_section button {
     margin: 20px 20px 20px 0; }
-  .rc_sg_section.buttons_links_section .rc_caption {
+  .rc_sg_section.rc_sg_buttons_links_section .rc_caption {
     margin-bottom: 20px; }
   .rc_sg_full_logo {
     margin-top: 30px; }
@@ -2830,9 +2830,9 @@ ol {
           max-width: 80px;
           height: auto;
           padding: 50px 55px; }
-  .rc_sg_button_secondary_reverse {
+  .rc_button_secondary_reverse {
     border: 5px solid #53BAD3; }
-  .rc_sg .colors_pallete {
+  .rc_sg .rc_sg_colors_pallete {
     margin: 18px 0; }
   .rc_sg_color-container {
     max-width: 96px;

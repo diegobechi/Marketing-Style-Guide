@@ -1,4 +1,4 @@
-.rc_sg{
+.rc_sag{
 	background-color: #F8F8F8;
 
 	
@@ -73,12 +73,12 @@
 		}
 
 		& .typography_section,
-		& .colors_section,
+		& .rc_sg_colors_section,
 		& .shadow_section,
 		& .visual-elements_section,
 		& .logo-usage_section,
-		& .buttons_links_section,
-		& .form-elements_section{
+		& .rc_sg_buttons_links_section,
+		& .rc_sg_form-elements_section{
 		
 			margin-top: 60px;
 			margin-bottom: 0;
@@ -182,7 +182,7 @@
 			}
 		}
 
-		&.buttons_links_section{
+		&.rc_sg_buttons_links_section{
 
 			& button{
 				margin: 20px 20px 20px 0;
@@ -265,7 +265,7 @@
 		}
 	}
 
-	& .colors_pallete{
+	& .rc_sg_colors_pallete{
 		margin: 18px 0;
 	}
 

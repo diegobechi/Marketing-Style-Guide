@@ -3,15 +3,15 @@
 <div>
 	<div class="rc_sg_page_header">
 		<h2>Shadows</h2>
-		<p>Shadows help us give depth to our graphics and forms. </p>
+		<p>Shadows help us give depth to our graphics and forms.</p>
 	</div>
 	<div class="rc_sg_section">
 		<div class="rc_sg_shadow_example">
 			<div class="rc_sg_shadow_example_item rc_shadow_level1"><label>Level 1</label></div>
 			<div class="rc_sg_shadow_example_item rc_shadow_level2"><label>Level 2</label></div>
 			<div class="rc_sg_shadow_example_item rc_shadow_level3"><label>Level 3</label></div>
-			<div class="rc_sg_shadow_example_item rc_shadow_level4"><label>Level 4</label></div>	
-			<div class="rc_sg_shadow_example_item rc_shadow_level5"><label>Level 5</label></div>	
+			<div class="rc_sg_shadow_example_item rc_shadow_level4"><label>Level 4</label></div>
+			<div class="rc_sg_shadow_example_item rc_shadow_level5"><label>Level 5</label></div>
 		</div>
 	</div>
 	<div class="rc_sg_section shadow_section">

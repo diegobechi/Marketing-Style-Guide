@@ -2,7 +2,7 @@
 <div>
 	<div class="rc_sg_page_header">
 		<h2>Logo usage</h2>
-		<p>The ReCharge logo should be used with care. Treat the logo right and it will love you forever</p>		
+		<p>The ReCharge logo should be used with care. Treat the logo right and it will love you forever</p>
 	</div>
 	<div class="rc_sg_section logo-usage_section">
 		<h3>Full logo</h3>
@@ -46,7 +46,7 @@
 				<div class="rc_sg_icon_logo_container_item bg_rc_white"><img src="/assets/images/logos/rc_icon_grey.svg"></div>
 				<label class="rc_caption">GREY</label>
 			</div>
-		</div>			
+		</div>
 	</div>
 	<div class="rc_sg_section logo-usage_section">
 		<h3>Logo best practices</h3>
