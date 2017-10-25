@@ -75,6 +75,13 @@ $dropdown-divider: 			$color-white !default;
 $dropdown-height: 			48px !default;
 $dropdown-width: 			176px !default;
 
+// Input style
+$input-disabled-background: #F9F9F9 !default;
+$input-disabled-border: #CCC !default;
+$input-disabled-color: #999 !default;
+$cursor-disabled: not-allowed;
+$input-border: #5C5C5C;
+
 // Responsive Values
 $screen-xs-max: 575px !default;
 $screen-sm-min: 576px !default;

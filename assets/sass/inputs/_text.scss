@@ -1,11 +1,11 @@
 .rc_form__input {
 	font-size: $font-size-base;
-	color: $gray-darker;
+	color: $color-grey-dark;
 	background-color: #FFFFFF;
 	background-image: none;
 	border-radius: 0;
 
-	border: 1px solid $input-border;
+	border: 1px solid solid;
 
 	height: 40px;
 	padding: 6px 10px 7px;
@@ -36,7 +36,7 @@
 .rc_form__input {
 	&:focus,
 	&--focus {
-		border-color: $primary;
+		border-color: $color-blue;
 		outline: none;
 	}
 }
@@ -56,19 +56,19 @@ textarea.rc_form__input {
 
 .rc_form__input {
 	&::-webkit-input-placeholder {
-		color: $gray-dark;
+		color: $color-grey-dark;
 	}
 
 	&:-moz-placeholder {
-		color: $gray-dark;
+		color: $color-grey-dark;
 	}
 
 	&::-moz-placeholder {
-		color: $gray-dark;
+		color: $color-grey-dark;
 	}
 
 	&:-ms-input-placeholder {
-		color: $gray-dark;
+		color: $color-grey-dark;
 	}
 }
 
@@ -89,7 +89,7 @@ textarea {
 
 .rc_form__input {
 	&.rc_error {
-		border-color: $red;
+		border-color: $color-red;
 	}
 }
 
