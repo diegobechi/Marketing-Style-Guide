@@ -1,30 +1,35 @@
-.rc_logo {
-	width: 200px;
-	height: 50px;
-	background-size: contain;
+.rc {
+	&_logo {
+		width: 200px;
+		height: 50px;
+		backgroun-size: 100% 100%;
 
-	&_white {
-		background-image: url('../images/logos/rc_logo_white.png');
+		&_white {
+			background-image: url('../images/logos/rc_logo_white.png');
+		}
+
+		&_main {
+			background-image: url('../images/logos/rc_logo.png');
+		}
 	}
-
-	&_main {
-		background-image: url('../images/logos/rc_logo.png');
-	}
-
 }
 
-.rc_icon {
-	width: 80px;
-	height: 95px;
-	background-size: contain;
+.rc {
+	&_icon {
+		width: 80px;
+		height: 95px;
+		backgroun-size: 100% 100%;
 
-	&_blue {
-		background-image: url('../images/logos/rc_icon_blue.png');
-	}
-	&_black {
-		background-image: url('../images/logos/rc_icon_black.png');
-	}
-	&_grey {
-		background-image: url('../images/logos/rc_icon_grey.png');
+		&_blue {
+			background-image: url('../images/logos/rc_icon_blue.png');
+		}
+
+		&_black {
+			background-image: url('../images/logos/rc_icon_black.png');
+		}
+
+		&_grey {
+			background-image: url('../images/logos/rc_icon_grey.png');
+		}
 	}
 }
