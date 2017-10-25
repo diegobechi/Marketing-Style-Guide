@@ -131,7 +131,7 @@ input[type="checkbox"],
 	+ .form__radio__label,
 	+ .form__checkbox__label {
 		cursor: pointer;
-		display: block;
+		display: inline-block;
 		line-height: 20px;
 		&:before {
 			width: 16px;

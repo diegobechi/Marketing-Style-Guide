@@ -1021,7 +1021,7 @@ input[type="checkbox"],
   .form__checkbox + .form__radio__label,
   .form__checkbox + .form__checkbox__label {
     cursor: pointer;
-    display: block;
+    display: inline-block;
     line-height: 20px; }
     input[type="radio"] + label:before,
     input[type="radio"] + .form__radio__label:before,

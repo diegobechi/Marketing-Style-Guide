@@ -31,15 +31,25 @@
 			                	<label>Website Address</label>
 		                    	<input type="text" class="rc_form_input" name="website" placeholder="http://" data-message="Please enter the url of your website" required>
 							</div>
-		                </div>			
-		            	<label>PayPal Address</label>
-		                <input type="text" class="rc_form_input" name="paypal_address" placeholder="Which address should we send your rewards to?" data-message="Please enter your PayPal Address" required>
-						<label>Include Shopify URL that currently has ReCharge installed:</label>
-		                <input type="text" class="rc_form_input" name="storeUrl" placeholder="Store URL" data-message="Please enter the store URL where you have ReCharge installed" required>
-		            	<label>Does your client already offer subscriptions?</label>
+		                </div>
+	                    <div class="layout">
+	                    	<div class="grid__sm__12">
+		                    	<label>PayPal Email Address</label>
+			                    <input type="text" class="rc_form_input" name="paypal_address" placeholder="Which email address should we send your rewards to?" data-message="Please enter your PayPal Email Address" data-regex="/.+@.+\..+/i" required>
+	                    	</div>
+						</div>
+						<div class="layout">
+	                    	<div class="grid__sm__12">
+		                    	<label>Include Shopify URL that currently has ReCharge installed:</label>
+			                    <input type="text" class="rc_form_input" name="storeUrl" placeholder="Store URL" data-message="Please enter the store URL where you have ReCharge installed" required>	
+	                    	</div>								
+                    	</div>
+                    	<label>Does your client already offer subscriptions?</label>
 		            	<div class="rc_form_radio_group">
-		                	<input type="radio" name="offer_subscriptions" class="rc_form_input" value="yes" checked>Yes
-		                	<input type="radio" name="offer_subscriptions" class="rc_form_input" value="no">No
+		                	<input type="radio" name="offer_subscriptions" class="rc_form_input" id="rc_radio_form_yes" value="yes" checked>
+							<label class="form__radio__label" for="rc_radio_form_yes">Yes</label>
+		                	<input type="radio" name="offer_subscriptions" class="rc_form_input" id="rc_radio_form_no" value="no">
+							<label class="form__radio__label" for="rc_radio_form_no">No</label>
 		                </div>
 	                </fieldset>
 	            </form>
