@@ -1,5 +1,4 @@
 .rc_color {
-
 	&_blue { color: $color-blue; }
 	&_white { color: $color-white; }
 	&_green { color: $color-green; }
@@ -21,8 +20,7 @@
 	&_pink { color: $color-pink; }
 }
 
-.bg_rc {
-
+.rc_bg {
 	&_blue { background-color: $color-blue; }
 	&_white {background-color: $color-white; }
 	&_green { background-color: $color-green; }
@@ -62,6 +60,7 @@
 	&_red,
 	&_pink {
 		color: $color-white;
+
 		& a,
 		& p,
 		& span,
