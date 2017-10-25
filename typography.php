@@ -26,7 +26,7 @@
 		<p class="rc_caption">font-family: Ralewayregular; font-size: 16px; line-height: 25px;</p>
 	</div>
 	<div class="sg_section sg_typography_section">
-		<p class="rc_small_copy">This is a small body copy</p>
+		<p class="rc_small">This is a small body copy</p>
 		<p class="rc_caption">font-family: Ralewayregular; font-size: 14px; line-height: 20px;</p>
 	</div>
 	<div class="sg_section sg_typography_section">

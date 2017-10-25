@@ -2,21 +2,21 @@ html {
     -webkit-font-smoothing: antialiased;
 }
 
-h1, .h1 {
+h1, .rc_h1 {
 	font-size: $h1-font-size;
 	font-weight: $font-semibold;
 	line-height: 48px;
 	margin-bottom: 10px;
 }
 
-h2, .h2 {
+h2, .rc_h2 {
 	font-size: $h2-font-size;
 	font-weight: $font-semibold;
 	line-height: 36px;
 	letter-spacing: -.25px;
 	margin-bottom: 10px;
 }
-h3, .h3 {
+h3, .rc_h3 {
 	font-size: $h3-font-size;
 	font-weight: $font-semibold;
 	line-height: 32px;
@@ -24,13 +24,13 @@ h3, .h3 {
 	margin-bottom: 10px;
 }
 
-h4, .h4 {
+h4, .rc_h4 {
 	font-size: $h4-font-size;
 	font-weight: $font-semibold;
 	line-height: 24px;
 	margin-bottom: 10px;
 }
-h5, .h5 {
+h5, .rc_h5 {
 	font-size: $h5-font-size;
 	font-weight: $font-semibold;
 	margin-bottom: 10px;
@@ -59,12 +59,11 @@ p + p {
 }
 
 strong {
-	font-weight: normal;
-	font-family: 'ralewaysemibold', arial, sans-serif;
+	font-weight: $font-semibold;
 }
 
 .rc {
-	&_small_copy {
+	&_small {
 		font-weight: $font-regular;
 		font-size: $font-size-small;
 		line-height: 18px;
