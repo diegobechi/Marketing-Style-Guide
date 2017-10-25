@@ -1,4 +1,4 @@
-.rc_sag {
+.sg {
 	background-color: #F8F8F8;
 
 	&__navbar {
@@ -71,19 +71,19 @@
 			}
 		}
 
-		& .rc_sg_typography_section,
-		& .rc_sg_colors_section,
-		& .rc_sg_shadow_section,
-		& .rc_sg_visual-elements_section,
-		& .rc_sg_logo-usage_section,
-		& .rc_sg_buttons_links_section,
-		& .rc_sg_form-elements_section {
+		& .sg_typography_section,
+		& .sg_colors_section,
+		& .sg_shadow_section,
+		& .sg_visual-elements_section,
+		& .sg_logo-usage_section,
+		& .sg_buttons_links_section,
+		& .sg_form-elements_section {
 		
 			margin-top: 60px;
 			margin-bottom: 0;
 		}
 
-		& .rc_sg_logo-usage_section h3 {
+		& .sg_logo-usage_section h3 {
 			margin-bottom: 30px;
 		}
 	}
@@ -95,7 +95,6 @@
 		}
 	}
 
-
 	&_link {
 		& p.rc_bg_blue {
 			padding: 15px;
@@ -105,7 +104,7 @@
 
 	&_section {
 
-		&.rc_sg_shadow_section h3 {
+		&.sg_shadow_section h3 {
 			margin-bottom: 20px;
 		}
 
@@ -149,7 +148,7 @@
 			margin-bottom: 14px;
 		}
 
-		& .rc_sg_shadow_example {
+		& .sg_shadow_example {
 
 			div {
 				display: inline-block;
@@ -169,7 +168,7 @@
 			}
 		}
 
-		&.rc_sg_visual-elements_section {
+		&.sg_visual-elements_section {
 
 			& img {
 				width: 100%;
@@ -181,7 +180,7 @@
 			}
 		}
 
-		&.rc_sg_buttons_links_section {
+		&.sg_buttons_links_section {
 
 			& button {
 				margin: 20px 20px 20px 0;
@@ -231,7 +230,7 @@
 	&_icon_logo {
 		margin-top: 50px;
 
-		& div.rc_sg_icon_logo_container:not(:last-child) {
+		& div.sg_icon_logo_container:not(:last-child) {
 			margin-right: 26px;
 		}
 
@@ -264,7 +263,7 @@
 		}
 	}
 
-	& .rc_sg_colors_pallete {
+	& .sg_colors_pallete {
 		margin: 18px 0;
 	}
 

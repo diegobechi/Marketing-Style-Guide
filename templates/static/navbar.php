@@ -1,4 +1,4 @@
-<div class="rc_sg__navbar">
+<div class="sg__navbar">
 	<div class="rc_layout__container">
 		<img src="/assets/images/logos/rc_logo.png" alt="ReCharge Logo" id="desktop_logo">
 		<img src="/assets/images/logos/rc_icon_blue.png" alt="ReCharge Logo" id="mobile_logo">

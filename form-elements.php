@@ -1,11 +1,11 @@
 <?php include('templates/static/header.php'); ?>
 
 <div>
-	<div class="rc_sg_page_header">
+	<div class="sg_page_header">
 		<h2>Form elements</h2>
 		<p>Forms aren’t super prevalent on the marketing website, but they follow the same styles as the app for the most part.</p>
 	</div>
-	<div class="rc_sg_section rc_sg_form-elements_section">
+	<div class="sg_section sg_form-elements_section">
 		<h3>Example form</h3>
 		<p>Forms on the marketing website should inherit a lot of the styles from the product forms, including font sizes and padding. Our marketing form fields should be full-width by default, however we should feel free to bump form fields up next to each other when applicable. Forms can live on multiple backgrounds, such as white with a box shadow, white without a shadow, and on dark backgrounds.</p>
 
@@ -59,60 +59,60 @@
 		</div>
 
 	</div>
-	<div class="rc_sg_section rc_sg_form-elements_section">
+	<div class="sg_section sg_form-elements_section">
 		<h3>Radio buttons &amp; checkboxes</h3>
 		<p>Radio buttons and checkboxes should inherit the same styles as the ReCharge app.</p>
 		<div>
 			<div class="rc_layout">
 				<div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox1">
-						<label class="form__checkbox__label" for="rc_sg_checkbox1"></label>
-						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox2">
-						<label class="form__checkbox__label" for="rc_sg_checkbox2"></label>
-						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox3">
-						<label class="form__checkbox__label" for="rc_sg_checkbox3"></label>
-						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox4">
-						<label class="form__checkbox__label" for="rc_sg_checkbox4"></label>
+						<input type="checkbox" class="form__checkbox" id="sg_checkbox1">
+						<label class="form__checkbox__label" for="sg_checkbox1"></label>
+						<input type="checkbox" class="form__checkbox" id="sg_checkbox2">
+						<label class="form__checkbox__label" for="sg_checkbox2"></label>
+						<input type="checkbox" class="form__checkbox" id="sg_checkbox3">
+						<label class="form__checkbox__label" for="sg_checkbox3"></label>
+						<input type="checkbox" class="form__checkbox" id="sg_checkbox4">
+						<label class="form__checkbox__label" for="sg_checkbox4"></label>
 					</div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="radio" class="form__radio" id="rc_sg_radio1">
-						<label class="form__radio__label" for="rc_sg_radio1"></label>
-						<input type="radio" class="form__radio" id="rc_sg_radio2">
-						<label class="form__radio__label" for="rc_sg_radio2"></label>
-						<input type="radio" class="form__radio" id="rc_sg_radio3">
-						<label class="form__radio__label" for="rc_sg_radio3"></label>
+						<input type="radio" class="form__radio" id="sg_radio1">
+						<label class="form__radio__label" for="sg_radio1"></label>
+						<input type="radio" class="form__radio" id="sg_radio2">
+						<label class="form__radio__label" for="sg_radio2"></label>
+						<input type="radio" class="form__radio" id="sg_radio3">
+						<label class="form__radio__label" for="sg_radio3"></label>
 					</div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox5">
-						<label class="form__checkbox__label" for="rc_sg_checkbox5">Checkbox Label</label>
-						<input type="radio" class="form__radio" id="rc_sg_radio4">
-						<label class="form__radio__label" for="rc_sg_radio4">Radio Label</label>
+						<input type="checkbox" class="form__checkbox" id="sg_checkbox5">
+						<label class="form__checkbox__label" for="sg_checkbox5">Checkbox Label</label>
+						<input type="radio" class="form__radio" id="sg_radio4">
+						<label class="form__radio__label" for="sg_radio4">Radio Label</label>
 					</div>
 				</div>
 				<div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="radio" class="form__radio" id="rc_sg_radio5">
+						<input type="radio" class="form__radio" id="sg_radio5">
 						<div>
-							<label class="form__radio__label" for="rc_sg_radio5">Radio Label</label>
+							<label class="form__radio__label" for="sg_radio5">Radio Label</label>
 							<span>Radio option Info</span>
 						</div>
 					</div>
 					<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
-						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox6">
-						<label class="form__checkbox__label" for="rc_sg_checkbox6">Checkbox Label</label>
-						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox7">
-						<label class="form__checkbox__label" for="rc_sg_checkbox7">Checkbox Label</label>
-						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox8">
-						<label class="form__checkbox__label" for="rc_sg_checkbox8">Checkbox Label</label>
-						<input type="checkbox" class="form__checkbox" id="rc_sg_checkbox9">
-						<label class="form__checkbox__label" for="rc_sg_checkbox9">Checkbox Label</label>
+						<input type="checkbox" class="form__checkbox" id="sg_checkbox6">
+						<label class="form__checkbox__label" for="sg_checkbox6">Checkbox Label</label>
+						<input type="checkbox" class="form__checkbox" id="sg_checkbox7">
+						<label class="form__checkbox__label" for="sg_checkbox7">Checkbox Label</label>
+						<input type="checkbox" class="form__checkbox" id="sg_checkbox8">
+						<label class="form__checkbox__label" for="sg_checkbox8">Checkbox Label</label>
+						<input type="checkbox" class="form__checkbox" id="sg_checkbox9">
+						<label class="form__checkbox__label" for="sg_checkbox9">Checkbox Label</label>
 					</div>
 				</div>
 			</div>
 		</div>
 	</div>
-	<div class="rc_sg_section rc_sg_form-elements_section">
+	<div class="sg_section sg_form-elements_section">
 		<h3>Dropdowns</h3>
 		<p>Dropdowns should inherit the same styles as the ReCharge app. Notice the inactive and active states.</p>
 		<div>
