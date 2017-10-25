@@ -33,14 +33,14 @@
 								<input type="text" class="rc_form_input" name="website" placeholder="http://" data-message="Please enter the url of your website" required>
 							</div>
 						</div>
-						<div class="layout">
-							<div class="grid__sm__12">
+						<div class="rc_layout">
+							<div class="rc_layout__sm__12">
 								<label>PayPal Email Address</label>
 								<input type="text" class="rc_form_input" name="paypal_address" placeholder="Which email address should we send your rewards to?" data-message="Please enter your PayPal Email Address" data-regex="/.+@.+\..+/i" required>
 							</div>
 						</div>
-						<div class="layout">
-							<div class="grid__sm__12">
+						<div class="rc_layout">
+							<div class="rc_layout__sm__12">
 								<label>Include Shopify URL that currently has ReCharge installed:</label>
 								<input type="text" class="rc_form_input" name="storeUrl" placeholder="Store URL" data-message="Please enter the store URL where you have ReCharge installed" required>
 							</div>

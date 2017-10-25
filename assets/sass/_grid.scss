@@ -35,9 +35,11 @@
 		flex-grow: 1;
 		max-width: percentage(1 / 12);
 	}
+
 	.rc_layout__xs__offset__1 {
 		margin-left: percentage(1 / 12);
 	}
+
 	@for $i from 2 through 12 {
 		.rc_layout__xs__#{$i} {
 			flex-basis: percentage($i / 12);
@@ -45,15 +47,18 @@
 			flex-shrink: 0;
 			max-width: percentage($i / 12);
 		}
+
 		.rc_layout__xs__offset__#{$i} {
 			margin-left: percentage($i / 12);
 		}
 	}
+
 	@media screen and (max-width: $screen-xs-max) {
 		.rc_layout__xs__offset__0 {
 			margin-left: 0;
 		}
 	}
+
 	@media screen and (min-width: $screen-sm-min) {
 		@for $i from 1 through 12 {
 			.rc_layout__sm__#{$i} {
@@ -66,10 +71,12 @@
 				margin-left: percentage($i / 12);
 			}
 		}
+
 		.rc_layout__sm__offset__0 {
 			margin-left: 0;
 		}
 	}
+
 	@media screen and (min-width: $screen-md-min) {
 		@for $i from 1 through 12 {
 			.rc_layout__md__#{$i} {
@@ -78,14 +85,17 @@
 				flex-shrink: 0;
 				max-width: percentage($i / 12);
 			}
+
 			.rc_layout_md__offset__#{$i} {
 				margin-left: percentage($i / 12);
 			}
 		}
+
 		.rc_layout__md__offset__0 {
 			margin-left: 0;
 		}
 	}
+
 	@media screen and (min-width: $screen-lg-min) {
 		@for $i from 1 through 12 {
 			.rc_layout__lg__#{$i} {
@@ -94,14 +104,17 @@
 				flex-shrink: 0;
 				max-width: percentage($i / 12);
 			}
+
 			.rc_layout__lg__offset__#{$i} {
 				margin-left: percentage($i / 12);
 			}
 		}
+
 		.rc_layout__lg__offset__0 {
 			margin-left: 0;
 		}
 	}
+
 	@media screen and (min-width: $screen-xl-min) {
 		@for $i from 1 through 12 {
 			.rc_layout__xl__#{$i} {
@@ -110,37 +123,44 @@
 				flex-shrink: 0;
 				max-width: percentage($i / 12);
 			}
+
 			.rc_layout__xl__offset__#{$i} {
 				margin-left: percentage($i / 12);
 			}
 		}
+
 		.rc_layout__xl__offset__0 {
 			margin-left: 0;
 		}
 	}
+
 	.rc_layout__xs,
 	.rc_layout__block {
 		flex-basis: 0;
 		flex-grow: 1;
 	}
+
 	.rc_layout__sm {
 		@media screen and (min-width: $screen-sm-min) {
 			flex-basis: 0;
 			flex-grow: 1;
 		}
 	}
+
 	.rc_layout__md {
 		@media screen and (min-width: $screen-md-min) {
 			flex-basis: 0;
 			flex-grow: 1;
 		}
 	}
+
 	.rc_layout__lg {
 		@media screen and (min-width: $screen-lg-min) {
 			flex-basis: 0;
 			flex-grow: 1;
 		}
 	}
+
 	.rc_layout__xl {
 		@media screen and (min-width: $screen-xl-min) {
 			flex-basis: 0;
@@ -183,15 +203,18 @@
 	&[rc_layout-order="reverse"] {
 		flex-direction: row-reverse;
 	}
+
 	&[rc_layout-row="true"],
 	&[rc_layout-order="false"],
 	&[rc_layout-order="row"] {
 		flex-direction: row;
 	}
+
 	&[rc_layout-column="true"],
 	&[rc_layout-order="column"] {
 		flex-direction: column;
 	}
+
 	&[rc_layout-unset="true"],
 	&[rc_layout-order="unset"] {
 		flex-direction: unset;
@@ -219,24 +242,28 @@
 			padding-right: $gutter;
 		}
 	}
+
 	@media screen and (max-width: $screen-sm-max) {
 		[class^="rc_layout__md"] {
 			padding-left: $gutter;
 			padding-right: $gutter;
 		}
 	}
+
 	@media screen and (max-width: $screen-md-max) {
 		[class^="rc_layout__lg"] {
 			padding-left: $gutter;
 			padding-right: $gutter;
 		}
 	}
+
 	@media screen and (max-width: $screen-lg-max) {
 		[class^="rc_layout__xl"] {
 			padding-left: $gutter;
 			padding-right: $gutter;
 		}
 	}
+
 	@media screen and (max-width: $mobile-nav-max) {
 		[class^="rc_layout__sm"] {
 			padding-left: $gutter / 2;
@@ -253,30 +280,35 @@
 			padding-right: $gutter;
 		}
 	}
+
 	@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
 		.rc_layout__sm__12 {
 			padding-left: $gutter;
 			padding-right: $gutter;
 		}
 	}
+
 	@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 		.rc_layout__md__12 {
 			padding-left: $gutter;
 			padding-right: $gutter;
 		}
 	}
+
 	@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
 		.rc_layout__lg__12 {
 			padding-left: $gutter;
 			padding-right: $gutter;
 		}
 	}
+
 	@media screen and (min-width: $screen-xl-min) {
 		.rc_layout__xl__12 {
 			padding-left: $gutter;
 			padding-right: $gutter;
 		}
 	}
+
 	@media screen and (max-width: $mobile-nav-max) {
 		.rc_layout__xs__12,
 		.rc_layout__sm__12 {
@@ -293,24 +325,28 @@
 		padding-left: $gutter;
 		padding-right: $gutter;
 	}
+
 	.rc_layout__sidebar {
 		padding-top: ($gutter - 5); // -5px to account for the header that will likely follow. This is a safe assumption
 		padding-bottom: $gutter;
 		padding-left: $gutter;
 		padding-right: ($gutter / 2);
 	}
+
 	.rc_layout__content {
 		padding-top: ($gutter - 5); // -5px to account for the header that will likely follow. This is a safe assumption
 		padding-bottom: $gutter;
 		padding-right: $gutter;
 		padding-left: ($gutter / 2);
 	}
+
 	@media screen and (max-width: $mobile-nav-max) {
 		.rc_layout__sidebar,
 		.rc_layout__content {
 			padding-left: $gutter;
 			padding-right: $gutter;
 		}
+
 		.rc_layout__sidebar {
 			padding-bottom: 0;
 		}
@@ -323,6 +359,7 @@
 		&:first-child {
 			padding-left: $gutter;
 		}
+
 		&:last-child {
 			padding-right: $gutter;
 		}
@@ -336,6 +373,7 @@
 			&:first-child {
 				padding-left: ($gutter / 2);
 			}
+
 			&:last-child {
 				padding-right: ($gutter / 2);
 			}
@@ -350,10 +388,12 @@
 			padding-left: ($gutter / 2);
 			padding-right: $gutter;
 		}
+
 		.rc_layout__content {
 			padding-right: ($gutter / 2);
 			padding-left: $gutter;
 		}
+
 		@media screen and (max-width: $mobile-nav-max) {
 			.rc_layout__sidebar,
 			.rc_layout__content {
@@ -361,6 +401,7 @@
 				padding-right: $gutter;
 			}
 		}
+
 		[class^="rc_layout__xs"],
 		[class^="rc_layout__sm"],
 		[class^="rc_layout__md"],
@@ -369,10 +410,12 @@
 			&:first-child {
 				padding-right: $gutter;
 			}
+
 			&:last-child {
 				padding-left: $gutter;
 			}
 		}
+
 		.rc_layout {
 			[class^="rc_layout__xs"],
 			[class^="rc_layout__sm"],
@@ -382,6 +425,7 @@
 				&:first-child {
 					padding-right: ($gutter / 2);
 				}
+
 				&:last-child {
 					padding-left: ($gutter / 2);
 				}
@@ -394,18 +438,23 @@
 .rc_layout__container[rc_layout-static="true"] {
 	margin-left: auto;
 	margin-right: auto;
+
 	@media screen and (max-width: $screen-xs-max) {
 		max-width: 100%;
 	}
+
 	@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
 		max-width: $screen-sm-min;
 	}
+
 	@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 		max-width: $screen-md-min;
 	}
+
 	@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
 		max-width: $screen-lg-min;
 	}
+
 	@media screen and (min-width: $screen-xl-min) {
 		max-width: $screen-xl-min;
 	}
@@ -465,27 +514,33 @@
 		flex-grow: 1;
 		flex-shrink: 0;
 	}
+
 	.rc_layout__full {
 		flex-basis: percentage(12 / 12);
 		max-width: percentage(12 / 12);
 	}
+
 	.rc_layout__sidebar {
 		@media screen and (max-width: $mobile-nav-max) {
 			flex-basis: percentage(12 / 12);
 			max-width: percentage(12 / 12);
 		}
+
 		@media screen and (min-width: $mobile-nav-max + 1) and (max-width: $screen-sm-max) {
 			flex-basis: percentage(4 / 12);
 			max-width: percentage(4 / 12);
 		}
+
 		@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 			flex-basis: percentage(3 / 12);
 			max-width: percentage(3 / 12);
 		}
+
 		@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
 			flex-basis: percentage(3 / 12);
 			max-width: percentage(3 / 12);
 		}
+
 		@media screen and (min-width: $screen-xl-min) {
 			flex-basis: percentage(2 / 12);
 			max-width: percentage(2 / 12);
@@ -496,18 +551,22 @@
 			flex-basis: percentage(12 / 12);
 			max-width: percentage(12 / 12);
 		}
+
 		@media screen and (min-width: $mobile-nav-max + 1) and (max-width: $screen-sm-max) {
 			flex-basis: percentage(8 / 12);
 			max-width: percentage(8 / 12);
 		}
+
 		@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
 			flex-basis: percentage(9 / 12);
 			max-width: percentage(9 / 12);
 		}
+
 		@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
 			flex-basis: percentage(9 / 12);
 			max-width: percentage(9 / 12);
 		}
+
 		@media screen and (min-width: $screen-xl-min) {
 			flex-basis: percentage(10 / 12);
 			max-width: percentage(10 / 12);
@@ -523,6 +582,7 @@
 			flex-basis: percentage(12 / 12);
 			max-width: percentage(12 / 12);
 		}
+
 		@media screen and (min-width: $mobile-nav-max + 1) {
 			flex-basis: percentage(3 / 12);
 			max-width: percentage(3 / 12);
@@ -534,6 +594,7 @@
 			flex-basis: percentage(12 / 12);
 			max-width: percentage(12 / 12);
 		}
+
 		@media screen and (min-width: $mobile-nav-max + 1) {
 			flex-basis: percentage(8 / 12);
 			max-width: percentage(8 / 12);
@@ -549,6 +610,7 @@
 			max-width: percentage(4 / 12);
 		}
 	}
+
 	.rc_layout__content {
 		@media screen and (min-width: $screen-md-min) {
 			flex-basis: percentage(8 / 12);
@@ -563,6 +625,7 @@
 			max-width: percentage(3 / 12);
 		}
 	}
+
 	.rc_layout__content {
 		@media screen and (min-width: $screen-lg-min) {
 			flex-basis: percentage(9 / 12);
@@ -664,6 +727,7 @@
 		}
 	}
 }
+
 @media screen and (min-width: $mobile-nav-max + 1) {
 	.rc___full-height {
 		height: 100%;
@@ -691,9 +755,4 @@
 			}
 		}
 	}
-}
-
-// A fix for notification-enabled pages with a supposed full-height
-.rc_layout__full-height > .rc_notification + .rc_layout__container {
-    height: auto;
 }
