@@ -131,4 +131,41 @@
 	</div>
 </div>
 
+<script type="text/javascript">
+    $(function() {
+        let jForm = $('#contact-form'),
+            submitButton = $('#submit-button');
+
+        submitButton.prop('disabled', true);
+        recharge.validations.addValidations(jForm, submitButton);
+
+        submitButton.click(function(e) {
+        	e.preventDefault();
+            rc_submitForm();
+        });
+
+        function rc_submitForm(){
+        	var $form = $('#contact-form');
+		    	serializedData = $form.serialize();
+		    	$inputs = $form.find('input, select, button, textarea');
+
+		    $inputs.prop("disabled", true);
+
+		    $.ajax({
+		        url: '/thank-you-template.php',
+		        type: 'post',
+		        data: serializedData
+		    }).done(function (response, textStatus, jqXHR){
+		    	$('.form-page-container').hide();
+		    	$('.thank-you-container').show();
+		    }).fail(function (jqXHR, textStatus, errorThrown){
+		        console.error('The following error occurred: '+textStatus, errorThrown);
+		    }).always(function () {
+		        $inputs.prop('disabled', false);
+		    });
+		}
+    });
+</script>
+
+
 <?php include('templates/static/footer.php'); ?>

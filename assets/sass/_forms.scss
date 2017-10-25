@@ -94,8 +94,17 @@ input[type="email"].rc_form_input{
 		outline: none;
 		box-shadow: none;
 	}
-	&.rc_form_input--invalid {
+	&.form__input--invalid {
 		border-color: $rc_red !important;
+	}
+}
+
+.form__select {
+	&.form_select--invalid,
+	&.form__input--invalid {
+		.dk-selected {
+			border-color: $rc_red!important;
+		}
 	}
 }
 
@@ -213,4 +222,32 @@ input[type="checkbox"],
 			}
 		}
 	}
+}
+
+p.has_error{
+    color: $rc_red;
+    font-size: 14px;
+    margin-top: -26px;
+    padding-left: 10px;
+
+    &:after{
+	    position: relative;
+	    font-family: 'fontawesome', arial, sans-serif;
+	    font-size: 20px;
+    	content: "\f071";
+	    float: right;
+	    top: -35px;
+    	right: 10px;
+    	background-color: $rc_white;
+    }
+}
+
+
+// Temporary styles until we update the form design in each page
+.input_layout{
+
+	& .has_error{
+	    margin-top: -8px;
+	    text-align: left;
+    }
 }

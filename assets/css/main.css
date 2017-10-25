@@ -981,10 +981,13 @@ input[type="email"].rc_form_input {
     border-color: #4DD6B7;
     outline: none;
     box-shadow: none; }
-  input[type="number"].rc_form_number.rc_form_input--invalid,
-  input[type="text"].rc_form_input.rc_form_input--invalid,
-  input[type="email"].rc_form_input.rc_form_input--invalid {
+  input[type="number"].rc_form_number.form__input--invalid,
+  input[type="text"].rc_form_input.form__input--invalid,
+  input[type="email"].rc_form_input.form__input--invalid {
     border-color: #EC3D10 !important; }
+
+.form__select.form_select--invalid .dk-selected, .form__select.form__input--invalid .dk-selected {
+  border-color: #EC3D10 !important; }
 
 .form__checkbox__label + .form__help,
 .form__radio__label + .form__help {
@@ -1174,6 +1177,25 @@ input[type="checkbox"].form__input--disabled + .form__checkbox__label:before,
   content: "\f068";
   color: #767676;
   text-indent: 3px; }
+
+p.has_error {
+  color: #EC3D10;
+  font-size: 14px;
+  margin-top: -26px;
+  padding-left: 10px; }
+  p.has_error:after {
+    position: relative;
+    font-family: 'fontawesome', arial, sans-serif;
+    font-size: 20px;
+    content: "\f071";
+    float: right;
+    top: -35px;
+    right: 10px;
+    background-color: #FFFFFF; }
+
+.input_layout .has_error {
+  margin-top: -8px;
+  text-align: left; }
 
 .rc_layout {
   display: -webkit-flex;
