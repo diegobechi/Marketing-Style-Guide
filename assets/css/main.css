@@ -477,7 +477,7 @@ strong {
 .rc_link {
   font-weight: 600;
   color: #53BAD3; }
-  .rc_link.color_rc_white {
+  .rc_link.rc_color_white {
     text-decoration: underline; }
 
 .rc_button {
@@ -735,61 +735,61 @@ strong {
 .rc_illustration_medium img {
   max-width: 529px; }
 
-.color_rc_blue {
+.rc_color_blue {
   color: #53BAD3; }
 
-.color_rc_white {
+.rc_color_white {
   color: #FFFFFF; }
 
-.color_rc_green {
+.rc_color_green {
   color: #4DD6B7; }
 
-.color_rc_black {
+.rc_color_black {
   color: #000000; }
 
-.color_rc_grey_dark {
+.rc_color_grey_dark {
   color: #424242; }
 
-.color_rc_grey {
+.rc_color_grey {
   color: #676767; }
 
-.color_rc_grey_medium {
+.rc_color_grey_medium {
   color: #8E8F8E; }
 
-.color_rc_grey_light {
+.rc_color_grey_light {
   color: #CCCCCC; }
 
-.color_rc_grey_silver {
+.rc_color_grey_silver {
   color: #EEEEEE; }
 
-.color_rc_green_bright {
+.rc_color_green_bright {
   color: #17CC9D; }
 
-.color_rc_green_pale {
+.rc_color_green_pale {
   color: #BDF0E4; }
 
-.color_rc_turquoise {
+.rc_color_turquoise {
   color: #2C93AC; }
 
-.color_rc_blue_dark {
+.rc_color_blue_dark {
   color: #004E82; }
 
-.color_rc_magenta {
+.rc_color_magenta {
   color: #C00399; }
 
-.color_rc_magenta_hover {
+.rc_color_magenta_hover {
   color: #AC0289; }
 
-.color_rc_yellow {
+.rc_color_yellow {
   color: #FFF155; }
 
-.color_rc_orange {
+.rc_color_orange {
   color: #FB8309; }
 
-.color_rc_red {
+.rc_color_red {
   color: #EC3D10; }
 
-.color_rc_pink {
+.rc_color_pink {
   color: #D06EAB; }
 
 .rc_bg_blue {

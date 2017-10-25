@@ -41,7 +41,7 @@
 			</div>
 			<div class="typography_example_item rc_bg_blue">
 				<div class="circle"></div>
-				<p class="rc_caption color_rc_white">By default, text is #FFFFFF on Dark backgrounds</p>
+				<p class="rc_caption rc_color_white">By default, text is #FFFFFF on Dark backgrounds</p>
 			</div>
 		</div>
 	</div>

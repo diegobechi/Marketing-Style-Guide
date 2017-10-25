@@ -1,5 +1,4 @@
-
-.color_rc {
+.rc_color {
 
 	&_blue { color: $rc_blue; }
 	&_white { color: $rc_white; }
@@ -67,7 +66,7 @@
 		& p,
 		& span,
 		& label {
-			color: $rc_white; 
-		}	
+			color: $rc_white;
+		}
 	}
 }

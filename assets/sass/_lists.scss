@@ -1,8 +1,8 @@
-
 ul {
 	margin: 0;
 	padding: 0;
 }
+
 ul,
 li {
 	&.list-unstyled {
@@ -37,7 +37,7 @@ ol {
 .rc_list_items {
 	list-style-type: none;
 
-	li { 
+	li {
 		position: relative;
 		padding-left: 25px;
 
@@ -50,7 +50,7 @@ ol {
 		    left: 0;
 	    }
 
-	    &.rc_tick_ok:before {	    
+	    &.rc_tick_ok:before {
 			content: "\f00c";
 	    	color: $rc_green;
 	    }

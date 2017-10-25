@@ -295,7 +295,7 @@
 // create a long shadow on using box-shadow css property
 @mixin long-shadow($type, $color, $length, $fadeout: true, $xDirection: right, $yDirection: bottom, $modifier: 1) {
   $shadow: '';
-  
+
   @if $fadeout == false {
     @if $xDirection == right {
       @if $yDirection == bottom {
@@ -350,7 +350,7 @@
   @if $fadeout == false {
     $shadow: $shadow + $length + 'px ' + $length + 'px 0 ' + rgba(0,0,0,0);
   }
-  
+
   $shadow: unquote($shadow);
   @if $type == 'box' {box-shadow: $shadow;}
   @if $type == 'text' {text-shadow: $shadow;}

@@ -3,21 +3,20 @@
 	padding: $button-padding;
 	font-weight: $font-semibold;
 	border: 0;
-	cursor: pointer;	
+	cursor: pointer;
 
 	&_primary {
-
 		font-size: $font-size-base;
 		color: $button-primary-color;
 		background-color: $button-primary-bg-color;
-		box-shadow: 0 4px 8px 0 rgba(83,186,211,0.40);
+		box-shadow: 0 4px 8px 0 rgba(83, 186, 211, 0.40);
 
 		&:hover {
 			color: $button-primary-hover-color;
 			transform: translateY(-1px);
 			background-color: $button-primary-bg-hover-color;
-			box-shadow: 0 6px 20px 0 rgba(83,186,211,0.60); 
-		}		
+			box-shadow: 0 6px 20px 0 rgba(83, 186, 211, 0.60);
+		}
 	}
 
 	&_secondary {
@@ -41,17 +40,17 @@
 			&:hover {
 				color: $button-secondary-reverse-hover-color;
 				background-color: $button-secondary-reverse-bg-hover-color;
-			}		    
+			}
 		}
 	}
 
 	&_large {
-		padding: 24px 54px;		
+		padding: 24px 54px;
 		min-width: 203px;
 	}
 
 	&_small {
-		font-size: $font-size-small; 
+		font-size: $font-size-small;
 		padding: 10px 36px;
 		box-shadow: none;
 	}

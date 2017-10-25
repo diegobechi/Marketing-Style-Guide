@@ -55,7 +55,7 @@
 		<h3>Links</h3>
 		<div class="sg_link">
 			<p>In paragraph or sentence form, <a href="" class="rc_link">links</a> should be #2C93AC and semibold.</p>
-			<p class="rc_bg_blue">On dark backgrounds, <a href="" class="rc_link color_rc_white">links</a> should remain white like the rest of the text but should have an underline.</p>
+			<p class="rc_bg_blue">On dark backgrounds, <a href="" class="rc_link rc_color_white">links</a> should remain white like the rest of the text but should have an underline.</p>
 		</div>
 	</div>
 </div>
