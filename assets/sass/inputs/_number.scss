@@ -1,0 +1,37 @@
+// Number input, using the default input
+input.rc_form__number {
+	@extend .rc_form__input;
+
+	border: 1px solid $input-border;
+	width: auto;
+	min-width: 10px;
+	display: inline-block;
+
+	&:focus,
+	&.rc_form__input--focus {
+		border-color: #4DD6B7;
+		outline: none;
+	}
+}
+
+// Number input, using the select stylizer
+.rc_select.rc_form__number {
+	width: auto;
+	display: inline-block;
+}
+
+.rc_select.rc_form__number,
+input.rc_form__number {
+	margin-right: 7px;
+}
+
+.rc_form__radio,
+.rc_form__checkbox {
+	+ .rc_form__radio__label,
+	+ .rc_form__checkbox__label {
+		.rc_form__number {
+			margin-left: -5px;
+			margin-top: 0;
+		}
+	}
+}

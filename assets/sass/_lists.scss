@@ -1,62 +1,49 @@
-
-ul{
+ul {
 	margin: 0;
 	padding: 0;
 }
-ul,
-li {
-	&.list-unstyled {
-		list-style-type: none;
-	}
-}
 
-.nav {
-	list-style-type: none;
-}
-
-ul,
-ol {
-	> li {
-		&.divider {
-			list-style: none;
-		}
+ul {
+	&,
+	& li {
+		list-style: none;
 	}
 }
 
 ol {
 	list-style-position: inside;
 	list-style-type: decimal;
-	li {
-		// line-height: 1em;
-		+ li {
-			// margin-top: 1em;
-		}
-	}
 }
 
-.rc_list_items{
-	list-style-type: none;
+.rc {
+	&_list_items {
+		li {
+			position: relative;
+			padding-left: 25px;
+		}
+	}
 
-	li{ 
-		position: relative;
-		padding-left: 25px;
+	&_tick {
+		&_ok,
+		&_wrong {
+			&:before {
+				font-family: fontawesome;
+				font-size: 16px;
+				color: $color-grey-dark;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+		}
 
-		&:before{
-			font-family: fontawesome;
-		    font-size: 16px;
-		    color: $rc_grey_dark;
-		    position: absolute;
-		    top: 0;
-		    left: 0;
-	    }
-
-	    &.rc_tick_ok:before {	    
+		&_ok:before {
 			content: "\f00c";
-	    	color: $rc_green;
-	    }
-	    &.rc_tick_wrong:before{
+			color: $color-green;
+		}
+
+		&_wrong:before {
 			content: "\f00d";
-	    	color: $rc_magenta;
-	    }
+			color: $color-magenta;
+		}
 	}
 }

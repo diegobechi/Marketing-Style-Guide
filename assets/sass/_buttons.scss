@@ -1,66 +1,62 @@
-.rc_button{
+.rc_button {
+	-webkit-appearance: none;
 	transition: all 0.5s ease;
 	padding: $button-padding;
+	font-size: $font-size-base;
 	font-weight: $font-semibold;
 	border: 0;
-	cursor: pointer;	
+	cursor: pointer;
 
-	&_primary{
-
-		font-size: $font-size-base;
+	&_primary {
 		color: $button-primary-color;
 		background-color: $button-primary-bg-color;
-		box-shadow: 0 4px 8px 0 rgba(83,186,211,0.40);
+		box-shadow: 0 4px 8px 0 rgba(83, 186, 211, 0.40);
 
-		&:hover{
+		&:hover {
 			color: $button-primary-hover-color;
 			transform: translateY(-1px);
 			background-color: $button-primary-bg-hover-color;
-			box-shadow: 0 6px 20px 0 rgba(83,186,211,0.60); 
-		}		
+			box-shadow: 0 6px 20px 0 rgba(83, 186, 211, 0.60);
+		}
 	}
 
-	&_secondary{
-
+	&_secondary {
 		color: $button-secondary-color;
 		background-color: $button-secondary-bg-color;
-		border: 1px solid $rc_blue;
+		border: 1px solid $color-blue;
 
-		&:hover{
+		&:hover {
 			color: $button-secondary-hover-color;
 			background-color: $button-secondary-bg-hover-color;
 		}
 
-		&_reverse{
+		&_reverse {
 			color: $button-secondary-reverse-color;
 			background-color: $button-secondary-reverse-bg-color;
-			-webkit-box-shadow:inset 0px 0px 0px 1px $rc_white;
-		    -moz-box-shadow:inset 0px 0px 0px 1px $rc_white;
-		    box-shadow:inset 0px 0px 0px 1px $rc_white;
+		    box-shadow:inset 0px 0px 0px 1px $color-white;
 
-			&:hover{
+			&:hover {
 				color: $button-secondary-reverse-hover-color;
 				background-color: $button-secondary-reverse-bg-hover-color;
-			}		    
+			}
 		}
 	}
 
-	&_large{
-		padding: 24px 54px;		
+	&_large {
+		padding: 24px 54px;
 		min-width: 203px;
 	}
 
-	&_small{
-		font-size: $font-size-small; 
+	&_small {
+		font-size: $font-size-small;
 		padding: 10px 36px;
 		box-shadow: none;
 	}
 
-	&:disabled{
+	&:disabled {
 		color: $button-color-disabled;
 		background-color: $button-bg-disabled;
 		box-shadow: none;
 		cursor: inherit;
 	}
-
 }

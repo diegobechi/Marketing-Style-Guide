@@ -91,15 +91,15 @@ $zindex-dropdown-backdrop: 30;
 	z-index: $zindex-dropdown;
 	display: none; // none by default, but block on "open" of the menu
 	float: left;
-	font-weight: $rc_dropdown_font_weight;
-	min-width: $rc_dropdown_min_width;
-	padding: $rc_dropdown_padding_y 0;
-	margin: $rc_dropdown_margin_top 0 0; // override default ul
+	font-weight: $dropdown-font_weight;
+	min-width: $dropdown-min_width;
+	padding: $dropdown-padding-y 0;
+	margin: $dropdown-margin-top 0 0; // override default ul
 	font-size: $font-size-base; // Redeclare because nesting can cause inheritance issues
-	color: $rc_white;
+	color: $color-white;
 	text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
 	list-style: none;
-	background-color: $rc_dropdown_bg_color;
+	background-color: $dropdown-bg-color;
 	background-clip: padding-box;
 	@media screen and (max-width: $mobile-nav-max) {
 		width: 100%;
@@ -123,7 +123,7 @@ $zindex-dropdown-backdrop: 30;
 
 // Dividers (basically an `<hr>`) within the dropdown
 .rc_dropdown__divider {
-	@include nav-divider($rc_dropdown_divider_bg);
+	@include nav-divider($dropdown-divider-bg);
 }
 
 // Links, buttons, and more within the dropdown menu
@@ -132,11 +132,11 @@ $zindex-dropdown-backdrop: 30;
 .rc_dropdown .rc_item {
 	display: block;
 	width: 100%; // For `<button>`s
-	padding: $rc_dropdown_item_padding_y $rc_dropdown_item_padding_x;
+	padding: $dropdown-item-padding-y $dropdown-item-padding-x;
 	clear: both;
 	line-height: 1;
-	font-weight: $rc_dropdown_link_font_weight;
-	color: $rc_dropdown_link_color;
+	font-weight: $dropdown-link-font-weight;
+	color: $dropdown-link-color;
 	text-align: inherit; // For `<button>`s
 	white-space: nowrap; // prevent links from randomly breaking onto new lines
 	background: none; // For `<button>`s
@@ -144,21 +144,21 @@ $zindex-dropdown-backdrop: 30;
 	text-decoration: none;
 
 	@include hover-focus {
-		color: $rc_dropdown_link_hover_color;
-		background-color: $rc_dropdown_link_hover_bg;
+		color: $dropdown-link-hover_color;
+		background-color: $dropdown-link-hover_bg;
 	}
 
 	&.active,
 	&:active {
-		color: $rc_dropdown_link_active_color;
+		color: $dropdown-link-active-color;
 		text-decoration: none;
-		background-color: $rc_dropdown_link_active_bg;
+		background-color: $dropdown-link-active-bg;
 	}
 
 	&.disabled,
 	&:disabled {
-		color: $rc_dropdown_link_disabled_color;
-		cursor: $rc_cursor_disabled;
+		color: $dropdown-link-disabled-color;
+		cursor: $cursor-disabled;
 		background-color: transparent;
 	}
 }
@@ -202,9 +202,9 @@ $zindex-dropdown-backdrop: 30;
 // Dropdown section headers
 .rc_dropdown__header {
 	display: block;
-	padding: $rc_dropdown_item_padding_y $rc_dropdown_item_padding_x;
+	padding: $dropdown-item-padding-y $dropdown-item-padding-x;
 	margin-bottom: 0; // for use with heading elements
-	color: $rc_dropdown_header_color;
+	color: $dropdown-header-color;
 	white-space: nowrap; // as with > li > a
 }
 
@@ -225,7 +225,7 @@ $zindex-dropdown-backdrop: 30;
 	.rc_dropdown__menu {
 		top: auto;
 		bottom: 100%;
-		margin-bottom: $rc_dropdown_margin_top;
+		margin-bottom: $dropdown-margin-top;
 	}
 }
 
@@ -234,22 +234,22 @@ $zindex-dropdown-backdrop: 30;
 .rc_dropdown--settings {
 	&.show {
 		.rc_dropdown__toggle {
-			color: $rc_status_primary;
+			color: $status-primary;
 		}
 	}
 	.rc_dropdown__toggle {
 		cursor: pointer;
-		color: $rc_grey;
+		color: $color-grey;
 
 		&:hover {
-			color: $rc_grey_dark;
+			color: $color-grey-dark;
 		}
 		&:after {
 			display: none;
 		}
 	}
 	.rc_dropdown__menu {
-		background-color: $rc_grey_dark;
+		background-color: $color-grey-dark;
 		margin-top: 0;
 		min-width: 305px;
 		left: auto;
@@ -262,7 +262,7 @@ $zindex-dropdown-backdrop: 30;
 			&.rc_active,
 			&:hover,
 			&:active {
-				background-color: $rc_status_primary;
+				background-color: $status-primary;
 				display: block;
 			}
 		}
@@ -272,7 +272,7 @@ $zindex-dropdown-backdrop: 30;
 			position: absolute;
 			top: -20px;
 			right: 0;
-			border-bottom-color: $rc_grey_dark;
+			border-bottom-color: $color-grey-dark;
 		}
 	}
 	@media screen and (max-width: $mobile-nav-max) {

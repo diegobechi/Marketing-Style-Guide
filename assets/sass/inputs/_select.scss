@@ -1,0 +1,328 @@
+/*
+	6-5-2016:
+		- Change min-width to 80px. This is primarily to accomidate numbers.
+		- We may eventually go to a named-class minimum
+	6-18-2016:
+		- Form select should have just as much bottom margin as input fields
+	10-7-2016:
+		- Include variables and utilize $zindex-dropkick
+*/
+
+$line-height-base: 1.5625;
+$padding-base-horizontal: 10px !default;
+$padding-base-vertical: $padding-base-horizontal - 3 !default;
+$line-height-computed: floor(($font-size-base * $line-height-base)) !default;
+$zindex-base:			   100000 !default;
+$zindex-dropkick:		   $zindex-base + 30 !default;
+
+@mixin pre($property, $value, $prefixes) {
+	@each $prefix in $prefixes {
+		-#{$prefix}-#{$property}: $value;
+	}
+	#{$property}: $value;
+}
+
+@mixin boxSizingFix($box) {
+	@include pre(box-sizing, $box, webkit moz);
+}
+
+@mixin textFlowFix($text) {
+	@include pre(text-overflow, $text, o);
+}
+
+$color: #424242 !default;
+$color-aux: #BDF0E4 !default;
+$border-color: $input-border !default;
+$border-color-aux: #4DD6B7 !default;
+$border-radius: 0 !default;
+$disabled-color: #999 !default;
+$disabled-background: #F9F9F9 !default;
+$disabled-border: #CCC !default;
+$arrow-color: #424242 !default;
+
+.rc_select,
+.rc_select *,
+.rc_select *:before,
+.rc_select *:after,
+.rc_select--multi,
+.rc_select--multi *,
+.rc_select--multi *:before,
+.rc_select--multi *:after {
+	@include boxSizingFix(border-box);
+}
+
+.rc_select,
+.rc_select--multi {
+	position: relative;
+	display: block;
+	vertical-align: middle;
+	line-height: $line-height-base;
+
+	text-align: left;
+
+	width: 100%;
+    min-width: 80px;
+	max-width: 100%;
+
+	cursor: pointer;
+	color: $color;
+	
+	::-moz-selection {
+		background: transparent;
+	}
+	::selection {
+		background: transparent;
+	}
+}
+
+.form__select,
+.rc_form__select {
+	+ .rc_select,
+	+ .rc_select--multi {
+		margin-top: 12px;
+	}
+}
+
+.rc_select__selected {
+	width: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	position: relative;
+	background-color: #FFF;
+
+	border-width: 1px;
+	border-style: solid;
+	border-color: $border-color;
+	border-radius: $border-radius;
+
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	padding: $padding-base-vertical $padding-base-horizontal;
+	height: ($line-height-computed + ($padding-base-vertical * 2) + 1);
+
+	@include textFlowFix(ellipsis);
+
+	&:before,
+	&:after {
+		content: '';
+		display: block;
+		position: absolute;
+		right: 0;
+	}
+	&:before {
+		content: '\f0d7';
+		position: relative;
+		font-family: FontAwesome;
+		font-weight: normal;
+		font-size: 19px;
+		line-height: 40px;
+		color: $border-color;
+		float: right;
+		height: 40px;
+		width: 40px;
+		text-align: center;
+		display: block;
+		top: -8px;
+		right: -10px;
+		margin: 0;
+	}
+	&:after {
+		top: 0;
+		height: 100%;
+		margin: 0 1.5em 0 0;
+	}
+}
+
+.rc_select__selected-disabled {
+	color: $disabled-color;
+	background-color: $disabled-background;
+	border-color: $disabled-border;
+}
+
+.rc_select .rc_select--options {
+	position: absolute;
+	display: none;
+	left: 0;
+	right: 0;
+}
+
+.rc_select--open-up .rc_select--options {
+	border-radius: $border-radius $border-radius 0 0;
+	margin-bottom: -1px;
+	bottom: 100%;
+}
+
+.rc_select--open-down .rc_select--options {
+	border-radius: 0 0 $border-radius $border-radius;
+	margin-top: -1px;
+	top: 100%;
+}
+
+.rc_select--multi .rc_select--options {
+	max-height: 10em;
+}
+
+.rc_select--options {
+	background-color: white;
+	border: 1px solid $border-color;
+	border-radius: $border-radius;
+	list-style: none;
+	margin: 0;
+	max-height: 10.5em;
+	overflow-x: hidden;
+	overflow-y: auto;
+	padding: 0;
+	width: auto;
+	z-index: $zindex-dropkick;
+}
+
+.rc_select__option--selected {
+	background-color: $color-aux;
+	color: $color;
+}
+
+.rc_select--options-highlight .rc_select__option--selected {
+	background-color: transparent;
+	color: inherit;
+}
+
+.rc_select__option {
+	font-size: $font-size-base;
+	line-height: $line-height-base;
+	padding: $padding-base-vertical $padding-base-horizontal;
+	height: ($line-height-computed + ($padding-base-vertical * 2) + 1);
+
+	white-space: nowrap;
+}
+
+.rc_select--options .rc_select__option--highlight {
+	background-color: $color-aux;
+	color: $color;
+}
+
+.rc_select--options .rc_select__option--disabled {
+	color: $disabled-color;
+	background-color: $disabled-background;
+	border-color: $disabled-border;
+}
+
+.rc_select--options .rc_select__option--hidden {
+		display: none;
+}
+
+.rc_select__optgroup {
+	border: solid $border-color;
+	border-width: 1px 0;
+	padding: 0.25em 0;
+	margin-top: 0.25em;
+
+	+ .rc_select__option {
+		margin-top: 0.25em;
+	}
+
+	+ .rc_select__optgroup {
+		border-top-width: 0;
+		margin-top: 0;
+	}
+
+	&:nth-child(2) {
+		padding-top: 0;
+		border-top: none;
+		margin-top: 0;
+	}
+
+	&:last-child {
+		border-bottom-width: 0;
+		margin-bottom: 0;
+		padding-bottom: 0;
+	}
+}
+
+.rc_select__optgroup--label {
+	padding: 0 0.5em 0.25em;
+	font-weight: bold;
+	width: 100%;
+}
+
+.rc_select__optgroup--options {
+	list-style: none;
+	padding-left: 0;
+	li{
+		padding-left: 1.2em;
+	}
+}
+
+.rc_select--open-up .rc_select__selected {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-color: $border-color-aux;
+}
+
+.rc_select--open-down .rc_select__selected {
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+	border-color: $border-color-aux;
+}
+
+.rc_select--open-up .rc_select__selected:before,
+.rc_select--open-down .rc_select__selected:before {
+	content: '\f0d8';
+	top: -9px;
+	color: $arrow-color;
+}
+
+.rc_select--open-up .rc_select--options,
+.rc_select--open-down .rc_select--options,
+.rc_select--multi:focus .rc_select--options {
+	display: block;
+	border-color: $border-color-aux;
+}
+
+.rc_select--multi {
+	outline: none;
+}
+
+// .rc_select__selected:hover,
+.rc_select__selected:focus {
+	outline: none;
+	border-color: $border-color-aux;
+	&:before {
+		border-top-color: $arrow-color;
+	}
+}
+
+.rc_select--disabled {
+	opacity: 0.6;
+	color: $disabled-color;
+	background-color: $disabled-background;
+	border-color: $disabled-border;
+	cursor: not-allowed;
+
+	.rc_select__selected {
+		background-color: $disabled-background;
+		border-color: $disabled-border;
+
+		&:active, &:hover, &:focus {
+			border-color: $disabled-border !important;
+
+			&:before {
+				border-color: $disabled-border !important;
+			}
+		}
+	}
+}
+
+select[data-dkcacheid]{
+	display: none;
+}
+
+/* Auto-width options */
+.rc_select,
+.rc_select--multi {
+
+	&.form__select--auto,
+	&.rc_form__select--auto {
+		width: auto;
+		display: inline-block;
+	}
+}

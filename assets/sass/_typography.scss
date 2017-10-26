@@ -1,37 +1,36 @@
-
 html {
     -webkit-font-smoothing: antialiased;
 }
 
-h1, .h1 {
+h1, .rc_h1 {
 	font-size: $h1-font-size;
 	font-weight: $font-semibold;
 	line-height: 48px;
 	margin-bottom: 10px;
 }
 
-h2, .h2 {
+h2, .rc_h2 {
 	font-size: $h2-font-size;
 	font-weight: $font-semibold;
 	line-height: 36px;
-	letter-spacing: -.25px;
+	letter-spacing: -0.25px;
 	margin-bottom: 10px;
 }
-h3, .h3 {
+h3, .rc_h3 {
 	font-size: $h3-font-size;
 	font-weight: $font-semibold;
 	line-height: 32px;
-	letter-spacing: -.25px;
+	letter-spacing: -0.25px;
 	margin-bottom: 10px;
 }
 
-h4, .h4 {
+h4, .rc_h4 {
 	font-size: $h4-font-size;
 	font-weight: $font-semibold;
 	line-height: 24px;
 	margin-bottom: 10px;
 }
-h5, .h5 {
+h5, .rc_h5 {
 	font-size: $h5-font-size;
 	font-weight: $font-semibold;
 	margin-bottom: 10px;
@@ -42,7 +41,7 @@ body {
 	font-weight: $font-regular;
 	font-size: $font-size-base;
 	line-height: 25px;
-	color: $rc_grey_dark;	
+	color: $color-grey-dark;
 }
 
 a {
@@ -60,31 +59,30 @@ p + p {
 }
 
 strong {
-	font-weight: normal;
-	font-family: 'ralewaysemibold', arial, sans-serif;
+	font-weight: $font-semibold;
 }
 
-.rc{
-	&_small_copy{
+.rc {
+	&_small {
 		font-weight: $font-regular;
 		font-size: $font-size-small;
-		line-height: 18px;	
+		line-height: 18px;
 	}
 
-	&_caption{
+	&_caption {
 		font-weight: $font-semibold;
 		font-size: $font-size-extra-small;
 		line-height: 18px;
 		letter-spacing: 2px;
 		text-transform: uppercase;
-		color: $rc_grey_medium;
+		color: $color-grey-medium;
 	}
 
-	&_link{
+	&_link {
 		font-weight: $font-semibold;
-		color: $rc_blue;
+		color: $color-blue;
 
-		&.color_rc_white{
+		&.rc_color_white {
 			text-decoration: underline;
 		}
 	}

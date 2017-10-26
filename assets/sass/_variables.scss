@@ -7,33 +7,32 @@
 //
 
 // Primary (Brand) Colors
-$rc_blue:  #53BAD3;
-$rc_white: #FFFFFF !default;
-$rc_green: #4DD6B7;
+$color-blue:  #53BAD3 !default;
+$color-white: #FFFFFF !default;
+$color-green: #4DD6B7 !default;
 
-$rc_blue_rgba: rgba(83, 186, 211, .25);
-
-$rc_black_shadows: rgba(0,0,0,0.1);
+$color-blue-rgba: rgba(83, 186, 211, .25) !default;
+$color-black-shadows: rgba(0,0,0,0.1) !default;
 
 // Secondary Colors
-$rc_green_bright:  #17CC9D;
-$rc_green_pale:    #BDF0E4;
-$rc_turquoise:     #2C93AC;
-$rc_blue_dark:     #004E82;
-$rc_magenta:       #C00399;
-$rc_magenta_hover: #AC0289;
-$rc_black:         #000000 !default;
-$rc_grey_dark:     #424242;
-$rc_grey: 	 	   #676767;
-$rc_grey_medium:   #8E8F8E;
-$rc_grey_light:    #CCCCCC;
-$rc_grey_silver:   #EEEEEE;
+$color-green-bright:  #17CC9D !default;
+$color-green-pale:    #BDF0E4 !default;
+$color-turquoise:     #2C93AC !default;
+$color-blue-dark:     #004E82 !default;
+$color-magenta:       #C00399 !default;
+$color-magenta-hover: #AC0289 !default;
+$color-black:         #000000 !default;
+$color-grey-dark:     #424242 !default;
+$color-grey: 	 	  #676767 !default;
+$color-grey-medium:   #8E8F8E !default;
+$color-grey-light:    #CCCCCC !default;
+$color-grey-silver:   #EEEEEE !default;
 
 // Tertiary Colors
-$rc_yellow: #FFF155;
-$rc_orange: #FB8309;
-$rc_red:    #EC3D10;
-$rc_pink:   #D06EAB;
+$color-yellow: #FFF155 !default;
+$color-orange: #FB8309 !default;
+$color-red:    #EC3D10 !default;
+$color-pink:   #D06EAB !default;
 
 // Basic Fonts Sizes
 $font-size-extra-small: 12px !default;
@@ -42,12 +41,12 @@ $font-size-base:  		16px !default;
 $font-size-large: 		24px !default;
 
 // Basic Fonts Weight
-$font-thin:     100;
-$font-regular:  400;
-$font-medium:   500;
-$font-semibold: 600;
-$font-bold:     700;
-$font-black:    900;
+$font-thin:     100 !default;
+$font-regular:  400 !default;
+$font-medium:   500 !default;
+$font-semibold: 600 !default;
+$font-bold:     700 !default;
+$font-black:    900 !default;
 
 // Head Tag Sizes
 $h1-font-size: 42px !default;
@@ -61,20 +60,27 @@ $navbar-font-size:         16px !default;
 $navbar-height:            43px !default;
 $navbar-brand-height:      39px !default;
 $navbar-brand-width:       149px !default;
-$navbar-background:        $rc_white !default;
-$navbar-color:             $rc_grey_dark !default;
-$navbar-active-color:      $rc_blue !default;
-$navbar-active-background: $rc_blue_rgba !default;
-$navbar-option-height:	   43px;
+$navbar-background:        $color-white !default;
+$navbar-color:             $color-grey-dark !default;
+$navbar-active-color:      $color-blue !default;
+$navbar-active-background: $color-blue-rgba !default;
+$navbar-option-height:	   43px !default;
 
 // Dropdown
-$dropdown_color: 			$rc_grey_dark !default;
-$dropdown_color-hover: 		$rc_blue !default;
-$dropdown_background: 		$rc_white !default;
-$dropdown_background-hover: $rc_blue_rgba !default;
-$dropdown_divider: 			$rc_white !default;
-$dropdown_height: 			48px;
-$dropdown_width: 			176px;
+$dropdown-color: 			$color-grey-dark !default;
+$dropdown-color-hover: 		$color-blue !default;
+$dropdown-background: 		$color-white !default;
+$dropdown-background-hover: $color-blue-rgba !default;
+$dropdown-divider: 			$color-white !default;
+$dropdown-height: 			48px !default;
+$dropdown-width: 			176px !default;
+
+// Input style
+$input-disabled-background: #F9F9F9 !default;
+$input-disabled-border: #CCC !default;
+$input-disabled-color: #999 !default;
+$cursor-disabled: not-allowed;
+$input-border: #5C5C5C;
 
 // Responsive Values
 $screen-xs-max: 575px !default;
@@ -100,64 +106,64 @@ $zindex-modal-background:  $zindex-base + 80 !default;
 $zindex-modal:             $zindex-base + 90 !default;
 
 // Buttons
-$button-color: 			$rc_white !default;
-$button-bg-color:       $rc_blue !default;
-$button-bg-hover-color: $rc_blue !default;
-$button-color-disabled: $rc_white;
-$button-bg-disabled:    $rc_grey_light;
+$button-color: 			$color-white !default;
+$button-bg-color:       $color-blue !default;
+$button-bg-hover-color: $color-blue !default;
+$button-color-disabled: $color-white !default;
+$button-bg-disabled:    $color-grey-light !default;
 
-$button-primary-color: 			$rc_white !default;
-$button-primary-hover-color: 	$rc_white !default;
-$button-primary-bg-color: 		$rc_blue !default;
+$button-primary-color: 			$color-white !default;
+$button-primary-hover-color: 	$color-white !default;
+$button-primary-bg-color: 		$color-blue !default;
 $button-primary-bg-hover-color: #2DA4C2 !default;
 
-$button-secondary-color: 		  $rc_blue !default;
-$button-secondary-hover-color: 	  $rc_white !default;
+$button-secondary-color: 		  $color-blue !default;
+$button-secondary-hover-color: 	  $color-white !default;
 $button-secondary-bg-color: 	  transparent !default;
-$button-secondary-bg-hover-color: $rc_blue !default;
+$button-secondary-bg-hover-color: $color-blue !default;
 
-$button-secondary-reverse-color: 		  $rc_white !default;
-$button-secondary-reverse-hover-color: 	  $rc_blue !default;
-$button-secondary-reverse-bg-color: 	  $rc_blue !default;
-$button-secondary-reverse-bg-hover-color: $rc_white !default;
+$button-secondary-reverse-color: 		  $color-white !default;
+$button-secondary-reverse-hover-color: 	  $color-blue !default;
+$button-secondary-reverse-bg-color: 	  $color-blue !default;
+$button-secondary-reverse-bg-hover-color: $color-white !default;
 
-$button-padding: 20px 60px;
+$button-padding: 20px 60px !default;
 
 // Dropdowns
-$rc_dropdown_color: 			$rc_green_pale;
-$rc_dropdown_hover_color: 		$rc_white;
-$rc_dropdown_bg_color:			$rc_white;
-$rc_dropdown_bg_hover_color:	$rc_green_pale;
-$rc_dropdown_border_color:		$rc_green_pale;
-$rc_dropdown_width:				419px;
-$rc_dropdown_min_width: 		240px;
-$rc_dropdown_height:			40px;
-$rc_dropdown_num_width:			65PX;
+$dropdown-color: 			$color-green-pale !default;
+$dropdown-hover-color: 		$color-white !default;
+$dropdown-bg-color:			$color-white !default;
+$dropdown-bg-hover-color:	$color-green-pale !default;
+$dropdown-border-color:		$color-green-pale !default;
+$dropdown-width:			419px !default;
+$dropdown-min_width: 		240px !default;
+$dropdown-height:			40px !default;
+$dropdown-num_width:		65px !default;
 
-$rc_dropdown_link_color: 			$rc_white;
-$rc_dropdown_link_hover_color:  	$rc_white;
-$rc_dropdown_link_hover_bg: 		$rc_black;
-$rc_dropdown_link_active_color: 	$rc_white;
-$rc_dropdown_link_active_bg: 		$rc_black;
-$rc_dropdown_link_disabled_color: 	#888;
-$rc_dropdown_link_disabled_bg: 		#333;
-$rc_dropdown_font_weight: 			700;
-$rc_dropdown_link_font_weight: 		400;
-$rc_dropdown_margin_top: 			0;
-$rc_dropdown_padding_y: 			0;
-$rc_dropdown_divider_bg: 			$rc_white;
-$rc_dropdown_item_padding_y: 		12px;
-$rc_dropdown_item_padding_x: 		15px;
-$rc_dropdown_header_color: 			#C00;
+$dropdown-link-color: 			$color-white !default;
+$dropdown-link-hover_color:  	$color-white !default;
+$dropdown-link-hover_bg: 		$color-black !default;
+$dropdown-link-active-color: 	$color-white !default;
+$dropdown-link-active-bg: 		$color-black !default;
+$dropdown-link-disabled-color: 	#888 !default;
+$dropdown-link-disabled-bg: 	#333 !default;
+$dropdown-font_weight: 			700 !default;
+$dropdown-link-font-weight: 	400 !default;
+$dropdown-margin-top: 			0 !default;
+$dropdown-padding-y: 			0 !default;
+$dropdown-divider-bg: 			$color-white !default;
+$dropdown-item-padding-y: 		12px !default;
+$dropdown-item-padding-x: 		15px !default;
+$dropdown-header-color: 		#C00 !default;
 
 // Cursors
-$rc_cursor_disabled: 	not-allowed;
-$rc_cursor_hover: 		pointer;
-$rc_cursor_normal: 		inerith;
+$cursor-disabled: 	not-allowed !default;
+$cursor-hover: 		pointer !default;
+$cursor-normal: 	inerith !default;
 
 // Status
-$rc_status_primary: 	$rc_green;
-$rc_status_success: 	$rc_green;
-$rc_status_danger: 		$rc_red;
-$rc_status_info: 		$rc_blue;
-$rc_status_disabled: 	$rc_grey_light; 
+$status-primary: 	$color-green !default;
+$status-success: 	$color-green !default;
+$status-danger: 	$color-red !default;
+$status-info: 		$color-blue !default;
+$status-disabled: 	$color-grey-light !default;
