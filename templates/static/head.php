@@ -12,6 +12,7 @@
 <!-- Added jQuery -->
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 
+
 <!-- Added CSS Files -->
 <link rel="stylesheet" href="assets/css/main.css">
 <link rel="stylesheet" href="assets/css/font-awesome.css">
@@ -20,5 +21,6 @@
 <script src="/assets/js/rc_core.js"></script>
 <script src="/assets/js/rc_validation.js"></script>
 <script src="/assets/js/selects.js"></script>
+<script src="/assets/js/main.js"></script>
 
 <title>ReCharge - Styleguide</title>

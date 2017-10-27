@@ -284,4 +284,9 @@
 	    }
 	}
 
+	&_checkbox_status label,
+	&_radio_status label{
+		display: inline-block !important;
+	}
+
 }

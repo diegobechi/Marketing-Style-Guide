@@ -30,15 +30,15 @@ $zindex-dropkick:		   $zindex-base + 30 !default;
 	@include pre(text-overflow, $text, o);
 }
 
-$color: #424242 !default;
-$color-aux: #BDF0E4 !default;
+$color: $color-grey-dark !default;
+$color-aux: $color-green-pale !default;
 $border-color: $input-border !default;
-$border-color-aux: #4DD6B7 !default;
+$border-color-aux: $color-green !default;
 $border-radius: 0 !default;
-$disabled-color: #999 !default;
-$disabled-background: #F9F9F9 !default;
-$disabled-border: #CCC !default;
-$arrow-color: #424242 !default;
+$disabled-color: $input-disabled-color !default;
+$disabled-background: $input-disabled-background !default;
+$disabled-border: $input-disabled-border !default;
+$arrow-color: $color-grey-dark !default;
 
 .rc_select,
 .rc_select *,
@@ -66,6 +66,8 @@ $arrow-color: #424242 !default;
 
 	cursor: pointer;
 	color: $color;
+
+	margin: 15px 0;
 	
 	::-moz-selection {
 		background: transparent;
@@ -83,12 +85,17 @@ $arrow-color: #424242 !default;
 	}
 }
 
+.form__select__num{
+	& .rc_select__selected{
+		max-width: 69px;
+	}
+}
 .rc_select__selected {
 	width: 100%;
 	white-space: nowrap;
 	overflow: hidden;
 	position: relative;
-	background-color: #FFF;
+	background-color: $color-white;
 
 	border-width: 1px;
 	border-style: solid;
@@ -163,7 +170,7 @@ $arrow-color: #424242 !default;
 }
 
 .rc_select--options {
-	background-color: white;
+	background-color: $color-white;
 	border: 1px solid $border-color;
 	border-radius: $border-radius;
 	list-style: none;

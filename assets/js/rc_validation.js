@@ -14,9 +14,9 @@
     function validateSelect(elem) {
         let isValid = isFieldValid(elem);
         if (isValid) {
-            elem.prev('.dk-select').removeClass('form__select--invalid');
+            elem.prev('.dk-select').removeClass('form__select--invalid rc_error');
         } else {
-            elem.prev('.dk-select').addClass('form__select--invalid');
+            elem.prev('.dk-select').addClass('form__select--invalid rc_error');
         }
         return isValid;
     }
@@ -25,9 +25,9 @@
     function validateField(elem, regex) {
         let isValid = isFieldValid(elem, regex);
         if (isValid) {
-            elem.removeClass('form__input--invalid');
+            elem.removeClass('form__input--invalid rc_error');
         } else {
-            elem.addClass('form__input--invalid');
+            elem.addClass('form__input--invalid rc_error');
         }
         return isValid;
     }
@@ -93,13 +93,13 @@
                         
                         fieldsObj.errors = fieldsObj.errors.filter(x => x !== this.validationMessage)
                         if (isValid) {
-                            if (elementType == 'input') { this.field.removeClass('form__input--invalid'); };
-                            if (elementType == 'select') { this.field.prev('.dk-select').removeClass('form__select--invalid'); };
+                            if (elementType == 'input') { this.field.removeClass('form__input--invalid rc_error'); };
+                            if (elementType == 'select') { this.field.prev('.dk-select').removeClass('form__select--invalid rc_error'); };
 
                             jError.remove();
                         } else {
-                            if (elementType == 'input') { this.field.addClass('form__input--invalid'); };
-                            if (elementType == 'select') { this.field.prev('.dk-select').addClass('form__select--invalid'); };
+                            if (elementType == 'input') { this.field.addClass('form__input--invalid rc_error'); };
+                            if (elementType == 'select') { this.field.prev('.dk-select').addClass('form__select--invalid rc_error'); };
                             
                             if(jError.length <= 0) this.field_parent.append(errorElem);
                             fieldsObj.errors.push(this.validationMessage);

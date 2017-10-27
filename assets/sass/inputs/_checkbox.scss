@@ -1,4 +1,4 @@
-$checkboxBackgroundColor: #424242;
+$checkboxBackgroundColor: $color-grey-dark;
 
 .rc_form__checkbox {
 	display: none;
@@ -23,7 +23,7 @@ $checkboxBackgroundColor: #424242;
 			content: "";
 			display: inline-block;
 			box-sizing: border-box;
-			background-color: #FFF;
+			background-color: $color-white;
 
 			margin-right: 9px;
 
@@ -46,10 +46,10 @@ $checkboxBackgroundColor: #424242;
 .rc_form__checkbox {
 	&.rc_error {
 		+ .rc_form__label {
-			color: #EC3D10;
+			color: $color-red;
 
 			&:before {
-				border-color: #EC3D10;
+				border-color: $color-red;
 			}
 		}
 
@@ -57,7 +57,7 @@ $checkboxBackgroundColor: #424242;
 		&.rc_checked {
 			+ .rc_form__label {
 				&:before {
-					background-color: #EC3D10;
+					background-color: $color-red;
 				}
 			}
 		}
@@ -90,9 +90,9 @@ $checkboxBackgroundColor: #424242;
 		+ .rc_form__label {
 			&:before {
 				content: "\f068";
-				color: #999;
+				color: $input-disabled-color;
 				text-indent: 3px;
-				border-color: #CCC;
+				border-color: $input-disabled-border;
 			}
 		}
 
@@ -101,8 +101,8 @@ $checkboxBackgroundColor: #424242;
 			+ .rc_form__label {
 				&:before {
 					content: "\f00c";
-					color: #999;
-					background-color: #f9f9f9;
+					color: $input-disabled-color;
+					background-color: $input-disabled-background;
 					text-indent: 1px;
 				}
 			}

@@ -9,7 +9,7 @@ input.rc_form__number {
 
 	&:focus,
 	&.rc_form__input--focus {
-		border-color: #4DD6B7;
+		border-color: $color-green;
 		outline: none;
 	}
 }
