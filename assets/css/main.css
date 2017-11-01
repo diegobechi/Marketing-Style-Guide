@@ -1269,6 +1269,7 @@ input[input-width="lg"].rc_form__number {
 
 .rc_select__selected {
   width: 100%;
+  max-width: 419px;
   white-space: nowrap;
   overflow: hidden;
   position: relative;
@@ -1344,6 +1345,7 @@ input[input-width="lg"].rc_form__number {
   overflow-y: auto;
   padding: 0;
   width: auto;
+  max-width: 419px;
   z-index: 100030; }
 
 .rc_select__option--selected {
@@ -3035,6 +3037,11 @@ ol {
     margin-bottom: 0; }
   .sg__container .sg_logo-usage_section h3 {
     margin-bottom: 30px; }
+  .sg__container .sg_form-elements_section .firstblock,
+  .sg__container .sg_form-elements_section .secondblock,
+  .sg__container .sg_form-elements_section .thirdblock,
+  .sg__container .sg_form-elements_section .fourblock {
+    margin-top: 50px; }
   .sg_page_header h2 {
     margin-bottom: 40px; }
   .sg_link p.rc_bg_blue {
@@ -3087,6 +3094,12 @@ ol {
     margin: 20px 20px 20px 0; }
   .sg_section.sg_buttons_links_section .rc_caption {
     margin-bottom: 20px; }
+  .sg_section_select {
+    margin-top: 53px; }
+    .sg_section_select_opened {
+      margin-top: 40px; }
+    .sg_section_select_number {
+      margin-top: 150px; }
   .sg_full_logo {
     margin-top: 30px; }
     .sg_full_logo div:not(:last-child) {

@@ -92,6 +92,7 @@ $arrow-color: $color-grey-dark !default;
 }
 .rc_select__selected {
 	width: 100%;
+	max-width: 419px;
 	white-space: nowrap;
 	overflow: hidden;
 	position: relative;
@@ -180,6 +181,7 @@ $arrow-color: $color-grey-dark !default;
 	overflow-y: auto;
 	padding: 0;
 	width: auto;
+	max-width: 419px;
 	z-index: $zindex-dropkick;
 }
 

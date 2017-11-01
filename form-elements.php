@@ -62,9 +62,9 @@
 	<div class="sg_section sg_form-elements_section">
 		<h3>Radio buttons &amp; checkboxes</h3>
 		<p>Radio buttons and checkboxes should inherit the same styles as the ReCharge app.</p>
-		<div class="rc_layout__container">
+		<div class="">
 			<div class="rc_layout">
-				<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
+				<div class="firstblock rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
 					<div class="sg_checkbox_status">
 						<input type="checkbox" id="sg_checkbox1" class="rc_form__checkbox" checked>
 						<label for="sg_checkbox1" class="rc_form__label"></label>
@@ -86,18 +86,18 @@
 						<label for="sg_radio4" class="rc_form__label"></label>
 					</div>
 				</div>
-				<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
+				<div class="secondblock rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
 					<input type="checkbox" id="sg_checkbox5" class="rc_form__checkbox">
 					<label for="sg_checkbox5" class="rc_form__label">Checkbox Label</label>
 					<input type="radio" id="sg_radio5" class="rc_form__radio">
 					<label for="sg_radio5" class="rc_form__label">Radio Label</label>
 				</div>
-				<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
+				<div class="thirdblock rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
 					<input type="radio" id="sg_radio6" class="rc_form__radio">
 					<label for="sg_radio6" class="rc_form__label">Radio Label</label>
 					<span class="rc_form__radio_info">Radio option Info</span>
 				</div>
-				<div class="rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
+				<div class="fourblock rc_layout__xs__12 rc_layout__sm__12 rc_layout__md__6 rc_layout__lg__6">
 					<input type="checkbox" id="sg_checkbox6" class="rc_form__checkbox">
 					<label for="sg_checkbox6" class="rc_form__label">Checkbox Label</label>
 					<input type="checkbox" id="sg_checkbox7" class="rc_form__checkbox">
@@ -114,21 +114,22 @@
 		<h3>Dropdowns</h3>
 		<p>Dropdowns should inherit the same styles as the ReCharge app. Notice the inactive and active states.</p>
 		<div>
-			<div>
+			<div class="sg_section_select">
 				<select class="form__select">
 					<option value="">Please choose one</option>
 					<option value="">Option 1</option>
 					<option value="">Option 2</option>
 				</select>
 			</div>
-			<div>
-				<select class="form__select">
+			<div class="sg_section_select_opened">
+				<select class="form__select rc_select--open-down">
 					<option>Please choose one</option>
 					<option>Option 1</option>
 					<option>Option 2</option>
 				</select>
 			</div>
-			<div>
+			<div class="sg_section_select_number">
+				<label>Label</label>
 				<select class="form__select form__select__num">
 					<option value="">999</option>
 					<option value="">99</option>
