@@ -284,4 +284,28 @@
 	    }
 	}
 
+	&_grids_section {
+		.rc_layout__container {
+			background-image: url('assets/images/styleguide/grid_bg.png');
+			background-repeat: repeat;
+			background-position: 0 0;
+		}
+
+		.rc_layout {
+			opacity: .915;
+			margin-right: -15px;
+		}
+
+		.rc_layout__sm__1 {
+			background-color: #eeeeee;
+			border-left: 11px solid #f6f6f6;
+			border-right: 11px solid #f6f6f6;
+			padding: 0;
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+			height: 800px;
+
+			text-align: center;
+		}
+	}
 }
