@@ -113,7 +113,7 @@
 			margin-top: 60px;
 
 			&_item {
-				max-width: 242px;
+				max-width: 310px;
 				width: 100%;
 				display:inline-block;
 				text-align: center;
@@ -286,7 +286,7 @@
 
 	&_grids_section {
 		.rc_layout__container {
-			background-image: url('assets/images/styleguide/grid_bg.png');
+			background-image: url('../images/styleguide/grid_bg.png');
 			background-repeat: repeat;
 			background-position: 0 0;
 		}

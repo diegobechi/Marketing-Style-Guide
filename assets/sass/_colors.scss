@@ -48,7 +48,6 @@
 	&_grey,
 	&_grey_medium,
 	&_grey_light,
-	&_grey_silver,
 	&_green_bright,
 	&_green_pale,
 	&_turquoise,
@@ -66,6 +65,17 @@
 		& span,
 		& label {
 			color: $color-white;
+		}
+	}
+	&_white,
+	&_grey_silver {
+		color: $color-grey-medium;
+
+		& a,
+		& p,
+		& span,
+		& label {
+			color: $color-grey-medium;
 		}
 	}
 }

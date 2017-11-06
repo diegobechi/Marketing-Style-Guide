@@ -1,19 +1,26 @@
-$checkboxBackgroundColor: #424242;
-
 .rc_form__checkbox {
 	display: none;
+			text-align: left !important;
 
 	+ .rc_form__label {
+		display: inline-block;
 		cursor: pointer;
+		text-align: left !important;
 		margin-bottom: 0;
 
 		+ .rc_form__checkbox + .rc_form__label {
-			margin-top: 20px;
+			// margin-top: 20px;
+			margin-left: 20px;
+		}
+
+		+ br + .rc_form__radio + .rc_form__label,
+		+ br + .rc_form__checkbox + .rc_form__label {
+			margin-top: 11px;
 		}
 
 		&:after {
-			display: table;
-			content: "";
+			// display: table;
+			// content: "";
 			// margin: 10px 0;
 		}
 
@@ -24,17 +31,18 @@ $checkboxBackgroundColor: #424242;
 			display: inline-block;
 			box-sizing: border-box;
 			background-color: #FFF;
+			text-align: left !important;
 
 			margin-right: 9px;
 
 			line-height: 16px;
-			text-indent: 1px;
+			text-indent: 2px;
 			font-size: 11px;
 
 			color: #FFF;
 			font-family: fontawesome;
 
-			border: 1px solid $input-border;
+			border: 1px solid $color-checkbox;
 
 			vertical-align: middle;
 			position: relative;
@@ -44,6 +52,8 @@ $checkboxBackgroundColor: #424242;
 }
 
 .rc_form__checkbox {
+	&.error,
+	&.rc_form__checkbox--invalid,
 	&.rc_error {
 		+ .rc_form__label {
 			color: #EC3D10;
@@ -78,7 +88,7 @@ $checkboxBackgroundColor: #424242;
 		+ .rc_form__label {
 			&:before {
 				content: "\f00c";
-				background-color: $checkboxBackgroundColor;
+				background-color: $color-checkbox;
 			}
 		}
 	}

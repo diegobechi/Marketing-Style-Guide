@@ -31,7 +31,7 @@
 	</div>
 	<div class="sg_section sg_typography_section">
 		<p class="rc_caption example_caption">This is a caption</p>
-		<p class="rc_caption">font-family: Ralewayregular; font-size: 12px; line-height: 18px; letter-sapcing: 2; text-transform: uppercase; color: #8E8F8E;</p>
+		<p class="rc_caption">font-family: Ralewayregular; font-size: 12px; line-height: 18px; letter-sapcing: 2; text-transform: uppercase; color: #A7A7A7;</p>
 	</div>
 	<div class="sg_section sg_typography_section">
 		<div class="sg_section typography_example">

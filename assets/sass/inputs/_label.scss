@@ -1,6 +1,7 @@
 .rc_form__label {
 	display: block;
 	max-width: 100%; // Force IE8 to wrap long content
+	margin-bottom: 11px;
 
 	> .rc_button {
 		height: auto;

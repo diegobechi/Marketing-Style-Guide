@@ -1,11 +1,11 @@
 .rc_form__input {
 	font-size: $font-size-base;
 	color: $color-grey-dark;
-	background-color: #FFFFFF;
+	background-color: $color-white;
 	background-image: none;
 	border-radius: 0;
 
-	border: 1px solid solid;
+	border: 1px solid $color-grey;
 
 	height: 40px;
 	padding: 6px 10px 7px;
@@ -24,20 +24,20 @@
 }
 
 .rc_form__input {
+	&:focus,
+	&--focus {
+		border-color: $color-green;
+		outline: none;
+	}
+}
+
+.rc_form__input {
 	&:disabled,
 	&[disabled] {
 		cursor: $cursor-disabled;
 		background-color: $input-disabled-background !important;
 		border-color: $input-disabled-border !important;
 		color: $input-disabled-color !important;
-	}
-}
-
-.rc_form__input {
-	&:focus,
-	&--focus {
-		border-color: $color-blue;
-		outline: none;
 	}
 }
 
@@ -56,19 +56,19 @@ textarea.rc_form__input {
 
 .rc_form__input {
 	&::-webkit-input-placeholder {
-		color: $color-grey-dark;
+		color: $color-placeholder;
 	}
 
 	&:-moz-placeholder {
-		color: $color-grey-dark;
+		color: $color-placeholder;
 	}
 
 	&::-moz-placeholder {
-		color: $color-grey-dark;
+		color: $color-placeholder;
 	}
 
 	&:-ms-input-placeholder {
-		color: $color-grey-dark;
+		color: $color-placeholder;
 	}
 }
 
@@ -88,10 +88,27 @@ textarea {
 }
 
 .rc_form__input {
-	&.rc_error {
+	&.rc_form__input--invalid {
 		border-color: $color-red;
+
+		background-position: 100% 0%;
+		background-image: url('../images/visuals/error_bg.png');
+		background-repeat: no-repeat;
+		background-size: 43px 38px;
+		padding-right: 43px;
+
+		+ .has_error {
+			color: $color-red;
+			font-size: 12px;
+			font-family: 'raleway';
+			font-weight: 600;
+			padding-left: 11px;
+			padding-top: 5px;
+			margin-bottom: -20px;
+		}
 	}
 }
+
 
 /* Control input width */
 .rc_form__number,

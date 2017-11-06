@@ -5,6 +5,10 @@
 		background-color: $color-white;
 		margin: 54px 0;
 
+		&__group {
+			margin-bottom: 30px;
+		}
+
 		& fieldset {
 			border: none;
 			margin: 0;
