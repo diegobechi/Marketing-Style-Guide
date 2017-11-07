@@ -45,7 +45,15 @@ body {
 }
 
 a {
+	color: #424242;
 	text-decoration: none;
+
+	transition: color .2s linear, background .2s linear;
+
+	&:hover,
+	&:active {
+		color: #2C93AC;
+	}
 }
 
 p {
@@ -60,6 +68,11 @@ p + p {
 
 strong {
 	font-weight: $font-semibold;
+}
+
+address {
+	font-style: normal;
+	line-height: 28px;
 }
 
 .rc {
@@ -78,12 +91,36 @@ strong {
 		color: $color-caption;
 	}
 
-	&_link {
-		font-weight: $font-semibold;
-		color: $color-blue;
+	&.rc_color_white {
+		text-decoration: underline;
+	}
+}
 
-		&.rc_color_white {
-			text-decoration: underline;
-		}
+.rc_text {
+	&--left {
+		text-align: left;
+	}
+
+	&--center {
+		text-align: center;
+	}
+
+	&--right {
+		text-align: right;
+	}
+}
+
+
+a.rc_link {
+	font-weight: $font-semibold;
+
+	&:link,
+	&:visited {
+		color: $color-turquoise;
+	}
+
+	&:hover,
+	&:active {
+		color: $color-blue-dark;
 	}
 }

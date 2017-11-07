@@ -15,6 +15,12 @@ ol {
 	list-style-type: decimal;
 }
 
+.rc_list {
+	li + li {
+		margin-top: 6px;
+	}
+}
+
 .rc {
 	&_list_items {
 		li {

@@ -8,6 +8,7 @@
 	border: 0;
 	cursor: pointer;
 	color: $button-primary-color;
+    white-space: nowrap;
 
 	&_primary {
 		background-color: $button-primary-bg-color;

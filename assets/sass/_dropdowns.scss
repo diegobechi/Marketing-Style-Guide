@@ -1,286 +1,99 @@
-$caret-width: 19px;
-$spacer-y: 0;
-
-//zindex needs to be higher than tooltip's to avoid visual issues
-$zindex-dropdown: 999 + 10;
-
-$enable-hover-media-query: true;
-$zindex-dropdown-backdrop: 30;
-
-@mixin nav-divider($color: #e5e5e5) {
-	height: 1px;
-	margin: ($spacer-y / 2) 0;
-	overflow: hidden;
-	background-color: $color;
-}
-
-@mixin hover {
-		&:hover { @content }
-}
-
-@mixin hover-focus {
-	@if $enable-hover-media-query {
-		&:focus { @content }
-		@include hover { @content }
-	}
-	@else {
-		&:focus,
-		&:hover {
-			@content
-		}
-	}
-}
-
-// The dropdown wrapper (`<div>`)
-.dropup,
 .rc_dropdown {
 	position: relative;
 	display: inline-block;
-	@media screen and (max-width: $mobile-nav-max) {
+
+	@media screen and (max-width: $screen-sm-max) {
 		width: 100%;
 	}
 }
 
 .rc_dropdown__toggle {
-	// Generate the caret automatically
 	&:after {
-		// display: inline-block;
-		// width: 0;
-		// height: 0;
-		// margin-left: $caret-width;
-		// vertical-align: middle;
-		// content: "";
-		// border-top: $caret-width solid;
-		// border-right: $caret-width solid transparent;
-		// border-left: $caret-width solid transparent;
-		content: '\f0d7';
-		position: relative;
-		font-family: fontawesome;
-		font-weight: normal;
-		font-size: $caret-width;
-		line-height: 1;
-		display: inline-block;
-		top: 0;
-		margin-left: 10px;
-	}
-
-	.fa {
-		font-size: 25px;
-		margin-top: -4px;
-	}
-
-	// Prevent the focus on the dropdown toggle when closing dropdowns
-	&:focus {
-		outline: 0;
+		margin-left: 11px;
+		font-family: FontAwesome;
+		content: "\f107";
 	}
 }
 
-.dropup {
-	.rc_dropdown__toggle {
-		&:after {
-			content: '\f0d6';
-		}
+.rc_dropdown__toggle {
+	&:focus,
+	a:focus {
+		outline: 0 !important;
 	}
 }
 
-// The dropdown menu
 .rc_dropdown__menu {
-	position: absolute;
-	top: 100%;
-	left: 0;
-	z-index: $zindex-dropdown;
-	display: none; // none by default, but block on "open" of the menu
-	float: left;
-	font-weight: $dropdown-font_weight;
-	min-width: $dropdown-min_width;
-	padding: $dropdown-padding-y 0;
-	margin: $dropdown-margin-top 0 0; // override default ul
-	font-size: $font-size-base; // Redeclare because nesting can cause inheritance issues
-	color: $color-white;
-	text-align: left; // Ensures proper alignment if parent has it changed (e.g., modal footer)
-	list-style: none;
-	background-color: $dropdown-bg-color;
-	background-clip: padding-box;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 2;
+    display: none;
+    padding: 0;
+    margin: -5px 0 0 0;
+
+    border-radius: 6px;
+
+    background-clip: padding-box;
+
+    background-color: #FFF;
+
+	box-shadow: 0 5px 45px 0 rgba(0, 0, 0, .18);
+
 	@media screen and (max-width: $mobile-nav-max) {
 		width: 100%;
 	}
-	// &:before {
-	//   content: "";
-	//   width: 1px;
-	//   height: 1px;
-	//   border-width: 16px;
-	//   border-style: solid;
-	//   border-color: #BDF0E4;
-	//   border-left-color: transparent;
-	//   border-right-color: transparent;
-	//   border-top-color: transparent;
-	//   position: absolute;
-	//   display: block;
-	//   top: -33px;
-	//   left: 25px;
-	// }
 }
 
-// Dividers (basically an `<hr>`) within the dropdown
-.rc_dropdown__divider {
-	@include nav-divider($dropdown-divider-bg);
-}
-
-// Links, buttons, and more within the dropdown menu
-//
-// `<button>`-specific styles are denoted with `// For <button>s`
 .rc_dropdown .rc_item {
 	display: block;
-	width: 100%; // For `<button>`s
-	padding: $dropdown-item-padding-y $dropdown-item-padding-x;
+	width: 100%;
+	white-space: nowrap;
 	clear: both;
-	line-height: 1;
-	font-weight: $dropdown-link-font-weight;
-	color: $dropdown-link-color;
-	text-align: inherit; // For `<button>`s
-	white-space: nowrap; // prevent links from randomly breaking onto new lines
-	background: none; // For `<button>`s
-	border: 0; // For `<button>`s
-	text-decoration: none;
+	height: 48px;
+	line-height: 48px;
+	font-size: 14px;
+	text-align: left;
+	padding-left: 33px;
+	padding-right: 33px;
+	font-weight: $font-regular;
 
-	@include hover-focus {
-		color: $dropdown-link-hover_color;
-		background-color: $dropdown-link-hover_bg;
+	&:hover,
+	&:focus {
+		color: $color-turquoise;
+		background-color: #d0ebf3;
 	}
 
-	&.active,
-	&:active {
-		color: $dropdown-link-active-color;
-		text-decoration: none;
-		background-color: $dropdown-link-active-bg;
-	}
-
-	&.disabled,
-	&:disabled {
-		color: $dropdown-link-disabled-color;
-		cursor: $cursor-disabled;
-		background-color: transparent;
+	&.rc_active {
+		font-weight: $font-semibold;
+		color: $color-turquoise;
 	}
 }
 
-// Open state for the dropdown
 .show {
-	// Show the menu
+	> .rc_button.rc_dropdown__toggle {
+		color: $color-turquoise;
+	}
 	> .rc_dropdown__menu {
 		display: block;
-	}
 
-	> .rc_dropdown__toggle {
-		&:after {
-			content: "\f0d8";
-			top: -1px;
+		&:before {
+			content: "";
+			border: 14px transparent solid;
+			border-bottom-color: #FFF;
+			position: absolute;
+			bottom: 100%;
+			left: 50%;
+			margin-left: -19px;
 		}
 	}
-
-	// Remove the outline when :focus is triggered
-	> a {
-		outline: 0;
-	}
 }
 
-// Menu positioning
-//
-// Add extra class to `.dropdown-menu` to flip the alignment of the dropdown
-// menu with the parent.
-@media screen and (min-width: $screen-sm-min) {
-	.rc_dropdown__menu--right {
-		right: 0;
-		left: auto; // Reset the default from `.dropdown-menu`
-	}
-
-	.rc_dropdown__menu--left {
-		right: auto;
-		left: 0;
-	}
-}
-
-// Dropdown section headers
-.rc_dropdown__header {
-	display: block;
-	padding: $dropdown-item-padding-y $dropdown-item-padding-x;
-	margin-bottom: 0; // for use with heading elements
-	color: $dropdown-header-color;
-	white-space: nowrap; // as with > li > a
-}
-
-// Backdrop to catch body clicks on mobile, etc.
+// Invisible element - needed to support mobile clicks.
 .rc_dropdown__backdrop {
 	position: fixed;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	z-index: $zindex-dropdown-backdrop;
-}
-
-// Allow for dropdowns to go bottom up (aka, dropup-menu)
-// Just add .dropup after the standard .dropdown class and you're set.
-.dropup {
-	// Different positioning for bottom up menu
-	.rc_dropdown__menu {
-		top: auto;
-		bottom: 100%;
-		margin-bottom: $dropdown-margin-top;
-	}
-}
-
-
-
-.rc_dropdown--settings {
-	&.show {
-		.rc_dropdown__toggle {
-			color: $status-primary;
-		}
-	}
-	.rc_dropdown__toggle {
-		cursor: pointer;
-		color: $color-grey;
-
-		&:hover {
-			color: $color-grey-dark;
-		}
-		&:after {
-			display: none;
-		}
-	}
-	.rc_dropdown__menu {
-		background-color: $color-grey-dark;
-		margin-top: 0;
-		min-width: 305px;
-		left: auto;
-		//right: 0;
-		right: 100%;
-		margin-right: -17px;
-
-		a {
-			&.active,
-			&.rc_active,
-			&:hover,
-			&:active {
-				background-color: $status-primary;
-				display: block;
-			}
-		}
-		&:before {
-			content: "";
-			border: 10px solid transparent;
-			position: absolute;
-			top: -20px;
-			right: 0;
-			border-bottom-color: $color-grey-dark;
-		}
-	}
-	@media screen and (max-width: $mobile-nav-max) {
-		width: 100%;
-		text-align: right;
-
-		.rc_dropdown__menu {
-			width: 100%;
-		}
-	}
+	z-index: 30;
 }

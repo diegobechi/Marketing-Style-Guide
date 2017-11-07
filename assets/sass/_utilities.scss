@@ -1,0 +1,63 @@
+.rc_hidden {
+	&--xs {
+		@media screen and (max-width: $screen-xs-max) {
+			display: none !important;
+		}
+	}
+
+	&--sm {
+		@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+			display: none !important;
+		}
+	}
+
+	&--md {
+		@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+			display: none !important;
+		}
+	}
+
+	&--lg {
+		@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+			display: none !important;
+		}
+	}
+
+	&--xl {
+		@media screen and (min-width: $screen-xl-min) {
+			display: none !important;
+		}
+	}
+}
+
+.rc_visible {
+	&--xs {
+		@media screen and (max-width: $screen-xs-max) {
+			display: initial !important;
+		}
+	}
+
+	&--sm {
+		@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+			display: initial !important;
+		}
+	}
+
+	&--md {
+		@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
+			display: initial !important;
+		}
+	}
+
+	&--lg {
+		@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
+			display: initial !important;
+		}
+	}
+
+	&--xl {
+		@media screen and (min-width: $screen-xl-min) {
+			display: initial !important;
+		}
+	}
+}
