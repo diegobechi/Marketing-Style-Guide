@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>calendar_1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage_onscroll" transform="translate(-842.000000, -1620.000000)" fill-rule="nonzero">
+            <g id="Homepage" transform="translate(-10.000000, -480.000000)">
+                <g id="calendar_1" transform="translate(852.000000, 2100.000000)">
+                    <circle id="Oval" fill="#4DD6B7" opacity="0.25" cx="19.5" cy="19.5" r="19.5"></circle>
+                    <rect id="Rectangle-path" fill="#17CC9D" x="10.9525" y="18.291" width="17.095" height="9.1455"></rect>
+                    <rect id="Rectangle-path" fill="#004E82" x="13.9035" y="11.5635" width="3.3475" height="1.95"></rect>
+                    <rect id="Rectangle-path" fill="#004E82" x="21.7425" y="11.5635" width="3.3475" height="1.95"></rect>
+                    <rect id="Rectangle-path" fill="#004E82" x="10.9525" y="13.5135" width="17.095" height="2.8925"></rect>
+                    <rect id="Rectangle-path" fill="#004E82" x="13.949" y="20.748" width="2.678" height="2.678"></rect>
+                    <rect id="Rectangle-path" fill="#004E82" x="18.161" y="20.748" width="2.678" height="2.678"></rect>
+                    <rect id="Rectangle-path" fill="#004E82" x="22.373" y="20.748" width="2.678" height="2.678"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

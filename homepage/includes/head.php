@@ -71,7 +71,8 @@
 <link rel="stylesheet" href="/assets/css/main.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-<script src="/assets/js/main.js">
+<script src="/assets/js/main.js"></script>
+<script src="/assets/js/countUp.js"></script>
 <script>
 	// Google Analytics
 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

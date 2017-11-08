@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>integration</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage_mobile" transform="translate(-26.000000, -1824.000000)" fill-rule="nonzero">
+            <g id="integration" transform="translate(26.000000, 1824.000000)">
+                <circle id="Oval" fill="#4DD6B7" opacity="0.25" cx="19.5" cy="19.5" r="19.5"></circle>
+                <rect id="Rectangle-path" fill="#004E82" x="12.389" y="14.638" width="14.222" height="2.223"></rect>
+                <path d="M13.65,18.902 L25.415,18.902 L25.415,20.683 C25.415,23.1958956 23.3778956,25.233 20.865,25.233 L18.2,25.233 C15.6871044,25.233 13.65,23.1958956 13.65,20.683 L13.65,18.902 Z" id="Shape" fill="#17CC9D"></path>
+                <rect id="Rectangle-path" fill="#004E82" x="15.2295" y="10.4195" width="2.0865" height="4.641"></rect>
+                <rect id="Rectangle-path" fill="#004E82" x="21.775" y="10.4195" width="2.0865" height="4.641"></rect>
+                <rect id="Rectangle-path" fill="#17CC9D" x="18.0115" y="25.1745" width="2.951" height="3.406"></rect>
+            </g>
+        </g>
+    </g>
+</svg>

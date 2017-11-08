@@ -75,11 +75,34 @@ address {
 	line-height: 28px;
 }
 
-.rc {
-	&_small {
+.rc_font {
+	&--regular {
 		font-weight: $font-regular;
+	}
+	&--semibold {
+		font-weight: $font-semibold;
+	}
+	&--bold {
+		font-weight: $font-bold;
+	}
+}
+
+.rc {
+	&_small,
+	&_text--small {
 		font-size: $font-size-small;
 		line-height: 18px;
+	}
+
+	&_base,
+	&_text--base {
+	}
+
+	&_large,
+	&_text--large {
+		font-size: 20px;
+		letter-spacing: -0.017em;
+		line-height: 30px;
 	}
 
 	&_caption {
@@ -121,6 +144,6 @@ a.rc_link {
 
 	&:hover,
 	&:active {
-		color: $color-blue-dark;
+		color: #125F70;
 	}
 }

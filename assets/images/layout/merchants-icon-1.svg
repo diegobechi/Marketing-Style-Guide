@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 5</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage_mobile" transform="translate(-26.000000, -1666.000000)">
+            <g id="Group-5" transform="translate(26.000000, 1666.000000)">
+                <circle id="Oval" fill="#4DD6B7" fill-rule="nonzero" opacity="0.247318097" cx="19.5" cy="19.5" r="19.5"></circle>
+                <g id="Page-1" transform="translate(13.000000, 16.000000)">
+                    <polygon id="Fill-1" fill="#17CC9D" points="5.90718801 8.55285466 1.38966802 4.26185107 0 5.72133812 6.02335999 11.4705882 15 1.31558523 13.494788 0"></polygon>
+                    <polygon id="Stroke-2" stroke="#17CC9D" stroke-width="1.696" points="5.90718801 8.55285466 1.38966802 4.26185107 0 5.72133812 6.02335999 11.4705882 15 1.31558523 13.494788 0"></polygon>
+                </g>
+                <g id="Page-1" transform="translate(15.000000, 11.000000)" fill="#004E82">
+                    <polygon id="Fill-1" points="2 6 4 6 4 0 2 0"></polygon>
+                    <polygon id="Fill-2" points="0 4 6 4 6 2 0 2"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

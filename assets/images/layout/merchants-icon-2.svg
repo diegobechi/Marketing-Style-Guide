@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 14</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="29.7013333 22.9640739 29.7013333 11.4510227 12.9568667 11.4510227 12.9568667 22.9640739 29.7013333 22.9640739"></polygon>
+        <polygon id="path-3" points="26.3119333 28.5 9.00035 28.5 9.00035 15.019925 26.3119333 15.019925"></polygon>
+    </defs>
+    <g id="Homepage" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Homepage_mobile" transform="translate(-26.000000, -1755.000000)">
+            <g id="Group-14" transform="translate(26.000000, 1755.000000)">
+                <g id="subscription">
+                    <circle id="Oval-Copy" fill="#4DD6B7" fill-rule="nonzero" opacity="0.247318097" cx="19.5" cy="19.5" r="19.5"></circle>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M27.5017,18.9004148 C27.1470333,14.7693807 23.5286167,11.4507443 19.0585333,11.4507443 C16.7176167,11.4507443 14.5178667,12.3990057 12.9568667,13.8890511 L14.3055333,15.5144034 C15.4407,14.2275966 17.14345,13.4831307 19.0585333,13.4831307 C22.3222833,13.4831307 25.01845,15.8529489 25.3737,18.9004148 L23.3157,18.9004148 L26.5082833,22.9640739 L29.70145,18.9004148 L27.5017,18.9004148 Z" id="Fill-1" fill="#004E82" mask="url(#mask-2)"></path>
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <path d="M24.9632667,23.533675 L26.3119333,25.3075917 C24.7509333,27.222675 22.3382667,28.500175 19.6421,28.500175 C14.9596833,28.500175 11.12835,24.6688417 11.12835,19.986425 C11.12835,19.7735083 11.12835,19.489425 11.1995167,19.2765083 L9.00035,19.2765083 L12.19235,15.019925 L15.3855167,19.2765083 L13.3281,19.2765083 C13.2569333,19.489425 13.2569333,19.7735083 13.2569333,19.986425 C13.2569333,23.533675 16.09485,26.3715917 19.6421,26.3715917 C21.8412667,26.3715917 23.8281,25.236425 24.9632667,23.533675" id="Fill-4" fill="#17CC9D" mask="url(#mask-4)"></path>
+                </g>
+                <g id="Page-1" transform="translate(9.000000, 11.000000)">
+                    <g id="Group-3" transform="translate(3.500000, 0.000000)"></g>
+                    <g id="Group-6" transform="translate(0.000000, 3.500000)"></g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
