@@ -43,16 +43,6 @@
 	</div>
 </div>
 
-<style>
-.rc_section--overview {
-
-}
-.overview_feature {
-	max-width: 328px;
-	margin: 66px auto 0;
-}
-</style>
-
 <div class="rc_section__container">
 	<div class="rc_section rc_section--overview rc_text--center">
 		<div class="rc_caption">
@@ -142,7 +132,7 @@
 		<div class="rc_layout__container">
 			<div class="rc_layout">
 				<div class="rc_layout__md__7 rc_media__container">
-					<video width="100%" muted loop autoplay poster="/assets/videos/customers.jpg" style="max-width: 608px">
+					<video width="100%" muted loop autoplay poster="/assets/videos/customers.jpg" style="max-width: 556px">
 						<source src="/assets/videos/customers.webm" type="video/webm">
 						<source src="/assets/videos/customers.mp4" type="video/mp4">
 						<source src="/assets/videos/customers.ogg" type="video/ogg">
@@ -243,10 +233,10 @@
 	<div class="rc_section rc_section--integrations">
 		<div class="rc_layout__container">
 			<div class="rc_layout">
-				<div class="rc_layout__md__5 rc_media__container">
+				<div class="rc_layout__md__6 rc_media__container">
 					<img src="/assets/images/layout/Integrations.png" alt="Integrations graphic" class="img--responsive">
 				</div>
-				<div class="rc_layout__md__7 rc_content__container">
+				<div class="rc_layout__md__6 rc_content__container">
 					<div class="rc_content">
 						<div class="rc_caption">
 							<span class="rc_hidden--xs">Automate your business</span>
@@ -258,6 +248,17 @@
 					</div>
 				</div>
 			</div>
+		</div>
+	</div>
+</div>
+
+<div class="rc_section__container">
+	<div class="rc_section rc_section--final rc_text--center background_2">
+		<div class="rc_content">
+			<h4>Ready to get started?</h4>
+			<p>Grounds and redeye strong dripper grinder fair trade. So trifecta barista a robust siphon ut aroma spoon cinnamon seasonal.</p>
+			<a href="#" class="rc_button rc_button_secondary">Book demo</a>
+			<a href="#" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
 	</div>
 </div>

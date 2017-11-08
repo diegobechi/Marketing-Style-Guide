@@ -7,6 +7,7 @@
 	> .rc_layout__container {
 		padding-left: 0;
 		padding-right: 0;
+
 		> .rc_layout {
 			margin-left: -$gutter;
 			margin-right: -$gutter;
@@ -32,7 +33,7 @@ hr.mini-hr {
 }
 
 .rc_content {
-	max-width: 459px;
+	max-width: 454px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -279,6 +280,13 @@ table.feature-table {
 }
 
 .rc_section--merchants {
+
+	.rc_content {
+		@media screen and (min-width: $screen-sm-min) {
+			margin-left: 15px;
+		}
+	}
+
 	.rc_content__container {
 		order: 2;
 
@@ -291,18 +299,61 @@ table.feature-table {
 		order: 1;
 
 		@media screen and (min-width: $screen-md-min) {
+			padding-left: 28px;
+			padding-top: 75px;
 			order: 2;
 		}
 	}
 }
 
+.rc_section--customers {
+	.rc_media__container {
+		@media screen and (min-width: $screen-md-min) {
+    		padding-left: 0;
+			padding-right: 90px;
+			padding-top: 90px;
+		}
+	}
+	.rc_content__container {
+		@media screen and (min-width: $screen-md-min) {
+    		margin-right: 0;
+		}
+	}
+}
+
 .rc_section--developers {
+	margin-top: 158px;
+
+	.rc_content {
+		max-width: 413px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			margin-left: 15px;
+		}
+	}
+
+	.rc_content__container {
+		order: 2;
+
+		@media screen and (min-width: $screen-md-min) {
+			order: 1;
+		}
+	}
+
 	.rc_media__container {
 		text-align: right;
 		background-image: url('/assets/videos/developers-bg.png');
-		background-size: 74%;
-		background-position: 0 55px;
+		background-size: 71%;
+		background-position: 0 88px;
 		background-repeat: no-repeat;
+
+		order: 1;
+
+		@media screen and (min-width: $screen-md-min) {
+	    	margin-right: -8px;
+	    	padding-top: 28px;
+			order: 2;
+		}
 	}
 
 	.revenue_stats {
@@ -322,8 +373,8 @@ table.feature-table {
 		right: 0;
 
 		@media screen and (min-width: $screen-sm-min) {
-			top: 202px;
-			left: 75px;
+			top: 230px;
+			left: 57px;
 		}
 	}
 
@@ -337,31 +388,82 @@ table.feature-table {
 			content: "$";
 		}
 	}
-
-	.rc_content__container {
-		order: 2;
-
-		@media screen and (min-width: $screen-md-min) {
-			order: 1;
-		}
-	}
-
-	.rc_media__container {
-		order: 1;
-
-		@media screen and (min-width: $screen-md-min) {
-			order: 2;
-		}
-	}
 }
 
 .rc_section--integrations {
+	margin-top: 153px;
+
 	.rc_content {
-		max-width: 400px;
+		max-width: 460px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			padding-top: 76px;
+		}
 	}
+
+	h3 {
+		margin-top: 23px;
+		line-height: 36px;
+		margin-bottom: 14px;
+	}
+
 	img.img--responsive {
 		width: 100%;
 		max-width: 424px;
 		height: auto;
+	}
+}
+
+.background_2 {
+	background-image: url('/assets/images/layout/bg-2.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 72% 0%;
+
+    height: 575px;
+	margin-top: -160px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		background-position: 50% 50%;
+		margin-top: -265px;
+		height: 599px;
+	}
+}
+
+.rc_section--final {
+	margin-bottom: 0;
+
+	.rc_content {
+		padding-top: 154px;
+		max-width: 259px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			max-width: 557px;
+		}
+	}
+
+	h4 {
+		font-weight: 600;
+		font-size: 24px;
+		margin-bottom: 20px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			font-size: 42px;
+			line-height: 48px;
+			margin-bottom: 22px;
+		}
+	}
+
+	p {
+		margin-bottom: 26px;
+
+		@media screen and (min-width: $screen-sm-min) {
+    		margin-bottom: 15px;
+		}
+	}
+
+	.rc_button {
+    	margin: 18px 17.5px 0;
+    	padding: 16px 60px;
 	}
 }
