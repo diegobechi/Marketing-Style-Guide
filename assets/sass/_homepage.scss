@@ -1,6 +1,22 @@
 .rc_section {
-	margin: 165px 0;
+	margin: 143px 0;
 	z-index: 1;
+	padding-left: $gutter;
+	padding-right: $gutter;
+
+	> .rc_layout__container {
+		padding-left: 0;
+		padding-right: 0;
+		> .rc_layout {
+			margin-left: -$gutter;
+			margin-right: -$gutter;
+		}
+	}
+
+	.rc_caption span {
+		display: block;
+		padding-bottom: 9px;
+	}
 }
 
 hr.mini-hr {
@@ -239,20 +255,44 @@ table.feature-table {
 		height: 74px;
 	}
 }
+/* Introduction/overview section */
+.rc_section--overview {
+	margin-top: 202px;
 
-.rc_section--merchants .rc_content__container,
-.rc_section--developers .rc_content__container {
-	order: 2;
-	@media screen and (min-width: $screen-md-min) {
-		order: 1;
+	h3 {
+		max-width: 557px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	h4 {
+		margin-top: 47px;
+    	margin-bottom: 25px;
+		line-height: 25px;
+		font-size: 18px;
 	}
 }
 
-.rc_section--merchants .rc_media__container,
-.rc_section--developers .rc_media__container {
-	order: 1;
-	@media screen and (min-width: $screen-md-min) {
+.overview_feature {
+	max-width: 328px;
+	margin: 66px auto 0;
+}
+
+.rc_section--merchants {
+	.rc_content__container {
 		order: 2;
+
+		@media screen and (min-width: $screen-md-min) {
+			order: 1;
+		}
+	}
+
+	.rc_media__container {
+		order: 1;
+
+		@media screen and (min-width: $screen-md-min) {
+			order: 2;
+		}
 	}
 }
 
@@ -295,6 +335,22 @@ table.feature-table {
 
 		&:before {
 			content: "$";
+		}
+	}
+
+	.rc_content__container {
+		order: 2;
+
+		@media screen and (min-width: $screen-md-min) {
+			order: 1;
+		}
+	}
+
+	.rc_media__container {
+		order: 1;
+
+		@media screen and (min-width: $screen-md-min) {
+			order: 2;
 		}
 	}
 }

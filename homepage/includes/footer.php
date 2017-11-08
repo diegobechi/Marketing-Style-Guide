@@ -133,7 +133,7 @@
 			if (!countUp.error) {
 				var timer = new DeltaTimer(function (time) {
 					countRevenue(countUp);
-				}, 3010);
+				}, 3000);
 				var start = timer.start();
 			} else {
 			  console.error(countUp.error);
