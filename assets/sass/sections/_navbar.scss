@@ -13,6 +13,9 @@ $mobile-max: $screen-sm-max;
     padding-bottom: 22px;
 	padding-left: 0;
 	padding-right: 0;
+	max-width: 1170px;
+	margin-left: auto;
+	margin-right: auto;
 
 	@media screen and (min-width: $mobile-min) {
 		align-items: center;

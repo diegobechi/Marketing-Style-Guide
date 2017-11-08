@@ -518,7 +518,7 @@ a.rc_link {
   -o-transition: all 0.5s ease;
   transition: all 0.5s ease;
   font-family: 'raleway';
-  padding: 20px 60px;
+  padding: 18px 60px;
   font-size: 16px;
   font-weight: 600;
   border: 0;
@@ -3183,7 +3183,7 @@ table.feature-table {
         margin-bottom: 47px; } }
 
 .rc_section--brands {
-  margin-top: 225px; }
+  margin-top: 233px; }
   .rc_section--brands p {
     margin-bottom: 50px;
     margin: 0 auto;
@@ -3192,7 +3192,7 @@ table.feature-table {
     line-height: 24px; }
   @media screen and (min-width: 576px) {
     .rc_section--brands {
-      margin-top: 271px; }
+      margin-top: 279px; }
       .rc_section--brands p {
         font-weight: 400;
         max-width: 570px;
@@ -3457,7 +3457,10 @@ table.feature-table {
   padding-top: 19px;
   padding-bottom: 22px;
   padding-left: 0;
-  padding-right: 0; }
+  padding-right: 0;
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto; }
   @media screen and (min-width: 768px) {
     .rc_navbar {
       -webkit-box-align: center;
