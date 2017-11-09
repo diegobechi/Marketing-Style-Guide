@@ -3553,7 +3553,9 @@ table.feature-table {
   .page__case-studies .case-studies__cases-heading .cases-heading {
     color: #53BAD3;
     letter-spacing: -0.037em;
-    text-align: center; }
+    text-align: center;
+    font-weight: 400;
+    margin-top: 10px; }
 
 .page__case-studies .case-studies__stat {
   background-color: #2C93AC;
