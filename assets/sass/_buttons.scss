@@ -14,6 +14,7 @@
 
 	&_primary {
 		background-color: $button-primary-bg-color;
+		border: 1px solid transparent;
 		box-shadow: 0 4px 8px 0 rgba(83, 186, 211, 0.40);
 
 		&:hover {

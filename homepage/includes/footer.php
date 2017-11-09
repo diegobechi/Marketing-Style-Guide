@@ -63,41 +63,19 @@
 			</div>
 		</footer>
 		<script>
-			$(function(){
-				// Google Analytics Event Tracking
-				$(document)
-					.on('click', '#trigger__free-trial-pricing', function(){
-						ga('send', 'event', 'modals', 'triggered', 'Pricing Page Link', location.href);
-					})
-					.on('click', '#trigger__free-trial-v2', function(){
-						ga('send', 'event', 'modals', 'triggered', 'Floating Navbar Link', location.href);
-					})
-					.on('click', '#trigger__free-trial', function(){
-						ga('send', 'event', 'modals', 'triggered', 'Homepage Banner Link', location.href);
-					})
-
-				$(window).on('scroll', function(){
-					if ($(this).scrollTop() >= 78 && $(window).width() >= 768){
-						$('body').addClass('with-navbar')
-						$('.navbar').addClass('navbar-fixed');
-						$('.navbar__button').addClass('button--primary');
-						$('.navbar__button').removeClass('button--secondary');
-					} else {
-						// If user scrolls within the navbar (and not on mobile), remove the support class from the body to prevent duplicated actions and animate the navbar back up. On completion, remove styles created by jQuery animation and remove the transformation styles.
-						if ($('body').hasClass('with-navbar') && $(window).width() >= 768){
-							$('body').removeClass('with-navbar').find('.navbar').animate({
-								'top': -78
-							}, 100, function(){
-								$(this).attr('style', '').removeClass('navbar-fixed');
-								$('.navbar__button').removeClass('button--primary');
-								$('.navbar__button').addClass('button--secondary');
-							})
-						}
-					}
-				});
+			/* Google Analytics link-action tracking */
+			document.querySelector('#navbarSignUp').addEventListener('click', function() {
+				ga('send', 'event', 'modals', 'triggered', 'Floating Navbar Link', location.href);
+			});
+			document.querySelector('#homepageBannerSignUp').addEventListener('click', function() {
+				ga('send', 'event', 'modals', 'triggered', 'Homepage Banner Link', location.href);
+			});
+			document.querySelector('#footerSignUp').addEventListener('click', function() {
+				ga('send', 'event', 'modals', 'triggered', 'Footer Banner Link', location.href);
 			});
 		</script>
 		<script>
+			/* Block of code to animate the price metrics in the Developer section. Needs refactor */
 			function DeltaTimer(render, interval) {
 				var timeout;
 				var lastTime;
@@ -140,6 +118,7 @@
 			}
 		</script>
 		<script>
+			/* This creates the subtle parallax motion in the banner while scrolling down */
 			var banner = document.querySelector('.parallax_banner'),
 				items = document.querySelectorAll('.parallax_image');
 			window.addEventListener('scroll', function() {
@@ -150,6 +129,21 @@
 						let math = scrollY * elem.getAttribute('data-modifier') * -1;
 						elem.style.marginTop = math + 'px';
 					});
+				}
+			});
+		</script>
+		<script>
+			/* Triggers style changes by modifying class names in navbar and button */
+			var navbarContainer = document.querySelector('#navbar');
+				signUpButton = navbarContainer.querySelector('#navbarSignUp');
+			window.addEventListener('scroll', function() {
+				let scrollY = this.scrollY;
+				if (scrollY > 15) {
+					navbarContainer.classList.add('fixed');
+					signUpButton.className = signUpButton.className.replace('rc_button_secondary', 'rc_button_primary');
+				} else {
+					navbarContainer.classList.remove('fixed');
+					signUpButton.className = signUpButton.className.replace('rc_button_primary', 'rc_button_secondary');
 				}
 			});
 		</script>

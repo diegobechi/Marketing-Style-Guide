@@ -17,7 +17,7 @@
 			<h1 class="rc_font--regular">Easily <span class="rc_color_blue">sell subscriptions</span> on your Shopify store</h1>
 			<p>ReCharge is the leading platform to launch and scale your subscription business</p>
 			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
-			<a href="https://apps.shopify.com/shopify-recurring-payments" class="rc_button rc_button_primary">Sign up free</a>
+			<a href="https://apps.shopify.com/shopify-recurring-payments" id="homepageBannerSignUp" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
 	</div>
 </div>
@@ -267,7 +267,7 @@
 			<h4>Ready to get started?</h4>
 			<p>Grounds and redeye strong dripper grinder fair trade. So trifecta barista a robust siphon ut aroma spoon cinnamon seasonal.</p>
 			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
-			<a href="https://apps.shopify.com/shopify-recurring-payments" class="rc_button rc_button_primary">Sign up free</a>
+			<a href="https://apps.shopify.com/shopify-recurring-payments" id="footerSignUp" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
 	</div>
 </div>
