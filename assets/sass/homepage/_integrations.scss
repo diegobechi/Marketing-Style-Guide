@@ -1,0 +1,24 @@
+/* Integrations section, featuring an icon of MailChimp and Google Analytics */
+.rc_section--integrations {
+	margin-top: 153px;
+
+	.rc_content {
+		max-width: 460px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			padding-top: 76px;
+		}
+	}
+
+	h3 {
+		margin-top: 23px;
+		line-height: 36px;
+		margin-bottom: 14px;
+	}
+
+	img.img--responsive {
+		width: 100%;
+		max-width: 424px;
+		height: auto;
+	}
+}

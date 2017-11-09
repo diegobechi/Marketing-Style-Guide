@@ -59,7 +59,7 @@
 		color: #676767;
 		&:hover,
 		&:active {
-			color: #424242;
+			color: #2C93AC;
 		}
 	}
 
@@ -67,6 +67,11 @@
 		a {
 			font-weight: $font-semibold;
 			color: #2C93AC;
+
+			&:focus,
+			&:hover {
+				color: #125F70;
+			}
 		}
 	}
 }
@@ -79,6 +84,10 @@
 	background-color: #F5F5F5;
 	display: inline-block;
 	border-radius: 50%;
+
+	&:hover span {
+		color: #2C93AC;
+	}
 
 	+ .social-icon {
 		margin-left: 14px;

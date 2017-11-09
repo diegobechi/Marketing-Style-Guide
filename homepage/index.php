@@ -1,5 +1,16 @@
 <?php include('includes/header.php'); ?>
 
+<div class="rc_section__container">
+	<div class="rc_section rc_section--hero rc_text--center">
+		<div class="rc_content">
+			<h1>Easily <strong class="rc_color_blue">sell subscriptions</strong> on your Shopify store</h1>
+			<p>ReCharge is the leading platform to launch and scale your subscription business</p>
+			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
+			<a href="https://apps.shopify.com/shopify-recurring-payments" id="homepageBannerSignUp" class="rc_button rc_button_primary">Sign up free</a>
+		</div>
+	</div>
+</div>
+
 <div class="parallax_container">
 	<div class="parallax_banner">
 		<div id="plant" class="parallax_image" data-modifier=".1"><img src="/assets/images/layout/plant@2x.png" alt="Plant graphic"></div>
@@ -10,17 +21,6 @@
 </div>
 
 <div class="background_1"></div>
-
-<div class="rc_section__container">
-	<div class="rc_section rc_section--hero rc_text--center">
-		<div class="rc_content">
-			<h1 class="rc_font--regular">Easily <span class="rc_color_blue">sell subscriptions</span> on your Shopify store</h1>
-			<p>ReCharge is the leading platform to launch and scale your subscription business</p>
-			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
-			<a href="https://apps.shopify.com/shopify-recurring-payments" id="homepageBannerSignUp" class="rc_button rc_button_primary">Sign up free</a>
-		</div>
-	</div>
-</div>
 
 <div class="rc_section__container">
 	<div class="rc_section rc_section--brands rc_text--center">

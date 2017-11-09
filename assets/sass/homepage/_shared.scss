@@ -1,0 +1,71 @@
+/* General styles and components shared by the homepage sections */
+.rc_section {
+	margin: 143px 0;
+	z-index: 1;
+	padding-left: $gutter;
+	padding-right: $gutter;
+
+	> .rc_layout__container {
+		padding-left: 0;
+		padding-right: 0;
+
+		> .rc_layout {
+			margin-left: -$gutter;
+			margin-right: -$gutter;
+		}
+	}
+
+	.rc_caption span {
+		display: block;
+		padding-bottom: 9px;
+	}
+
+	h3 {
+		margin-bottom: 20px;
+
+		@media screen and (min-width: $screen-md-min) {
+			font-size: 28px;
+			line-height: 32px;
+		}
+	}
+}
+
+.rc_content {
+	max-width: 454px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rc_media__container {
+	margin-bottom: 70px;
+	text-align: center;
+	position: relative;
+
+	video {
+		max-width: 100%;
+		border-radius: 6px;
+		margin-left: auto;
+		margin-right: auto;
+		box-shadow: 0 20px 40px rgba(0, 0, 0, .1);
+	}
+}
+
+table.feature-table {
+	margin-top: 16px;
+	max-width: 324px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		max-width: 420px;
+	}
+
+	td {
+		vertical-align: top;
+		padding-top: 25px;
+	}
+
+	img {
+		width: 39px;
+		height: 39px;
+		margin-right: 26px;
+	}
+}

@@ -76,14 +76,17 @@ address {
 }
 
 .rc_font {
+	&--light {
+		font-weight: 300 !important;
+	}
 	&--regular {
-		font-weight: $font-regular;
+		font-weight: $font-regular !important;
 	}
 	&--semibold {
-		font-weight: $font-semibold;
+		font-weight: $font-semibold !important;
 	}
 	&--bold {
-		font-weight: $font-bold;
+		font-weight: $font-bold !important;
 	}
 }
 

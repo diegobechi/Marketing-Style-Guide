@@ -1,0 +1,109 @@
+/* The brands section, highlighting some of our most prominent stores */
+.rc_section--brands {
+	margin-top: 233px;
+
+	p {
+		margin-bottom: 50px;
+		margin: 0 auto;
+		max-width: 323px;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	@media screen and (min-width: $screen-sm-min) {
+		margin-top: 279px;
+
+		p {
+			font-weight: 400;
+			max-width: 570px;
+			font-size: 20px;
+			line-height: 30px;
+		}
+	}
+}
+
+.rc_brand__container {
+	margin-top: 35px;
+	display: block;
+	width: 100%;
+	font-size: 0;
+	text-align: center;
+
+	@media screen and (min-width: $screen-md-min) {
+		margin-top: 31px;
+	}
+}
+
+.rc_brand {
+	width: 33%;
+	display: inline-block;
+	height: 60px;
+
+	img {
+		vertical-align: middle;
+	}
+
+	@media screen and (min-width: $screen-md-min) {
+		width: 20%;
+	}
+}
+
+.rc_brand--divider {
+	clear: both;
+	width: 5px;
+	height: 0;
+
+	@media screen and (min-width: $screen-md-min) {
+		display: none;
+	}
+}
+
+.brand-5hour {
+	width: 86px;
+	height: 42px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		width: 115px;
+		height: 61px;
+	}
+}
+
+.brand-hubble {
+	width: 86px;
+	height: 35px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		width: 114px;
+		height: 46px;
+	}
+}
+
+.brand-dc {
+	width: 55px;
+	height: 55px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		width: 74px;
+		height: 74px;
+	}
+}
+
+.brand-draxe {
+	width: 80px;
+	height: 30px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		width: 97px;
+		height: 36px;
+	}
+}
+
+.brand-deathwishcoffee {
+	width: 55px;
+	height: 55px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		width: 74px;
+		height: 74px;
+	}
+}

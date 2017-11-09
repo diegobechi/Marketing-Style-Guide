@@ -1,0 +1,26 @@
+/* Merchants section */
+.rc_section--merchants {
+	.rc_content {
+		@media screen and (min-width: $screen-sm-min) {
+			margin-left: 15px;
+		}
+	}
+
+	.rc_content__container {
+		order: 2;
+
+		@media screen and (min-width: $screen-md-min) {
+			order: 1;
+		}
+	}
+
+	.rc_media__container {
+		order: 1;
+
+		@media screen and (min-width: $screen-md-min) {
+			padding-left: 28px;
+			padding-top: 75px;
+			order: 2;
+		}
+	}
+}

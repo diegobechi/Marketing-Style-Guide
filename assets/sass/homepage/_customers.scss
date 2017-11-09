@@ -1,0 +1,15 @@
+/* Customers section */
+.rc_section--customers {
+	.rc_media__container {
+		@media screen and (min-width: $screen-md-min) {
+			padding-left: 0;
+			padding-right: 90px;
+			padding-top: 90px;
+		}
+	}
+	.rc_content__container {
+		@media screen and (min-width: $screen-md-min) {
+			margin-right: 0;
+		}
+	}
+}

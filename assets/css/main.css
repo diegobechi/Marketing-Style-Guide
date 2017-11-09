@@ -401,6 +401,13 @@ input,
 select {
   font-family: "raleway"; }
 
+hr.mini-hr {
+  width: 63px;
+  margin-left: 0;
+  height: 1px;
+  border: 1px solid #17CC9D;
+  background-color: #17CC9D; }
+
 html {
   -webkit-font-smoothing: antialiased; }
 
@@ -466,14 +473,17 @@ address {
   font-style: normal;
   line-height: 28px; }
 
+.rc_font--light {
+  font-weight: 300 !important; }
+
 .rc_font--regular {
-  font-weight: 400; }
+  font-weight: 400 !important; }
 
 .rc_font--semibold {
-  font-weight: 600; }
+  font-weight: 600 !important; }
 
 .rc_font--bold {
-  font-weight: 700; }
+  font-weight: 700 !important; }
 
 .rc_small, .rc_text--small {
   font-size: 14px;
@@ -3074,6 +3084,8 @@ ol {
   content: "\f00d";
   color: #C00399; }
 
+/* General */
+/* General styles and components shared by the homepage sections */
 .rc_section {
   margin: 143px 0;
   z-index: 1;
@@ -3088,21 +3100,29 @@ ol {
   .rc_section .rc_caption span {
     display: block;
     padding-bottom: 9px; }
-
-hr.mini-hr {
-  width: 63px;
-  margin-left: 0;
-  height: 1px;
-  border: 1px solid #17CC9D;
-  background-color: #17CC9D; }
-
-.img--responsive {
-  max-width: 100%; }
+  .rc_section h3 {
+    margin-bottom: 20px; }
+    @media screen and (min-width: 768px) {
+      .rc_section h3 {
+        font-size: 28px;
+        line-height: 32px; } }
 
 .rc_content {
   max-width: 454px;
   margin-left: auto;
   margin-right: auto; }
+
+.rc_media__container {
+  margin-bottom: 70px;
+  text-align: center;
+  position: relative; }
+  .rc_media__container video {
+    max-width: 100%;
+    border-radius: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
 
 table.feature-table {
   margin-top: 16px;
@@ -3118,47 +3138,61 @@ table.feature-table {
     height: 39px;
     margin-right: 26px; }
 
-.rc_section h3 {
-  margin-bottom: 20px; }
-  @media screen and (min-width: 768px) {
-    .rc_section h3 {
-      font-size: 28px;
-      line-height: 32px; } }
-
-.rc_media__container {
-  margin-bottom: 70px;
-  text-align: center;
-  position: relative; }
-  .rc_media__container video {
-    max-width: 100%;
-    border-radius: 6px;
-    margin-left: auto;
-    margin-right: auto;
-    -webkit-box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); }
-
+/* The two large-panel backgrounds we use on our homepage */
 .background_1 {
   background-image: url("/assets/images/layout/bg-1.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 23% 50%;
   width: 100%;
-  min-height: 611px;
   z-index: -1;
   position: absolute;
-  top: 415px;
+  min-height: 700px;
+  top: 384px;
   left: 0; }
   @media screen and (min-width: 576px) {
     .background_1 {
       background-position: 50% 50%;
-      top: 500px; } }
+      top: 450px; } }
   @media screen and (min-width: 768px) {
     .background_1 {
-      top: 450px; } }
+      min-height: 611px; } }
   @media screen and (min-width: 992px) {
     .background_1 {
       top: 410px; } }
 
+.background_2 {
+  background-image: url("/assets/images/layout/bg-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 72% 0%;
+  height: 575px;
+  margin-top: -160px; }
+  @media screen and (min-width: 576px) {
+    .background_2 {
+      background-position: 50% 50%;
+      margin-top: -265px;
+      height: 599px; } }
+
+/* Sections */
+/* Introduction/overview section listing 3 primary features */
+.rc_section--overview {
+  margin-top: 202px; }
+  .rc_section--overview h3 {
+    max-width: 557px;
+    margin-left: auto;
+    margin-right: auto; }
+  .rc_section--overview h4 {
+    margin-top: 47px;
+    margin-bottom: 25px;
+    line-height: 25px;
+    font-size: 18px; }
+
+.overview_feature {
+  max-width: 328px;
+  margin: 66px auto 0; }
+
+/* The primary layout of the large banner at the top of our page */
 .rc_section--hero {
   margin-top: 34px; }
   .rc_section--hero .rc_content {
@@ -3167,7 +3201,7 @@ table.feature-table {
     font-size: 36px;
     line-height: 44px;
     margin-bottom: 16px;
-    font-weight: 500; }
+    font-weight: 400; }
   .rc_section--hero p {
     max-width: 260px;
     margin-left: auto;
@@ -3191,8 +3225,111 @@ table.feature-table {
         margin-bottom: 47px; } }
   @media screen and (min-width: 992px) {
     .rc_section--hero .rc_content {
+      margin-top: 175px;
+      /* Standard margin-top, plus the height of the navbar */
       max-width: 947px; } }
 
+/* These are the graphics that make up the banner */
+.parallax_image {
+  position: absolute; }
+
+.parallax_image img {
+  width: 100%;
+  height: auto; }
+
+.parallax_container {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 100%;
+  max-width: 2880px;
+  height: 1472px;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+
+.parallax_banner {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  height: 736px; }
+
+/* Each image is precisely positioned seperately, so they can be animated with javascript */
+#box {
+  z-index: 1;
+  left: 50%;
+  width: 249.5px;
+  height: 209px;
+  margin-left: -205px;
+  top: 515px; }
+  @media screen and (min-width: 576px) {
+    #box {
+      width: 499px;
+      height: 418px;
+      top: 476px;
+      margin-left: -500px; } }
+  @media screen and (min-width: 992px) {
+    #box {
+      top: 376px;
+      margin-left: -640px; } }
+
+#plant {
+  z-index: 2;
+  left: 50%;
+  width: 125px;
+  height: 104px;
+  margin-left: -260px;
+  top: 395px; }
+  @media screen and (min-width: 576px) {
+    #plant {
+      width: 250px;
+      height: 208px;
+      top: 257.5px;
+      margin-left: -580px; } }
+  @media screen and (min-width: 992px) {
+    #plant {
+      margin-left: -793px; } }
+
+#iphone {
+  z-index: 3;
+  right: 50%;
+  width: 98px;
+  height: 134.5px;
+  top: 508px;
+  margin-right: -220px; }
+  @media screen and (min-width: 576px) {
+    #iphone {
+      width: 196px;
+      height: 269px;
+      top: 361.5px;
+      margin-right: -480px; } }
+  @media screen and (min-width: 992px) {
+    #iphone {
+      top: 261.5px;
+      margin-right: -611px; } }
+
+#clip {
+  z-index: 4;
+  right: 50%;
+  width: 29px;
+  height: 21.5px;
+  top: 452px;
+  margin-right: -200px; }
+  @media screen and (min-width: 576px) {
+    #clip {
+      width: 58px;
+      height: 43px;
+      top: 300px;
+      margin-right: -456px; } }
+  @media screen and (min-width: 992px) {
+    #clip {
+      top: 332px;
+      margin-right: -656px; } }
+
+/* The brands section, highlighting some of our most prominent stores */
 .rc_section--brands {
   margin-top: 233px; }
   .rc_section--brands p {
@@ -3278,23 +3415,7 @@ table.feature-table {
       width: 74px;
       height: 74px; } }
 
-/* Introduction/overview section */
-.rc_section--overview {
-  margin-top: 202px; }
-  .rc_section--overview h3 {
-    max-width: 557px;
-    margin-left: auto;
-    margin-right: auto; }
-  .rc_section--overview h4 {
-    margin-top: 47px;
-    margin-bottom: 25px;
-    line-height: 25px;
-    font-size: 18px; }
-
-.overview_feature {
-  max-width: 328px;
-  margin: 66px auto 0; }
-
+/* Merchants section */
 @media screen and (min-width: 576px) {
   .rc_section--merchants .rc_content {
     margin-left: 15px; } }
@@ -3325,6 +3446,7 @@ table.feature-table {
       -ms-flex-order: 2;
       order: 2; } }
 
+/* Customers section */
 @media screen and (min-width: 768px) {
   .rc_section--customers .rc_media__container {
     padding-left: 0;
@@ -3335,6 +3457,7 @@ table.feature-table {
   .rc_section--customers .rc_content__container {
     margin-right: 0; } }
 
+/* Developers section, including revenue counter */
 .rc_section--developers {
   margin-top: 158px; }
   .rc_section--developers .rc_content {
@@ -3400,6 +3523,7 @@ table.feature-table {
     .rc_section--developers #revenue_stats__dollars:before {
       content: "$"; }
 
+/* Integrations section, featuring an icon of MailChimp and Google Analytics */
 .rc_section--integrations {
   margin-top: 153px; }
   .rc_section--integrations .rc_content {
@@ -3416,6 +3540,7 @@ table.feature-table {
     max-width: 424px;
     height: auto; }
 
+/* Final section at the bottom of the homepage */
 .rc_section--final {
   margin-bottom: 0; }
   .rc_section--final .rc_content {
@@ -3423,9 +3548,10 @@ table.feature-table {
     max-width: 259px; }
     @media screen and (min-width: 576px) {
       .rc_section--final .rc_content {
+        padding-top: 230px;
         max-width: 557px; } }
   .rc_section--final h4 {
-    font-weight: 600;
+    font-weight: 400;
     font-size: 24px;
     margin-bottom: 20px; }
     @media screen and (min-width: 576px) {
@@ -3441,117 +3567,6 @@ table.feature-table {
   .rc_section--final .rc_button {
     margin: 18px 17.5px 0;
     padding: 16px 60px; }
-
-.background_2 {
-  background-image: url("/assets/images/layout/bg-2.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 72% 0%;
-  height: 575px;
-  margin-top: -160px; }
-  @media screen and (min-width: 576px) {
-    .background_2 {
-      background-position: 50% 50%;
-      margin-top: -265px;
-      height: 599px; } }
-
-.parallax_image {
-  position: absolute; }
-
-.parallax_image img {
-  width: 100%;
-  height: auto; }
-
-.parallax_container {
-  overflow: hidden;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  width: 100%;
-  max-width: 2880px;
-  height: 1472px;
-  top: 0;
-  left: 0;
-  z-index: -1; }
-
-.parallax_banner {
-  position: relative;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 1440px;
-  height: 736px; }
-
-#box {
-  z-index: 1;
-  left: 50%;
-  width: 249.5px;
-  height: 209px;
-  margin-left: -205px;
-  top: 515px; }
-  @media screen and (min-width: 576px) {
-    #box {
-      width: 499px;
-      height: 418px;
-      top: 476px;
-      margin-left: -500px; } }
-  @media screen and (min-width: 992px) {
-    #box {
-      top: 376px;
-      margin-left: -640px; } }
-
-#plant {
-  z-index: 2;
-  left: 50%;
-  width: 125px;
-  height: 104px;
-  margin-left: -260px;
-  top: 395px; }
-  @media screen and (min-width: 576px) {
-    #plant {
-      width: 250px;
-      height: 208px;
-      top: 257.5px;
-      margin-left: -580px; } }
-  @media screen and (min-width: 992px) {
-    #plant {
-      margin-left: -793px; } }
-
-#iphone {
-  z-index: 3;
-  right: 50%;
-  width: 98px;
-  height: 134.5px;
-  top: 508px;
-  margin-right: -220px; }
-  @media screen and (min-width: 576px) {
-    #iphone {
-      width: 196px;
-      height: 269px;
-      top: 361.5px;
-      margin-right: -480px; } }
-  @media screen and (min-width: 992px) {
-    #iphone {
-      top: 261.5px;
-      margin-right: -611px; } }
-
-#clip {
-  z-index: 4;
-  right: 50%;
-  width: 29px;
-  height: 21.5px;
-  top: 452px;
-  margin-right: -200px; }
-  @media screen and (min-width: 576px) {
-    #clip {
-      width: 58px;
-      height: 43px;
-      top: 300px;
-      margin-right: -456px; } }
-  @media screen and (min-width: 992px) {
-    #clip {
-      top: 332px;
-      margin-right: -656px; } }
 
 /* Navbar structure and basic styling */
 .rc_navbar__container {
@@ -3786,10 +3801,12 @@ table.feature-table {
   .footer a {
     color: #676767; }
     .footer a:hover, .footer a:active {
-      color: #424242; }
+      color: #2C93AC; }
   .footer address a {
     font-weight: 600;
     color: #2C93AC; }
+    .footer address a:focus, .footer address a:hover {
+      color: #125F70; }
 
 .social-icon {
   width: 36px;
@@ -3799,8 +3816,13 @@ table.feature-table {
   background-color: #F5F5F5;
   display: inline-block;
   border-radius: 50%; }
+  .social-icon:hover span {
+    color: #2C93AC; }
   .social-icon + .social-icon {
     margin-left: 14px; }
+
+.img--responsive {
+  max-width: 100%; }
 
 @media screen and (max-width: 575px) {
   .rc_hidden--xs {

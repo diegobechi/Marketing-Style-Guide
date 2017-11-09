@@ -1,0 +1,39 @@
+/* Final section at the bottom of the homepage */
+.rc_section--final {
+	margin-bottom: 0;
+
+	.rc_content {
+		padding-top: 154px;
+		max-width: 259px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			padding-top: 230px;
+			max-width: 557px;
+		}
+	}
+
+	h4 {
+		font-weight: 400;
+		font-size: 24px;
+		margin-bottom: 20px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			font-size: 42px;
+			line-height: 48px;
+			margin-bottom: 22px;
+		}
+	}
+
+	p {
+		margin-bottom: 26px;
+
+		@media screen and (min-width: $screen-sm-min) {
+			margin-bottom: 15px;
+		}
+	}
+
+	.rc_button {
+		margin: 18px 17.5px 0;
+		padding: 16px 60px;
+	}
+}
