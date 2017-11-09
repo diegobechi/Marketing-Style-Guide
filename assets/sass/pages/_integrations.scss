@@ -1,63 +1,25 @@
-.integrations {
-	font-size: 0;
-	margin: 40px auto;
-	.integration {
-		&__name {
-			margin-top: 15px;
-			font-size: 20px;
-			font-family: 'ralewaysemibold', arial, sans-serif;
-			font-weight: normal;
-		}
-		&__item {
-			font-size: 16px;
-			display: inline-block;
-			width: 25%;
-			text-align: left;
-			vertical-align: top;
-			box-sizing: border-box;
-			padding-bottom: 20px;
-			@media screen and (min-width: $screen-md-min){
-				&:nth-child(4n+1) {
-					padding-left: 15px;
-					padding-right: 25px;
+.rc_section{
+	&--integrations-directory{
+
+		& .integrations{
+			&__header{
+				&__title {
+					h1 {
+						text-transform: uppercase;
+						font-weight: $font-thin;
+					}
 				}
-				padding-right: 20px;
-				padding-left: 20px;
-				&:nth-child(4n) {
-					padding-left: 25px;
-					padding-right: 15px;
+				&__description{
+					p {
+						font-size: 18px;
+						font-weight: $font-regular;
+						letter-spacing: 0.44px;
+					}
 				}
 			}
-			@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max){
-				width: 50%;
-				&:nth-child(2n+1) {
-					padding-right: 10px;
-				}
-				&:nth-child(2n) {
-					padding-left: 10px;
-					padding-right: 0;
-				}
-			}
-			@media screen and (max-width: $screen-xs-max){
-				width: 100%;
-				padding-left: 0;
-				padding-right: 0;
-			}
-		}
-		&__media {
-			width: 100%;
-			margin-bottom: 20px;
-			img {
-				max-width: 100%;
-				height: auto;
-			}
-			@media screen and (max-width: $screen-xs-max){
-				text-align: center;
-				img {
-					max-width: initial;
-					height: 50px;
-					width: auto;
-				}
+			&__container{				
+				background-color: #F8F8F8;
+				padding: 78px 0;
 			}
 		}
 	}
@@ -65,36 +27,17 @@
 
 .page__integrations {
 
-	.page__header {
-		&__title {
-			h1 {
-				text-transform: uppercase;
-				margin: 0 auto 18px;
-				font-family: 'ralewaysemibold', arial, sans-serif;
-				font-size: 35px;
-				font-weight: normal;
-				font-style: normal;
-				line-height: 1;
-			}
-		}
-		p {
-			max-width: 395px;
-		}
-	}
-
 	.integrations {
 		&__block {
 			padding: 80px 0;
-			@include clearfix();
 
 			&:nth-of-type(even){
-				background-color: #EEE;
+				background-color: $color-grey-silver;
 			}
 		}
 
 		&__container {
 			box-sizing: border-box;
-			max-width: $container-width;
 			margin: 0 auto;
 
 			@media screen and (min-width: $screen-sm-min) and (max-width: $screen-md-max){
@@ -120,7 +63,7 @@
 				width: 88px;
 				height: 88px;
 				margin: 0 auto;
-				background-color: #52BBD4;
+				background-color: $color-blue;
 				border-radius: 50%;
 
 				.fa {
@@ -133,27 +76,12 @@
 				margin: 45px 0 10px;
 				font-size: 35px;
 				line-height: 1;
-				font-family: 'ralewaysemibold', arial, sans-serif;
-				font-weight: normal;
+				font-weight: $font-semibold;
 				text-transform: uppercase;
 
 				@media screen and (max-width: $screen-xs-max){
 					line-height: 41px;
 				}
-			}
-		}
-
-		&__sub-title {
-			margin: 50px auto 0;
-		}
-
-		&__set {
-			border-bottom: 1px solid #424242;
-			padding-bottom: 45px;
-
-			&:last-child {
-				border-bottom-width: 0;
-				padding-bottom: 0;
 			}
 		}
 
@@ -177,114 +105,112 @@
 	}
 }
 
-.page__integration__details {
-	background-color: #F8F8F8;
-}
 
-.integration__directory,
+.integrations__directory,
 .integration__explore {
 	box-sizing: border-box;
 	font-size: 0;
-	.integration {
-		&__item {
-			background-color: #F8F8F8;
-			box-sizing: border-box;
-			padding: 10px;
-			display: inline-block;
-			margin-bottom: 24px;
-			vertical-align: top;
-			
-			@media screen and (min-width: $screen-md-min) {
-				width: 23%;
-				margin-right: 2.667%;
-				&:nth-child(4n+4) {
-					margin-right: 0;
-				}
+	max-width: 970px;
+	margin: 0 auto;
+	&__item {
+		background-color: $color-grey-silver;
+		box-sizing: border-box;
+		padding: 10px;
+		display: inline-block;
+		margin-bottom: 24px;
+		vertical-align: top;
+		position: relative;
+		min-height: 388px;
+
+		@media screen and (min-width: $screen-md-min) {
+			width: 23%;
+			margin-right: 2.667%;
+			&:nth-child(4n+4) {
+				margin-right: 0;
 			}
-			@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-				width: 31%;
-				margin-right: 3.5%;
-				&:nth-child(3n+3) {
-					margin-right: 0;
-				}
+		}
+		@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+			width: 31%;
+			margin-right: 3.5%;
+			&:nth-child(3n+3) {
+				margin-right: 0;
 			}
-			@media screen and (max-width: $screen-xs-max) {
-				width: 48%;
-				margin-right: 4%;
-				&:nth-child(2n+2) {
-					margin-right: 0;
-				}
+		}
+		@media screen and (max-width: $screen-xs-max) {
+			width: 48%;
+			margin-right: 4%;
+			&:nth-child(2n+2) {
+				margin-right: 0;
 			}
-			@media screen and (max-width: 420px) {
-				width: 100%;
+		}
+		@media screen and (max-width: 420px) {
+			width: 100%;
+		}
+		&__media {
+			padding: 24px 24px 20px;
+			text-align: center;
+			position: relative;
+			background-color: $color-white;
+			display: block;
+			> a {
+				display: inline-block;
 			}
-			&__media {
-				padding: 24px 24px 20px;
-				text-align: center;
-				position: relative;
-				background-color: #FFF;
+			&:after {
+				content: "";
+				position: absolute;
+				top: 100%;
+				left: 0%;
 				display: block;
-				> a {
-					display: inline-block;
-				}
-				&:after {
-					content: "";
-					position: absolute;
-					top: 100%;
-					left: 0%;
-					display: block;
-					background-image: url('../images/integrations/card-arrow.png');
-					background-repeat: no-repeat;
-					background-position: 0 0;
-					background-size: 38px 17px;
-					width: 38px;
-					height: 17px;
-				}
+				background-image: url('../images/integrations/card-arrow.png');
+				background-repeat: no-repeat;
+				background-position: 0 0;
+				background-size: 38px 17px;
+				width: 38px;
+				height: 17px;
 			}
-			&__logo {
-				display: block;
-				margin: 0 auto 15px;
-				width: 80px;
-				height: 80px;
-			}
-			&__title {
-				color: #424242;
-				font-family: 'ralewaysemibold';
-				font-weight: normal;
-				font-style: normal;
-				font-size: 16px;
-				line-height: 25px;
-				display: block;
-				text-decoration: none;
-			}
-			&__info {
-				color: #424242;
-				font-family: 'ralewayregular';
-				font-weight: normal;
-				font-style: normal;
-				font-size: 14px;
-				line-height: 25px;
-				margin-top: 24px;
-			}
-			&__link {
-				color: #C00399;
-				font-family: 'ralewayregular';
-				font-weight: normal;
-				font-style: normal;
-				font-size: 14px;
-				line-height: 25px;
-				&:hover,
-				&:active,
-				&:focus {
-					color: darken(#C00399, 10%);
-				}
+		}
+		&__logo {
+			display: block;
+			margin: 0 auto 15px;
+			width: 80px;
+			height: 80px;
+		}
+		&__title {
+			color: $color-grey-dark;
+			font-weight: $font-semibold;
+			font-style: normal;
+			font-size: 16px;
+			line-height: 25px;
+			display: block;
+			text-decoration: none;
+		}
+		&__info {
+			color: $color-grey-dark;
+			font-weight: $font-regular;
+			font-style: normal;
+			font-size: $font-size-small;
+			line-height: 25px;
+			margin-top: 24px;
+		}
+		&__link {
+			color: $color-turquoise;
+			font-weight: $font-regular;
+			font-style: normal;
+			font-size: $font-size-small;
+			line-height: 25px;
+			position: absolute;
+			bottom: 10px;
+			&:hover,
+			&:active,
+			&:focus {
+				color: darken($color-magenta, 10%);
 			}
 		}
 	}
 }
 
 .integration__explore {
-	background-color: #FFF;
+	background-color: $color-white;
 	margin-top: 80px;
 	padding-bottom: 80px;
 	box-sizing: border-box;
@@ -306,8 +232,7 @@
 	.integration {
 		&__title {
 			color: #474747;
-			font-family: 'ralewaysemibold';
-			font-weight: normal;
+			font-weight: $font-semibold;
 			font-style: normal;
 			font-size: 24px;
 			line-height: 29px;
@@ -321,11 +246,11 @@
 		&__website {
 			line-height: 25px;
 			font-size: 16px;
-			color: #C00399;
+			color: $color-magenta;
 			&:hover,
 			&:active,
 			&:visited {
-				color: darker(#C00399, 15%);
+				color: darker($color-magenta, 15%);
 			}
 		}
 		&__features {
@@ -349,19 +274,13 @@
 				&:before {
 					content: "\f00c";
 					font-family: fontawesome;
-					font-size: 16px;
-					color: #424242;
+					font-size: $font-size-base;
+					color: $color-grey-dark;
 					position: absolute;
 					top: 0;
 					left: 0;
 				}
 			}
-		}
-		&__description {
-			
-		}
-		&__info {
-			
 		}
 	}
 }

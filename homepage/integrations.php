@@ -8,19 +8,22 @@
 <?php include('includes/header.php'); ?>
 
 
-<div class="page__container">
-	<div class="page__header">
-		<div class="page__header__title">
-			<h1>Integrations Directory</h1>
-		</div><!-- .page__header__title -->
-		<div class="page__header__description">
-			<p>Seamless integrations so that all the different parts of your business can work together.</p>
-		</div><!-- .page__header__description -->
+<div class="rc_section__container">
+	<div class="rc_section--integrations-directory rc_text--center">
+		<div class="integrations__header">
+			<div class="integrations__header__title">
+				<h1>Integrations Directory</h1>
+			</div>
+			<div class="integrations__header__description">
+				<p>Seamless integrations so that all the different parts of your business can work together.</p>
+			</div>
+		</div>
+		<div class="integrations__container">
+			<div class="integrations__directory rc_text--left">
+				<?php include('integration/_listing.php'); ?>
+			</div>
+		</div>
 	</div>
-
-	<div class="integration__directory">
-		<?php include('integration/_listing.php'); ?>
-	</div><!-- .integration__directory -->
-</div><!-- .page__container -->
+</div>
 
 <?php include('includes/footer.php'); ?>
