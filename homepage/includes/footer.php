@@ -64,15 +64,19 @@
 		</footer>
 		<script>
 			/* Google Analytics link-action tracking */
-			document.querySelector('#navbarSignUp').addEventListener('click', function() {
-				ga('send', 'event', 'modals', 'triggered', 'Floating Navbar Link', location.href);
-			});
-			document.querySelector('#homepageBannerSignUp').addEventListener('click', function() {
-				ga('send', 'event', 'modals', 'triggered', 'Homepage Banner Link', location.href);
-			});
-			document.querySelector('#footerSignUp').addEventListener('click', function() {
-				ga('send', 'event', 'modals', 'triggered', 'Footer Banner Link', location.href);
-			});
+			var trackingLinks = {
+				navbarSignUp: 'Floating Navbar Link',
+				homepageBannerSignUp: 'Homepage Banner Link',
+				footerSignUp: 'Footer Banner Link'
+			};
+			for (var id in trackingLinks) {
+				var foundLink = document.querySelector('#' + id);
+				if (foundLink) {
+					foundLink.addEventListener('click', function() {
+						ga('send', 'event', 'modals', 'triggered', trackingLinks[id], location.href);
+					});
+				}
+			}
 		</script>
 		<script>
 			/* Block of code to animate the price metrics in the Developer section. Needs refactor */
