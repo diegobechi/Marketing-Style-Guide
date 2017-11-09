@@ -1,0 +1,75 @@
+.page__media-kit {
+    .mediakit {
+        &__block {
+            padding: 80px 0;
+        }
+
+        &__container {
+            @extend .container;
+        }
+    }
+
+    .logos {
+        &__title {
+            font-family: 'ralewaysemibold';
+            line-height: 45px;
+            margin-bottom: 10px;
+        }
+
+        &__description {
+            margin: 0 auto;
+            max-width: 500px;
+            margin-bottom: 80px;
+        }
+
+        &__grid {
+            margin-bottom: 40px;
+            cursor: pointer;
+
+            &__description {
+                padding-left: 20px;
+                margin-bottom: 40px;
+
+                &__tiny {
+                    color: $gray-dark;
+                    margin: 0;
+                    font-size: 14px;
+                }
+            }
+
+            &__item {
+                margin: 20px;
+                padding: 20px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                //background-size: cover;
+                position: relative;
+
+                &__mark {
+                    width: 80%;
+                }
+
+                &--full {
+                    background-size: cover;
+                    margin-bottom: 40px;
+                }
+                &--black {
+                    background-image: url(../images/media-kit/background_dark.png);
+                }
+                &--white {
+                    background-image: url(../images/media-kit/background.png);
+                }
+            }
+        }
+
+        &__download {
+            &__link {
+                cursor: pointer;
+            }
+            &__file-ext {
+                font-size: 14px;
+                margin-top: 5px;
+            }
+        }
+    }
+}
