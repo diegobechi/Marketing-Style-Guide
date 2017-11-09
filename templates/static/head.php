@@ -7,18 +7,16 @@
 <link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
 
 <!--Raleway - Google Fonts-->
-<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,500,600,700,900&amp;subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600,700&amp;subset=latin-ext" rel="stylesheet">
 
 <!-- Added jQuery -->
 <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 
 <!-- Added CSS Files -->
-<link rel="stylesheet" href="assets/css/main.css">
-<link rel="stylesheet" href="assets/css/font-awesome.css">
+<link rel="stylesheet" href="assets/css/styleguide.css">
+<link rel="stylesheet" href="assets/css/app.css">
 
 <!-- Added JS Files -->
-<script src="/assets/js/rc_core.js"></script>
-<script src="/assets/js/rc_validation.js"></script>
-<script src="/assets/js/selects.js"></script>
+<script src="/assets/js/app.min.js"></script>
 
 <title>ReCharge - Styleguide</title>

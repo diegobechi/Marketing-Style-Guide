@@ -1,4 +1,4 @@
-<?php include('includes/header.php'); ?>
+<?php include('templates/static/header.php'); ?>
 
 <div class="rc_section__container">
 	<div class="rc_section rc_section--hero rc_text--center">
@@ -272,4 +272,4 @@
 	</div>
 </div>
 
-<?php include('includes/footer.php'); ?>
+<?php include('templates/static/footer.php'); ?>

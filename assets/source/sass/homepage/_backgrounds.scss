@@ -1,0 +1,42 @@
+/* The two large-panel backgrounds we use on our homepage */
+.background_1 {
+	background-image: url('../images/layout/bg-1.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 23% 50%;
+	width: 100%;
+	z-index: -1;
+	position: absolute;
+    min-height: 700px;
+    top: 384px;
+	left: 0;
+
+	@media screen and (min-width: $screen-sm-min) {
+		background-position: 50% 50%;
+		top: 450px;
+	}
+
+	@media screen and (min-width: $screen-md-min) {
+		min-height: 670px;
+	}
+
+	@media screen and (min-width: $screen-lg-min) {
+		top: 410px;
+	}
+}
+
+.background_2 {
+	background-image: url('../images/layout/bg-2.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 72% 0%;
+
+	height: 575px;
+	margin-top: -160px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		background-position: 50% 50%;
+		margin-top: -265px;
+		height: 599px;
+	}
+}
