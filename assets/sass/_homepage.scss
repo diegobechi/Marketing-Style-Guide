@@ -173,14 +173,14 @@ table.feature-table {
 
 .rc_brand__container {
 	margin-top: 35px;
-    display: block;
-    width: 100%;
-    font-size: 0;
-    text-align: center;
+	display: block;
+	width: 100%;
+	font-size: 0;
+	text-align: center;
 
-    @media screen and (min-width: $screen-md-min) {
-    	margin-top: 31px;
-    }
+	@media screen and (min-width: $screen-md-min) {
+		margin-top: 31px;
+	}
 }
 
 .rc_brand {
@@ -268,7 +268,7 @@ table.feature-table {
 
 	h4 {
 		margin-top: 47px;
-    	margin-bottom: 25px;
+		margin-bottom: 25px;
 		line-height: 25px;
 		font-size: 18px;
 	}
@@ -309,14 +309,14 @@ table.feature-table {
 .rc_section--customers {
 	.rc_media__container {
 		@media screen and (min-width: $screen-md-min) {
-    		padding-left: 0;
+			padding-left: 0;
 			padding-right: 90px;
 			padding-top: 90px;
 		}
 	}
 	.rc_content__container {
 		@media screen and (min-width: $screen-md-min) {
-    		margin-right: 0;
+			margin-right: 0;
 		}
 	}
 }
@@ -350,8 +350,8 @@ table.feature-table {
 		order: 1;
 
 		@media screen and (min-width: $screen-md-min) {
-	    	margin-right: -8px;
-	    	padding-top: 28px;
+			margin-right: -8px;
+			padding-top: 28px;
 			order: 2;
 		}
 	}
@@ -420,7 +420,7 @@ table.feature-table {
 	background-size: cover;
 	background-position: 72% 0%;
 
-    height: 575px;
+	height: 575px;
 	margin-top: -160px;
 
 	@media screen and (min-width: $screen-sm-min) {
@@ -458,12 +458,107 @@ table.feature-table {
 		margin-bottom: 26px;
 
 		@media screen and (min-width: $screen-sm-min) {
-    		margin-bottom: 15px;
+			margin-bottom: 15px;
 		}
 	}
 
 	.rc_button {
-    	margin: 18px 17.5px 0;
-    	padding: 16px 60px;
+		margin: 18px 17.5px 0;
+		padding: 16px 60px;
+	}
+}
+
+
+.parallax_image {
+	position: absolute;
+}
+.parallax_image img {
+	width: 100%;
+	height: auto;
+}
+
+.parallax_container {
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	width: 100%;
+	max-width: 2880px;
+	height: 1472px;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.parallax_banner {
+	position: relative;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 1440px;
+	height: 736px;
+}
+
+#box {
+	z-index: 1;
+	left: 50%;
+	width: (499px / 2);
+	height: (418px / 2);
+	margin-left: -205px;
+	top: 515px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		width: 499px;
+		height: 418px;
+		margin-left: -640px;
+		top: 376px;
+	}
+}
+
+#plant {
+	z-index: 2;
+	left: 50%;
+	width: (250px / 2);
+	height: (208px / 2);
+	margin-left: -260px;
+	top: 395px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		width: 250px;
+		height: 208px;
+		top: 257.5px;
+		margin-left: -793px;
+	}
+}
+
+#iphone {
+	z-index: 3;
+	right: 50%;
+	width: (196px / 2);
+	height: (269px / 2);
+	top: 508px;
+	margin-right: -220px;
+	
+	@media screen and (min-width: $screen-sm-min) {
+		width: 196px;
+		height: 269px;
+		top: 261.5px;
+		margin-right: -611px;
+	}
+}
+
+#clip {
+	z-index: 4;
+	right: 50%;
+	width: (58px / 2);
+	height: (43px / 2);
+	top: 452px;
+	margin-right: -200px;
+	
+	@media screen and (min-width: $screen-sm-min) {
+		width: 58px;
+		height: 43px;
+		top: 332px;
+		margin-right: -656px;
 	}
 }

@@ -524,7 +524,8 @@ a.rc_link {
   border: 0;
   cursor: pointer;
   color: #FFFFFF;
-  white-space: nowrap; }
+  white-space: nowrap;
+  border-radius: 0; }
   .rc_button_primary {
     background-color: #53BAD3;
     -webkit-box-shadow: 0 4px 8px 0 rgba(83, 186, 211, 0.4);
@@ -3441,6 +3442,89 @@ table.feature-table {
   .rc_section--final .rc_button {
     margin: 18px 17.5px 0;
     padding: 16px 60px; }
+
+.parallax_image {
+  position: absolute; }
+
+.parallax_image img {
+  width: 100%;
+  height: auto; }
+
+.parallax_container {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 100%;
+  max-width: 2880px;
+  height: 1472px;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+
+.parallax_banner {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  height: 736px; }
+
+#box {
+  z-index: 1;
+  left: 50%;
+  width: 249.5px;
+  height: 209px;
+  margin-left: -205px;
+  top: 515px; }
+  @media screen and (min-width: 576px) {
+    #box {
+      width: 499px;
+      height: 418px;
+      margin-left: -640px;
+      top: 376px; } }
+
+#plant {
+  z-index: 2;
+  left: 50%;
+  width: 125px;
+  height: 104px;
+  margin-left: -260px;
+  top: 395px; }
+  @media screen and (min-width: 576px) {
+    #plant {
+      width: 250px;
+      height: 208px;
+      top: 257.5px;
+      margin-left: -793px; } }
+
+#iphone {
+  z-index: 3;
+  right: 50%;
+  width: 98px;
+  height: 134.5px;
+  top: 508px;
+  margin-right: -220px; }
+  @media screen and (min-width: 576px) {
+    #iphone {
+      width: 196px;
+      height: 269px;
+      top: 261.5px;
+      margin-right: -611px; } }
+
+#clip {
+  z-index: 4;
+  right: 50%;
+  width: 29px;
+  height: 21.5px;
+  top: 452px;
+  margin-right: -200px; }
+  @media screen and (min-width: 576px) {
+    #clip {
+      width: 58px;
+      height: 43px;
+      top: 332px;
+      margin-right: -656px; } }
 
 .rc_navbar {
   position: relative;

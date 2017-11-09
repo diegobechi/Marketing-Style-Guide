@@ -10,6 +10,7 @@
 	cursor: pointer;
 	color: $button-primary-color;
     white-space: nowrap;
+    border-radius: 0;
 
 	&_primary {
 		background-color: $button-primary-bg-color;

@@ -1,5 +1,14 @@
 <?php include('includes/header.php'); ?>
 
+<div class="parallax_container">
+	<div class="parallax_banner">
+		<div id="plant" class="parallax_image" data-modifier=".1" data-modifier-y="6" data-modifier-x="6"><img src="/assets/images/layout/plant@2x.png" alt="Plant graphic"></div>
+		<div id="box" class="parallax_image" data-modifier=".25" data-modifier-y="4" data-modifier-x="4"><img src="/assets/images/layout/box@2x.jpg" alt="Box graphic"></div>
+		<div id="iphone" class="parallax_image" data-modifier=".19" data-modifier-y="4" data-modifier-x="4"><img src="/assets/images/layout/iPhone@2x.jpg" alt="iPhone graphic"></div>
+		<div id="clip" class="parallax_image" data-modifier=".13" data-modifier-y="6" data-modifier-x="6"><img src="/assets/images/layout/clip@2x.jpg" alt="Clip graphic"></div>
+	</div>
+</div>
+
 <div class="background_1"></div>
 
 <div class="rc_section__container">

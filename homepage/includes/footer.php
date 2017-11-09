@@ -139,5 +139,19 @@
 			  console.error(countUp.error);
 			}
 		</script>
+		<script>
+			var banner = document.querySelector('.parallax_banner'),
+				items = document.querySelectorAll('.parallax_image');
+			window.addEventListener('scroll', function() {
+				let scrollY = window.scrollY,
+					windowHeight = window.innerHeight;
+				if (scrollY <= windowHeight) {
+					items.forEach(function(elem) {
+						let math = scrollY * elem.getAttribute('data-modifier') * -1;
+						elem.style.marginTop = math + 'px';
+					});
+				}
+			});
+		</script>
 	</body>
 </html>

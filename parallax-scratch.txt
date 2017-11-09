@@ -1,0 +1,51 @@
+
+	var clipTop = document.querySelector('#clip').offsetTop;
+	var iphoneTop = document.querySelector('#iphone').offsetTop;
+	var plantTop = document.querySelector('#plant').offsetTop;
+	var boxTop = document.querySelector('#box').offsetTop;
+
+	document.addEventListener('mousemove', function(evt) {
+		let scrollY = window.scrollY,
+			windowHeight = window.innerHeight,
+			windowWidth = window.innerWidth;
+		let x = (evt.pageX / windowWidth),
+			y = (evt.pageY / windowHeight);
+		if (scrollY <= windowHeight) {
+			document.querySelectorAll('#plant').forEach(function(elem) {
+				var mathX = (windowWidth - elem.offsetLeft) / 2 - (evt.pageX - windowWidth / 2);
+				mathX = (mathX / windowWidth) * 50 / 6 / 8;
+				elem.style.left = 50 - mathX + '%';
+
+				var mathY = (windowHeight - elem.offsetTop) / 2 - (evt.pageY - windowHeight / 2);
+				mathY = (mathY / (windowHeight / 1)) * 50 / 6 - 10;
+				elem.style.top = plantTop + mathY + 'px';
+			});
+			document.querySelectorAll('#box').forEach(function(elem) {
+				var mathX = (windowWidth - elem.offsetLeft) / 2 - (evt.pageX - windowWidth / 2);
+				mathX = (mathX / windowWidth) * 50 / elem.getAttribute('data-modifier-x') / 8;
+				elem.style.left = 50 - mathX + '%';
+
+				var mathY = (windowHeight - elem.offsetTop) / 2 - (evt.pageY - windowHeight / 2);
+				mathY = (mathY / (windowHeight / 1)) * 50 / elem.getAttribute('data-modifier-y') - 10;
+				elem.style.top = boxTop + mathY + 'px';
+			});
+			document.querySelectorAll('#clip').forEach(function(elem) {
+				var mathX = (windowWidth - elem.offsetLeft) / 2 - (evt.pageX - windowWidth / 2);
+				mathX = (mathX / windowWidth) * 50 / elem.getAttribute('data-modifier-x') / 8;
+				elem.style.right = 50 + mathX + '%';
+
+				var mathY = (windowHeight - elem.offsetTop) / 2 - (evt.pageY - windowHeight / 2);
+				mathY = (mathY / (windowHeight / 1)) * 50 / elem.getAttribute('data-modifier-y') - 10;
+				elem.style.top = clipTop + mathY + 'px';
+			});
+			document.querySelectorAll('#iphone').forEach(function(elem) {
+				var mathX = (windowWidth - elem.offsetLeft) / 2 - (evt.pageX - windowWidth / 2);
+				mathX = (mathX / windowWidth) * 50 / elem.getAttribute('data-modifier-x') / 8;
+				elem.style.right = 50 + mathX + '%';
+
+				var mathY = (windowHeight - elem.offsetTop) / 2 - (evt.pageY - windowHeight / 2);
+				mathY = (mathY / (windowHeight / 1)) * 50 / elem.getAttribute('data-modifier-y') - 10;
+				elem.style.top = iphoneTop + mathY + 'px';
+			});
+		}
+	});
