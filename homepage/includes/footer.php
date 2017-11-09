@@ -18,10 +18,10 @@
 					<div class="rc_layout__md__4 rc_layout__lg__3 footer__links">
 						<h4 class="rc_caption footer__title">Resources</h4>
 						<ul class="rc_list">
-							<li><a href="http://support.rechargepayments.com" target="_blank">Knowledge Base</a></li>
-							<li<?php if ($the_active_page == 'support-hours'){ echo " class=\"active\""; } ?>><a href="/support-hours">Support Hours</a></li>
-							<li><a href="http://status.rechargepayments.com/" target="_blank">System Status</a></li>
-							<li<?php if ($the_active_page == 'case-studies'){ echo " class=\"active\""; } ?>><a href="/case-studies">Case Studies</a></li>
+							<li><a href="http://support.rechargepayments.com" target="_blank">Knowledge base</a></li>
+							<li<?php if ($the_active_page == 'support-hours'){ echo " class=\"active\""; } ?>><a href="/support-hours">Support hours</a></li>
+							<li><a href="http://status.rechargepayments.com/" target="_blank">System status</a></li>
+							<li<?php if ($the_active_page == 'case-studies'){ echo " class=\"active\""; } ?>><a href="/case-studies">Case studies</a></li>
 							<li<?php if ($the_active_page == 'experts'){ echo " class=\"active\""; } ?>><a href="/experts">Experts</a></li>
 							<li<?php if ($the_active_page == 'migrations'){ echo " class=\"active\""; } ?>><a href="/migrations">Migrations</a></li>
 							<li<?php if ($the_active_page == 'blog'){ echo " class=\"active\""; } ?>><a href="http://blog.rechargeapps.com" target="_blank">Blog</a></li>
@@ -33,7 +33,7 @@
 							<li<?php if ($the_active_page == 'about'){ echo " class=\"active\""; } ?>><a href="/about">About</a></li>
 							<li<?php if ($the_active_page == 'careers'){ echo " class=\"active\""; } ?>><a href="https://recharge.workable.com/" target="_blank">Careers</a></li>
 							<li<?php if ($the_active_page == 'contact'){ echo " class=\"active\""; } ?>><?php echo hide_email('support@rechargepayments.com','','Contact'); ?></li>
-							<li<?php if ($the_active_page == 'media-kit'){ echo " class=\"active\""; } ?>><a href="/media-kit">Media Kit</a></li>
+							<li<?php if ($the_active_page == 'media-kit'){ echo " class=\"active\""; } ?>><a href="/media-kit">Media kit</a></li>
 						</ul>
 					</div>
 					<div class="rc_layout__lg__3 footer__address">

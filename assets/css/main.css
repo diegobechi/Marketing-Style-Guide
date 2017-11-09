@@ -3156,7 +3156,7 @@ table.feature-table {
       top: 450px; } }
   @media screen and (min-width: 768px) {
     .background_1 {
-      min-height: 611px; } }
+      min-height: 670px; } }
   @media screen and (min-width: 992px) {
     .background_1 {
       top: 410px; } }
@@ -3177,7 +3177,7 @@ table.feature-table {
 /* Sections */
 /* Introduction/overview section listing 3 primary features */
 .rc_section--overview {
-  margin-top: 202px; }
+  margin-top: 70px; }
   .rc_section--overview h3 {
     max-width: 557px;
     margin-left: auto;
@@ -3187,6 +3187,9 @@ table.feature-table {
     margin-bottom: 25px;
     line-height: 25px;
     font-size: 18px; }
+  @media screen and (min-width: 768px) {
+    .rc_section--overview {
+      margin-top: 202px; } }
 
 .overview_feature {
   max-width: 328px;
@@ -3218,10 +3221,12 @@ table.feature-table {
         font-size: 42px;
         line-height: 49px;
         margin-bottom: 25px; }
+        .rc_section--hero h1 strong {
+          font-weight: 700; }
       .rc_section--hero p {
         max-width: 947px;
         font-size: 18px;
-        line-height: 21px;
+        line-height: 28px;
         margin-bottom: 47px; } }
   @media screen and (min-width: 992px) {
     .rc_section--hero .rc_content {

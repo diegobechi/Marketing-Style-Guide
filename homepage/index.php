@@ -3,7 +3,7 @@
 <div class="rc_section__container">
 	<div class="rc_section rc_section--hero rc_text--center">
 		<div class="rc_content">
-			<h1>Easily <strong class="rc_color_blue">sell subscriptions</strong> on your Shopify store</h1>
+			<h1>Easily <span class="rc_font--bold rc_color_blue">sell subscriptions</span> on your Shopify store</h1>
 			<p>ReCharge is the leading platform to launch and scale your subscription business</p>
 			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
 			<a href="https://apps.shopify.com/shopify-recurring-payments" id="homepageBannerSignUp" class="rc_button rc_button_primary">Sign up free</a>
