@@ -2,7 +2,7 @@
 <div class="rc_navbar__container">
 	<div class="rc_navbar">
 		<a href="/" class="rc_navbar__logo"><img src="/assets/images/layout/recharge-logo.svg" width="164" height="42" alt="ReCharge logo"></a>
-		<button class="rc_navbar__toggle rc_button rc_visible--xs rc_visible--sm" data-toggle="collapse" data-target="#navbar__menu" aria-expanded="true"></button>
+		<button class="rc_navbar__toggle rc_button rc_visible--xs rc_visible--sm rc_visible--md" data-toggle="collapse" data-target="#navbar__menu" aria-expanded="true"></button>
 		<ul id="navbar__menu" class="rc_navbar__links collapse">
 			<li>
 				<div class="rc_dropdown">
@@ -33,6 +33,6 @@
 				<a href="/api" class="<?php if ($the_active_page == 'api'){ echo ' rc_active'; } ?>">Developers</a>
 			</li>
 		</ul>
-		<button class="rc_button rc_button_small rc_button_secondary rc_hidden--xs rc_hidden--sm" id="trigger__free-trial">Sign Up Free</button>
+		<a href="https://apps.shopify.com/shopify-recurring-payments" class="rc_button rc_button_small rc_button_secondary rc_hidden--xs rc_hidden--sm rc_hidden--md" id="trigger__free-trial">Sign Up Free</a>
 	</div>
 </div>

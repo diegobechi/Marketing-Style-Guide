@@ -97,6 +97,14 @@ table.feature-table {
 
 	@media screen and (min-width: $screen-sm-min) {
 		background-position: 50% 50%;
+		top: 500px;
+	}
+
+	@media screen and (min-width: $screen-md-min) {
+		top: 450px;
+	}
+
+	@media screen and (min-width: $screen-lg-min) {
 		top: 410px;
 	}
 }
@@ -130,7 +138,7 @@ table.feature-table {
 		margin-top: 97px;
 
 		.rc_content {
-			max-width: 947px;
+			max-width: 550px;
 		}
 
 		h1 {
@@ -144,6 +152,11 @@ table.feature-table {
 			font-size: 18px;
 			line-height: 21px;
 			margin-bottom: 47px;
+		}
+	}
+	@media screen and (min-width: $screen-lg-min) {
+		.rc_content {
+			max-width: 947px;
 		}
 	}
 }
@@ -372,9 +385,12 @@ table.feature-table {
 		top: 0;
 		right: 0;
 
-		@media screen and (min-width: $screen-sm-min) {
+		@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+			left: 30px;
+		}
+
+		@media screen and (min-width: $screen-lg-min) {
 			top: 230px;
-			left: 57px;
 		}
 	}
 
@@ -411,22 +427,6 @@ table.feature-table {
 		width: 100%;
 		max-width: 424px;
 		height: auto;
-	}
-}
-
-.background_2 {
-	background-image: url('/assets/images/layout/bg-2.svg');
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: 72% 0%;
-
-	height: 575px;
-	margin-top: -160px;
-
-	@media screen and (min-width: $screen-sm-min) {
-		background-position: 50% 50%;
-		margin-top: -265px;
-		height: 599px;
 	}
 }
 
@@ -468,10 +468,26 @@ table.feature-table {
 	}
 }
 
+.background_2 {
+	background-image: url('/assets/images/layout/bg-2.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 72% 0%;
+
+	height: 575px;
+	margin-top: -160px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		background-position: 50% 50%;
+		margin-top: -265px;
+		height: 599px;
+	}
+}
 
 .parallax_image {
 	position: absolute;
 }
+
 .parallax_image img {
 	width: 100%;
 	height: auto;

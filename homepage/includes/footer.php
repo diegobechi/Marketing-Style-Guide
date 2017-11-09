@@ -47,9 +47,9 @@
 							<?php echo hide_email('support@rechargepayments.com', 'rc_link'); ?>
 						</address>
 						<div class="footer__social-networks">
-							<a href="#" target="_blank" class="social-icon"><span class="fa fa-facebook"></span></a>
-							<a href="#" target="_blank" class="social-icon"><span class="fa fa-twitter"></span></a>
-							<a href="#" target="_blank" class="social-icon"><span class="fa fa-linkedin"></span></a>
+							<a href="https://www.facebook.com/rechargepayments/" target="_blank" class="social-icon"><span class="fa fa-facebook"></span></a>
+							<a href="https://twitter.com/rechargepayment" target="_blank" class="social-icon"><span class="fa fa-twitter"></span></a>
+							<a href="https://www.linkedin.com/company/recharge-payments/" target="_blank" class="social-icon"><span class="fa fa-linkedin"></span></a>
 						</div>
 					</div>
 				</div>

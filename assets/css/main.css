@@ -3150,6 +3150,12 @@ table.feature-table {
   @media screen and (min-width: 576px) {
     .background_1 {
       background-position: 50% 50%;
+      top: 500px; } }
+  @media screen and (min-width: 768px) {
+    .background_1 {
+      top: 450px; } }
+  @media screen and (min-width: 992px) {
+    .background_1 {
       top: 410px; } }
 
 .rc_section--hero {
@@ -3172,7 +3178,7 @@ table.feature-table {
     .rc_section--hero {
       margin-top: 97px; }
       .rc_section--hero .rc_content {
-        max-width: 947px; }
+        max-width: 550px; }
       .rc_section--hero h1 {
         font-size: 42px;
         line-height: 49px;
@@ -3182,6 +3188,9 @@ table.feature-table {
         font-size: 18px;
         line-height: 21px;
         margin-bottom: 47px; } }
+  @media screen and (min-width: 992px) {
+    .rc_section--hero .rc_content {
+      max-width: 947px; } }
 
 .rc_section--brands {
   margin-top: 233px; }
@@ -3376,10 +3385,12 @@ table.feature-table {
     position: absolute;
     top: 0;
     right: 0; }
-    @media screen and (min-width: 576px) {
+    @media screen and (min-width: 576px) and (max-width: 767px) {
       .rc_section--developers .revenue_stats {
-        top: 230px;
-        left: 57px; } }
+        left: 30px; } }
+    @media screen and (min-width: 992px) {
+      .rc_section--developers .revenue_stats {
+        top: 230px; } }
   .rc_section--developers #revenue_stats__dollars {
     font-weight: 600;
     font-size: 20px;
@@ -3403,19 +3414,6 @@ table.feature-table {
     width: 100%;
     max-width: 424px;
     height: auto; }
-
-.background_2 {
-  background-image: url("/assets/images/layout/bg-2.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: 72% 0%;
-  height: 575px;
-  margin-top: -160px; }
-  @media screen and (min-width: 576px) {
-    .background_2 {
-      background-position: 50% 50%;
-      margin-top: -265px;
-      height: 599px; } }
 
 .rc_section--final {
   margin-bottom: 0; }
@@ -3442,6 +3440,19 @@ table.feature-table {
   .rc_section--final .rc_button {
     margin: 18px 17.5px 0;
     padding: 16px 60px; }
+
+.background_2 {
+  background-image: url("/assets/images/layout/bg-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 72% 0%;
+  height: 575px;
+  margin-top: -160px; }
+  @media screen and (min-width: 576px) {
+    .background_2 {
+      background-position: 50% 50%;
+      margin-top: -265px;
+      height: 599px; } }
 
 .parallax_image {
   position: absolute; }
@@ -3545,7 +3556,7 @@ table.feature-table {
   max-width: 1170px;
   margin-left: auto;
   margin-right: auto; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .rc_navbar {
       -webkit-box-align: center;
       -webkit-align-items: center;
@@ -3580,7 +3591,7 @@ table.feature-table {
   height: 32px;
   margin-left: 27px;
   margin-top: 2px; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .rc_navbar__logo {
       height: 39px;
       width: 149px;
@@ -3609,7 +3620,7 @@ table.feature-table {
   clear: both;
   width: 100%;
   text-align: right; }
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 992px) {
     .rc_navbar__links {
       display: inline-block !important;
       clear: none; } }
@@ -3617,7 +3628,7 @@ table.feature-table {
     margin-left: 30px; }
   .rc_navbar__links > li {
     display: inline-block; }
-    @media screen and (min-width: 768px) {
+    @media screen and (min-width: 992px) {
       .rc_navbar__links > li + li {
         margin-left: 30px; } }
     .rc_navbar__links > li > a,
@@ -3655,7 +3666,7 @@ table.feature-table {
   -o-transition-timing-function: ease;
   transition-timing-function: ease; }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
   .wrapper {
     padding-top: 76px; }
   .rc_navbar__container {

@@ -2,10 +2,10 @@
 
 <div class="parallax_container">
 	<div class="parallax_banner">
-		<div id="plant" class="parallax_image" data-modifier=".1" data-modifier-y="6" data-modifier-x="6"><img src="/assets/images/layout/plant@2x.png" alt="Plant graphic"></div>
-		<div id="box" class="parallax_image" data-modifier=".25" data-modifier-y="4" data-modifier-x="4"><img src="/assets/images/layout/box@2x.jpg" alt="Box graphic"></div>
-		<div id="iphone" class="parallax_image" data-modifier=".19" data-modifier-y="4" data-modifier-x="4"><img src="/assets/images/layout/iPhone@2x.jpg" alt="iPhone graphic"></div>
-		<div id="clip" class="parallax_image" data-modifier=".13" data-modifier-y="6" data-modifier-x="6"><img src="/assets/images/layout/clip@2x.jpg" alt="Clip graphic"></div>
+		<div id="plant" class="parallax_image" data-modifier=".1"><img src="/assets/images/layout/plant@2x.png" alt="Plant graphic"></div>
+		<div id="box" class="parallax_image" data-modifier=".15"><img src="/assets/images/layout/box@2x.jpg" alt="Box graphic"></div>
+		<div id="iphone" class="parallax_image" data-modifier=".19"><img src="/assets/images/layout/iPhone@2x.jpg" alt="iPhone graphic"></div>
+		<div id="clip" class="parallax_image" data-modifier=".13"><img src="/assets/images/layout/clip@2x.jpg" alt="Clip graphic"></div>
 	</div>
 </div>
 
@@ -16,8 +16,8 @@
 		<div class="rc_content">
 			<h1 class="rc_font--regular">Easily <span class="rc_color_blue">sell subscriptions</span> on your Shopify store</h1>
 			<p>ReCharge is the leading platform to launch and scale your subscription business</p>
-			<a href="#" class="rc_button rc_button_secondary">Book demo</a>
-			<a href="#" class="rc_button rc_button_primary">Sign up free</a>
+			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
+			<a href="https://apps.shopify.com/shopify-recurring-payments" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
 	</div>
 </div>
@@ -266,8 +266,8 @@
 		<div class="rc_content">
 			<h4>Ready to get started?</h4>
 			<p>Grounds and redeye strong dripper grinder fair trade. So trifecta barista a robust siphon ut aroma spoon cinnamon seasonal.</p>
-			<a href="#" class="rc_button rc_button_secondary">Book demo</a>
-			<a href="#" class="rc_button rc_button_primary">Sign up free</a>
+			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
+			<a href="https://apps.shopify.com/shopify-recurring-payments" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
 	</div>
 </div>
