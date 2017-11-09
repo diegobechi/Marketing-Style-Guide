@@ -3330,6 +3330,7 @@ table.feature-table {
 
 .page__case-studies .case-studies__container {
   box-sizing: border-box;
+  max-width: 1045px;
   margin: 0 auto; }
   @media screen and (min-width: 576px) and (max-width: 991px) {
     .page__case-studies .case-studies__container {
@@ -3386,6 +3387,8 @@ table.feature-table {
       display: block;
       height: 32px;
       font-size: 28px; }
+  .page__case-studies .case-studies__block.case_studies_hidden {
+    display: none; }
   .page__case-studies .case-studies__block--from-the-farmer {
     background-image: url(../images/case-studies/from-the-farmer/from-the-farmer_cover.jpg); }
   .page__case-studies .case-studies__block--rungum {

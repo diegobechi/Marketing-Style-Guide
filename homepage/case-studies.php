@@ -1,4 +1,3 @@
-
 <?php
 	$page_title = 'Case Studies';
 	$page_description = '';
@@ -210,11 +209,7 @@
 ?>
 
 <?php if (!empty($caseStudyDetail)) : ?>
-<style>
-	.case-studies__block.case_study_hidden{
-		display: none;
-	}
-</style>
+	
 <div class="case-studies__container--detail layout__container">
 	<div class="rc_layout__full">
 		<div class="rc_layout">
@@ -265,7 +260,7 @@
 		  </div>
 		</div><!-- .rc_layout -->
 		<div class="rc_layout case-studies__quote--no-img">
-			<div class="case-studies__container">
+			<div class="rc_layout case-studies__container">
 				<div class="rc_layout__sm__9">
 					<p><?php echo $csQuote2; ?></p>
 				</div>
@@ -296,7 +291,7 @@
 <?php
 
 	//Complete list of each type
-	$array_subscriptionbox = array('darn-good-yarn','pusheenbox','shortPar4','hackerBoxes', 'foot-cardigan');
+	$array_subscriptionbox = array('darn-good-yarn','pusheen-box','short-par-4','hacker-boxes', 'foot-cardigan');
 	$array_refill = array('clearly-filtered','hubble','rungum','humankind', 'dr-axe');
 
 	//QTY of case that we want to show for each type
@@ -331,40 +326,40 @@
 <div class="case-studies__container--boxes layout__container">
 	<div class="rc_layout__full">
 		<div class="rc_layout">
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--dr-axe <?php if(!empty($caseStudyDetail) and !in_array('dr-axe', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--dr-axe <?php if(!empty($caseStudyDetail) and !in_array('dr-axe', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?dr-axe"><img src="/assets/images/case-studies/dr-axe/dr-axe_cover-logo.svg"></a>
 			</div>			
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--humankind <?php if(!empty($caseStudyDetail) and !in_array('humankind', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--humankind <?php if(!empty($caseStudyDetail) and !in_array('humankind', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?humankind"><img src="/assets/images/case-studies/humankind/humankind_cover-logo.svg"></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--foot-cardigan <?php if(!empty($caseStudyDetail) and !in_array('foot-cardigan', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--foot-cardigan <?php if(!empty($caseStudyDetail) and !in_array('foot-cardigan', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?foot-cardigan"><img src="/assets/images/case-studies/foot-cardigan/foot-cardigan_cover-logo.svg"></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--darn-good-yarn <?php if(!empty($caseStudyDetail) and !in_array('darn-good-yarn', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--darn-good-yarn <?php if(!empty($caseStudyDetail) and !in_array('darn-good-yarn', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?darn-good-yarn"><img src="/assets/images/case-studies/darn-good-yarn/darn-good-yarn_cover-logo.svg"></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--pusheen-box <?php if(!empty($caseStudyDetail) and !in_array('pusheen-box', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--pusheen-box <?php if(!empty($caseStudyDetail) and !in_array('pusheen-box', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?pusheen-box"><img src="/assets/images/case-studies/pusheen-box/pusheen-box_cover-logo.svg"></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--clearly-filtered <?php if(!empty($caseStudyDetail) and !in_array('clearly-filtered', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--clearly-filtered <?php if(!empty($caseStudyDetail) and !in_array('clearly-filtered', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?clearly-filtered"><div>Clearly Filtered</div></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--short-par-4 <?php if(!empty($caseStudyDetail) and !in_array('short-par-4', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--short-par-4 <?php if(!empty($caseStudyDetail) and !in_array('short-par-4', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?short-par-4"><div>ShortPar4</div></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--hubble <?php if(!empty($caseStudyDetail) and !in_array('hubble', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--hubble <?php if(!empty($caseStudyDetail) and !in_array('hubble', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?hubble"><img src="/assets/images/case-studies/hubble/hubble_cover-logo.svg"></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--rungum <?php if(!empty($caseStudyDetail) and !in_array('rungum', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--rungum <?php if(!empty($caseStudyDetail) and !in_array('rungum', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?rungum"><img src="/assets/images/case-studies/rungum/rungum_cover-logo.svg"></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--hacker-boxes <?php if(!empty($caseStudyDetail) and !in_array('hacker-boxes', $case_show)) : echo case_study_hidden; endif; ?> ">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--hacker-boxes <?php if(!empty($caseStudyDetail) and !in_array('hacker-boxes', $case_show)) : echo case_studies_hidden; endif; ?> ">
 				<a data-toggle="rc_modal__window" href="?hacker-boxes"><img src="/assets/images/case-studies/hacker-boxes/hacker-boxes_cover-logo.svg"></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--from-the-farmer <?php if(!empty($caseStudyDetail) and !in_array('from-the-farmer', $case_show)) : echo case_study_hidden; endif; ?> " style="display:none;">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--from-the-farmer <?php if(!empty($caseStudyDetail) and !in_array('from-the-farmer', $case_show)) : echo case_studies_hidden; endif; ?> " style="display:none;">
 				<a data-toggle="rc_modal__window" href="?from-the-farmer"><img src="/assets/images/case-studies/from-the-farmer/from-the-farmer_cover-logo.svg"></a>
 			</div>
-			<div class="rc_layout__sm__6 case-studies__block case-studies__block--placeholder <?php if(!empty($caseStudyDetail)) : echo case_study_hidden; endif; ?>" style="display:none;">
+			<div class="rc_layout__sm__6 case-studies__block case-studies__block--placeholder <?php if(!empty($caseStudyDetail)) : echo case_studies_hidden; endif; ?>" style="display:none;">
 				<a><div><span>Check back for more</span><span>Case Studies</span></div></a>
 			</div>
 		</div><!-- .rc_layout -->

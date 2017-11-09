@@ -4,6 +4,7 @@
 
 		&__container {
 			box-sizing: border-box;
+			max-width: 1045px;
 			margin: 0 auto;
 
 			@media screen and (min-width: $screen-sm-min) and (max-width: $screen-md-max){
@@ -74,6 +75,10 @@
 				    height: 32px;
 				    font-size: 28px;
 				}
+			}
+
+			&.case_studies_hidden{
+				display: none;
 			}
 
 			&--from-the-farmer {
