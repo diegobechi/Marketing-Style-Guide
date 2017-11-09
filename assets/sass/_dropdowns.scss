@@ -2,7 +2,7 @@
 	position: relative;
 	display: inline-block;
 
-	@media screen and (max-width: $screen-sm-max) {
+	@media screen and (max-width: $screen-md-max) {
 		width: 100%;
 	}
 }
@@ -39,7 +39,7 @@
 
 	box-shadow: 0 5px 45px 0 rgba(0, 0, 0, .18);
 
-	@media screen and (max-width: $mobile-nav-max) {
+	@media screen and (max-width: $screen-md-max) {
 		width: 100%;
 	}
 }

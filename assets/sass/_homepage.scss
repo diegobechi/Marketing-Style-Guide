@@ -526,8 +526,13 @@ table.feature-table {
 	@media screen and (min-width: $screen-sm-min) {
 		width: 499px;
 		height: 418px;
-		margin-left: -640px;
+		top: 476px;
+		margin-left: -500px;
+	}
+
+	@media screen and (min-width: $screen-lg-min) {
 		top: 376px;
+		margin-left: -640px;
 	}
 }
 
@@ -543,6 +548,10 @@ table.feature-table {
 		width: 250px;
 		height: 208px;
 		top: 257.5px;
+		margin-left: -580px;
+	}
+
+	@media screen and (min-width: $screen-lg-min) {
 		margin-left: -793px;
 	}
 }
@@ -558,6 +567,11 @@ table.feature-table {
 	@media screen and (min-width: $screen-sm-min) {
 		width: 196px;
 		height: 269px;
+		top: 361.5px;
+		margin-right: -480px;
+	}
+
+	@media screen and (min-width: $screen-lg-min) {
 		top: 261.5px;
 		margin-right: -611px;
 	}
@@ -574,6 +588,10 @@ table.feature-table {
 	@media screen and (min-width: $screen-sm-min) {
 		width: 58px;
 		height: 43px;
+		top: 300px;
+		margin-right: -456px;
+	}
+	@media screen and (min-width: $screen-lg-min) {
 		top: 332px;
 		margin-right: -656px;
 	}
