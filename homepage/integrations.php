@@ -12,7 +12,7 @@
 	<div class="rc_section--integrations-directory rc_text--center">
 		<div class="integrations__header">
 			<div class="integrations__header__title">
-				<h1>Integrations Directory</h1>
+				<h1>Integrations directory</h1>
 			</div>
 			<div class="integrations__header__description">
 				<p>Seamless integrations so that all the different parts of your business can work together.</p>

@@ -1,0 +1,366 @@
+.banner {
+	height: 250px;
+	width: 100%;
+	background-color: #ccc;
+	overflow: hidden;
+	margin: 0 auto 0;
+	position: relative;
+	// max-width: 1025px;
+	&__title {
+		text-transform: uppercase;
+		margin: 0 auto 18px;
+		font-family: 'ralewaysemibold', arial, sans-serif;
+		font-size: 35px;
+		font-weight: normal;
+		font-style: normal;
+		line-height: 1;
+	}
+	&__content {
+		color: #FFF;
+		text-align: center;
+		padding-top: 107px;
+		position: relative;
+		z-index: 1;
+		p {
+			font-family: 'ralewayregular', arial, sans-serif;
+			font-size: 16px;
+			font-weight: normal;
+			font-style: normal;
+			line-height: 25px;
+			margin: 0 auto;
+			max-width: 375px;
+			display: block;
+		}
+	}
+	&__background {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 0;
+		min-width: 650px;
+		// max-width: 1200px;
+		margin: 0 auto;
+		@media screen and (max-width: $screen-xs-max){
+			left: 50%;
+			margin-left: -325px;
+		}
+		&__left,
+		&__right {
+			position: absolute;
+			background-repeat: no-repeat;
+			z-index: 1;
+			height: 100%;
+			width: 50%;
+			background-size: contain;
+		}
+		&__left {
+			left: 0;
+			z-index: 1;
+			background-position: bottom left;
+		}
+		&__right {
+			right: 0;
+			z-index: 0;
+			background-position: bottom right;
+		}
+	}
+}
+
+/* Vertically align the banner's content to the middle */
+.banner--vcenter {
+	transform-style: preserve-3d;
+	.banner__content {
+		position: relative;
+		top: 50%;
+		transform: translateY(-50%);
+		padding-top: 0;
+	}
+}
+
+.banner--customers {
+	background-color: #FB8309;
+	.banner__background {
+		&__left {
+			background-image: url('../banners/Customers__left.png');
+			width: 384px;
+			height: 256px;
+			left: 32px;
+			top: 32px;
+		}
+		&__right {
+			background-image: url('../banners/Customers__right.png');
+			width: 402px;
+			height: 323px;
+			top: -15px;
+			right: -55px;
+		}
+	}
+}
+
+.banner--integrations {
+	background-color: #FC840A;
+	.banner__background {
+		&__left {
+			background-image: url('../banners/Integrations__left.png');
+		}
+		&__right {
+			background-image: url('../banners/Integrations__right.png');
+		}
+	}
+}
+
+.banner--partners {
+	background-image: url('../images/partners/partnersHeader.jpg');
+	min-height: 620px;
+
+	.banner__content{
+		text-align: left;
+	}
+    .banner__main-title{
+		opacity: 0.5;
+		font-family: ralewaysemibold;
+		font-size: 14px;
+		color: #424242;
+		letter-spacing: 2px;
+		line-height: 25px;
+		text-transform: uppercase;
+    }
+
+	.banner__title {
+		font-family: ralewaysemibold;
+		font-size: 42px;
+		color: #424242;
+		letter-spacing: 0;
+		text-transform: none;
+		margin: 0px;
+		min-width: 389px;
+	}
+
+	.banner__subtitle {
+		font-size: 16px;
+		color: #424242;
+		letter-spacing: 0;
+		line-height: 25px;
+		margin: 0px;
+		max-width: 389px;
+	}
+
+	.button--magenta {
+		font-family: ralewaysemibold;
+		font-size: 16px;
+		color: #FFFFFF;
+		background-color: $color-magenta;
+		padding: 24px 60px;
+		line-height: 12px;
+	}
+
+	.button--magenta:hover {
+		background-color: #AC0289;
+	}
+
+}
+
+.banner--experts,
+.banner--support {
+	background-color: #62C4AF;
+	.banner__background {
+		&__left {
+			background-image: url('../banners/Experts__left.png');
+			width: 488px;
+			height: 290px;
+			top: -19px;
+			left: 0;
+		}
+		&__right {
+			background-image: url('../banners/Experts__right.png');
+			width: 379px;
+			height: 350px;
+			top: 30px;
+			right: -76px;
+		}
+	}
+}
+
+.banner--pricing {
+	background-color: #53bad3;
+	.banner__background {
+		&__left {
+			background-image: url('../banners/Pricing__left.png');
+			width: 432px;
+			height: 245px;
+			top: 28px;
+			left: -36px;
+		}
+		&__right {
+			background-image: url('../banners/Pricing__right.png');
+			width: 210px;
+			height: 281px;
+			top: 38px;
+			right: 87px;
+		}
+	}
+}
+
+.banner--features {
+	background-color: #53bad3;
+	.banner__background {
+		&__left {
+			background-image: url('../banners/Features__left.png');
+			width: 483px;
+			height: 298px;
+			top: 39px;
+			left: -61px;
+			z-index: 1;
+		}
+		&__right {
+			background-image: url('../banners/Features__right.png');
+			width: 259px;
+			height: 330px;
+			top: -55px;
+			right: -41px;
+			z-index: 0;
+		}
+	}
+}
+
+.banner--careers {
+	background-color: #ef64d2;
+	.banner__background {
+		&__left {
+			background-image: url('../banners/Careers__left.png');
+			width: 332px;
+			height: 245px;
+			top: 27px;
+			left: -26px;
+		}
+		&__right {
+			background-image: url('../banners/Careers__right.png');
+			width: 639px;
+			height: 362px;
+			top: -133px;
+			right: -80px;
+		}
+	}
+}
+
+.banner--modern {
+	height: 500px;
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+
+    .banner__content {
+		padding-top: 165px;
+	}
+
+	.banner__title {
+		line-height: 1.3;
+		width: 80%;
+	}
+
+	.banner__subtitle {
+	    width: 80%;
+        margin-top: 0;
+    	margin-bottom: 40px;
+    	line-height: 30px;
+		font-family: 'ralewayregular';
+	}
+}
+
+.banner--pro {
+	background-image: url('../images/pro/ProHeader.jpg');
+
+	.banner__content {
+		color: $color-grey-dark;
+	}
+	
+	.banner__title {
+		color: $color-grey-dark;
+		margin-bottom: 25px;
+		max-width: 580px;
+	}
+
+	.button--magenta {
+		background-color: $color-magenta;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+}
+
+.banner--api {
+	background-image: url('../images/api/APIHeader.jpg');
+
+	.banner__title {
+		margin-bottom: 15px;
+		max-width: 580px;
+		text-transform: none;
+	}
+
+	.button--transparent {
+		background-color: Transparent;
+		border-width: 2px;
+		padding-left: 80px;
+		padding-right: 80px;
+		transition: all ease-in-out 0.3s;
+
+		&:hover {
+			background-color: transparentize($color-white, 0.08);
+			color: $color-turquoise !important;
+		}
+	}
+}
+
+.banner--migration {
+	background-image: url('../images/migrations/migrationsHeader.png');
+
+	@media (max-width: $screen-xs-max) {
+	    height: 610px;
+	}
+
+	.banner__content {
+		@media (max-width: $screen-xs-max) {
+		    padding-top: 140px;
+		}
+
+		@media (max-width: $screen-xs-max) {
+		    padding-top: 100px;
+		}
+
+		@media (max-width: $screen-xs-max) {
+		    padding-top: 80px;
+		}
+	}
+
+	.banner__title {
+		margin-bottom: 15px;
+		max-width: 580px;
+		text-transform: none;
+	}
+
+	.button--transparent {
+		background-color: Transparent;
+		border-width: 2px;
+		padding-left: 40px;
+		padding-right: 40px;
+		transition: all ease-in-out 0.3s;
+
+		&:hover {
+			background-color: transparentize($color-white, 0.08);
+			color: $color-turquoise !important;
+		}
+	}
+}
+
+.banner--partners{
+	.banner__subtitle{
+		margin-top: 12px;
+		margin-bottom: 35px;    
+		line-height: 25px;
+	}
+}
+

@@ -1,0 +1,387 @@
+.page__partners {
+
+	.rc_section {
+		padding: 80px 0;
+
+		&__container {
+			box-sizing: border-box;
+			margin: 0 auto;
+
+			@media screen and (min-width: $screen-sm-min) and (max-width: $screen-md-max){
+				padding: 0 30px;
+			}
+
+			@media screen and (max-width: $screen-xs-max){
+				padding: 0 15px;
+			}
+		}
+	}
+	.container{
+		max-width: 1133px;
+	}
+
+	&.with-navbar .navbar .container{
+		max-width: 100%;
+	}
+}
+
+.thank-you-container{
+	padding: 0 40px;
+	display: none;
+
+	img{
+		max-width: 180px;
+		margin: 0 auto;
+	}
+	h3{
+		margin: 23px 0;
+	}
+}
+
+.rc_section{
+	&__container{
+
+		.partners-features{
+
+			&-header{
+				text-align: center;
+
+				&__title{
+					font-weight: $font-semibold;
+					font-size: 30px;
+					color: $color-grey-dark;
+					letter-spacing: -0.25px;
+					margin-top: 0;
+					margin-bottom: 20px;
+					line-height: 33px;
+				}
+				&__subtitle{
+					font-size: $font-size-base;
+					color: $color-grey-dark;
+					letter-spacing: 0;
+					line-height: 25px;
+					max-width: 547px;
+					margin: 0 auto;
+				}
+			}
+
+			&__block{
+				text-align: center;
+				margin-top: 80px;
+				padding: 0;
+
+				&__item{
+					max-width: 343px;
+					margin: 0 auto;
+
+					h5{
+						font-weight: $font-semibold;
+						font-size: 18px;
+						color: $color-grey-dark;
+						letter-spacing: 0;
+						line-height: 25px;
+						margin-bottom: 13px;
+					}
+
+					p{
+						font-size: 16px;
+						color: $color-grey-dark;
+						letter-spacing: 0;
+						line-height: 25px;
+					}				
+				}
+
+			}
+		}
+
+		&--partners-benefits,
+		&--partner-quote{
+			background-color: rgba(238,238,238,0.6);
+
+		}
+
+		.partners-benefits{
+
+			@media screen and (max-width: $screen-xs-max) {
+			    margin: 0 20px;
+			}
+
+			&__title{
+				text-align: center;
+				margin: 10px 0;
+				font-weight: $font-semibold;
+				font-size: 30px;
+				margin-bottom: 70px;
+			}
+
+			&__block{
+				padding: 0px 13px;
+
+				&__item{
+
+					&__image{
+
+						img{
+							max-width: 100%;
+						}
+					}
+
+					&__main-title{
+						opacity: 0.5;
+						font-weight: $font-semibold;
+						font-size: 12px;
+						color: #424242;
+						letter-spacing: 2px;
+						line-height: 25px;
+						text-transform: uppercase;
+					}
+					&__title{
+						font-weight: $font-semibold;
+						font-size: 24px;
+						color: $color-grey-dark;
+						letter-spacing: -0.25px;
+						line-height: 32px;
+						margin-top: 0;
+						margin-bottom: 20px;
+					}
+					p{
+						font-size: 16px;
+						color: $color-grey-dark;
+						letter-spacing: 0;
+						line-height: 25px;
+					}
+
+				}
+			}
+
+			.benefit_item{
+
+				overflow: hidden;
+				
+				@media screen and (max-width: $screen-xs-max) {
+				    display: flex; flex-flow: column;
+				    .block_details { order: 1; }
+				    .block_image { order: 2;  }
+				}
+
+				&.layout_support{
+					margin-top: 150px;
+
+					.image_support{
+						.partners-benefits__block__item{
+							margin: 0 auto;
+							max-width: 560px;
+						}
+						img{
+							max-height: 516px;
+						}
+					}
+				}
+
+				&.layout_integrations{
+
+					& .image_integrations{
+						@media screen and (min-width: $screen-xs-max) {
+						    margin-top: -40px;
+						}
+					}
+
+				}
+
+				.block_details{
+					.partners-benefits__block__item{
+						max-width: 450px;
+						margin: 0 auto;
+					}
+
+					p + p{
+						margin-top: 20px;
+					}
+
+				}
+
+				.block_image{
+					&.image_integrations{
+						margin: 0 auto;
+
+						& .partners-benefits__block__item{
+							max-width: 540px;
+						}
+					}
+
+				}
+				
+				.image_support,
+				.image_integrations{
+					@media screen and (max-width: $screen-xs-max) {
+					    margin-top: 30px;
+					}
+				}
+			}
+			
+		}
+
+		.partner-quote{
+			background: $color-white;
+			box-shadow: 0 20px 40px 0 rgba(0,0,0,0.10);
+			border-radius: 6px;
+			max-width: 800px;
+			padding: 35px 0;
+			
+			&__image{
+				text-align: center;
+				padding: 10px 0 0 10px;
+
+				img{
+					width: 78px;
+				}
+			}
+
+			&__body{
+				&__text{
+					font-weight: $font-regular;
+					font-size: 16px;
+					color: $color-grey-dark;
+					letter-spacing: 0;
+					line-height: 26px;
+				}
+				&__signature{
+					font-weight: $font-semibold;
+					font-size: 12px;
+					color: $color-green;
+					letter-spacing: 2px;
+					line-height: 28px;
+					text-transform: uppercase;
+					margin-top: 10px;
+				}
+			}
+		}
+
+		&--partner-quote{
+			padding: 20px 20px 80px 20px !important;
+		}
+
+		&--partners-company{
+			text-align: center;
+
+			.button-explore-casestudy{
+				background-color: rgba(255, 255, 255, 0.92);
+    			color: $color-green !important;
+    			border: 2px solid $color-green;
+    			padding: 24px 60px;
+    			line-height: 12px;
+
+    			&:hover{
+    				background-color: $color-green !important;
+    				color: $color-white !important;
+    			}
+			}
+		}
+
+		.partners-company{
+			&__item{
+				.company_logos{
+					max-width: 800px;
+					min-height: 70px;
+					margin: 0 auto;
+					margin-bottom: 40px;
+				}
+
+				&__title{
+					margin:0 0 50px;
+					font-weight: $font-semibold;
+					font-size: 30px;
+					color: #424242;
+					letter-spacing: -0.25px;
+				}
+
+				&__image{
+					line-height: 70px;
+
+					img{
+						max-width: 100%;
+						vertical-align: middle;
+					}
+				}
+			}
+		}
+
+		&--contact-form{
+		    background: $color-blue url(/assets/images/partners/skyline.png) no-repeat bottom;
+    		background-size: contain;
+		}
+
+		.partners__contact-form{
+
+			&__item{
+				max-width: 743px;
+    			margin: 0 auto;
+
+				&__header{
+					text-align: center;
+					color: $color-white;
+
+					&-title{
+						font-weight: $font-semibold;
+						font-size: 30px;
+						letter-spacing: -0.25px;
+						margin-top: 0;
+					}
+
+					&-subtitle{
+						font-size: 16px;
+						color: $color-white;
+						letter-spacing: 0;
+						line-height: 25px;
+						margin-bottom: 40px;
+					}
+				}
+
+				button{
+					font-weight: $font-semibold;
+					font-size: 16px;
+					color: $color-white;
+					width: 180px;
+					padding: 24px 60px;
+					line-height: 12px;
+				}
+
+				&__form{
+					background-color: $color-white;
+					padding: 60px 67px;
+					text-align: center;
+
+					form{
+						text-align: left;
+					}
+
+					label{
+						font-size: 16px;
+						color: $color-grey-dark;
+						letter-spacing: 0;
+						line-height: 25px;
+					}
+
+					input{
+						margin-bottom: 30px;
+					}
+
+					fieldset{
+						margin-bottom: 40px;
+					}
+
+					.offer_subscriptions input{
+						display: inline-block;
+						margin: 10px;
+						margin-top: 17px;
+					}
+
+					.offer_subscriptions:first-child{
+						margin-left: 0px;
+					}
+
+				}
+			}
+		}
+	}	
+}

@@ -2968,6 +2968,284 @@ ol {
   content: "\f00d";
   color: #C00399; }
 
+.banner {
+  height: 250px;
+  width: 100%;
+  background-color: #ccc;
+  overflow: hidden;
+  margin: 0 auto 0;
+  position: relative; }
+  .banner__title {
+    text-transform: uppercase;
+    margin: 0 auto 18px;
+    font-family: 'ralewaysemibold', arial, sans-serif;
+    font-size: 35px;
+    font-weight: normal;
+    font-style: normal;
+    line-height: 1; }
+  .banner__content {
+    color: #FFF;
+    text-align: center;
+    padding-top: 107px;
+    position: relative;
+    z-index: 1; }
+    .banner__content p {
+      font-family: 'ralewayregular', arial, sans-serif;
+      font-size: 16px;
+      font-weight: normal;
+      font-style: normal;
+      line-height: 25px;
+      margin: 0 auto;
+      max-width: 375px;
+      display: block; }
+  .banner__background {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    min-width: 650px;
+    margin: 0 auto; }
+    @media screen and (max-width: 575px) {
+      .banner__background {
+        left: 50%;
+        margin-left: -325px; } }
+    .banner__background__left, .banner__background__right {
+      position: absolute;
+      background-repeat: no-repeat;
+      z-index: 1;
+      height: 100%;
+      width: 50%;
+      background-size: contain; }
+    .banner__background__left {
+      left: 0;
+      z-index: 1;
+      background-position: bottom left; }
+    .banner__background__right {
+      right: 0;
+      z-index: 0;
+      background-position: bottom right; }
+
+/* Vertically align the banner's content to the middle */
+.banner--vcenter {
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d; }
+  .banner--vcenter .banner__content {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding-top: 0; }
+
+.banner--customers {
+  background-color: #FB8309; }
+  .banner--customers .banner__background__left {
+    background-image: url("../banners/Customers__left.png");
+    width: 384px;
+    height: 256px;
+    left: 32px;
+    top: 32px; }
+  .banner--customers .banner__background__right {
+    background-image: url("../banners/Customers__right.png");
+    width: 402px;
+    height: 323px;
+    top: -15px;
+    right: -55px; }
+
+.banner--integrations {
+  background-color: #FC840A; }
+  .banner--integrations .banner__background__left {
+    background-image: url("../banners/Integrations__left.png"); }
+  .banner--integrations .banner__background__right {
+    background-image: url("../banners/Integrations__right.png"); }
+
+.banner--partners {
+  background-image: url("../images/partners/partnersHeader.jpg");
+  min-height: 620px; }
+  .banner--partners .banner__content {
+    text-align: left; }
+  .banner--partners .banner__main-title {
+    opacity: 0.5;
+    font-family: ralewaysemibold;
+    font-size: 14px;
+    color: #424242;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-transform: uppercase; }
+  .banner--partners .banner__title {
+    font-family: ralewaysemibold;
+    font-size: 42px;
+    color: #424242;
+    letter-spacing: 0;
+    text-transform: none;
+    margin: 0px;
+    min-width: 389px; }
+  .banner--partners .banner__subtitle {
+    font-size: 16px;
+    color: #424242;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin: 0px;
+    max-width: 389px; }
+  .banner--partners .button--magenta {
+    font-family: ralewaysemibold;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #C00399;
+    padding: 24px 60px;
+    line-height: 12px; }
+  .banner--partners .button--magenta:hover {
+    background-color: #AC0289; }
+
+.banner--experts,
+.banner--support {
+  background-color: #62C4AF; }
+  .banner--experts .banner__background__left,
+  .banner--support .banner__background__left {
+    background-image: url("../banners/Experts__left.png");
+    width: 488px;
+    height: 290px;
+    top: -19px;
+    left: 0; }
+  .banner--experts .banner__background__right,
+  .banner--support .banner__background__right {
+    background-image: url("../banners/Experts__right.png");
+    width: 379px;
+    height: 350px;
+    top: 30px;
+    right: -76px; }
+
+.banner--pricing {
+  background-color: #53bad3; }
+  .banner--pricing .banner__background__left {
+    background-image: url("../banners/Pricing__left.png");
+    width: 432px;
+    height: 245px;
+    top: 28px;
+    left: -36px; }
+  .banner--pricing .banner__background__right {
+    background-image: url("../banners/Pricing__right.png");
+    width: 210px;
+    height: 281px;
+    top: 38px;
+    right: 87px; }
+
+.banner--features {
+  background-color: #53bad3; }
+  .banner--features .banner__background__left {
+    background-image: url("../banners/Features__left.png");
+    width: 483px;
+    height: 298px;
+    top: 39px;
+    left: -61px;
+    z-index: 1; }
+  .banner--features .banner__background__right {
+    background-image: url("../banners/Features__right.png");
+    width: 259px;
+    height: 330px;
+    top: -55px;
+    right: -41px;
+    z-index: 0; }
+
+.banner--careers {
+  background-color: #ef64d2; }
+  .banner--careers .banner__background__left {
+    background-image: url("../banners/Careers__left.png");
+    width: 332px;
+    height: 245px;
+    top: 27px;
+    left: -26px; }
+  .banner--careers .banner__background__right {
+    background-image: url("../banners/Careers__right.png");
+    width: 639px;
+    height: 362px;
+    top: -133px;
+    right: -80px; }
+
+.banner--modern {
+  height: 500px;
+  background-position: center 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden; }
+  .banner--modern .banner__content {
+    padding-top: 165px; }
+  .banner--modern .banner__title {
+    line-height: 1.3;
+    width: 80%; }
+  .banner--modern .banner__subtitle {
+    width: 80%;
+    margin-top: 0;
+    margin-bottom: 40px;
+    line-height: 30px;
+    font-family: 'ralewayregular'; }
+
+.banner--pro {
+  background-image: url("../images/pro/ProHeader.jpg"); }
+  .banner--pro .banner__content {
+    color: #424242; }
+  .banner--pro .banner__title {
+    color: #424242;
+    margin-bottom: 25px;
+    max-width: 580px; }
+  .banner--pro .button--magenta {
+    background-color: #C00399;
+    padding-left: 60px;
+    padding-right: 60px; }
+
+.banner--api {
+  background-image: url("../images/api/APIHeader.jpg"); }
+  .banner--api .banner__title {
+    margin-bottom: 15px;
+    max-width: 580px;
+    text-transform: none; }
+  .banner--api .button--transparent {
+    background-color: Transparent;
+    border-width: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+    transition: all ease-in-out 0.3s; }
+    .banner--api .button--transparent:hover {
+      background-color: rgba(255, 255, 255, 0.92);
+      color: #2C93AC !important; }
+
+.banner--migration {
+  background-image: url("../images/migrations/migrationsHeader.png"); }
+  @media (max-width: 575px) {
+    .banner--migration {
+      height: 610px; } }
+  @media (max-width: 575px) {
+    .banner--migration .banner__content {
+      padding-top: 140px; } }
+  @media (max-width: 575px) {
+    .banner--migration .banner__content {
+      padding-top: 100px; } }
+  @media (max-width: 575px) {
+    .banner--migration .banner__content {
+      padding-top: 80px; } }
+  .banner--migration .banner__title {
+    margin-bottom: 15px;
+    max-width: 580px;
+    text-transform: none; }
+  .banner--migration .button--transparent {
+    background-color: Transparent;
+    border-width: 2px;
+    padding-left: 40px;
+    padding-right: 40px;
+    transition: all ease-in-out 0.3s; }
+    .banner--migration .button--transparent:hover {
+      background-color: rgba(255, 255, 255, 0.92);
+      color: #2C93AC !important; }
+
+.banner--partners .banner__subtitle {
+  margin-top: 12px;
+  margin-bottom: 35px;
+  line-height: 25px; }
+
 .rc_section {
   margin: 143px 0;
   z-index: 1;
@@ -3688,7 +3966,6 @@ table.feature-table {
   left: 0; }
 
 .rc_section--integrations-directory .integrations__header__title h1 {
-  text-transform: uppercase;
   font-weight: 100; }
 
 .rc_section--integrations-directory .integrations__header__description p {
@@ -3738,8 +4015,7 @@ table.feature-table {
     margin: 45px 0 10px;
     font-size: 35px;
     line-height: 1;
-    font-weight: 600;
-    text-transform: uppercase; }
+    font-weight: 600; }
     @media screen and (max-width: 575px) {
       .page__integrations .integrations__header__title {
         line-height: 41px; } }
@@ -3920,6 +4196,263 @@ table.feature-table {
         position: absolute;
         top: 0;
         left: 0; }
+
+.page__partners .rc_section {
+  padding: 80px 0; }
+  .page__partners .rc_section__container {
+    box-sizing: border-box;
+    margin: 0 auto; }
+    @media screen and (min-width: 576px) and (max-width: 991px) {
+      .page__partners .rc_section__container {
+        padding: 0 30px; } }
+    @media screen and (max-width: 575px) {
+      .page__partners .rc_section__container {
+        padding: 0 15px; } }
+
+.page__partners .container {
+  max-width: 1133px; }
+
+.page__partners.with-navbar .navbar .container {
+  max-width: 100%; }
+
+.thank-you-container {
+  padding: 0 40px;
+  display: none; }
+  .thank-you-container img {
+    max-width: 180px;
+    margin: 0 auto; }
+  .thank-you-container h3 {
+    margin: 23px 0; }
+
+.rc_section__container .partners-features-header {
+  text-align: center; }
+  .rc_section__container .partners-features-header__title {
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+    letter-spacing: -0.25px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 33px; }
+  .rc_section__container .partners-features-header__subtitle {
+    font-size: 16px;
+    color: #424242;
+    letter-spacing: 0;
+    line-height: 25px;
+    max-width: 547px;
+    margin: 0 auto; }
+
+.rc_section__container .partners-features__block {
+  text-align: center;
+  margin-top: 80px;
+  padding: 0; }
+  .rc_section__container .partners-features__block__item {
+    max-width: 343px;
+    margin: 0 auto; }
+    .rc_section__container .partners-features__block__item h5 {
+      font-weight: 600;
+      font-size: 18px;
+      color: #424242;
+      letter-spacing: 0;
+      line-height: 25px;
+      margin-bottom: 13px; }
+    .rc_section__container .partners-features__block__item p {
+      font-size: 16px;
+      color: #424242;
+      letter-spacing: 0;
+      line-height: 25px; }
+
+.rc_section__container--partners-benefits, .rc_section__container--partner-quote {
+  background-color: rgba(238, 238, 238, 0.6); }
+
+@media screen and (max-width: 575px) {
+  .rc_section__container .partners-benefits {
+    margin: 0 20px; } }
+
+.rc_section__container .partners-benefits__title {
+  text-align: center;
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 30px;
+  margin-bottom: 70px; }
+
+.rc_section__container .partners-benefits__block {
+  padding: 0px 13px; }
+  .rc_section__container .partners-benefits__block__item__image img {
+    max-width: 100%; }
+  .rc_section__container .partners-benefits__block__item__main-title {
+    opacity: 0.5;
+    font-weight: 600;
+    font-size: 12px;
+    color: #424242;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-transform: uppercase; }
+  .rc_section__container .partners-benefits__block__item__title {
+    font-weight: 600;
+    font-size: 24px;
+    color: #424242;
+    letter-spacing: -0.25px;
+    line-height: 32px;
+    margin-top: 0;
+    margin-bottom: 20px; }
+  .rc_section__container .partners-benefits__block__item p {
+    font-size: 16px;
+    color: #424242;
+    letter-spacing: 0;
+    line-height: 25px; }
+
+.rc_section__container .partners-benefits .benefit_item {
+  overflow: hidden; }
+  @media screen and (max-width: 575px) {
+    .rc_section__container .partners-benefits .benefit_item {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+      flex-flow: column; }
+      .rc_section__container .partners-benefits .benefit_item .block_details {
+        -webkit-order: 1;
+        -ms-flex-order: 1;
+        order: 1; }
+      .rc_section__container .partners-benefits .benefit_item .block_image {
+        -webkit-order: 2;
+        -ms-flex-order: 2;
+        order: 2; } }
+  .rc_section__container .partners-benefits .benefit_item.layout_support {
+    margin-top: 150px; }
+    .rc_section__container .partners-benefits .benefit_item.layout_support .image_support .partners-benefits__block__item {
+      margin: 0 auto;
+      max-width: 560px; }
+    .rc_section__container .partners-benefits .benefit_item.layout_support .image_support img {
+      max-height: 516px; }
+  @media screen and (min-width: 575px) {
+    .rc_section__container .partners-benefits .benefit_item.layout_integrations .image_integrations {
+      margin-top: -40px; } }
+  .rc_section__container .partners-benefits .benefit_item .block_details .partners-benefits__block__item {
+    max-width: 450px;
+    margin: 0 auto; }
+  .rc_section__container .partners-benefits .benefit_item .block_details p + p {
+    margin-top: 20px; }
+  .rc_section__container .partners-benefits .benefit_item .block_image.image_integrations {
+    margin: 0 auto; }
+    .rc_section__container .partners-benefits .benefit_item .block_image.image_integrations .partners-benefits__block__item {
+      max-width: 540px; }
+  @media screen and (max-width: 575px) {
+    .rc_section__container .partners-benefits .benefit_item .image_support,
+    .rc_section__container .partners-benefits .benefit_item .image_integrations {
+      margin-top: 30px; } }
+
+.rc_section__container .partner-quote {
+  background: #FFFFFF;
+  box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  max-width: 800px;
+  padding: 35px 0; }
+  .rc_section__container .partner-quote__image {
+    text-align: center;
+    padding: 10px 0 0 10px; }
+    .rc_section__container .partner-quote__image img {
+      width: 78px; }
+  .rc_section__container .partner-quote__body__text {
+    font-weight: 400;
+    font-size: 16px;
+    color: #424242;
+    letter-spacing: 0;
+    line-height: 26px; }
+  .rc_section__container .partner-quote__body__signature {
+    font-weight: 600;
+    font-size: 12px;
+    color: #4DD6B7;
+    letter-spacing: 2px;
+    line-height: 28px;
+    text-transform: uppercase;
+    margin-top: 10px; }
+
+.rc_section__container--partner-quote {
+  padding: 20px 20px 80px 20px !important; }
+
+.rc_section__container--partners-company {
+  text-align: center; }
+  .rc_section__container--partners-company .button-explore-casestudy {
+    background-color: rgba(255, 255, 255, 0.92);
+    color: #4DD6B7 !important;
+    border: 2px solid #4DD6B7;
+    padding: 24px 60px;
+    line-height: 12px; }
+    .rc_section__container--partners-company .button-explore-casestudy:hover {
+      background-color: #4DD6B7 !important;
+      color: #FFFFFF !important; }
+
+.rc_section__container .partners-company__item .company_logos {
+  max-width: 800px;
+  min-height: 70px;
+  margin: 0 auto;
+  margin-bottom: 40px; }
+
+.rc_section__container .partners-company__item__title {
+  margin: 0 0 50px;
+  font-weight: 600;
+  font-size: 30px;
+  color: #424242;
+  letter-spacing: -0.25px; }
+
+.rc_section__container .partners-company__item__image {
+  line-height: 70px; }
+  .rc_section__container .partners-company__item__image img {
+    max-width: 100%;
+    vertical-align: middle; }
+
+.rc_section__container--contact-form {
+  background: #53BAD3 url(/assets/images/partners/skyline.png) no-repeat bottom;
+  background-size: contain; }
+
+.rc_section__container .partners__contact-form__item {
+  max-width: 743px;
+  margin: 0 auto; }
+  .rc_section__container .partners__contact-form__item__header {
+    text-align: center;
+    color: #FFFFFF; }
+    .rc_section__container .partners__contact-form__item__header-title {
+      font-weight: 600;
+      font-size: 30px;
+      letter-spacing: -0.25px;
+      margin-top: 0; }
+    .rc_section__container .partners__contact-form__item__header-subtitle {
+      font-size: 16px;
+      color: #FFFFFF;
+      letter-spacing: 0;
+      line-height: 25px;
+      margin-bottom: 40px; }
+  .rc_section__container .partners__contact-form__item button {
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+    width: 180px;
+    padding: 24px 60px;
+    line-height: 12px; }
+  .rc_section__container .partners__contact-form__item__form {
+    background-color: #FFFFFF;
+    padding: 60px 67px;
+    text-align: center; }
+    .rc_section__container .partners__contact-form__item__form form {
+      text-align: left; }
+    .rc_section__container .partners__contact-form__item__form label {
+      font-size: 16px;
+      color: #424242;
+      letter-spacing: 0;
+      line-height: 25px; }
+    .rc_section__container .partners__contact-form__item__form input {
+      margin-bottom: 30px; }
+    .rc_section__container .partners__contact-form__item__form fieldset {
+      margin-bottom: 40px; }
+    .rc_section__container .partners__contact-form__item__form .offer_subscriptions input {
+      display: inline-block;
+      margin: 10px;
+      margin-top: 17px; }
+    .rc_section__container .partners__contact-form__item__form .offer_subscriptions:first-child {
+      margin-left: 0px; }
 
 .rc_navbar {
   position: relative;
