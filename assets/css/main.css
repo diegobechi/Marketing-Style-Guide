@@ -3989,7 +3989,7 @@ table.feature-table {
         left: 0; }
 
 .page__partners .rc_section {
-  padding: 80px 0; }
+  margin: 95px 0; }
   .page__partners .rc_section__container {
     box-sizing: border-box;
     margin: 0 auto; }
@@ -4053,16 +4053,13 @@ table.feature-table {
       letter-spacing: 0;
       line-height: 25px; }
 
-.rc_section__container--partners-benefits, .rc_section__container--partner-quote {
-  background-color: rgba(238, 238, 238, 0.6); }
-
 @media screen and (max-width: 575px) {
   .rc_section__container .partners-benefits {
     margin: 0 20px; } }
 
 .rc_section__container .partners-benefits__title {
   text-align: center;
-  margin: 10px 0;
+  margin: 10px auto;
   font-weight: 600;
   font-size: 30px;
   margin-bottom: 70px; }
@@ -4140,10 +4137,11 @@ table.feature-table {
   box-shadow: 0 20px 40px 0 rgba(0, 0, 0, 0.1);
   border-radius: 6px;
   max-width: 800px;
-  padding: 35px 0; }
+  padding: 34px 10px;
+  margin: 0 auto; }
   .rc_section__container .partner-quote__image {
     text-align: center;
-    padding: 10px 0 0 10px; }
+    padding-top: 10px; }
     .rc_section__container .partner-quote__image img {
       width: 78px; }
   .rc_section__container .partner-quote__body__text {
@@ -4161,43 +4159,24 @@ table.feature-table {
     text-transform: uppercase;
     margin-top: 10px; }
 
-.rc_section__container--partner-quote {
-  padding: 20px 20px 80px 20px !important; }
-
-.rc_section__container--partners-company {
+.rc_section__container .partners-company {
   text-align: center; }
-  .rc_section__container--partners-company .button-explore-casestudy {
-    background-color: rgba(255, 255, 255, 0.92);
-    color: #4DD6B7 !important;
-    border: 2px solid #4DD6B7;
-    padding: 24px 60px;
-    line-height: 12px; }
-    .rc_section__container--partners-company .button-explore-casestudy:hover {
-      background-color: #4DD6B7 !important;
-      color: #FFFFFF !important; }
-
-.rc_section__container .partners-company__item .company_logos {
-  max-width: 800px;
-  min-height: 70px;
-  margin: 0 auto;
-  margin-bottom: 40px; }
-
-.rc_section__container .partners-company__item__title {
-  margin: 0 0 50px;
-  font-weight: 600;
-  font-size: 30px;
-  color: #424242;
-  letter-spacing: -0.25px; }
-
-.rc_section__container .partners-company__item__image {
-  line-height: 70px; }
-  .rc_section__container .partners-company__item__image img {
-    max-width: 100%;
-    vertical-align: middle; }
-
-.rc_section__container--contact-form {
-  background: #53BAD3 url(/assets/images/partners/skyline.png) no-repeat bottom;
-  background-size: contain; }
+  .rc_section__container .partners-company__item .company_logos {
+    max-width: 800px;
+    min-height: 70px;
+    margin: 0 auto;
+    margin-bottom: 40px; }
+  .rc_section__container .partners-company__item__title {
+    margin: 0 0 50px;
+    font-weight: 600;
+    font-size: 30px;
+    color: #424242;
+    letter-spacing: -0.25px; }
+  .rc_section__container .partners-company__item__image {
+    line-height: 70px; }
+    .rc_section__container .partners-company__item__image img {
+      max-width: 100%;
+      vertical-align: middle; }
 
 .rc_section__container .partners__contact-form__item {
   max-width: 743px;
@@ -4205,45 +4184,21 @@ table.feature-table {
   .rc_section__container .partners__contact-form__item__header {
     text-align: center;
     color: #FFFFFF; }
-    .rc_section__container .partners__contact-form__item__header-title {
-      font-weight: 600;
-      font-size: 30px;
-      letter-spacing: -0.25px;
-      margin-top: 0; }
-    .rc_section__container .partners__contact-form__item__header-subtitle {
-      font-size: 16px;
-      color: #FFFFFF;
-      letter-spacing: 0;
-      line-height: 25px;
-      margin-bottom: 40px; }
-  .rc_section__container .partners__contact-form__item button {
-    font-weight: 600;
-    font-size: 16px;
-    color: #FFFFFF;
-    width: 180px;
-    padding: 24px 60px;
-    line-height: 12px; }
-  .rc_section__container .partners__contact-form__item__form {
-    background-color: #FFFFFF;
-    padding: 60px 67px;
-    text-align: center; }
-    .rc_section__container .partners__contact-form__item__form form {
-      text-align: left; }
-    .rc_section__container .partners__contact-form__item__form label {
-      font-size: 16px;
-      color: #424242;
-      letter-spacing: 0;
-      line-height: 25px; }
-    .rc_section__container .partners__contact-form__item__form input {
-      margin-bottom: 30px; }
-    .rc_section__container .partners__contact-form__item__form fieldset {
-      margin-bottom: 40px; }
-    .rc_section__container .partners__contact-form__item__form .offer_subscriptions input {
-      display: inline-block;
-      margin: 10px;
-      margin-top: 17px; }
-    .rc_section__container .partners__contact-form__item__form .offer_subscriptions:first-child {
-      margin-left: 0px; }
+
+.rc_section--partners-benefits, .rc_section--partner-quote, .rc_section--contact-form {
+  margin: 0 !important;
+  padding-top: 95px;
+  padding-bottom: 95px; }
+
+.rc_section--partners-benefits, .rc_section--partner-quote {
+  background-color: rgba(238, 238, 238, 0.6); }
+
+.rc_section--partner-quote {
+  padding: 20px 20px 80px 20px !important; }
+
+.rc_section--contact-form {
+  background: #53BAD3 url(/assets/images/partners/skyline.png) no-repeat bottom;
+  background-size: contain; }
 
 .rc_navbar {
   position: relative;

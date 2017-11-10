@@ -19,15 +19,15 @@
 </header>
 <div class="rc_section__container">
 	<div class="rc_section rc_section--partners-features">
-		<div class="partners-features">
-			<div class="container">
+		<div class="rc_layout partners-features">
+			<div class="rc_layout__container">
 				<div class="partners-features-header">
 					<h2 class="partners-features-header__title">It’s Not Just About the Software</h3>
 						<div class="partners-features-header__subtitle">
 							<p>Just as we’re passionate about creating the best recurring billing platform, we’re equally passionate about empowering and supporting our agency partners. Our partners team is here to give you the guidance, support, and training to help your clients grow and succeed.</p>
 						</div>
 					</div>
-					<div class="partners-features-body">
+					<div class="rc_layout partners-features-body">
 						<div class="rc_layout__sm__4 partners-features__block">
 							<div class="partners-features__block__item">
 								<div class="partners-features__block__item__image">
@@ -62,9 +62,9 @@
 	</div>
 	<div class="rc_section__container">
 		<div class="rc_section rc_section--partners-benefits">
-			<div class="partners-benefits">
+			<div class="rc_layout partners-benefits">
 				<h3 class="partners-benefits__title">Benefits</h3>
-				<div class="benefit_item layout_revenue">
+				<div class="rc_layout rc_layout__full benefit_item layout_revenue">
 					<div class="rc_layout__sm__6 partners-benefits__block block_details">
 						<div class="partners-benefits__block__item">
 							<div class="partners-benefits__block__item__icon">
@@ -78,16 +78,16 @@
 					<div class="rc_layout__sm__6 partners-benefits__block block_image image_revenue">
 						<div class="partners-benefits__block__item">
 							<div class="partners-benefits__block__item__image">
-								<img src="../assets/images/partners/revenue_graph.png" alt="">
+								<img src="../assets/images/partners/benefit_revenue_graph.png" alt="">
 							</div>
 						</div>
 					</div>			
 				</div>
-				<div class="benefit_item layout_support">
+				<div class="rc_layout rc_layout__full benefit_item layout_support">
 					<div class="rc_layout__sm__6 partners-benefits__block block_image image_support">
 						<div class="partners-benefits__block__item">
 							<div class="partners-benefits__block__item__image">
-								<img src="../assets/images/partners/support.png" alt="">
+								<img src="../assets/images/partners/benefit_support.png" alt="">
 							</div>
 						</div>
 					</div>
@@ -103,7 +103,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="benefit_item layout_integrations">
+				<div class="rc_layout rc_layout__full benefit_item layout_integrations">
 					<div class="rc_layout__sm__6 partners-benefits__block block_details">
 						<div class="partners-benefits__block__item">
 							<div class="partners-benefits__block__item__icon">
@@ -118,15 +118,15 @@
 					<div class="rc_layout__sm__6 partners-benefits__block block_image image_integrations">
 						<div class="partners-benefits__block__item">
 							<div class="partners-benefits__block__item__image">
-								<img src="../assets/images/partners/integrations.png" alt="">
+								<img src="../assets/images/partners/benefit_integrations.png" alt="">
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-		<div class="partners__block partners__block--partner-quote">
-			<div class="partner-quote container">
+		<div class="rc_section rc_section--partner-quote">
+			<div class="rc_layout partner-quote">
 				<div class="partner-quote__image rc_layout__sm__2">
 					<img src="../assets/images/partners/andrew_gordon.png" alt="">	
 				</div>
@@ -137,85 +137,108 @@
 					<div class="partner-quote__body__signature">
 						<span>- Andrew Gordon, Vice President, Simplistic</span>
 					</div>
-				</div>
+				</div>				
 			</div>
 		</div>
 	</div>
 	<div class="rc_section__container">
 		<div class="rc_section rc_section--partners-company">
-			<div class="partners-company container">
-				<div class="partners-company__item">
+			<div class="rc_layout partners-company">
+				<div class="rc_layout__container partners-company__item">
 					<h3 class="partners-company__item__title">You’ll be in good company</h3>
-					<div class="layout company_logos">
+					<div class="rc_layout company_logos">
 						<div class="rc_layout__sm__4 partners-company__item__image">
-							<img src="../assets/images/partners/simplistic.svg" alt="">
+							<img src="../assets/images/partners/simplistic_logo.svg" alt="">
 						</div>
 						<div class="rc_layout__sm__4 partners-company__item__image">
-							<img src="../assets/images/partners/rocketcode.svg" alt="">					
+							<img src="../assets/images/partners/rocketcode_logo.svg" alt="">					
 						</div>
 						<div class="rc_layout__sm__4 partners-company__item__image">
-							<img src="../assets/images/partners/eastsideco.svg" alt="">					
+							<img src="../assets/images/partners/eastsideco_logo.svg" alt="">					
 						</div>
 					</div>
+					<a href="/case-studies" class="rc_button rc_button_large rc_button_secondary button-explore-casestudy">Explore case studies</a>
 				</div>
 			</div>
-			<a href="/case-studies" class="button button--large button--transparent button-explore-casestudy">Explore Case Studies</a>
 		</div>
 	</div>
 	<div class="rc_section__container">
 		<div class="rc_section rc_section--contact-form" id="become_partner">
-			<div class="partners__contact-form container">
+			<div class="rc_layout partners__contact-form">
+				<div class="rc_layout__container">
 				<div class="partners__contact-form__item" id="become-partner-card">
 					<div class="partners__contact-form__item__header">
-						<h2 class="partners__contact-form__item__header-title">Let's Partner Up</h2>
+						<h2 class="partners__contact-form__item__header-title">Let's partner up</h2>
 						<h5 class="partners__contact-form__item__header-subtitle">Apply to be a ReCharge partner today</h5>
 					</div>
-					<div class="partners__contact-form__item__form">
+					<div class="rc_form partners__contact-form__item__form">
 						<div class="thank-you-container">
 							<img src="../assets/images/partners/thankyou-icon.png">
 							<h3>Thank You</h3>
 							<p>The ReCharge Pro team has received your inquiry and will be in touch within one business day. If you would like to follow up on this inquiry, please send an email to <a href="mailto:support@rechargepaments.com">support@rechargepaments.com</a> with your store URL included in the message.</p>
 						</div>
-						<div class="form-page-container">
+						<div class="rc_form_container form-page-container">
 							<form method="post" id="contact-form" target="_blank" class="">
 								<fieldset>
-									<div class="layout">
-										<div class="rc_layout__sm__6">
-											<label>First Name</label>
-											<input type="text" class="form__input" name="first_name" placeholder="First Name" data-message="Please enter your first name" required>
+									<div class="rc_layout">
+										<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
+											<div class="rc_form__group">
+												<label for="" class="rc_form__label">First Name</label>
+												<input type="text" name="first_name" placeholder="First Name" class="rc_form__input" data-message="Please enter your first name">
+											</div>
 										</div>
-										<div class="rc_layout__sm__6">
-											<label>Last Name</label>
-											<input type="text" class="form__input" name="last_name" placeholder="Last Name" data-message="Please enter your last name" required>
-										</div>
-									</div>
-									<div class="layout">
-										<div class="rc_layout__sm__6">
-											<label>Email Address</label>
-											<input type="email" class="form__input" name="email" placeholder="email.address@something.com" data-message="Please enter your email address" data-regex="/.+@.+\..+/i" required>
-										</div>
-										<div class="rc_layout__sm__6">
-											<label>Website Address</label>
-											<input type="text" class="form__input" name="website" placeholder="http://" data-message="Please enter the url of your website" required>
+										<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
+											<div class="rc_form__group">
+												<label for="" class="rc_form__label">Last Name</label>
+												<input type="text" name="last_name" placeholder="Last Name" class="rc_form__input " data-message="Please enter your last name">
+											</div>
 										</div>
 									</div>
-									<label>PayPal Address</label>
-									<input type="text" class="form__input" name="paypal_address" placeholder="Which address should we send your rewards to?" data-message="Please enter your PayPal Address" required>
-									<label>Include Shopify URL that currently has ReCharge installed:</label>
-									<input type="text" class="form__input" name="storeUrl" placeholder="Store URL" data-message="Please enter the store URL where you have ReCharge installed" required>
-									<label>Does your client already offer subscriptions?</label>
-									<div class="offer_subscriptions">
-										<input type="radio" name="offer_subscriptions" class="offer_subscriptions" value="yes" checked>Yes
-										<input type="radio" name="offer_subscriptions" class="offer_subscriptions" value="no">No
+									<div class="rc_layout">
+										<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
+											<div class="rc_form__group">
+												<label for="" class="rc_form__label">Email Address</label>
+												<input type="email" name="email" placeholder="Email Address" class="rc_form__input" data-message="Please enter your email address" data-regex="/.+@.+\..+/i">
+											</div>
+										</div>
+										<div class="rc_layout__xs__12 rc_layout__md__6 rc_layout__lg__6">
+											<div class="rc_form__group">
+												<label for="" class="rc_form__label">Website Address</label>
+												<input type="url" name="website" placeholder="http://" class="rc_form__input" data-message="Please enter the url of your website">
+											</div>
+										</div>
 									</div>
-									<p class="form__errors" hidden></p>
-									<input type="hidden" name="thanksSubject" value="PARTNER REQUEST">
+									<div class="rc_layout">
+										<div class="rc_layout__sm__12">
+											<div class="rc_form__group">
+												<label for="" class="rc_form__label">PayPal Email Address</label>
+												<input type="text" name="paypal_address" placeholder="Which address should we send your rewards to?" class="rc_form__input" data-message="Please enter your PayPal Email Address" data-regex="/.+@.+\..+/i">
+											</div>
+										</div>
+									</div>
+									<div class="rc_layout">
+										<div class="rc_layout__sm__12">
+											<div class="rc_form__group">
+												<label for="" class="rc_form__label">Include Shopify URL that currently has ReCharge installed:</label>
+												<input type="text" name="storeUrl" placeholder="Store URL" class="rc_form__input" data-message="Please enter the store URL where you have ReCharge installed">
+											</div>
+										</div>
+									</div>
+									<div class="rc_form__group">
+										<label class="rc_form__label">Does your client already offer subscriptions?</label>
+
+										<input type="radio" name="offer_subscriptions" id="rc_radio_form_yes" value="yes" class="rc_form__radio" checked>
+										<label for="rc_radio_form_yes" class="rc_form__label">Yes</label>
+										<input type="radio" name="offer_subscriptions" id="rc_radio_form_no" value="no" class="rc_form__radio">
+										<label for="rc_radio_form_no" class="rc_form__label">No</label>
+									</div>
 								</fieldset>
 							</form>
-							<button id="submit-button" class="button button--large button--magenta button-become-partner">Submit</button>
+							<button id="submit-button" class="rc_button rc_button_large rc_button_primary button-become-partner">Submit</button>
 						</div>
 					</div>
 				</div>
+			</div>
 			</div>
 		</div>
 	</div>

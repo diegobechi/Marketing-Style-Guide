@@ -1,7 +1,7 @@
 .page__partners {
 
 	.rc_section {
-		padding: 80px 0;
+		margin: 95px 0;
 
 		&__container {
 			box-sizing: border-box;
@@ -94,12 +94,6 @@
 			}
 		}
 
-		&--partners-benefits,
-		&--partner-quote{
-			background-color: rgba(238,238,238,0.6);
-
-		}
-
 		.partners-benefits{
 
 			@media screen and (max-width: $screen-xs-max) {
@@ -108,7 +102,7 @@
 
 			&__title{
 				text-align: center;
-				margin: 10px 0;
+				margin: 10px auto;
 				font-weight: $font-semibold;
 				font-size: 30px;
 				margin-bottom: 70px;
@@ -225,12 +219,13 @@
 			background: $color-white;
 			box-shadow: 0 20px 40px 0 rgba(0,0,0,0.10);
 			border-radius: 6px;
-			max-width: 800px;
-			padding: 35px 0;
+			max-width: 800px;    
+			padding: 34px 10px;
+    		margin: 0 auto;
 			
 			&__image{
 				text-align: center;
-				padding: 10px 0 0 10px;
+				padding-top: 10px;
 
 				img{
 					width: 78px;
@@ -257,28 +252,8 @@
 			}
 		}
 
-		&--partner-quote{
-			padding: 20px 20px 80px 20px !important;
-		}
-
-		&--partners-company{
-			text-align: center;
-
-			.button-explore-casestudy{
-				background-color: rgba(255, 255, 255, 0.92);
-    			color: $color-green !important;
-    			border: 2px solid $color-green;
-    			padding: 24px 60px;
-    			line-height: 12px;
-
-    			&:hover{
-    				background-color: $color-green !important;
-    				color: $color-white !important;
-    			}
-			}
-		}
-
 		.partners-company{
+			text-align: center;
 			&__item{
 				.company_logos{
 					max-width: 800px;
@@ -306,11 +281,6 @@
 			}
 		}
 
-		&--contact-form{
-		    background: $color-blue url(/assets/images/partners/skyline.png) no-repeat bottom;
-    		background-size: contain;
-		}
-
 		.partners__contact-form{
 
 			&__item{
@@ -320,68 +290,26 @@
 				&__header{
 					text-align: center;
 					color: $color-white;
-
-					&-title{
-						font-weight: $font-semibold;
-						font-size: 30px;
-						letter-spacing: -0.25px;
-						margin-top: 0;
-					}
-
-					&-subtitle{
-						font-size: 16px;
-						color: $color-white;
-						letter-spacing: 0;
-						line-height: 25px;
-						margin-bottom: 40px;
-					}
-				}
-
-				button{
-					font-weight: $font-semibold;
-					font-size: 16px;
-					color: $color-white;
-					width: 180px;
-					padding: 24px 60px;
-					line-height: 12px;
-				}
-
-				&__form{
-					background-color: $color-white;
-					padding: 60px 67px;
-					text-align: center;
-
-					form{
-						text-align: left;
-					}
-
-					label{
-						font-size: 16px;
-						color: $color-grey-dark;
-						letter-spacing: 0;
-						line-height: 25px;
-					}
-
-					input{
-						margin-bottom: 30px;
-					}
-
-					fieldset{
-						margin-bottom: 40px;
-					}
-
-					.offer_subscriptions input{
-						display: inline-block;
-						margin: 10px;
-						margin-top: 17px;
-					}
-
-					.offer_subscriptions:first-child{
-						margin-left: 0px;
-					}
-
 				}
 			}
 		}
-	}	
+	}
+	&--partners-benefits,
+	&--partner-quote,
+	&--contact-form{	
+		margin: 0 !important;
+		padding-top: 95px;
+		padding-bottom: 95px;
+	}
+	&--partners-benefits,
+	&--partner-quote{
+		background-color: rgba(238,238,238,0.6);
+	}
+	&--partner-quote{
+		padding: 20px 20px 80px 20px !important;
+	}
+	&--contact-form{
+	    background: $color-blue url(/assets/images/partners/skyline.png) no-repeat bottom;
+		background-size: contain;
+	}
 }
