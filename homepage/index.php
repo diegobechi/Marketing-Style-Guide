@@ -258,7 +258,7 @@
 							<hr class="mini-hr">
 						</div>
 						<h3>We integrate with the <span class="rc_text--nowrap">best-of-breed</span> apps</h3>
-						<p>Create custom workflows to solve complex subscription needs.</p>
+						<p>Connect your ReCharge account with other Shopify apps to streamline and automate your business.</p>
 						<p><a href="/integrations" class="rc_link">View all integrations</a></p>
 					</div>
 				</div>
@@ -271,7 +271,7 @@
 	<div class="rc_section rc_section--final rc_text--center background_2">
 		<div class="rc_content">
 			<h4>Ready to get started?</h4>
-			<p>Connect your ReCharge account with other Shopify apps to streamline and automate your business.</p>
+			<p>Get started with the subscription platform trusted by over 1 million subscribers across the world.</p>
 			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
 			<a href="https://www.shopifysubscriptions.com/app/install?utm_source=homepage&utm_medium=button&utm_campaign=newhomepage" id="footerSignUp" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
