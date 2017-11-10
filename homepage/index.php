@@ -58,7 +58,7 @@
 			<span>Insert title here</span>
 			<hr class="mini-hr" style="margin-left: auto;">
 		</div> -->
-		<h3>ReCharge makes selling subscription products easy.</h3>
+		<h3>ReCharge makes selling subscription products easy</h3>
 		<div class="rc_layout__container">
 			<div class="rc_layout">
 				<div class="rc_layout__md__4">
@@ -128,7 +128,7 @@
 						<source src="/assets/videos/merchants.webm" type="video/webm">
 						<source src="/assets/videos/merchants.mp4" type="video/mp4">
 						<source src="/assets/videos/merchants.ogg" type="video/ogg">
-						Your browser does not support the video tag.
+						Your browser does not support the video tag
 					</video>
 				</div>
 			</div>
@@ -145,7 +145,7 @@
 						<source src="/assets/videos/customers.webm" type="video/webm">
 						<source src="/assets/videos/customers.mp4" type="video/mp4">
 						<source src="/assets/videos/customers.ogg" type="video/ogg">
-						Your browser does not support the video tag.
+						Your browser does not support the video tag
 					</video>
 				</div>
 				<div class="rc_layout__md__5 rc_content__container">
@@ -155,7 +155,7 @@
 							<hr class="mini-hr">
 						</div>
 						<h3>Make it easy for customers to manage  their subscriptions</h3>
-						<p>The ReCharge customer portal allows your customers to fully manage all aspects of their subscriptions directly from your store</p>
+						<p>The ReCharge customer portal allows your customers to fully manage all aspects of their subscriptions directly from your store.</p>
 						<table class="feature-table">
 							<tbody>
 								<tr>
@@ -196,26 +196,32 @@
 							<hr class="mini-hr">
 						</div>
 						<h3>Scale subscriber growth with the ReCharge API</h3>
-						<p>Create custom workflows to solve complex  subscription needs</p>
+						<p>Create custom workflows to solve complex  subscription needs.</p>
 						<table class="feature-table">
 							<tbody>
 								<tr>
 									<td>
 										<img src="/assets/images/layout/developers-icon-1.svg" alt="icon">
 									</td>
-									<td><strong class="rc_text--small">Export data from ReCharge to other platforms</strong></td>
+									<td>
+										<strong class="rc_text--small">Export data from ReCharge to other platforms</strong>
+									</td>
 								</tr>
 								<tr>
 									<td>
 										<img src="/assets/images/layout/developers-icon-2.svg" alt="icon">
 									</td>
-									<td><strong class="rc_text--small">Automate your marketing and fulfillment</strong></td>
+									<td>
+										<strong class="rc_text--small">Automate your marketing and fulfillment</strong>
+									</td>
 								</tr>
 								<tr>
 									<td>
 										<img src="/assets/images/layout/developers-icon-3.svg" alt="icon">
 									</td>
-									<td><strong class="rc_text--small">Access webhooks to connect all parts of your business in real time</strong></td>
+									<td>
+										<strong class="rc_text--small">Access webhooks to connect all parts of your business in real time</strong>
+									</td>
 								</tr>
 							</tbody>
 						</table>
@@ -230,7 +236,7 @@
 						<source src="/assets/videos/developers.webm" type="video/webm">
 						<source src="/assets/videos/developers.mp4" type="video/mp4">
 						<source src="/assets/videos/developers.ogg" type="video/ogg">
-						Your browser does not support the video tag.
+						Your browser does not support the video tag
 					</video>
 				</div>
 			</div>
@@ -251,8 +257,8 @@
 							<span class="rc_hidden--xs">Automate your business</span>
 							<hr class="mini-hr">
 						</div>
-						<h3>We integrate with the best-of-breed apps</h3>
-						<p>Create custom workflows to solve complex subscription needs</p>
+						<h3>We integrate with the <span class="rc_txt--nowrap">best-of-breed</span> apps</h3>
+						<p>Create custom workflows to solve complex subscription needs.</p>
 						<p><a href="#" class="rc_link">View all integrations</a></p>
 					</div>
 				</div>
@@ -265,7 +271,7 @@
 	<div class="rc_section rc_section--final rc_text--center background_2">
 		<div class="rc_content">
 			<h4>Ready to get started?</h4>
-			<p>Get started with the subscription platform trusted by over 1 million subscribers across the world.</p>
+			<p>Connect your ReCharge account with other Shopify apps to streamline and automate your business.</p>
 			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
 			<a href="https://apps.shopify.com/shopify-recurring-payments" id="footerSignUp" class="rc_button rc_button_primary">Sign up free</a>
 		</div>

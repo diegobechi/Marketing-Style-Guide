@@ -136,6 +136,11 @@ address {
 	}
 }
 
+.rc_text {
+	&--nowrap {
+		white-space: nowrap;
+	}
+}
 
 a.rc_link {
 	font-weight: $font-semibold;
