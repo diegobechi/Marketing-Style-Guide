@@ -4200,6 +4200,29 @@ table.feature-table {
   background: #53BAD3 url(/assets/images/partners/skyline.png) no-repeat bottom;
   background-size: contain; }
 
+.rc_section--media-kit .media-kit__header__title h1 {
+  font-weight: 100; }
+
+.rc_section--media-kit .media-kit__header__description {
+  margin-bottom: 27px; }
+  .rc_section--media-kit .media-kit__header__description p {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.44px; }
+
+.rc_section--media-kit .media-kit__container {
+  background-color: #F8F8F8;
+  padding: 78px 0; }
+
+.page__media-kit .media-kit__header {
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0 auto 70px;
+  max-width: 540px;
+  line-height: 25px;
+  box-sizing: border-box; }
+
 .rc_navbar {
   position: relative;
   background-color: #FFF;
