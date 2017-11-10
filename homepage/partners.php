@@ -9,11 +9,11 @@
 
 <?php include('includes/header.php'); ?>
 
-<header class="banner banner--modern banner--partners">
-    <div class="banner__content container">
-        <h1 class="banner__main-title">ReCharge partners</h1>
-        <h2 class="banner__title">Better together</h2>
-        <h4 class="banner__subtitle">Become a ReCharge partner and help solve your clients’ complex subscription needs. Our platform and API is trusted by over 400 partners to make subscriptions easy.</h4>
+<header class="rc_layout rc_banner rc_banner--modern rc_banner--partners">
+    <div class="rc_layout__container rc_banner__content">
+        <h1 class="rc_banner__main-title">ReCharge partners</h1>
+        <h2 class="rc_banner__title rc_h1">Better together</h2>
+        <h4 class="rc_banner__subtitle">Become a ReCharge partner and help solve your clients’ complex subscription needs. Our platform and API is trusted by over 400 partners to make subscriptions easy.</h4>
         <a href="#become_partner" class="rc_button rc_button_large rc_button_primary recharge-partners-button">Become a partner</a>
     </div>
 </header>
