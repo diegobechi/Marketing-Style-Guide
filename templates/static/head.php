@@ -14,7 +14,7 @@
 
 <!-- Added CSS Files -->
 <link rel="stylesheet" href="assets/css/styleguide.css">
-<link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="assets/css/app.min.css">
 
 <!-- Added JS Files -->
 <script src="/assets/js/app.min.js"></script>

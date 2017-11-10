@@ -54,10 +54,10 @@
 
 <div class="rc_section__container">
 	<div class="rc_section rc_section--overview rc_text--center">
-		<div class="rc_caption">
+		<!-- <div class="rc_caption">
 			<span>Insert title here</span>
 			<hr class="mini-hr" style="margin-left: auto;">
-		</div>
+		</div> -->
 		<h3>ReCharge makes selling subscription products easy.</h3>
 		<div class="rc_layout__container">
 			<div class="rc_layout">
@@ -124,7 +124,7 @@
 					</div>
 				</div>
 				<div class="rc_layout__md__6 rc_media__container">
-					<video width="100%" muted loop autoplay poster="/assets/videos/merchants.jpg" style="max-width: 576px">
+					<video width="100%" defaultMuted muted loop autoplay poster="/assets/videos/merchants.jpg" style="max-width: 576px">
 						<source src="/assets/videos/merchants.webm" type="video/webm">
 						<source src="/assets/videos/merchants.mp4" type="video/mp4">
 						<source src="/assets/videos/merchants.ogg" type="video/ogg">
@@ -141,7 +141,7 @@
 		<div class="rc_layout__container">
 			<div class="rc_layout">
 				<div class="rc_layout__md__7 rc_media__container">
-					<video width="100%" muted loop autoplay poster="/assets/videos/customers.jpg" style="max-width: 556px">
+					<video width="100%" defaultMuted muted loop autoplay poster="/assets/videos/customers.jpg" style="max-width: 556px">
 						<source src="/assets/videos/customers.webm" type="video/webm">
 						<source src="/assets/videos/customers.mp4" type="video/mp4">
 						<source src="/assets/videos/customers.ogg" type="video/ogg">
@@ -226,7 +226,7 @@
 						<div id="revenue_stats__dollars">$740,216</div>
 						Projected revenue for next 30 days
 					</div>
-					<video width="100%" muted loop autoplay poster="/assets/videos/developers.jpg" style="max-width: 462px">
+					<video width="100%" defaultMuted muted loop autoplay poster="/assets/videos/developers.jpg" style="max-width: 462px">
 						<source src="/assets/videos/developers.webm" type="video/webm">
 						<source src="/assets/videos/developers.mp4" type="video/mp4">
 						<source src="/assets/videos/developers.ogg" type="video/ogg">
@@ -265,7 +265,7 @@
 	<div class="rc_section rc_section--final rc_text--center background_2">
 		<div class="rc_content">
 			<h4>Ready to get started?</h4>
-			<p>Grounds and redeye strong dripper grinder fair trade. So trifecta barista a robust siphon ut aroma spoon cinnamon seasonal.</p>
+			<p>Get started with the subscription platform trusted by over 1 million subscribers across the world.</p>
 			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
 			<a href="https://apps.shopify.com/shopify-recurring-payments" id="footerSignUp" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
