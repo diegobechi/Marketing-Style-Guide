@@ -6,8 +6,8 @@
 		<ul id="navbar__menu" class="rc_navbar__links collapse">
 			<li>
 				<div class="rc_dropdown">
-					<button class="rc_button rc_dropdown__toggle" id="dropdown_product" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Product</button>
-					<div class="rc_dropdown__menu">
+					<button class="rc_button rc_dropdown__toggle" id="dropdown_product">Product</button>
+					<div class="rc_dropdown__menu" data-toggle="dropdown">
 						<a href="/features" class="rc_item<?php if ($the_active_page == 'features'){ echo ' rc_active'; } ?>">Features</a>
 						<a href="/integrations" class="rc_item<?php if ($the_active_page == 'integrations'){ echo ' rc_active'; } ?>">Integrations</a>
 						<a href="/pricing" class="rc_item<?php if ($the_active_page == 'pricing'){ echo ' rc_active'; } ?>">Pricing</a>
@@ -16,7 +16,7 @@
 			</li>
 			<li>
 				<div class="rc_dropdown">
-					<button class="rc_button rc_dropdown__toggle" id="dropdown_resources" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Resources</button>
+					<button class="rc_button rc_dropdown__toggle" id="dropdown_resources" data-toggle="dropdown">Resources</button>
 					<div class="rc_dropdown__menu">
 						<a href="http://recharge.helpscoutdocs.com" target="_blank" class="rc_item<?php if ($the_active_page == 'faq'){ echo ' rc_active'; } ?>">Knowledge base</a>
 						<a href="/support-hours" class="rc_item<?php if ($the_active_page == 'support-hours'){ echo ' rc_active'; } ?>">Support hours</a>
