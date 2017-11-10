@@ -24,7 +24,7 @@
 							<li<?php if ($the_active_page == 'case-studies'){ echo " class=\"active\""; } ?>><a href="/case-studies">Case studies</a></li>
 							<li<?php if ($the_active_page == 'experts'){ echo " class=\"active\""; } ?>><a href="/experts">Experts</a></li>
 							<li<?php if ($the_active_page == 'migrations'){ echo " class=\"active\""; } ?>><a href="/migrations">Migrations</a></li>
-							<li<?php if ($the_active_page == 'blog'){ echo " class=\"active\""; } ?>><a href="http://blog.rechargeapps.com" target="_blank">Blog</a></li>
+							<li<?php if ($the_active_page == 'blog'){ echo " class=\"active\""; } ?>><a href="https://blog.rechargeapps.com" target="_blank">Blog</a></li>
 						</ul>
 					</div>
 					<div class="rc_layout__md__4 rc_layout__lg__3 footer__links">
