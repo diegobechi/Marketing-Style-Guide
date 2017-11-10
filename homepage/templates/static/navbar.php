@@ -18,9 +18,9 @@
 				<div class="rc_dropdown">
 					<button class="rc_button rc_dropdown__toggle" data-toggle="dropdown">Resources</button>
 					<div class="rc_dropdown__menu" id="dropdown_resources">
-						<a href="http://recharge.helpscoutdocs.com" target="_blank" class="rc_item<?php if ($the_active_page == 'faq'){ echo ' rc_active'; } ?>">Knowledge Base</a>
-						<a href="/support-hours" class="rc_item<?php if ($the_active_page == 'support-hours'){ echo ' rc_active'; } ?>">Support Hours</a>
-						<a href="/case-studies" class="rc_item<?php if ($the_active_page == 'case-studies'){ echo ' rc_active'; } ?>">Case Studies</a>
+						<a href="http://recharge.helpscoutdocs.com" target="_blank" class="rc_item<?php if ($the_active_page == 'faq'){ echo ' rc_active'; } ?>">Knowledge base</a>
+						<a href="/support-hours" class="rc_item<?php if ($the_active_page == 'support-hours'){ echo ' rc_active'; } ?>">Support hours</a>
+						<a href="/case-studies" class="rc_item<?php if ($the_active_page == 'case-studies'){ echo ' rc_active'; } ?>">Case studies</a>
 						<a href="/experts" class="rc_item<?php if ($the_active_page == 'experts'){ echo ' rc_active'; } ?>">Experts</a>
 						<a href="/migrations" class="rc_item<?php if ($the_active_page == 'migrations'){ echo ' rc_active'; } ?>">Migrations</a>
 					</div>
