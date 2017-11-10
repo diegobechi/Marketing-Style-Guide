@@ -19,6 +19,15 @@
 	@media screen and (min-width: $screen-md-min) {
 		margin-top: 202px;
 	}
+
+	.rc_layout__md__4:nth-child(3) {
+		
+
+		.overview_feature img {
+			margin-top: -9px;
+			margin-bottom: -8px;
+		}
+	}
 }
 
 .overview_feature {

@@ -6,7 +6,7 @@
 			<h1>Easily <span class="rc_font--bold rc_color_blue">sell subscriptions</span> on your Shopify store</h1>
 			<p>ReCharge is the leading platform to launch and scale your subscription business</p>
 			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
-			<a href="https://apps.shopify.com/shopify-recurring-payments" id="homepageBannerSignUp" class="rc_button rc_button_primary">Sign up free</a>
+			<a href="https://www.shopifysubscriptions.com/app/install?utm_source=homepage&utm_medium=button&utm_campaign=newhomepage" id="homepageBannerSignUp" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
 	</div>
 </div>
@@ -97,7 +97,7 @@
 							<span class="rc_hidden--xs">For merchants</span>
 							<hr class="mini-hr">
 						</div>
-						<h3>Sell and manage repeat orders in one powerful yet simple all-in-one platform.</h3>
+						<h3>Sell and manage repeat orders in one powerful yet simple all-in-one platform</h3>
 						<p>At last, your subscription orders are together in one place and easier than ever to manage.</p>
 						<table class="feature-table">
 							<tbody>
@@ -257,9 +257,9 @@
 							<span class="rc_hidden--xs">Automate your business</span>
 							<hr class="mini-hr">
 						</div>
-						<h3>We integrate with the <span class="rc_txt--nowrap">best-of-breed</span> apps</h3>
+						<h3>We integrate with the <span class="rc_text--nowrap">best-of-breed</span> apps</h3>
 						<p>Create custom workflows to solve complex subscription needs.</p>
-						<p><a href="#" class="rc_link">View all integrations</a></p>
+						<p><a href="/integrations" class="rc_link">View all integrations</a></p>
 					</div>
 				</div>
 			</div>
@@ -273,7 +273,7 @@
 			<h4>Ready to get started?</h4>
 			<p>Connect your ReCharge account with other Shopify apps to streamline and automate your business.</p>
 			<a href="/features" class="rc_button rc_button_secondary">How it works</a>
-			<a href="https://apps.shopify.com/shopify-recurring-payments" id="footerSignUp" class="rc_button rc_button_primary">Sign up free</a>
+			<a href="https://www.shopifysubscriptions.com/app/install?utm_source=homepage&utm_medium=button&utm_campaign=newhomepage" id="footerSignUp" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
 	</div>
 </div>

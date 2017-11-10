@@ -33,6 +33,6 @@
 				<a href="/api" class="<?php if ($the_active_page == 'api'){ echo ' rc_active'; } ?>">Developers</a>
 			</li>
 		</ul>
-		<a href="https://apps.shopify.com/shopify-recurring-payments" class="rc_button rc_button_small rc_button_secondary rc_hidden--xs rc_hidden--sm rc_hidden--md" id="navbarSignUp">Sign up free</a>
+		<a href="https://www.shopifysubscriptions.com/app/install?utm_source=homepage&utm_medium=button&utm_campaign=newhomepage" class="rc_button rc_button_small rc_button_secondary rc_hidden--xs rc_hidden--sm rc_hidden--md" id="navbarSignUp">Sign up free</a>
 	</div>
 </div>

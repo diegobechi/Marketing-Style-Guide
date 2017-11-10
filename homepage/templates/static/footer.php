@@ -24,7 +24,7 @@
 							<li<?php if ($the_active_page == 'case-studies'){ echo " class=\"active\""; } ?>><a href="/case-studies">Case studies</a></li>
 							<li<?php if ($the_active_page == 'experts'){ echo " class=\"active\""; } ?>><a href="/experts">Experts</a></li>
 							<li<?php if ($the_active_page == 'migrations'){ echo " class=\"active\""; } ?>><a href="/migrations">Migrations</a></li>
-							<li<?php if ($the_active_page == 'blog'){ echo " class=\"active\""; } ?>><a href="https://blog.rechargeapps.com" target="_blank">Blog</a></li>
+							<li<?php if ($the_active_page == 'blog'){ echo " class=\"active\""; } ?>><a href="https://blog.rechargepayments.com" target="_blank">Blog</a></li>
 						</ul>
 					</div>
 					<div class="rc_layout__md__4 rc_layout__lg__3 footer__links">
@@ -56,8 +56,8 @@
 				<div class="rc_layout">
 					<div class="rc_layout__full rc_text--center footer__copyright">
 						<span>Copyright &copy; 2014-<?php echo date("Y"); ?></span>
-						<span><a href="/privacy-policy">Privacy Policy</a></span>
-						<span><a href="/terms-of-service">Terms of Service</a></span>
+						<span><a href="/privacy-policy">Privacy policy</a></span>
+						<span><a href="/terms-of-service">Terms of service</a></span>
 					</div>
 				</div>
 			</div>
