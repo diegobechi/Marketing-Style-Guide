@@ -4208,6 +4208,17 @@ table.feature-table {
   background: #53BAD3 url(/assets/images/partners/skyline.png) no-repeat bottom;
   background-size: contain; }
 
+.rc_logo {
+  margin-top: 25px; }
+  .rc_logo_full img {
+    max-width: 253px; }
+  .rc_logo_icon img {
+    max-width: 92px; }
+  .rc_logo img {
+    width: 100%;
+    padding: 55px 0;
+    margin: 0 auto; }
+
 .rc_navbar {
   position: relative;
   background-color: #FFF;
