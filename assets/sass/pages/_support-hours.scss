@@ -1,0 +1,19 @@
+.rc_section{
+	&--support-hours{
+
+		& .rc_text_banner{
+			&__header{
+				max-width: 550px;
+				margin: 78px auto;
+
+				h1{
+					margin-bottom: 22px;
+				}
+			}
+		}
+	}
+}
+
+.rc_support-hours{
+	max-width: 850px;
+}
