@@ -23,34 +23,34 @@
         <div class="rc_text_banner__container">
             <div class="rc_layout__container">
                 <div class="rc_layout">
-                    <div class="rc_layout__xs__6 rc_logo">
+                    <div class="rc_layout__xs__12 rc_layout__md__6 rc_logo">
                         <div class="rc_shadow_level1 rc_bg_white rc_logo_full">
                             <img src="/assets/images/media-kit/RCP-full-logo-color.svg">
                         </div>
                     </div>
-                    <div class="rc_layout__xs__6 rc_logo">
+                    <div class="rc_layout__xs__12 rc_layout__md__6 rc_logo">
                         <div class="rc_shadow_level1 rc_bg_grey rc_logo_full">
                             <img src="/assets/images/media-kit/RCP-full-logo-white.svg">
                         </div>
                     </div>
                 </div>
                 <div class="rc_layout">                        
-                    <div class="rc_layout__xs__3 rc_logo">
+                    <div class="rc_layout__xs__6 rc_layout__md__3 rc_logo">
                         <div class="rc_shadow_level1 rc_bg_white rc_logo_icon">
                             <img class="logos__rc_layout__item__mark" src="/assets/images/media-kit/RCP_mark_blue.svg">
                         </div>
                     </div>
-                    <div class="rc_layout__xs__3 rc_logo">
+                    <div class="rc_layout__xs__6 rc_layout__md__3 rc_logo">
                         <div class="rc_shadow_level1 rc_bg_grey rc_logo_icon">
                             <img class="logos__rc_layout__item__mark" src="/assets/images/media-kit/RCP_mark_white.svg">
                         </div>
                     </div>
-                    <div class="rc_layout__xs__3 rc_logo">
+                    <div class="rc_layout__xs__6 rc_layout__md__3 rc_logo">
                         <div class="rc_shadow_level1 rc_bg_white rc_logo_icon">
                             <img class="logos__rc_layout__item__mark" src="/assets/images/media-kit/RCP_mark_black.svg">
                         </div>
                     </div>
-                    <div class="rc_layout__xs__3 rc_logo">
+                    <div class="rc_layout__xs__6 rc_layout__md__3 rc_logo">
                         <div class="rc_shadow_level1 rc_bg_white rc_logo_icon">
                             <img class="logos__rc_layout__item__mark" src="/assets/images/media-kit/RCP_mark_grey.svg">
                         </div>
