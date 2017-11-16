@@ -66,7 +66,7 @@
 <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
 
-<link href="https://fonts.googleapis.com/css?family=Raleway:100,400,500,600,700,900&amp;subset=latin-ext" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,600,700,900&amp;subset=latin-ext" rel="stylesheet">
 <link rel="stylesheet" href="/assets/css/fontawesome.css">
 <link rel="stylesheet" href="/assets/css/main.css">
 

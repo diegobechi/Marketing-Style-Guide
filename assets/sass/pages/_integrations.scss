@@ -56,6 +56,9 @@
 			max-width: 540px;
 			line-height: 25px;
 			box-sizing: border-box;
+			@media screen and (max-width: $screen-xs-max) {
+				max-width: 260px;
+			}
 
 			&__icon {
 				text-align: center;
@@ -110,6 +113,10 @@
 	font-size: 0;
 	max-width: 970px;
 	margin: 0 auto;
+	@media screen and (max-width: $screen-xs-max) {
+		max-width: 260px;
+	}
+
 	&__item {
 		background-color: $color-grey-silver;
 		box-sizing: border-box;

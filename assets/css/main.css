@@ -2986,7 +2986,7 @@ ol {
     letter-spacing: 0;
     margin: 0px;
     min-width: 389px;
-    font-weight: 100; }
+    font-weight: 300; }
   .rc_banner__subtitle {
     font-size: 16px;
     font-weight: 400;
@@ -3757,7 +3757,7 @@ table.feature-table {
   left: 0; }
 
 .rc_section--integrations-directory .integrations__header__title h1 {
-  font-weight: 100; }
+  font-weight: 300; }
 
 .rc_section--integrations-directory .integrations__header__description p {
   font-size: 18px;
@@ -3791,6 +3791,9 @@ table.feature-table {
   max-width: 540px;
   line-height: 25px;
   box-sizing: border-box; }
+  @media screen and (max-width: 575px) {
+    .page__integrations .integrations__header {
+      max-width: 260px; } }
   .page__integrations .integrations__header__icon {
     text-align: center;
     width: 88px;
@@ -3833,6 +3836,10 @@ table.feature-table {
   font-size: 0;
   max-width: 970px;
   margin: 0 auto; }
+  @media screen and (max-width: 575px) {
+    .integrations__directory,
+    .integration__explore {
+      max-width: 260px; } }
   .integrations__directory__item,
   .integration__explore__item {
     background-color: #EEEEEE;
@@ -4201,7 +4208,7 @@ table.feature-table {
   background-size: contain; }
 
 .rc_section--media-kit .media-kit__header__title h1 {
-  font-weight: 100; }
+  font-weight: 300; }
 
 .rc_section--media-kit .media-kit__header__description {
   margin-bottom: 27px; }
