@@ -70,7 +70,6 @@
 	}
 }
 
-
 .integrations__directory,
 .integration__explore {
 	box-sizing: border-box;
@@ -179,8 +178,8 @@
 }
 
 .integration__explore {
-	background-color: $color-white;
-	margin-top: 80px;
+	background-color: #F8F8F8;
+	margin-top: 40px;
 	padding-bottom: 80px;
 	box-sizing: border-box;
 	@media screen and (max-width: $screen-xs-max) {
@@ -250,5 +249,17 @@
 				}
 			}
 		}
+	}
+}
+
+.page__integration__details{
+
+	& .content{
+		background-color: #F8F8F8;
+	}
+
+	& .page__container{
+		background-color: $color-white;
+		padding-bottom: 40px;
 	}
 }

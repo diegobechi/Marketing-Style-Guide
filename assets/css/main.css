@@ -3942,8 +3942,8 @@ table.feature-table {
         color: #8e0271; }
 
 .integration__explore {
-  background-color: #FFFFFF;
-  margin-top: 80px;
+  background-color: #F8F8F8;
+  margin-top: 40px;
   padding-bottom: 80px;
   box-sizing: border-box; }
   @media screen and (max-width: 575px) {
@@ -3995,6 +3995,13 @@ table.feature-table {
         position: absolute;
         top: 0;
         left: 0; }
+
+.page__integration__details .content {
+  background-color: #F8F8F8; }
+
+.page__integration__details .page__container {
+  background-color: #FFFFFF;
+  padding-bottom: 40px; }
 
 .page__partners .rc_section {
   margin: 95px 0; }
