@@ -8,7 +8,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Sophisticated cart recovery software to turn your abandoned carts into paying customers.</p>
 			<p>
-				<a href="/integration/cart-abandonment" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/cart-abandonment" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -23,7 +23,7 @@
 		<div class="integrations__directory__item__info">
 			<p>A customizable one-page checkout and post purchase one-click upsells for your Shopify store.</p>
 			<p>
-				<a href="/integration/checkout-funnel" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/checkout-funnel" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -38,7 +38,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Get the data you need to make intelligent marketing and business decisions.</p>
 			<p>
-				<a href="/integration/google-analytics" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/google-analytics" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -53,7 +53,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Helpdesk for e-commerce. Manage all your customer support in one place.</p>
 			<p>
-				<a href="/integration/gorgias" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/gorgias" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -68,7 +68,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Make more money with highly targeted, personalized email and Facebook ads.</p>
 			<p>
-				<a href="/integration/klaviyo" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/klaviyo" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -83,7 +83,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Launch an affiliate program for your Shopify store with one-click.</p>
 			<p>
-				<a href="/integration/leaddyno" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/leaddyno" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -98,7 +98,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Littledata attributes recurring payments to campaigns in Google Analytics, and provides a smart analytics dashboard.</p>
 			<p>
-				<a href="/integration/littledata" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/littledata" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -113,7 +113,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Seamlessly add subscribers to MailChimp lists if any of their purchase item statuses are changed to canceled.</p>
 			<p>
-				<a href="/integration/mailchimp" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/mailchimp" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -128,7 +128,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Offer post-purchase upsells when a customer purchases a ReCharge subscription product.</p>
 			<p>
-				<a href="/integration/one-click-upsell" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/one-click-upsell" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -143,7 +143,7 @@
 		<div class="integrations__directory__item__info">
 			<p>ReferralCandy is an ecommerce store plugin that helps you get more word of mouth sales.</p>
 			<p>
-				<a href="/integration/referralcandy" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/referralcandy" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -158,7 +158,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Create, manage and grow your own affiliate program.</p>
 			<p>
-				<a href="/integration/refersion" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/refersion" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -173,7 +173,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Launch a rewards program to engage your best customers.</p>
 			<p>
-				<a href="/integration/smile.io" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/smile.io" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -188,7 +188,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Upsell product bundles or add-ons on the product, cart and thank you pages.</p>
 			<p>
-				<a href="/integration/ultimate-upsell" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/ultimate-upsell" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -203,7 +203,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Extend your products with unlimited options. Customize your products with file uploads, text inputs and more.</p>
 			<p>
-				<a href="/integration/product-customizer" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/product-customizer" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -218,7 +218,7 @@
 		<div class="integrations__directory__item__info">
 			<p>Swell is an incentive marketing platform engineered to allow merchants to incentivize the actions most important to their business.</p>
 			<p>
-				<a href="/integration/swell" class="integrations__directory__item__link">Learn more...</a>
+				<a href="/integration/swell" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div>
 	</div>-->
