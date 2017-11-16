@@ -9,18 +9,18 @@
 <?php include('includes/header.php'); ?>
 <div class="rc_section__container">
     <div class="rc_section--media-kit rc_text--center">
-        <div class="media-kit__header">
-            <div class="media-kit__header__title">
+        <div class="rc_text_banner__header">
+            <div class="rc_text_banner__header__title">
                 <h1>Logos &amp; resources</h1>
             </div>
-            <div class="media-kit__header__description">
+            <div class="rc_text_banner__header__description">
                 <p>These are official ReCharge graphics that you can include on your webpage, in your mobile application, or in printed material.</p>
             </div>
             <div class="logos__download">
                 <button id="download-link" class="rc_button rc_button_large rc_button_primary logos__download__link" href="/downloads/ReCharge-Logos.zip" download>Download assets</a>
             </div>
         </div>
-        <div class="media-kit__container">
+        <div class="rc_text_banner__container">
             <div class="rc_layout">
                 <div class="rc_layout__sm__6">
                     <div class="rc_layout">

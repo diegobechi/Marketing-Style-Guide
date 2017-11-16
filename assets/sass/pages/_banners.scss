@@ -89,5 +89,39 @@
 	background-image: url('../images/partners/banner_partners.jpg');
 }
 
+.rc_text_banner{
+	&__header{
+		text-align: center;
+		font-weight: normal;
+		font-style: normal;
+		margin: 0 auto 70px;
+		max-width: 540px;
+		line-height: 25px;
+		box-sizing: border-box;
+		@media screen and (max-width: $screen-xs-max) {
+			max-width: 260px;
+		}
+
+		&__title {
+			h1 {
+				font-weight: $font-thin;
+			}
+		}
+		&__description{
+			margin-bottom: 27px;
+
+			p {
+				font-size: 18px;
+				font-weight: $font-regular;
+				letter-spacing: 0.44px;
+			}
+		}
+	}
+	&__container{               
+		background-color: #F8F8F8;
+		padding: 78px 0;
+	}
+}
+
 
 

@@ -3042,6 +3042,30 @@ ol {
 .rc_banner--partners {
   background-image: url("../images/partners/banner_partners.jpg"); }
 
+.rc_text_banner__header {
+  text-align: center;
+  font-weight: normal;
+  font-style: normal;
+  margin: 0 auto 70px;
+  max-width: 540px;
+  line-height: 25px;
+  box-sizing: border-box; }
+  @media screen and (max-width: 575px) {
+    .rc_text_banner__header {
+      max-width: 260px; } }
+  .rc_text_banner__header__title h1 {
+    font-weight: 300; }
+  .rc_text_banner__header__description {
+    margin-bottom: 27px; }
+    .rc_text_banner__header__description p {
+      font-size: 18px;
+      font-weight: 400;
+      letter-spacing: 0.44px; }
+
+.rc_text_banner__container {
+  background-color: #F8F8F8;
+  padding: 78px 0; }
+
 .rc_section {
   margin: 143px 0;
   z-index: 1;
@@ -3756,18 +3780,6 @@ table.feature-table {
   bottom: 0;
   left: 0; }
 
-.rc_section--integrations-directory .integrations__header__title h1 {
-  font-weight: 300; }
-
-.rc_section--integrations-directory .integrations__header__description p {
-  font-size: 18px;
-  font-weight: 400;
-  letter-spacing: 0.44px; }
-
-.rc_section--integrations-directory .integrations__container {
-  background-color: #F8F8F8;
-  padding: 78px 0; }
-
 .page__integrations .integrations__block {
   padding: 80px 0; }
   .page__integrations .integrations__block:nth-of-type(even) {
@@ -3783,36 +3795,26 @@ table.feature-table {
     .page__integrations .integrations__container {
       padding: 0 15px; } }
 
-.page__integrations .integrations__header {
+.page__integrations .integrations__header__icon {
   text-align: center;
-  font-weight: normal;
-  font-style: normal;
-  margin: 0 auto 70px;
-  max-width: 540px;
-  line-height: 25px;
-  box-sizing: border-box; }
+  width: 88px;
+  height: 88px;
+  margin: 0 auto;
+  background-color: #53BAD3;
+  border-radius: 50%; }
+  .page__integrations .integrations__header__icon .fa {
+    font-size: 48px;
+    line-height: 88px;
+    color: #FFF; }
+
+.page__integrations .integrations__header__title {
+  margin: 45px 0 10px;
+  font-size: 35px;
+  line-height: 1;
+  font-weight: 600; }
   @media screen and (max-width: 575px) {
-    .page__integrations .integrations__header {
-      max-width: 260px; } }
-  .page__integrations .integrations__header__icon {
-    text-align: center;
-    width: 88px;
-    height: 88px;
-    margin: 0 auto;
-    background-color: #53BAD3;
-    border-radius: 50%; }
-    .page__integrations .integrations__header__icon .fa {
-      font-size: 48px;
-      line-height: 88px;
-      color: #FFF; }
-  .page__integrations .integrations__header__title {
-    margin: 45px 0 10px;
-    font-size: 35px;
-    line-height: 1;
-    font-weight: 600; }
-    @media screen and (max-width: 575px) {
-      .page__integrations .integrations__header__title {
-        line-height: 41px; } }
+    .page__integrations .integrations__header__title {
+      line-height: 41px; } }
 
 .page__integrations .integrations__item {
   margin-top: 40px; }
@@ -4205,29 +4207,6 @@ table.feature-table {
 .rc_section--contact-form {
   background: #53BAD3 url(/assets/images/partners/skyline.png) no-repeat bottom;
   background-size: contain; }
-
-.rc_section--media-kit .media-kit__header__title h1 {
-  font-weight: 300; }
-
-.rc_section--media-kit .media-kit__header__description {
-  margin-bottom: 27px; }
-  .rc_section--media-kit .media-kit__header__description p {
-    font-size: 18px;
-    font-weight: 400;
-    letter-spacing: 0.44px; }
-
-.rc_section--media-kit .media-kit__container {
-  background-color: #F8F8F8;
-  padding: 78px 0; }
-
-.page__media-kit .media-kit__header {
-  text-align: center;
-  font-weight: normal;
-  font-style: normal;
-  margin: 0 auto 70px;
-  max-width: 540px;
-  line-height: 25px;
-  box-sizing: border-box; }
 
 .rc_navbar {
   position: relative;
