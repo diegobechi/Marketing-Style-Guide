@@ -29,6 +29,16 @@
 				    vertical-align: middle;
 				    margin-right: 10px;
 				}
+
+				ul{
+					margin: 0;
+					li{
+						&:before{
+						    font-family: fontawesome;
+						    content: '\f10c';
+						}
+					}
+				}
 			}
 		}
 	}

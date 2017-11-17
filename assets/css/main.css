@@ -4244,6 +4244,11 @@ table.feature-table {
         font-size: 8px;
         vertical-align: middle;
         margin-right: 10px; }
+      .rc_informative-page__block ul li ul {
+        margin: 0; }
+        .rc_informative-page__block ul li ul li:before {
+          font-family: fontawesome;
+          content: '\f10c'; }
 
 .rc_section--support-hours .rc_text_banner__header {
   max-width: 550px; }
