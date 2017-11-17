@@ -99,7 +99,7 @@
 		line-height: 25px;
 		box-sizing: border-box;
 		@media screen and (max-width: $screen-xs-max) {
-			max-width: 260px;
+			max-width: 260px !important;
 		}
 
 		&__title {
