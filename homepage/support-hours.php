@@ -12,7 +12,7 @@ $page_active = 'support-hours';
 	<div class="rc_section--support-hours rc_text--center">
 		<div class="rc_text_banner__header">
 			<div class="rc_text_banner__header__title">
-				<h1>ReCharge customer success</h1>
+				<h1>Customer success</h1>
 			</div>
 			<div class="rc_text_banner__header__description">
 				<p>We’ll provide the best service in the quickest manner possible.</p>

@@ -4,7 +4,9 @@
 	&__block{
 
 		&:first-child{
-			margin-top: -60px;
+			h3{
+				margin-top: 0px;
+			}
 		}
 
 		h3{

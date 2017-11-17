@@ -4228,8 +4228,8 @@ table.feature-table {
 
 .rc_informative-page {
   max-width: 850px; }
-  .rc_informative-page__block:first-child {
-    margin-top: -60px; }
+  .rc_informative-page__block:first-child h3 {
+    margin-top: 0px; }
   .rc_informative-page__block h3 {
     margin: 60px 0 25px;
     line-height: 28px;
