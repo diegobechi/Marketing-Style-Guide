@@ -4255,6 +4255,305 @@ table.feature-table {
   .rc_section--support-hours .rc_text_banner__header h1 {
     margin-bottom: 22px; }
 
+.rc_section {
+  z-index: 1; }
+  .rc_section--features-overview {
+    margin: 330px 0; }
+    .rc_section--features-overview .features-video {
+      max-width: 558px;
+      max-height: 314px;
+      margin: 36px auto 48px; }
+    .rc_section--features-overview .features-overview-container {
+      margin-top: 48px; }
+      .rc_section--features-overview .features-overview-container h4 {
+        margin: 16px 0 12px; }
+    .rc_section--features-overview h4 {
+      margin: 16px 0 12px; }
+  .rc_section--features-customer-portal {
+    margin: 0; }
+    .rc_section--features-customer-portal .rc_content {
+      margin-top: 135px;
+      margin-left: 0; }
+  .rc_section--features-payment, .rc_section--features-order {
+    margin: 72px 0; }
+  .rc_section--features .features-order-container,
+  .rc_section--features .features-payment-container,
+  .rc_section--features .features-merchant-container,
+  .rc_section--features .features-subscriptions-container {
+    margin-top: 20px;
+    margin-bottom: 16px; }
+    .rc_section--features .features-order-container h4,
+    .rc_section--features .features-payment-container h4,
+    .rc_section--features .features-merchant-container h4,
+    .rc_section--features .features-subscriptions-container h4 {
+      margin-bottom: 12px; }
+  .rc_section--features-subscriptions, .rc_section--features-merchant {
+    margin: 0; }
+  .rc_section--features-customized-store {
+    margin: 210px 0 0; }
+    .rc_section--features-customized-store .rc_content {
+      margin-top: 135px;
+      margin-left: 0; }
+  .rc_section--features-footer {
+    margin: 300px 0; }
+    .rc_section--features-footer .rc_content {
+      max-width: 555px;
+      margin: 0 auto; }
+
+.background_features_1 {
+  background-image: url("../images/features/backgrounds/we-make-it-easy-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 23% 50%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  min-height: 1400px;
+  left: 0;
+  top: 370px; }
+
+@media screen and (min-width: 576px) {
+  .background_features_1 {
+    background-position: 50% 50%;
+    top: 450px; } }
+
+@media screen and (min-width: 768px) {
+  .background_features_1 {
+    min-height: 1400px; } }
+
+@media screen and (min-width: 992px) {
+  .background_features_1 {
+    top: 410px; } }
+
+.background_features_2 {
+  background-image: url("../images/features/backgrounds/customize-store-bg.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 23% 50%;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  min-height: 1880px;
+  left: 0; }
+
+@media screen and (min-width: 576px) {
+  .background_features_2 {
+    background-position: 50% 50%;
+    top: 450px; } }
+
+@media screen and (min-width: 768px) {
+  .background_features_2 {
+    min-height: 1880px; } }
+
+@media screen and (min-width: 992px) {
+  .background_features_2 {
+    top: 3070px; } }
+
+.parallax_image {
+  position: absolute; }
+
+.parallax_image img {
+  width: 100%;
+  height: auto; }
+
+.parallax_container {
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  width: 100%;
+  max-width: 2880px;
+  height: 1472px;
+  top: 0;
+  left: 0;
+  z-index: -1; }
+
+.parallax_banner {
+  position: relative;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1440px;
+  height: 736px; }
+
+#shorts {
+  z-index: 1;
+  left: 50%;
+  width: 204px;
+  height: 210px;
+  margin-left: -240px;
+  top: 440px; }
+
+@media screen and (min-width: 576px) {
+  #shorts {
+    width: 325px;
+    height: 343px;
+    top: 476px;
+    margin-left: -500px; } }
+
+@media screen and (min-width: 992px) {
+  #shorts {
+    top: 400px;
+    margin-left: -720px; } }
+
+#peanuts {
+  z-index: 2;
+  left: 50%;
+  width: 79px;
+  height: 114px;
+  margin-left: -180px;
+  top: 310px; }
+
+@media screen and (min-width: 576px) {
+  #peanuts {
+    width: 117px;
+    height: 169px;
+    top: 272.5px;
+    margin-left: -580px; } }
+
+@media screen and (min-width: 992px) {
+  #peanuts {
+    margin-left: -720px; } }
+
+#earphones {
+  z-index: 3;
+  right: 50%;
+  width: 98px;
+  height: 134.5px;
+  top: 508px;
+  margin-right: -220px; }
+
+@media screen and (min-width: 576px) {
+  #earphones {
+    width: 196px;
+    height: 269px;
+    top: 361.5px;
+    margin-right: -480px; } }
+
+@media screen and (min-width: 992px) {
+  #earphones {
+    top: 261.5px;
+    margin-right: -611px; } }
+
+#macbook {
+  z-index: 3;
+  right: 50%;
+  width: 192px;
+  height: 443.5px;
+  top: 203px;
+  margin-right: -220px; }
+
+@media screen and (min-width: 576px) {
+  #macbook {
+    width: 369px;
+    height: 244px;
+    top: 361.5px;
+    margin-right: -480px; } }
+
+@media screen and (min-width: 992px) {
+  #macbook {
+    top: 15px;
+    margin-right: -720px; } }
+
+#granola {
+  z-index: 4;
+  right: 50%;
+  width: 29px;
+  height: 21.5px;
+  top: 452px;
+  margin-right: -220px; }
+
+@media screen and (min-width: 576px) {
+  #granola {
+    width: 103px;
+    height: 86px;
+    top: 300px;
+    margin-right: -440px; } }
+
+@media screen and (min-width: 992px) {
+  #granola {
+    top: 332px;
+    margin-right: -440px; } }
+
+#plant-ipad {
+  z-index: 4;
+  right: 50%;
+  width: 29px;
+  height: 21.5px;
+  top: 452px;
+  margin-right: -200px; }
+
+@media screen and (min-width: 576px) {
+  #plant-ipad {
+    width: 103px;
+    height: 86px;
+    top: 300px;
+    margin-right: -440px; } }
+
+@media screen and (min-width: 992px) {
+  #plant-ipad {
+    top: 332px;
+    margin-right: -456px; } }
+
+#coffee {
+  z-index: 4;
+  right: 50%;
+  width: 225px;
+  height: 273px;
+  top: 452px;
+  margin-right: 59px; }
+
+@media screen and (min-width: 576px) {
+  #coffee {
+    width: 103px;
+    height: 86px;
+    top: 300px;
+    margin-right: -440px; } }
+
+@media screen and (min-width: 992px) {
+  #coffee {
+    top: 332px;
+    margin-right: -456px; } }
+
+#headphones {
+  z-index: 4;
+  right: 50%;
+  width: 213px;
+  height: 194px;
+  top: 452px;
+  margin-right: -100px; }
+
+@media screen and (min-width: 576px) {
+  #headphones {
+    width: 103px;
+    height: 86px;
+    top: 300px;
+    margin-right: -440px; } }
+
+@media screen and (min-width: 992px) {
+  #headphones {
+    top: 332px;
+    margin-right: -456px; } }
+
+#cactus {
+  z-index: 4;
+  right: 50%;
+  width: 203px;
+  height: 161px;
+  margin-right: -180px; }
+
+@media screen and (min-width: 576px) {
+  #cactus {
+    width: 203px;
+    height: 161px;
+    top: 300px;
+    margin-right: -440px; } }
+
+@media screen and (min-width: 992px) {
+  #cactus {
+    top: 332px;
+    margin-right: -456px; } }
+
 .rc_navbar {
   position: relative;
   background-color: #FFF;

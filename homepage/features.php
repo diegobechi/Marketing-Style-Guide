@@ -7,8 +7,6 @@
 ?>
 <?php include('includes/header.php'); ?>
 
-<div class="background_1"></div>
-
 <div class="rc_section__container">
 	<div class="rc_section rc_section--hero rc_text--center">
 		<div class="rc_content">
@@ -19,7 +17,7 @@
 	</div>
 </div>
 
-<div class="parallax_container" style="display:none;">
+<div class="parallax_container">
 	<div class="parallax_banner">
 		<div id="peanuts" class="parallax_image" data-modifier=".1"><img src="/assets/images/features/hero/peanuts.png" alt="Peanuts graphic"></div>
 		<div id="shorts" class="parallax_image" data-modifier=".15"><img src="/assets/images/features/hero/shorts.png" alt="Shorts graphic"></div>
@@ -29,13 +27,16 @@
 	</div>
 </div>
 
+<div class="background_features_1"></div>
+
 <div class="rc_section__container">
 	<div class="rc_section rc_section--features-overview">
 		<div class="rc_text--center">
 			<h3>We make it easy</h3>
 			<hr class="mini-hr" style="margin-left: auto;">
-			<iframe width="558" height="314" src="https://www.youtube.com/embed/ktYcwYUkHGE" frameborder="0" gesture="media" allowfullscreen></iframe>
-			<video></video>
+			<div class="features-video rc_shadow_level5" >
+				<iframe width="558" height="314" src="https://www.youtube.com/embed/ktYcwYUkHGE" frameborder="0" gesture="media" allowfullscreen></iframe>
+			</div>
 		</div>
 		<div class="rc_layout__container">
 			<div class="rc_layout">
@@ -205,8 +206,10 @@
 	</div>
 </div>
 
+<div class="background_features_2"></div>
+
 <div class="rc_section__container">
-	<div class="rc_section rc_section--customized-store">
+	<div class="rc_section rc_section--features-customized-store">
 		<div class="rc_layout__container">
 			<div class="rc_layout">
 				<div class="rc_layout__md__6 rc_content__container">
@@ -292,7 +295,7 @@
 </div>
 
 <div class="rc_section__container">
-	<div class="rc_section rc_section--hero rc_text--center">
+	<div class="rc_section rc_section--features-footer rc_text--center">
 		<div class="rc_content">
 			<h3>Supperior customer support</h3>
 			<hr class="mini-hr" style="margin-left: auto;">
@@ -322,3 +325,19 @@
 </div>
 
 <?php include('includes/footer.php'); ?>
+
+<script>
+			/* This creates the subtle parallax motion in the banner while scrolling down */
+			var banner = document.querySelector('.parallax_banner'),
+				items = document.querySelectorAll('.parallax_image');
+			window.addEventListener('scroll', function() {
+				let scrollY = window.scrollY,
+					windowHeight = window.innerHeight;
+				if (scrollY <= windowHeight) {
+					items.forEach(function(elem) {
+						let math = scrollY * elem.getAttribute('data-modifier') * -1;
+						elem.style.marginTop = math + 'px';
+					});
+				}
+			});
+		</script>

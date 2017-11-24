@@ -139,5 +139,7 @@
 			  console.error(countUp.error);
 			}
 		</script>
+
+		
 	</body>
 </html>
