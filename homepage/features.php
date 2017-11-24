@@ -19,53 +19,66 @@
 	</div>
 </div>
 
+<div class="parallax_container" style="display:none;">
+	<div class="parallax_banner">
+		<div id="peanuts" class="parallax_image" data-modifier=".1"><img src="/assets/images/features/hero/peanuts.png" alt="Peanuts graphic"></div>
+		<div id="shorts" class="parallax_image" data-modifier=".15"><img src="/assets/images/features/hero/shorts.png" alt="Shorts graphic"></div>
+		<div id="earphones" class="parallax_image" data-modifier=".19"><img src="/assets/images/features/hero/earphones.png" alt="Earphones graphic"></div>
+		<div id="granola" class="parallax_image" data-modifier=".19"><img src="/assets/images/features/hero/granola.png" alt="Granola graphic"></div>
+		<div id="macbook" class="parallax_image" data-modifier=".13"><img src="/assets/images/features/hero/macbook.png" alt="Macbook graphic"></div>
+	</div>
+</div>
+
 <div class="rc_section__container">
 	<div class="rc_section rc_section--features-overview">
 		<div class="rc_text--center">
 			<h3>We make it easy</h3>
 			<hr class="mini-hr" style="margin-left: auto;">
+			<iframe width="558" height="314" src="https://www.youtube.com/embed/ktYcwYUkHGE" frameborder="0" gesture="media" allowfullscreen></iframe>
 			<video></video>
 		</div>
 		<div class="rc_layout__container">
 			<div class="rc_layout">
 				<div class="rc_layout__md__4">
 					<div class="features-overview-container">
-						<img src="/assets/images/layout/merchants-icon-3.svg" alt="icon">
+						<img src="/assets/images/features/icons/features-easy-to-use.svg" alt="icon">
 						<h4>Easy-to-use platform</h4>
 						<p>Quick integration and set up means you can launch subscription today.</p>
 					</div>
 				</div>
 				<div class="rc_layout__md__4">
 					<div class="features-overview-container">
-						<img src="/assets/images/layout/merchants-icon-3.svg" alt="icon">
+						<img src="/assets/images/features/icons/features-manage.svg" alt="icon">
 						<h4>Manage all orders from Shopify</h4>
 						<p>All orders show in the Shopify dashboard which makes fulfillment and accounting a breeze.</p>
 					</div>
 				</div>
 				<div class="rc_layout__md__4">
 					<div class="features-overview-container">
-						<img src="/assets/images/layout/merchants-icon-3.svg" alt="icon">
+						<img src="/assets/images/features/icons/features-connected.svg" alt="icon">
 						<h4>Connected Shopify logins</h4>
 						<p>ReCharge integrates into Shopify Accounts so customers do not have to create a new account.</p>
 					</div>
 				</div>
+			</div>
+			<div class="rc_layout">
 				<div class="rc_layout__md__4">
 					<div class="features-overview-container">
-						<img src="/assets/images/layout/merchants-icon-3.svg" alt="icon">
+						<img src="/assets/images/features/icons/features-direct-integration.svg" alt="icon">
 						<h4>Direct integration</h4>
 						<p>Customers can manage subscriptions straight from your current Shopify store.</p>
 					</div>
 				</div>
 				<div class="rc_layout__md__4">
 					<div class="features-overview-container">
-						<img src="/assets/images/layout/merchants-icon-3.svg" alt="icon">
+						<img src="/assets/images/features/icons/features-secure-payments.svg" alt="icon">
 						<h4>Secure payments</h4>
 						<p>Payment information is securely vaulted with Stripe, Braintree or Authorize.net.</p>
 					</div>
 				</div>
 				<div class="rc_layout__md__4">
 					<div class="features-overview-container">
-						<img src="/assets/images/layout/merchants-icon-3.svg" alt="icon">
+						<img src="/assets/images/features/icons/features-mixed-carts.svg" alt="icon">
 						<h4>Mixed carts</h4>
 						<p>Allows for one-time product and subscription products all in the same cart.</p>
 					</div>
@@ -87,7 +100,7 @@
 					</div>
 				</div>
 				<div class="rc_layout__md__6 rc_media__container">
-					<img src="/assets/images/layout/Integrations.png" alt="Customer portal example" class="img--responsive">
+					<img src="/assets/images/features/features-images/customer-portal-humankind.png" alt="Customer portal example" class="img--responsive">
 				</div>
 			</div>
 		</div>
@@ -193,7 +206,7 @@
 </div>
 
 <div class="rc_section__container">
-	<div class="rc_section rc_section--integrations">
+	<div class="rc_section rc_section--customized-store">
 		<div class="rc_layout__container">
 			<div class="rc_layout">
 				<div class="rc_layout__md__6 rc_content__container">
@@ -204,7 +217,7 @@
 					</div>
 				</div>
 				<div class="rc_layout__md__6 rc_media__container">
-					<img src="/assets/images/layout/Integrations.png" alt="Integrations graphic" class="img--responsive">
+					<img src="/assets/images/features/features-images/customized-store-ritual.png" alt="Customized store example" class="img--responsive">
 				</div>
 			</div>
 		</div>
@@ -285,6 +298,15 @@
 			<hr class="mini-hr" style="margin-left: auto;">
 			<p>We have a team of customer advocates on standby to support you so that all your questions get an answer, fast.</p>
 		</div>
+	</div>
+</div>
+
+<div class="parallax_container" style="display:none;">
+	<div class="parallax_banner">
+		<div id="plant-ipad" class="parallax_image" data-modifier=".1"><img src="/assets/images/features/footer/plant-ipad.png" alt="Plan + Ipad graphic"></div>
+		<div id="coffee" class="parallax_image" data-modifier=".15"><img src="/assets/images/features/footer/coffee.png" alt="Coffeee graphic"></div>
+		<div id="headphones" class="parallax_image" data-modifier=".19"><img src="/assets/images/features/footer/headphones.png" alt="Headphones graphic"></div>
+		<div id="cactus" class="parallax_image" data-modifier=".13"><img src="/assets/images/features/footer/cactus.png" alt="Cactus graphic"></div>
 	</div>
 </div>
 
