@@ -50,7 +50,8 @@
 	}
 	@media screen and (min-width: $screen-lg-min) {
 		.rc_content {
-			margin-top: 97px + 78px; /* Standard margin-top, plus the height of the navbar */
+			/* margin-top: 97px + 78px; Standard margin-top, plus the height of the navbar */
+			margin-top: 97px;
 			max-width: 947px;
 		}
 	}

@@ -1,0 +1,265 @@
+.page__integrations {
+
+	.integrations {
+		&__block {
+			padding: 80px 0;
+
+			&:nth-of-type(even){
+				background-color: $color-grey-silver;
+			}
+		}
+
+		&__container {
+			box-sizing: border-box;
+			margin: 0 auto;
+
+			@media screen and (min-width: $screen-sm-min) and (max-width: $screen-md-max){
+				padding: 0 30px;
+			}
+
+			@media screen and (max-width: $screen-xs-max){
+				padding: 0 15px;
+			}
+		}
+
+		&__header {			
+
+			&__icon {
+				text-align: center;
+				width: 88px;
+				height: 88px;
+				margin: 0 auto;
+				background-color: $color-blue;
+				border-radius: 50%;
+
+				.fa {
+					font-size: 48px;
+					line-height: 88px;
+					color: #FFF;
+				}
+			}
+			&__title {
+				margin: 45px 0 10px;
+				font-size: 35px;
+				line-height: 1;
+				font-weight: $font-semibold;
+
+				@media screen and (max-width: $screen-xs-max){
+					line-height: 41px;
+				}
+			}
+		}
+
+		&__item {
+			margin-top: 40px;
+			&__title {
+				margin: 0 0 11px;
+			}
+		}
+
+		@media screen and (min-width: $screen-sm-min){
+			// Break blocks into two columns on non-mobile browsers
+			&__set {
+				column-count: 2;
+				column-gap: 80px;
+			}
+			&__item {
+				display: inline-block;
+			}
+		}
+	}
+}
+
+.integrations__directory,
+.integration__explore {
+	box-sizing: border-box;
+	font-size: 0;
+	max-width: 970px;
+	margin: 0 auto;
+	@media screen and (max-width: $screen-xs-max) {
+		max-width: 260px;
+	}
+
+	&__item {
+		background-color: $color-grey-silver;
+		box-sizing: border-box;
+		padding: 10px;
+		display: inline-block;
+		margin-bottom: 24px;
+		vertical-align: top;
+		position: relative;
+		min-height: 388px;
+
+		@media screen and (min-width: $screen-md-min) {
+			width: 23%;
+			margin-right: 2.667%;
+			&:nth-child(4n+4) {
+				margin-right: 0;
+			}
+		}
+		@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
+			width: 31%;
+			margin-right: 3.5%;
+			&:nth-child(3n+3) {
+				margin-right: 0;
+			}
+		}
+		@media screen and (max-width: $screen-xs-max) {
+			width: 48%;
+			margin-right: 4%;
+			&:nth-child(2n+2) {
+				margin-right: 0;
+			}
+		}
+		@media screen and (max-width: 420px) {
+			width: 100%;
+		}
+		&__media {
+			padding: 24px 24px 20px;
+			text-align: center;
+			position: relative;
+			background-color: $color-white;
+			display: block;
+			> a {
+				display: inline-block;
+			}
+			&:after {
+				content: "";
+				position: absolute;
+				top: 100%;
+				left: 0%;
+				display: block;
+				background-image: url('../images/integrations/card-arrow.png');
+				background-repeat: no-repeat;
+				background-position: 0 0;
+				background-size: 38px 17px;
+				width: 38px;
+				height: 17px;
+			}
+		}
+		&__logo {
+			display: block;
+			margin: 0 auto 15px;
+			width: 80px;
+			height: 80px;
+		}
+		&__title {
+			color: $color-grey-dark;
+			font-weight: $font-semibold;
+			font-style: normal;
+			font-size: 16px;
+			line-height: 25px;
+			display: block;
+			text-decoration: none;
+		}
+		&__info {
+			color: $color-grey-dark;
+			font-weight: $font-regular;
+			font-style: normal;
+			font-size: $font-size-small;
+			line-height: 25px;
+			margin-top: 24px;
+		}
+		&__link {
+			color: $color-turquoise;
+			font-weight: $font-regular;
+			font-style: normal;
+			font-size: $font-size-small;
+			line-height: 25px;
+			position: absolute;
+			bottom: 10px;
+			&:hover,
+			&:active,
+			&:focus {
+				color: darken($color-magenta, 10%);
+			}
+		}
+	}
+}
+
+.integration__explore {
+	background-color: #F8F8F8;
+	margin-top: 40px;
+	padding-bottom: 80px;
+	box-sizing: border-box;
+	@media screen and (max-width: $screen-xs-max) {
+		margin-top: 50px;
+	}
+	h4 {
+		margin: 39px 0;
+	}
+}
+
+.integration__details {
+	margin-top: 50px;
+	&__logo {
+		display: block;
+		margin: 50px auto 0;
+		max-width: 250px;
+	}
+	.integration {
+		&__title {
+			color: #474747;
+			font-weight: $font-semibold;
+			font-style: normal;
+			font-size: 24px;
+			line-height: 29px;
+			margin-bottom: 20px;
+		}
+		&__info {
+			> p {
+				margin-bottom: 15px;
+			}
+		}
+		&__website {
+			line-height: 25px;
+			font-size: 16px;
+			color: $color-magenta;
+			&:hover,
+			&:active,
+			&:visited {
+				color: darker($color-magenta, 15%);
+			}
+		}
+		&__features {
+			padding-top: 10px;
+			&,
+			li {
+				margin-left: 0;
+				padding-left: 0;
+				list-style: none;
+			}
+			li {
+				// line-height: 47px;
+				position: relative;
+				padding-left: 25px;
+				+ li {
+					margin-top: 22px;
+					@media screen and (max-width: $screen-sm-min) {
+						margin-top: 10px;
+					}
+				}
+				&:before {
+					content: "\f00c";
+					font-family: fontawesome;
+					font-size: $font-size-base;
+					position: absolute;
+					top: 0;
+					left: 0;
+				}
+			}
+		}
+	}
+}
+
+.page__integration__details{
+
+	& .content{
+		background-color: #F8F8F8;
+	}
+
+	& .page__container{
+		background-color: $color-white;
+		padding-bottom: 40px;
+	}
+}

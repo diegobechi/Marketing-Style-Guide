@@ -1,0 +1,24 @@
+.rc{
+	&_logo{
+		
+		margin-top: 25px;
+		&_full{
+
+			img{
+				max-width: 253px;
+			}
+		}
+		&_icon{
+
+			img{
+				max-width: 92px;
+			}
+		}
+
+		img{
+			width: 100%;
+			padding: 55px 0;
+			margin: 0 auto;		
+		}
+	}
+}
