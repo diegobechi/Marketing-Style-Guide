@@ -17,7 +17,7 @@
             <div class="rc_text_banner__header__description">
                 <p>These are official ReCharge graphics that you can include on your webpage, in your mobile application, or in printed material.</p>
                 <div class="logos__download">
-                    <button id="download-link" class="rc_button rc_button_large rc_button_primary logos__download__link" href="/downloads/ReCharge-Logos.zip" download>Download assets</a>
+                    <a href="/downloads/ReCharge-Logos.zip" id="download-link" class="rc_button rc_button_large rc_button_primary logos__download__link" download>Download assets</a>
                 </div>
             </div>
         </div>
