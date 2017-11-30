@@ -8,20 +8,21 @@
 <?php include('templates/static/header.php'); ?>
 
 <div class="rc_section__container">
-	<div class="rc_section--support-hours rc_text--center">
-		<div class="rc_text_banner__header">
-			<div class="rc_text_banner__header__title">
-				<h1>Terms of service</h1>
-			</div>
-			<div class="rc_text_banner__header__description">
-				<p></p>
+
+	<div class="rc_text-banner__container">
+		<div class="rc_text-banner">
+			<div class="rc_text-banner__header">
+				<div class="rc_text-banner__header__title">
+					<h1>Terms of service</h1>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="rc_text_banner__container">
-		<div class="rc_layout__container rc_informative-page">
+
+	<div class="rc_layout__background">
+		<div class="rc_layout__container rc_informative-page" rc_layout-max="md">
 			<div class="rc_layout__full">
-				<div class="rc_informative-page__block rc_informative-page__block-notitle">
+				<div class="rc_informative-page__block">
 					<p>By signing up for the Bootstrap Heroes LLC Recharge App recurring billing service ("Service") or any of the services of Bootstrap Heroes LLC ("Bootstrap Heroes") you are agreeing to be bound by the following terms and conditions ("Terms of Service"). Any new features or tools which are added to the current Service shall be also subject to the Terms of Service. You can review the current version of the Terms of Service at any time at here. Bootstrap Heroes reserves the right to update and change the Terms of Service by posting updates and changes to the Bootstrap Heroes website. You are advised to check the Terms of Service from time to time for any updates or changes that may impact you.</p>
 					<p>You must read, agree with and accept all of the terms and conditions contained in this Terms of Service agreement and Bootstrap Heroes's Privacy Policy before you may become a Bootstrap Heroes user.</p>
 					<p>Everyday language summaries are provided for your benefit and are not legally binding. Please read the Terms of Service for the complete picture of your legal requirements. By using Bootstrap Heroes or any Bootstrap Heroes services, you are agreeing to these terms. Be sure to occasionally check back for updates.</p>

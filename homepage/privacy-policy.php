@@ -8,18 +8,19 @@
 <?php include('templates/static/header.php'); ?>
 
 <div class="rc_section__container">
-	<div class="rc_section--support-hours rc_text--center">
-		<div class="rc_text_banner__header">
-			<div class="rc_text_banner__header__title">
-				<h1>Privacy policy</h1>
-			</div>
-			<div class="rc_text_banner__header__description">
-				<p></p>
+
+	<div class="rc_text-banner__container">
+		<div class="rc_text-banner">
+			<div class="rc_text-banner__header">
+				<div class="rc_text-banner__header__title">
+					<h1>Privacy policy</h1>
+				</div>
 			</div>
 		</div>
 	</div>
-	<div class="rc_text_banner__container">
-		<div class="rc_layout__container rc_informative-page">
+
+	<div class="rc_layout__background">
+		<div class="rc_layout__container rc_informative-page" rc_layout-max="md">
 			<div class="rc_layout__full">
 				<div class="rc_informative-page__block">
 					<h3>Section 1 - Information from our Merchants</h3>

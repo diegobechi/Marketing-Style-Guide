@@ -2,6 +2,11 @@
 	display: flex;
 	flex-wrap: wrap;
 
+	&__background {
+	    background-color: #F8F8F8;
+	    padding: 78px 0;
+	}
+
 	&__container {
 		width: 100%;
 		max-width: 1170px;

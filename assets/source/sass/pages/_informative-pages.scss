@@ -1,28 +1,28 @@
-.rc_informative-page{
-	max-width: 850px;
+.rc_informative-page {
 
-	&__block{
+	&__block {
 
-		&:first-child{
-			h3{
+		&:first-child {
+			h3 {
 				margin-top: 0px;
 			}
 		}
 
-		h3{
+		h3 {
 			margin: 60px 0 25px;
 			line-height: 28px;
 			letter-spacing: 0.44px;
 		}
 
-		p{}
+		p {
+		}
 
-		ul{
+		ul {
 			margin: 20px 0;
 
-			li{
+			li {
 				margin-left: 45px;
-				&:before{
+				&:before {
 				    font-family: fontawesome;
 				    content: '\f111';
 				    font-size: 8px;
@@ -30,10 +30,10 @@
 				    margin-right: 10px;
 				}
 
-				ul{
+				ul {
 					margin: 0;
-					li{
-						&:before{
+					li {
+						&:before {
 						    font-family: fontawesome;
 						    content: '\f10c';
 						}
