@@ -1,0 +1,506 @@
+.page__case-studies {
+
+	.case-studies {
+
+		&__container {
+			box-sizing: border-box;
+			max-width: 1045px;
+			margin: 0 auto;
+
+			@media screen and (min-width: $screen-sm-min) and (max-width: $screen-md-max){
+				padding: 0 30px;
+			}
+
+			@media screen and (max-width: $screen-xs-max){
+				padding: 0 15px;
+			}
+
+			& h3 {
+				margin-top:20px;
+			}
+		}
+
+		&__block {
+			opacity: 1;
+			cursor: pointer;
+			transform: matrix(1, 0, 0, 1, 0, 0);
+			height: 450px;
+			line-height: 450px;  
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-size: cover;
+			position: relative;
+			overflow: hidden; 
+			text-align:center;
+			color: $color-white;
+			font-size: 46px;
+			font-weight: $font-bold;
+			text-align: center;
+			vertical-align: middle;
+
+			@media screen and (max-width: $screen-xs-max){
+				height: 250px;
+				line-height: 250px;  
+			}
+
+			a, 
+			img,
+			div {
+				position: absolute;
+				top:0px;
+				left:0px;
+				width: 100%;
+			    height: 100%;
+			    background-color: transparent;
+				transition: all 0.5s ease;
+				color: $color-white;
+				font-weight: $font-semibold;
+			}
+
+			a:hover {
+				background-color: rgba(0, 0, 0, 0.1);
+				
+				img,
+				div {
+					top:-10px;
+				}
+			}
+
+			//case specific styles
+			&--placeholder {
+				background-color: $color-blue;
+
+				span {
+				    display: block;
+				    height: 32px;
+				    font-size: 28px;
+				}
+			}
+
+			&.case_studies_hidden{
+				display: none;
+			}
+
+			&--from-the-farmer {
+				background-image: url(../images/case-studies/from-the-farmer/from-the-farmer_cover.jpg);
+
+			}
+
+			&--rungum {
+				background-image: url(../images/case-studies/rungum/rungum_cover.jpg);
+
+			}
+
+			&--humankind {
+				background-image: url(../images/case-studies/humankind/humankind_cover.jpg);
+
+				img {
+				    bottom: 0;
+				    right: 0;
+				    margin: auto;
+				    width: 60%;
+				    max-width: 400px;
+				    min-width: 200px;
+				}
+
+			}
+
+			&--darn-good-yarn {
+				background-image: url(../images/case-studies/darn-good-yarn/darn-good-yarn_cover.jpg);
+
+			}
+
+			&--foot-cardigan {
+				background-image: url(../images/case-studies/foot-cardigan/foot-cardigan_cover.jpg);
+
+				img {
+				    bottom: 0;
+				    right: 0;
+				    margin: auto;
+				    width: 60%;
+				    max-width: 400px;
+				    min-width: 200px;
+				}
+
+			}
+
+			&--hacker-boxes{
+				background-image: url(../images/case-studies/hacker-boxes/hacker-boxes_cover.jpg);
+
+				img {
+				    bottom: 0;
+				    right: 0;
+				    margin: auto;
+				    width: 60%;
+				    max-width: 400px;
+				    min-width: 200px;
+				}
+			}
+
+			&--pusheen-box {
+				background-image: url(../images/case-studies/pusheen-box/pusheen-box_cover.jpg);
+
+				img {
+					left: 0;
+					right: 0;
+					margin: auto;
+					width: 60%;
+					max-width:400px;
+					min-width:200px;
+				}
+			}
+
+			&--dr-axe {
+				background-image: url(../images/case-studies/dr-axe/dr-axe_cover.jpg);
+
+				img {
+				    bottom: 0;
+				    right: 0;
+				    margin: auto;
+				    width: 60%;
+				    max-width: 400px;
+				    min-width: 200px;
+				}
+
+			}
+
+			&--clearly-filtered {
+				background-image: url(../images/case-studies/clearly-filtered/clearly-filtered_cover.jpg);
+			}
+
+			&--short-par-4 {
+				background-image: url(../images/case-studies/short-par-4/short-par-4_cover.jpg);
+			}
+
+			&--hubble {
+				background-image: url(../images/case-studies/hubble/hubble_cover.jpg);
+
+				img {
+				    bottom: 0;
+				    right: 0;
+				    margin: auto;
+				    width: 60%;
+				    max-width: 400px;
+				    min-width: 200px;
+				}
+			}
+		}
+
+		&__about {
+			padding: 40px;
+			padding-top: 60px;
+			background-color: #F8F8F8;
+		}
+
+		&__summary {
+			background-color: #fff;
+			position: relative;
+
+			p {
+				padding: 20px 10px 40px;
+
+				@media screen and (max-width: $screen-xs-max) {
+					padding: 20px 20px 40px;
+				}
+			}
+
+			@media screen and (min-width: $screen-sm-min){
+		    	min-height: 570px;
+
+		    	&--fromthefarmer {
+		    		min-height: 545px;
+		    	}
+		    }
+
+		    @media screen and (max-width: $screen-xs-max) {
+				padding-bottom: 80px;
+			    padding-left: 20px;
+    			padding-right: 20px;
+		    }
+		}
+
+		&__quote {
+			background-color: $color-green-pale;
+			padding-top: 20px;
+
+			p {
+				padding: 20px 10px;
+				font-style: italic;
+			}
+
+			&__ref {
+			    float: right;
+			    margin-right: 10px;
+			    margin-bottom: 20px;
+			    text-align: right;
+
+				&__name {
+					font-weight: bolder;
+					display: block;
+					margin: 5px 0;
+				}
+
+				&__role {
+					text-transform: uppercase;
+					font-size: 14px
+				}
+			}
+
+			&__img {
+				padding: 0 0 20px;
+				text-align: center;
+
+				img {
+					border-radius: 50%;
+    				width: 150px;
+				}
+
+				@media screen and (max-width: $screen-xs-max) {
+					padding-top: 0;
+					padding-bottom: 20px;
+				}
+			}
+
+			&--detail {
+				padding: 40px;
+				padding-bottom: 20px;
+
+				p {
+					line-height: 30px;
+				}
+				
+				@media screen and (max-width: $screen-xs-max) {
+					padding-bottom: 0;
+				}
+
+				.case-studies__quote__ref {
+
+					@media screen and (max-width: $screen-xs-max) {
+						float: none;
+    					text-align: center;
+					}
+				}
+			}
+
+			&--no-img {
+				padding: 40px;
+				background-color: $color-blue;
+				color: $color-white;
+				
+				p {
+					font-size: 20px;
+					line-height: 30px;
+				}
+
+				.case-studies__quote__ref {
+					margin: 0;
+
+					@media screen and (max-width: $screen-xs-max) {
+					    margin-top: 10px;
+					}
+				}
+			}
+		}
+
+		&__challenge {
+			padding: 40px;
+			padding-top: 60px;
+
+			&__image {
+				padding-right: 40px;
+
+				img {
+					width: 100%;
+				}
+			}
+
+			&__description {
+				@media screen and (min-width: $screen-md-min) {
+					padding-left: 40px;
+				}
+
+				h3 {
+					margin-top: 0;
+				}
+			}
+		}
+
+		&__results {
+			padding: 40px;
+			background-color: $color-grey-silver;
+		}
+
+		&__cases-heading {
+			padding: 40px;
+
+			.cases-heading {
+				color: $color-blue;
+			    letter-spacing: -0.037em;
+			    text-align: center;
+			    font-weight: $font-regular;
+			    margin-top: 10px;
+			}
+		}
+
+		&__stat {
+			background-color: $color-turquoise;
+			position: relative;
+			min-height: 290px;
+			padding: 20px;
+
+			&--short-par-4 {
+				min-height: 245px;
+			}
+
+			&--hubble {
+			    min-height: 270px;
+			}
+
+			&__title {
+				color: $color-white;
+			    font-size: 60px;
+			    font-weight: $font-semibold;
+			    margin-bottom: 40px;
+			}
+
+			&__detail {
+				color: $color-white;
+				text-transform: uppercase;
+			}
+
+			&__ref {
+				position: absolute;
+				bottom: 0;
+				right: 20px;
+				margin: 0;
+				color: rgba(255, 255, 255, 0.3);
+				font-weight: $font-semibold;
+			    font-size: 16px;
+
+			    @media screen and (max-width: $screen-xs-max) {
+			    	bottom: 20px;
+			    }
+			}
+
+			&--expanded {
+				padding: 40px;
+				padding-bottom: 0;
+				background: $color-grey-silver;
+
+				p {
+					padding-bottom: 20px;
+				}
+
+				@media screen and (max-width: $screen-xs-max){
+					padding: 0 40px;
+				}
+			}
+
+			&__circles {
+
+				.grid__md__4 {
+					padding: 20px;
+				}
+			}
+
+			@media screen and (max-width: $screen-xs-max) {
+				min-height: 200px;
+				padding-bottom: 40px;
+		    }
+		}
+		
+		&__divider--detail {
+			background-image: url(data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTguMS4xLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDIyMy40MTMgMjIzLjQxMyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjIzLjQxMyAyMjMuNDEzOyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGc+Cgk8Zz4KCQk8Zz4KCQkJPHBvbHlnb24gcG9pbnRzPSI1Ny4xNzksMjIzLjQxMyA1MS4yMjQsMjE3LjI3NiAxNTkuOTI1LDExMS43MSA1MS4yMjQsNi4xMjcgNTcuMTc5LDAgMTcyLjE4OSwxMTEuNzEgICAgICAgICAiIGZpbGw9IiNGRkZGRkYiLz4KCQk8L2c+Cgk8L2c+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==);
+			display: inline-block;
+			background-size: 100% 100%;
+		    background-repeat: no-repeat;
+		    width: 32px;
+		    line-height: 30px;
+		}
+		&__logo--detail {
+			width: 100%;
+			max-width: 380px;
+		}
+		&__stat--circle {
+			width: 100px;
+			height: 100px;
+			border-radius: 50%;
+			font-size: 24px;
+			color: $color-white;
+			font-weight: $font-bold;
+			line-height: 100px;
+			text-align: center;
+			background: $color-magenta;
+			letter-spacing: 2px;
+			margin: 0 auto;
+			@media screen and (max-width: $screen-sm-max) {
+				margin: initial;
+				float: left;
+			}
+		}
+		&__stat--detail {
+			margin: 20px;
+			color: $color-black;
+		    text-transform: uppercase;
+		    text-align: center;
+		    font-size: 14px;
+			@media screen and (max-width: $screen-sm-max){
+				display: block;
+				width: 70%;
+				text-align: left;
+				margin-left: 30%;
+				margin-top: 10px;
+			}
+			@media screen and (max-width: $screen-xs-max){
+				margin: 0px 0px 0px 10px;
+				width: calc(100% - 115px);
+				margin-left: 115px;
+				margin-top: 30px;
+			}
+		}
+		&__quote--detail {
+			background-color: $color-blue !important;
+			color: $color-white;
+			font-size: 20px;
+
+			& .case-studies__container {
+				text-align: left;
+			}
+			& .case-studies__container span {
+				@media screen and (max-width: $screen-xs-max){
+					float: none;
+					text-align: left;
+				}
+			}
+			& .case-studies__container .rc_layout__sm__3 {
+				@media screen and (max-width: $screen-xs-max){
+					padding-top:0;
+				}
+			}
+		}
+	}
+
+	.rc_modal {
+		&__dialog .layout {
+			background-color: $color-turquoise;
+		}
+
+		&__close {
+			top: 20px;
+			right: 20px;
+		}
+
+		&__content {
+			padding:0px;
+		}
+
+		&__actions {
+			width: calc(100% - 40px);
+		    margin: 0 20px;
+		    padding-bottom: 20px;
+		    position: absolute;
+	    	bottom: 0;
+	    	left: 0;
+		}
+	}
+}
