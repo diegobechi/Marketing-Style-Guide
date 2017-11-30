@@ -12,7 +12,7 @@
 	<div class="container">
 		<div class="layout">
 			<div class="grid__sm__4">
-				<img src="/assets/images/integrations/logo_smile_io.png" alt="Smile.io logo" class="integration__details__logo">
+				<img src="/assets/images/integrations/smile-io_logo.png" alt="Smile.io logo" class="integration__details__logo">
 			</div><!-- .grid__sm__4 -->
 			<div class="grid__sm__8">
 				<div class="integration__details">

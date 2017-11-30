@@ -12,7 +12,7 @@
 	<div class="rc_layout__container">
 		<div class="rc_layout">
 			<div class="rc_layout__sm__4">
-				<img src="/assets/images/integrations/logo_klaviyo.png" alt="Klaviyo logo" class="integration__details__logo">
+				<img src="/assets/images/integrations/klaviyo_logo.png" alt="Klaviyo logo" class="integration__details__logo">
 			</div><!-- .grid__sm__4 -->
 			<div class="rc_layout__sm__8">
 				<div class="integration__details">

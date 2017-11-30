@@ -12,7 +12,7 @@
 	<div class="rc_layout__container">
 		<div class="rc_layout">
 			<div class="rc_layout__sm__4">
-				<img src="/assets/images/integrations/logo_referralcandy.png" alt="ReferralCandy logo" class="integration__details__logo">
+				<img src="/assets/images/integrations/referralcandy_logo.png" alt="ReferralCandy logo" class="integration__details__logo">
 			</div><!-- .grid__sm__4 -->
 			<div class="rc_layout__sm__8">
 				<div class="integration__details">
