@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="39px" height="39px" viewBox="0 0 39 39" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>Page 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="19.50005 0 39 0 39 39 19.50005 39 0.0001 39 0.0001 0"></polygon>
+    </defs>
+    <g id="Features" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(-150.000000, -1250.000000)" id="Group-2">
+            <g transform="translate(150.000000, 1250.000000)">
+                <g id="Group-30">
+                    <g id="Page-1">
+                        <g id="Group-3">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Clip-2"></g>
+                            <path d="M39.0001,19.5 C39.0001,30.27 30.2701,39 19.5001,39 C8.7301,39 0.0001,30.27 0.0001,19.5 C0.0001,8.73 8.7301,0 19.5001,0 C30.2701,0 39.0001,8.73 39.0001,19.5" id="Fill-1" fill="#BDF0E4" mask="url(#mask-2)"></path>
+                        </g>
+                        <polygon id="Fill-4" fill="#17CC9D" points="18.5284 25.0888 13.7704 20.5138 12.3064 22.0688 18.6504 28.1988 28.1034 17.3728 26.5184 15.9698"></polygon>
+                        <path d="M13.4971,22.041 L18.5991,26.97 L26.9111,17.449 L26.5951,17.169 L18.5811,26.315 L13.8011,21.719 L13.4971,22.041 Z M18.7021,29.429 L11.1161,22.098 L13.7401,19.309 L18.4761,23.862 L26.4421,14.77 L29.2961,17.297 L18.7021,29.429 Z" id="Fill-6" fill="#17CC9D"></path>
+                        <polygon id="Fill-8" fill="#004E82" points="17.298 18.906 18.9 18.906 18.9 13.034 17.298 13.034"></polygon>
+                        <polygon id="Fill-10" fill="#004E82" points="15.164 16.771 21.036 16.771 21.036 15.17 15.164 15.17"></polygon>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

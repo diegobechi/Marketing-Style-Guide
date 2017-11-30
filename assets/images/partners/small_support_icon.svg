@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Dedicated Support</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Design" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Partner-Page-v2" transform="translate(-836.000000, -2029.000000)">
+            <g id="Benefits" transform="translate(0.000000, 1322.000000)">
+                <g id="Dedicated-Support" transform="translate(836.000000, 707.000000)">
+                    <g>
+                        <circle id="Oval" fill="#BDF0E4" fill-rule="nonzero" opacity="0.4" cx="30" cy="30" r="30"></circle>
+                        <rect id="Rectangle-path" fill="#004E82" fill-rule="nonzero" x="15.8571429" y="26.28" width="28.2857143" height="16.7271429"></rect>
+                        <polygon id="Shape" fill="#004E82" fill-rule="nonzero" points="44.1428571 26.28 15.8571429 26.28 30 15.2228571"></polygon>
+                        <rect id="Rectangle-path" fill="#FFFFFF" fill-rule="nonzero" x="19.0157143" y="18.5314286" width="21.9685714" height="20.79"></rect>
+                        <polygon id="Shape" fill="#7DE0CB" fill-rule="nonzero" points="15.8571429 26.28 44.1428571 43.0071429 15.8571429 43.0071429"></polygon>
+                        <polygon id="Shape" fill="#17CC9D" fill-rule="nonzero" points="44.1428571 26.28 15.8571429 43.0071429 44.1428571 43.0071429"></polygon>
+                        <path d="M23.0742857,24.0514286 C22.5684224,24.5665771 22.5684224,25.3919943 23.0742857,25.9071429 L25.3071429,28.1871429 L27.5442857,25.9114286 C28.050149,25.39628 28.050149,24.5708629 27.5442857,24.0557143 C27.3030404,23.8136299 26.9753376,23.6775576 26.6335714,23.6775576 C26.2918052,23.6775576 25.9641024,23.8136299 25.7228571,24.0557143 L25.2942857,24.4842857 L24.8657143,24.0557143 C24.3679938,23.5700531 23.5743243,23.5681544 23.0742857,24.0514286 L23.0742857,24.0514286 Z" id="Shape" fill="#4DD6B7" fill-rule="nonzero"></path>
+                        <path d="M30.0557143,25 L37.3028571,25" id="Shape" stroke="#004E82" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M30.0557143,27 L34.8385714,27" id="Shape" stroke="#004E82" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
