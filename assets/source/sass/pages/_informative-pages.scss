@@ -1,0 +1,45 @@
+.rc_informative-page{
+	max-width: 850px;
+
+	&__block{
+
+		&:first-child{
+			h3{
+				margin-top: 0px;
+			}
+		}
+
+		h3{
+			margin: 60px 0 25px;
+			line-height: 28px;
+			letter-spacing: 0.44px;
+		}
+
+		p{}
+
+		ul{
+			margin: 20px 0;
+
+			li{
+				margin-left: 45px;
+				&:before{
+				    font-family: fontawesome;
+				    content: '\f111';
+				    font-size: 8px;
+				    vertical-align: middle;
+				    margin-right: 10px;
+				}
+
+				ul{
+					margin: 0;
+					li{
+						&:before{
+						    font-family: fontawesome;
+						    content: '\f10c';
+						}
+					}
+				}
+			}
+		}
+	}
+}

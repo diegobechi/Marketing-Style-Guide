@@ -1,0 +1,127 @@
+.rc_banner {
+	min-height: 620px;
+	width: 100%;
+	background-color: $color-grey-light;
+	overflow: hidden;
+	margin: 0 auto 0;
+	position: relative;
+
+	&__main-title{
+		opacity: 0.5;
+		font-weight: $font-semibold;
+		font-size: $font-size-small;
+		letter-spacing: 2px;
+		line-height: 25px;
+		text-transform: uppercase;
+    }
+	&__title {
+		letter-spacing: 0;
+		margin: 0px;
+		min-width: 389px;
+		font-weight: $font-thin;
+	}
+	&__subtitle {
+		font-size: $font-size-base;		
+		font-weight: $font-regular;
+		letter-spacing: 0;
+		max-width: 389px;		
+		margin-top: 14px;
+		margin-bottom: 34px;    
+		line-height: 25px;
+	}
+	&__content {
+		text-align: left;
+		padding-top: 107px;
+		position: relative;
+		z-index: 1;
+	}
+	&__background {
+		width: 100%;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		z-index: 0;
+		min-width: 650px;
+		margin: 0 auto;
+		@media screen and (max-width: $screen-xs-max){
+			left: 50%;
+			margin-left: -325px;
+		}
+		&__left,
+		&__right {
+			position: absolute;
+			background-repeat: no-repeat;
+			z-index: 1;
+			height: 100%;
+			width: 50%;
+			background-size: contain;
+		}
+		&__left {
+			left: 0;
+			z-index: 1;
+			background-position: bottom left;
+		}
+		&__right {
+			right: 0;
+			z-index: 0;
+			background-position: bottom right;
+		}
+	}
+}
+
+.rc_banner--modern {
+    background-position: center 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    .rc_banner__content {
+		padding-top: 165px;
+	}
+
+	.rc_banner__title {
+		line-height: 1.3;
+	}
+}
+
+.rc_banner--partners {
+	background-image: url('../images/partners/banner_partners.jpg');
+}
+
+.rc_text_banner{
+	&__header{
+		text-align: center;
+		font-weight: normal;
+		font-style: normal;
+		margin: 48px auto 78px;
+		max-width: 540px;
+		line-height: 25px;
+		box-sizing: border-box;
+		@media screen and (max-width: $screen-xs-max) {
+			max-width: 260px !important;
+		}
+
+		&__title {
+			h1 {
+				font-weight: $font-thin;
+			}
+		}
+		&__description{
+			margin-bottom: 27px;
+
+			p {
+				font-size: 18px;
+				font-weight: $font-regular;
+				letter-spacing: 0.44px;
+			}
+		}
+	}
+	&__container{               
+		background-color: #F8F8F8;
+		padding: 78px 0;
+	}
+}
+
+
+

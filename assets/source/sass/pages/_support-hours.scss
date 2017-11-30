@@ -1,0 +1,14 @@
+.rc_section{
+	&--support-hours{
+
+		& .rc_text_banner{
+			&__header{
+				max-width: 550px;
+
+				h1{
+					margin-bottom: 22px;
+				}
+			}
+		}
+	}
+}
