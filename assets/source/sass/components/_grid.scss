@@ -363,18 +363,10 @@
 	[class^="rc_layout__xl"] {
 		&:first-child {
 			padding-left: $gutter;
-
-			@media screen and (max-width: $screen-xs-max){
-				padding-left: $gutter / 2;
-			}
 		}
 
 		&:last-child {
 			padding-right: $gutter;
-
-			@media screen and (max-width: $screen-xs-max){
-				padding-right: $gutter / 2;
-			}
 		}
 
 	}

@@ -6386,13 +6386,6 @@ a.rc_link {
 .rc_layout [class^="rc_layout__lg"]:first-child,
 .rc_layout [class^="rc_layout__xl"]:first-child {
   padding-left: 28px; }
-  @media screen and (max-width: 575px) {
-    .rc_layout [class^="rc_layout__xs"]:first-child,
-    .rc_layout [class^="rc_layout__sm"]:first-child,
-    .rc_layout [class^="rc_layout__md"]:first-child,
-    .rc_layout [class^="rc_layout__lg"]:first-child,
-    .rc_layout [class^="rc_layout__xl"]:first-child {
-      padding-left: 14px; } }
 
 .rc_layout [class^="rc_layout__xs"]:last-child,
 .rc_layout [class^="rc_layout__sm"]:last-child,
@@ -6400,13 +6393,6 @@ a.rc_link {
 .rc_layout [class^="rc_layout__lg"]:last-child,
 .rc_layout [class^="rc_layout__xl"]:last-child {
   padding-right: 28px; }
-  @media screen and (max-width: 575px) {
-    .rc_layout [class^="rc_layout__xs"]:last-child,
-    .rc_layout [class^="rc_layout__sm"]:last-child,
-    .rc_layout [class^="rc_layout__md"]:last-child,
-    .rc_layout [class^="rc_layout__lg"]:last-child,
-    .rc_layout [class^="rc_layout__xl"]:last-child {
-      padding-right: 14px; } }
 
 .rc_layout .rc_layout [class^="rc_layout__xs"]:first-child,
 .rc_layout .rc_layout [class^="rc_layout__sm"]:first-child,
@@ -8608,7 +8594,7 @@ table.feature-table {
       padding-bottom: 20px; }
     @media screen and (max-width: 575px) {
       .page__case-studies .case-studies__stat--expanded {
-        padding: 0 40px; } }
+        padding: 14px; } }
   .page__case-studies .case-studies__stat__circles .rc_layout__md__4 {
     padding: 14px; }
   @media screen and (max-width: 575px) {

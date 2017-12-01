@@ -210,8 +210,8 @@
 
 <?php if (!empty($caseStudyDetail)) : ?>
 	
-<div class="case-studies__container--detail layout__container">
-	<div class="rc_layout__full">
+<div class="rc_layout__container--case-studies layout__container">
+	<div class="rc_layout__full ">
 		<div class="rc_layout">
 		  <div class="rc_layout__sm__5 rc_layout__md__6 case-studies__about">
 			  <img src="/assets/images/case-studies/<?php echo $csCompany; ?>/<?php echo $csLogo; ?>" class="case-studies__logo--detail">
