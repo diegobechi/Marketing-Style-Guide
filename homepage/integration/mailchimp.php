@@ -27,7 +27,7 @@
 </div><!-- .container -->
 
 <div class="rc_layout__background integration__explore">
-	<div class="rc_layout_container">
+	<div class="rc_layout__container">
 		<h4>Explore other integrations</h4>
 		<div class="rc_layout">
 			<div class="rc_layout__full">
@@ -37,4 +37,4 @@
 	</div><!-- .container -->
 </div><!-- .integration__explore -->
 
-<?php include('../includes/footer.php'); ?>
+<?php include('../templates/static/footer.php'); ?>

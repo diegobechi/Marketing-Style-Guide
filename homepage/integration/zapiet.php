@@ -45,4 +45,4 @@
 	</div><!-- .container -->
 </div><!-- .integration__explore -->
 
-<?php include('../includes/footer.php'); ?>
+<?php include('../templates/static/footer.php'); ?>
