@@ -213,30 +213,33 @@
 <div class="rc_layout__container--case-studies layout__container">
 	<div class="rc_layout__full ">
 		<div class="rc_layout">
-		  <div class="rc_layout__sm__5 rc_layout__md__6 case-studies__about">
-			  <img src="/assets/images/case-studies/<?php echo $csCompany; ?>/<?php echo $csLogo; ?>" class="case-studies__logo--detail">
-			  <h4>About</h4><?php echo $csAbout; ?>
-			  <br><br><h4>Subscription type</h4>
-			  <p><?php echo $csSubType; ?></p>
-		  </div>
-		  <div class="rc_layout__sm__7 rc_layout__md__6 case-studies__stat--expanded">
-		  	<h3>Summary</h3>
-		  	<p><?php echo $csSummary; ?></p><br>
-
-			<div class="rc_layout case-studies__stat__circles">
-		  		<div class="rc_layout__md__4">
-		  			<div class="case-studies__stat--circle"><?php echo $csStat1no; ?></div><div class="case-studies__stat--detail"><?php echo $csStat1; ?></div>
-		  		</div>
-		  		<div class="rc_layout__md__4">
-		  			<div class="case-studies__stat--circle"><?php echo $csStat2no; ?></div><div class="case-studies__stat--detail"><?php echo $csStat2; ?></div>
-		  		</div>
-		  		<div class="rc_layout__md__4">
-		  			<div class="case-studies__stat--circle"><?php echo $csStat3no; ?></div><div class="case-studies__stat--detail"><?php echo $csStat3; ?></div>
-		  		</div>
-		  		<br>
-			</div><!-- .rc_layout -->
-		  </div>
-		</div><!-- .rc_layout -->
+			<div class="rc_layout__sm__5 rc_layout__md__6 case-studies__about">
+				<img src="/assets/images/case-studies/<?php echo $csCompany; ?>/<?php echo $csLogo; ?>" class="case-studies__logo--detail">
+				<h4>About</h4><?php echo $csAbout; ?>
+				<br><br><h4>Subscription type</h4>
+				<p><?php echo $csSubType; ?></p>
+			</div>
+			<div class="rc_layout__sm__7 rc_layout__md__6 case-studies__stat--expanded">
+				<h3>Summary</h3>
+				<p><?php echo $csSummary; ?></p>
+				<br>
+				<div class="rc_layout case-studies__stat__circles">
+					<div class="rc_layout__md__4">
+						<div class="case-studies__stat--circle"><?php echo $csStat1no; ?></div>
+						<div class="case-studies__stat--detail"><?php echo $csStat1; ?></div>
+					</div>
+					<div class="rc_layout__md__4">
+						<div class="case-studies__stat--circle"><?php echo $csStat2no; ?></div>
+						<div class="case-studies__stat--detail"><?php echo $csStat2; ?></div>
+					</div>
+					<div class="rc_layout__md__4">
+						<div class="case-studies__stat--circle"><?php echo $csStat3no; ?></div>
+						<div class="case-studies__stat--detail"><?php echo $csStat3; ?></div>
+					</div>
+					<br>
+				</div>
+			</div>
+		</div>
 		<div class="rc_layout case-studies__quote--detail">
 			<div class="rc_layout__sm__9">
 				<p><?php echo $csQuote1; ?></p>
@@ -245,20 +248,23 @@
 					<h5 class="case-studies__quote__ref__name"><?php echo $csExecutive; ?></h5>
 					<span class="case-studies__quote__ref__role"><?php echo $csExecTitle; ?></span>
 				</div>
-				<!-- <span><b><?php echo $csExecutive; ?></b><label><?php echo $csExecTitle; ?></label></span> -->
+				<?php /* 
+					<span><b><?php echo $csExecutive; ?></b><label><?php echo $csExecTitle; ?></label></span>
+				*/ ?>
 			</div>
 			<div class="rc_layout__sm__3 case-studies__quote__img">
 		  		<img src="/assets/images/case-studies/<?php echo $csCompany; ?>/<?php echo $csHeadshot; ?>">
 			</div>
-		</div><!-- .rc_layout -->
+		</div>
 		<div class="rc_layout case-studies__challenge">
-		  <div class="rc_layout__md__5 case-studies__challenge__image"><img src="/assets/images/case-studies/<?php echo $csCompany; ?>/<?php echo $csImage; ?>"></div>
-		  <div class="rc_layout__md__7 case-studies__challenge__description">
-		  	<h3>Challenge</h3>
-		  	<p><?php echo $csChallenge; ?>
-		  	</p>
-		  </div>
-		</div><!-- .rc_layout -->
+			<div class="rc_layout__md__5 case-studies__challenge__image">
+				<img src="/assets/images/case-studies/<?php echo $csCompany; ?>/<?php echo $csImage; ?>">
+			</div>
+			<div class="rc_layout__md__7 case-studies__challenge__description">
+				<h3>Challenge</h3>
+				<p><?php echo $csChallenge; ?></p>
+			</div>
+		</div>
 		<div class="rc_layout case-studies__quote--no-img">
 			<div class="rc_layout case-studies__container">
 				<div class="rc_layout__sm__9">
@@ -271,7 +277,7 @@
 					</div>
 				</div>
 			</div>
-		</div><!-- .rc_layout -->
+		</div>
 		<div class="rc_layout  case-studies__results">
 			<div class="rc_layout__sm__12">
 		  		<h3>Results</h3>
@@ -279,11 +285,11 @@
 			</div>
 		</div>
 		<div class="rc_layout case-studies__cases-heading">
-		  <div class="rc_layout__sm__12">
-			<h1 class="cases-heading">More Happy Clients</h1>
-		  </div>
-		</div><!-- .rc_layout -->
-	</div><!-- .layout__full -->
+			<div class="rc_layout__sm__12">
+				<h1 class="cases-heading">More Happy Clients</h1>
+			</div>
+		</div>
+	</div>
 </div>
 
 <?php endif; ?>
@@ -362,8 +368,8 @@
 			<div class="rc_layout__sm__6 case-studies__block case-studies__block--placeholder <?php if(!empty($caseStudyDetail)) : echo case_studies_hidden; endif; ?>" style="display:none;">
 				<a><div><span>Check back for more</span><span>Case Studies</span></div></a>
 			</div>
-		</div><!-- .rc_layout -->
-	</div><!-- .layout__full -->
+		</div>
+	</div>
 </div>
 
 <?php include('templates/static/footer.php'); ?>

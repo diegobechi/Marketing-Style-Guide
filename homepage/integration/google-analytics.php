@@ -1,6 +1,6 @@
 <?php
 	$page_title = 'Google Analytics | Integrations';
-	$page_description = 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.';
+	$page_description = '';
 	$page_keywords = 'ReferralCandy, Zapiet, Google Analytics, Cart Hook, Integrations, Shopify, Apps, Add-ons, Refferal';
 	$page_class = 'integration__details';
 	$page_active = 'integration__google-analytics';

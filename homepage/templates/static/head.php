@@ -32,7 +32,7 @@
 
 	# Create the Page Description
 	if (isset($page_description)) {
-		if ($page_description !== '') {
+		if ($page_description && $page_description !== '') {
 			$the_page_description = $page_description;
 		}
 	}

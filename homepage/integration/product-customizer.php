@@ -1,6 +1,6 @@
 <?php
 	$page_title = 'Product Customizer | Integrations';
-	$page_description = 'At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas.';
+	$page_description = '';
 	$page_keywords = 'ReferralCandy, Zapiet, Google Analytics, Cart Hook, Integrations, Shopify, Apps, Add-ons, Refferal, Littledata, Checkout Funnel, Product Customizer';
 	$page_class = 'integration__details';
 	$page_active = 'integration__product-customizer';

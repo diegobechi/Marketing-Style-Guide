@@ -37,31 +37,36 @@
 .rc_visible {
 	&--xs {
 		@media screen and (max-width: $screen-xs-max) {
-			display: initial !important;
+			display: inline;
+			display: initial;
 		}
 	}
 
 	&--sm {
 		@media screen and (min-width: $screen-sm-min) and (max-width: $screen-sm-max) {
-			display: initial !important;
+			display: inline;
+			display: initial;
 		}
 	}
 
 	&--md {
 		@media screen and (min-width: $screen-md-min) and (max-width: $screen-md-max) {
-			display: initial !important;
+			display: inline;
+			display: initial;
 		}
 	}
 
 	&--lg {
 		@media screen and (min-width: $screen-lg-min) and (max-width: $screen-lg-max) {
-			display: initial !important;
+			display: inline;
+			display: initial;
 		}
 	}
 
 	&--xl {
 		@media screen and (min-width: $screen-xl-min) {
-			display: initial !important;
+			display: inline;
+			display: initial;
 		}
 	}
 }
