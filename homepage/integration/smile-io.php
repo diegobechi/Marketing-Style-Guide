@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Smile.io</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/smile-io" target="_blank" class="integration__website">apps.shopify.com/smile-io</a></p>
+					<p><a href="https://apps.shopify.com/smile-io" target="_blank" class="integration__website rc_link">apps.shopify.com/smile-io</a></p>
 					<p>Smile.io's Professional plan allows you to quickly set up and run your own rewards program that is fully integrated with ReCharge. Reward your recurring customers to increase retention and repeat purchases.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

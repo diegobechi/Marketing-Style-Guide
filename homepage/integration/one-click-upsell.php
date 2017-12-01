@@ -18,7 +18,7 @@
 					<h1 class="integration__title">One Click Upsell</h1>
 				</div>
 				<div class="integration__info">
-					<p><a href="https://zipify.com/apps/ocu/" target="_blank" class="integration__website">https://zipify.com/apps/ocu/</a></p>
+					<p><a href="https://zipify.com/apps/ocu/" target="_blank" class="integration__website rc_link">https://zipify.com/apps/ocu/</a></p>
 					<p>One Click Upsell allows you to add post-purchase upsells to your checkout sequence, increasing your average order revenue from subscribers.</p>
 				</div>
 				<h5>Supported features</h5>

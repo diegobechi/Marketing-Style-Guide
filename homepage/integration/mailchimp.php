@@ -18,7 +18,7 @@
 					<h1 class="integration__title">MailChimp</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/mailchimp" target="_blank" class="integration__website">apps.shopify.com/mailchimp</a></p>
+					<p><a href="https://apps.shopify.com/mailchimp" target="_blank" class="integration__website rc_link">apps.shopify.com/mailchimp</a></p>
 					<p>Ability to add a customer to a cancelled list if any of their purchase item statuses are changed to cancelled.</p>
 				</div><!-- .integration__info -->					
 			</div><!-- .integration__details -->

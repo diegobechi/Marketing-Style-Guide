@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Gorgias</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/helpdesk?&utm_campaign=integrations&utm_source=recharge&utm_medium=recharge_integration_page" target="_blank" class="integration__website">apps.shopify.com/gorgias</a></p>
+					<p><a href="https://apps.shopify.com/helpdesk?&utm_campaign=integrations&utm_source=recharge&utm_medium=recharge_integration_page" target="_blank" class="integration__website rc_link">apps.shopify.com/gorgias</a></p>
 					<p>Gorgias helps you provide lightning-fast customer support. Manage all your customer service in one place: email, chat, social media. Get a holistic view of the customer, by connecting all your Shopify apps. Maximize the efficiency of your team by editing orders directly from support conversations.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

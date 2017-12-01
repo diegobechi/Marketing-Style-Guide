@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Product Customizer</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/product-customizer" target="_blank" class="integration__website">apps.shopify.com/product-customizer</a></p>
+					<p><a href="https://apps.shopify.com/product-customizer" target="_blank" class="integration__website rc_link">apps.shopify.com/product-customizer</a></p>
 					<p>Product Customizer is an easy-to-use app with unparalleled service. Add an unlimited number of custom file uploads, dropdowns, text inputs, radio buttons, and checkbox options to provide the options you need to sell your products.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

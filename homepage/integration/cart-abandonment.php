@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Cart Abandonment</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://carthook.com/recovery" target="_blank" class="integration__website">carthook.com/recovery</a></p>
+					<p><a href="https://carthook.com/recovery" target="_blank" class="integration__website rc_link">carthook.com/recovery</a></p>
 					<p>CartHook helps you increase revenue by automatically tracking and emailing shoppers who start, but don’t finish your checkout process.  Leading ReCharge merchants depend on CartHook to recover 10% to 20% of their abandoned carts.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Ultimate Upsell</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/ultimate-upsell" target="_blank" class="integration__website">apps.shopify.com/ultimate-upsell</a></p>
+					<p><a href="https://apps.shopify.com/ultimate-upsell" target="_blank" class="integration__website rc_link">apps.shopify.com/ultimate-upsell</a></p>
 					<p>Upsell product bundles or add-ons on the product, cart and thank you pages. Include the upsell in the theme, a popup or a notification. No duplicate variants. Mobile-friendly. No coding needed.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

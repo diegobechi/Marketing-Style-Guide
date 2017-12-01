@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Loyalty Lion</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://loyaltylion.com/shopify-plus" target="_blank" class="integration__website">loyaltylion.com/shopify-plus</a></p>
+					<p><a href="https://loyaltylion.com/shopify-plus" target="_blank" class="integration__website rc_link">loyaltylion.com/shopify-plus</a></p>
 					<p>LoyaltyLion is a leading loyalty platform trusted by thousands of ecommerce brands worldwide. Merchants choose LoyaltyLion when they want a fully customised loyalty program that is proven to increase customer engagement, retention and spend. Merchants using LoyaltyLion have seen fantastic returns of over 800%.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

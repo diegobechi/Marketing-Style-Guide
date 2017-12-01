@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Submetrics</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://submetrics.io/" target="_blank" class="integration__website">submetrics.io</a></p>
+					<p><a href="https://submetrics.io/" target="_blank" class="integration__website rc_link">submetrics.io</a></p>
 					<p>Bad reporting affects every element of your business, not just marketing. Explaining complex reports to your management, having the finance department dig in to verify the information, needing your media buyers to add their insights. SubMetrics makes all that go away and let’s each and every team member focus on what makes your business a great business. And it’s certainly not manual reporting.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

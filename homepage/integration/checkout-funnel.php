@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Checkout Funnel</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://carthook.com/checkout" target="_blank" class="integration__website">carthook.com/checkout</a></p>
+					<p><a href="https://carthook.com/checkout" target="_blank" class="integration__website rc_link">carthook.com/checkout</a></p>
 					<p>CartHook Checkout offers a customizable one-page checkout and post purchase one-click upsells for your Shopify store to increase conversions and maximize average order value.  Easily sell ReCharge subscription products in your checkout and upsells.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

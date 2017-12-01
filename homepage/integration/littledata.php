@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Littledata</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/littledata" target="_blank" class="integration__website">apps.shopify.com/littledata</a></p>
+					<p><a href="https://apps.shopify.com/littledata" target="_blank" class="integration__website rc_link">apps.shopify.com/littledata</a></p>
 					<p>Fix your Google Analytics setup to include complete sales and marketing data, and understand what it all means. Attribute recurring payments to campaigns, audit your analytics setup as often as you'd like, benchmark your web performance against leading ecommerce sites, set up custom alerts and reporting, and so much more!</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

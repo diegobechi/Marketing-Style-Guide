@@ -18,7 +18,7 @@
 					<h1 class="integration__title">LeadDyno</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/leaddyno" target="_blank" class="integration__website">apps.shopify.com/leaddyno</a></p>
+					<p><a href="https://apps.shopify.com/leaddyno" target="_blank" class="integration__website rc_link">apps.shopify.com/leaddyno</a></p>
 					<p>Launch an affiliate program for your Shopify store with the ReCharge integration ready to go. Tap our affiliate network to connect with bloggers and influencers to promote your store (and turn your own list into affiliates, too). Plus, we offer a mobile app that puts your affiliate program on smartphones for sharing.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

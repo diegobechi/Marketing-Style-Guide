@@ -8789,7 +8789,8 @@ table.feature-table {
 .integration__explore {
   box-sizing: border-box;
   font-size: 0;
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: left; }
   .integrations .rc_layout__container,
   .integration__explore .rc_layout__container {
     max-width: 970px; }

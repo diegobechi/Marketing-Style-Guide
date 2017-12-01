@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Refersion</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/refersion" target="_blank" class="integration__website">apps.shopify.com/refersion</a></p>
+					<p><a href="https://apps.shopify.com/refersion" target="_blank" class="integration__website rc_link">apps.shopify.com/refersion</a></p>
 					<p>Refersion is designed to help quickly launch your affiliate program. Easily track sales commission to bloggers, influencers and ambassadors.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

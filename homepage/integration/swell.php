@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Swell</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/swell" target="_blank" class="integration__website">apps.shopify.com/swell</a></p>
+					<p><a href="https://apps.shopify.com/swell" target="_blank" class="integration__website rc_link">apps.shopify.com/swell</a></p>
 					<p>Swell is pioneering the concept of “incentive marketing” with over 700 global retailers, providing targeted, optimized rewards in exchange for desired behaviors. Swell implements powerful rewards, referral, and affiliate programs for tens of millions of consumers, increasing average LTV and driving incremental revenue thanks to its unique data-driven approach.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

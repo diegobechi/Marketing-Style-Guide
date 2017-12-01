@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Referral Candy</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://apps.shopify.com/referralcandy" target="_blank" class="integration__website">apps.shopify.com/referralcandy</a></p>
+					<p><a href="https://apps.shopify.com/referralcandy" target="_blank" class="integration__website rc_link">apps.shopify.com/referralcandy</a></p>
 					<p>ReferralCandy helps you increase your sales by rewarding your customers when they refer people to your store. Give your customers a personal reward link that they can share with their friends.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>

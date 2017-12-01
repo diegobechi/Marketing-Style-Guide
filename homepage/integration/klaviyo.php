@@ -18,7 +18,7 @@
 					<h1 class="integration__title">Klaviyo</h1>
 				</div><!-- .integration__header -->
 				<div class="integration__info">
-					<p><a href="https://www.klaviyo.com/" target="_blank" class="integration__website">www.klaviyo.com</a></p>
+					<p><a href="https://www.klaviyo.com/" target="_blank" class="integration__website rc_link">www.klaviyo.com</a></p>
 					<p>Klaviyo helps you drive sales by using data from Shopify and other apps like ReCharge to send automated emails, create personalized product recommendations, deliver post-purchase engagement campaigns, run better Facebook ads and more. It's data-driven marketing, made simple.</p>
 				</div><!-- .integration__info -->
 				<h5>Supported features</h5>
