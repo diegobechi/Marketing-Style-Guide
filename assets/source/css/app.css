@@ -9088,37 +9088,37 @@ table.feature-table {
 #shorts {
   z-index: 1;
   left: 50%;
-  width: 204px;
+  width: 235px;
   height: 210px;
   margin-left: -240px;
-  top: 440px; }
+  top: 471px; }
 
 @media screen and (min-width: 576px) {
   #shorts {
-    width: 325px;
+    width: 468px;
     height: 343px;
-    top: 476px;
-    margin-left: -500px; } }
+    top: 360px;
+    margin-left: -625px; } }
 
 @media screen and (min-width: 992px) {
   #shorts {
-    top: 400px;
-    margin-left: -720px; } }
+    top: 371px;
+    margin-left: -846px; } }
 
 #peanuts {
   z-index: 2;
   left: 50%;
-  width: 79px;
+  width: 65px;
   height: 114px;
   margin-left: -180px;
-  top: 310px; }
+  top: 395px; }
 
 @media screen and (min-width: 576px) {
   #peanuts {
     width: 117px;
     height: 169px;
     top: 272.5px;
-    margin-left: -580px; } }
+    margin-left: -495px; } }
 
 @media screen and (min-width: 992px) {
   #peanuts {
@@ -9126,43 +9126,42 @@ table.feature-table {
 
 #earphones {
   z-index: 3;
-  right: 50%;
+  left: 50%;
   width: 98px;
   height: 134.5px;
-  top: 508px;
-  margin-right: -220px; }
+  top: 515px;
+  margin-left: -35px; }
 
 @media screen and (min-width: 576px) {
   #earphones {
-    width: 196px;
+    width: 260px;
     height: 269px;
-    top: 361.5px;
-    margin-right: -480px; } }
+    top: 518px;
+    margin-left: -230px; } }
 
 @media screen and (min-width: 992px) {
   #earphones {
-    top: 261.5px;
-    margin-right: -611px; } }
+    top: 495px;
+    margin-left: -395px; } }
 
 #macbook {
   z-index: 3;
   right: 50%;
-  width: 192px;
+  width: 330px;
   height: 443.5px;
-  top: 203px;
-  margin-right: -220px; }
+  top: 330px;
+  margin-right: -360px; }
 
 @media screen and (min-width: 576px) {
   #macbook {
-    width: 369px;
-    height: 244px;
-    top: 361.5px;
-    margin-right: -480px; } }
+    width: 585px;
+    top: 100px;
+    margin-right: -780px; } }
 
 @media screen and (min-width: 992px) {
   #macbook {
-    top: 15px;
-    margin-right: -720px; } }
+    top: 16px;
+    margin-right: -1002px; } }
 
 #granola {
   z-index: 4;
@@ -9174,15 +9173,15 @@ table.feature-table {
 
 @media screen and (min-width: 576px) {
   #granola {
-    width: 103px;
-    height: 86px;
-    top: 300px;
-    margin-right: -440px; } }
+    width: 104px;
+    height: 85px;
+    top: 450px;
+    margin-right: -270px; } }
 
 @media screen and (min-width: 992px) {
   #granola {
-    top: 332px;
-    margin-right: -440px; } }
+    top: 327px;
+    margin-right: -475px; } }
 
 #plant-ipad {
   z-index: 4;
