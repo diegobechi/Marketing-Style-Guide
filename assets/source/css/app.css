@@ -8754,7 +8754,7 @@ table.feature-table {
       padding: 30px; } }
   @media screen and (max-width: 575px) {
     .page__integrations .integrations__container {
-      padding: 0 15px; } }
+      padding: 45px 15px; } }
 
 .page__integrations .integrations__header__icon {
   text-align: center;

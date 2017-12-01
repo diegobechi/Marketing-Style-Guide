@@ -104,6 +104,21 @@
 	</div><!-- .integrations__directory__item -->
 <?php } ?>
 
+<?php if (strpos($page_active, "loyalty-lion") != true) { ?> 
+	<div class="integrations__directory__item">
+		<div class="integrations__directory__item__media">
+			<a href="/integration/loyalty-lion"><img src="/assets/images/integrations/loyalty-lion_logo.png" alt="Loyalty Lion logo" class="integrations__directory__item__logo"></a>
+			<strong class="integrations__directory__item__title">Loyalty Lion</strong>
+		</div><!-- .integrations__directory__item__media -->
+		<div class="integrations__directory__item__info">
+			<p>Increase customer engagement, retention and spend with your own loyalty program.</p>
+			<p>
+				<a href="/integration/loyalty-lion" class="integrations__directory__item__link rc_link rc_link">Learn more...</a>
+			</p>
+		</div><!-- .integrations__directory__item__info -->
+	</div><!-- .integrations__directory__item -->
+<?php } ?>
+
 <?php if (strpos($page_active, "mailchimp") != true) { ?> 
 	<div class="integrations__directory__item">
 		<div class="integrations__directory__item__media">
@@ -129,6 +144,21 @@
 			<p>Offer post-purchase upsells when a customer purchases a ReCharge subscription product.</p>
 			<p>
 				<a href="/integration/one-click-upsell" class="integrations__directory__item__link rc_link">Learn more...</a>
+			</p>
+		</div><!-- .integrations__directory__item__info -->
+	</div><!-- .integrations__directory__item -->
+<?php } ?>
+
+<?php if (strpos($page_active, "product-customizer") != true) { ?> 
+	<div class="integrations__directory__item">
+		<div class="integrations__directory__item__media">
+			<a href="/integration/product-customizer"><img src="/assets/images/integrations/product-customizer_logo.png" alt="Product Customizer logo" class="integrations__directory__item__logo"></a>
+			<strong class="integrations__directory__item__title">Product Customizer</strong>
+		</div><!-- .integrations__directory__item__media -->
+		<div class="integrations__directory__item__info">
+			<p>Extend your products with unlimited options. Customize your products with file uploads, text inputs and more.</p>
+			<p>
+				<a href="/integration/product-customizer" class="integrations__directory__item__link rc_link">Learn more...</a>
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
@@ -179,6 +209,36 @@
 	</div><!-- .integrations__directory__item -->
 <?php } ?>
 
+<?php if (strpos($page_active, "submetrics") != true) { ?> 
+	<div class="integrations__directory__item">
+		<div class="integrations__directory__item__media">
+			<a href="/integration/submetrics"><img src="/assets/images/integrations/submetrics_logo_icon.png" alt="Submetrics logo" class="integrations__directory__item__logo"></a>
+			<strong class="integrations__directory__item__title">Submetrics</strong>
+		</div><!-- .integrations__directory__item__media -->
+		<div class="integrations__directory__item__info">
+			<p>Connect ReCharge and Submetrics to get insights you can share with your whole company.</p>
+			<p>
+				<a href="/integration/submetrics" class="integrations__directory__item__link rc_link rc_link">Learn more...</a>
+			</p>
+		</div><!-- .integrations__directory__item__info -->
+	</div><!-- .integrations__directory__item -->
+<?php } ?>
+
+<?php if (strpos($page_active, "swell") != true) { ?> 
+	<div class="integrations__directory__item">
+		<div class="integrations__directory__item__media">
+			<a href="/integration/swell"><img src="/assets/images/integrations/swell_logo.png" alt="Swell logo" class="integrations__directory__item__logo"></a>
+			<strong class="integrations__directory__item__title">Swell</strong>
+		</div>
+		<div class="integrations__directory__item__info">
+			<p>Swell is an incentive marketing platform engineered to allow merchants to incentivize the actions most important to their business.</p>
+			<p>
+				<a href="/integration/swell" class="integrations__directory__item__link rc_link">Learn more...</a>
+			</p>
+		</div>
+	</div>
+<?php } ?>
+
 <?php if (strpos($page_active, "ultimate-upsell") != true) { ?> 
 	<div class="integrations__directory__item">
 		<div class="integrations__directory__item__media">
@@ -192,36 +252,6 @@
 			</p>
 		</div><!-- .integrations__directory__item__info -->
 	</div><!-- .integrations__directory__item -->
-<?php } ?>
-
-<?php if (strpos($page_active, "product-customizer") != true) { ?> 
-	<div class="integrations__directory__item">
-		<div class="integrations__directory__item__media">
-			<a href="/integration/product-customizer"><img src="/assets/images/integrations/product-customizer_logo.png" alt="Product Customizer logo" class="integrations__directory__item__logo"></a>
-			<strong class="integrations__directory__item__title">Product Customizer</strong>
-		</div><!-- .integrations__directory__item__media -->
-		<div class="integrations__directory__item__info">
-			<p>Extend your products with unlimited options. Customize your products with file uploads, text inputs and more.</p>
-			<p>
-				<a href="/integration/product-customizer" class="integrations__directory__item__link rc_link">Learn more...</a>
-			</p>
-		</div><!-- .integrations__directory__item__info -->
-	</div><!-- .integrations__directory__item -->
-<?php } ?>
-
-<?php if (strpos($page_active, "swell") != true) { ?> 
-	<!--<div class="integrations__directory__item">
-		<div class="integrations__directory__item__media">
-			<a href="/integration/swell"><img src="/assets/images/integrations/swell_logo.png" alt="Swell logo" class="integrations__directory__item__logo"></a>
-			<strong class="integrations__directory__item__title">Swell</strong>
-		</div>
-		<div class="integrations__directory__item__info">
-			<p>Swell is an incentive marketing platform engineered to allow merchants to incentivize the actions most important to their business.</p>
-			<p>
-				<a href="/integration/swell" class="integrations__directory__item__link rc_link">Learn more...</a>
-			</p>
-		</div>
-	</div>-->
 <?php } ?>
 
 <script>

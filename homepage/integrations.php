@@ -8,17 +8,17 @@
 <?php include('templates/static/header.php'); ?>
 
 
-<div class="rc_section__container">
-	<div class="rc_section--integrations-directory rc_text--center">
-		<div class="rc_text_banner__header">
-			<div class="rc_text_banner__header__title">
+<div class="rc_text-banner__container">
+    <div class="rc_text-banner">
+        <div class="rc_text-banner__header">
+			<div class="rc_text-banner__header__title">
 				<h1>Integrations directory</h1>
 			</div>
-			<div class="rc_text_banner__header__description">
+			<div class="rc_text-banner__header__description">
 				<p>Seamless integrations so that all the different parts of your business can work together.</p>
 			</div>
 		</div>
-		<div class="rc_text_banner__container integrations__container">
+		<div class="rc_layout__background integrations__container">
 			<div class="integrations__directory rc_text--left">
 				<?php include('integration/_listing.php'); ?>
 			</div>
