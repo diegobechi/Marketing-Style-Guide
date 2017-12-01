@@ -12,6 +12,14 @@
 		&__container {
 			box-sizing: border-box;
 			margin: 0 auto;
+			padding-top:40px;
+
+			.integrations{
+				max-width: 970px;
+				@media screen and (max-width: $screen-xs-max) {
+					max-width: 260px;
+				}
+			}
 
 			@media screen and (min-width: $screen-sm-min) and (max-width: $screen-md-max){
 				padding: 30px;
@@ -70,15 +78,19 @@
 	}
 }
 
-.integrations__directory,
+.integrations,
 .integration__explore {
 	box-sizing: border-box;
 	font-size: 0;
-	max-width: 970px;
 	margin: 0 auto;
-	@media screen and (max-width: $screen-xs-max) {
-		max-width: 260px;
+
+	.rc_layout__container{
+		max-width: 970px;
+		@media screen and (max-width: $screen-xs-max) {
+			max-width: 260px;
+		}
 	}
+	
 
 	&__item {
 		background-color: $color-grey-silver;
@@ -182,6 +194,7 @@
 	margin-top: 40px;
 	padding-bottom: 80px;
 	box-sizing: border-box;
+	padding-top: 40px;
 	@media screen and (max-width: $screen-xs-max) {
 		margin-top: 50px;
 	}
@@ -249,17 +262,5 @@
 				}
 			}
 		}
-	}
-}
-
-.page__integration__details{
-
-	& .content{
-		background-color: #F8F8F8;
-	}
-
-	& .page__container{
-		background-color: $color-white;
-		padding-bottom: 40px;
 	}
 }

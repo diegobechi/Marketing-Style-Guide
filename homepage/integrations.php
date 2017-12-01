@@ -19,7 +19,7 @@
 			</div>
 		</div>
 		<div class="rc_layout__background integrations__container">
-			<div class="integrations__directory rc_text--left">
+			<div class="integrations">
 				<?php include('integration/_listing.php'); ?>
 			</div>
 		</div>
