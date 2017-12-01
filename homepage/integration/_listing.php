@@ -194,7 +194,7 @@
 	</div><!-- .integrations__item -->
 <?php } ?>
 
-<?php if (strpos($page_active, "Smile.io") != true) { ?>
+<?php if (strpos($page_active, "Smile-io") != true) { ?>
 	<div class="integrations__item">
 		<div class="integrations__item__media">
 			<a href="/integration/smile-io"><img src="/assets/images/integrations/smile-io_logo.png" alt="Smile.io logo" class="integrations__item__logo"></a>
