@@ -2,9 +2,11 @@
 	z-index: 1;
 	&--features{
 		&-overview{
-            max-width: 1107px;
             margin: 234px auto;
-            @media screen and (min-width:576px) {
+            @media screen and (min-width:768px) {
+                margin: 252px auto 120px;
+            }
+            @media screen and (min-width:992px) {
                 margin: 335px auto 252px;
             }
 
@@ -31,6 +33,7 @@
 
 			.features-overview-container{
 				margin-top: 48px;
+                max-width: 328px;
 
 				h4{
 					margin: 16px 0 12px;
@@ -48,7 +51,7 @@
             margin-bottom: 30px;
             padding-left: 0;
             padding-right: 0;
-            @media screen and (min-width:576px) {
+            @media screen and (min-width:992px) {
                 padding-left: 28px;
                 padding-right: 28px;
             }
@@ -56,6 +59,9 @@
 			.rc_content{
                 margin: 0 auto;
                 @media screen and (min-width:576px) {
+                    margin: 0 auto;
+                }
+                @media screen and (min-width:992px) {
 				    margin: 152px auto 0;
                 }
                 p{
@@ -78,20 +84,26 @@
 			margin: 176px 0 0;
             padding-left: 0;
             padding-right: 0;
-            @media screen and (min-width:576px) {
+            @media screen and (min-width:992px) {
                 padding-left: 28px;
                 padding-right: 28px;
             }
 			.rc_content{
                 margin: 0 auto;
-                @media screen and (min-width:576px) {
+                @media screen and (min-width:768px) {
+                    margin: 0 auto;
+                }
+                @media screen and (min-width:992px) {
                     margin: 152px auto 0;
                 }
 			}
 		}
 		&-footer{
             margin: 150px 0 250px;
-            @media screen and (min-width:576px) {
+            @media screen and (min-width:768px){
+                margin: 190px 0 260px;
+            }
+            @media screen and (min-width:992px) {
                 margin: 300px 0;            
             }
 			.rc_content{
@@ -104,7 +116,7 @@
         margin-top: 100px;
         padding-left: 0;
         padding-right: 0;
-        @media screen and (min-width:576px) {
+        @media screen and (min-width:992px) {
             padding-left: 28px;
             padding-right: 28px;
         }
@@ -148,7 +160,6 @@
 
 @media screen and (min-width:576px) {
     .background_features_1 {
-        background-position: 50% 50%;
         top: 450px;
         min-height: 1400px;
     }
@@ -156,12 +167,13 @@
 
 @media screen and (min-width:768px) {
     .background_features_1 {
-        min-height: 1400px;
+        min-height: 1275px;
     }
 }
 
 @media screen and (min-width:992px) {
-    .background_features_1 {
+    .background_features_1 {    
+        min-height: 1400px;
         top: 410px;
     }
 }
@@ -186,8 +198,13 @@
         min-height: 1880px;
     }
 }
-
 @media screen and (min-width:768px) {
+    .background_features_2 {
+        min-height: 1700px;
+        top: 2980px;
+    }
+}
+@media screen and (min-width:992px) {
     .background_features_2 {
         min-height: 2050px;
     }
@@ -241,6 +258,9 @@
 .parallax-footer_container {
     top: 6989px;
     @media screen and (min-width:576px) {
+        top: 4600px;
+    }
+    @media screen and (min-width:992px) {
         top: 4933px;
     }
 }
@@ -263,7 +283,7 @@
         width: 550px;
         height: 343px;
         top: 360px;
-        margin-left: -625px;
+        margin-left: -650px;
     }
 }
 
@@ -288,13 +308,13 @@
         width: 117px;
         height: 169px;
         top: 272.5px;
-        margin-left: -495px
+        margin-left: -497px;
     }
 }
 
 @media screen and (min-width:992px) {
     #peanuts {
-        margin-left: -720px
+        margin-left: -720px;
     }
 }
 
@@ -312,8 +332,8 @@
     #earphones {
         width: 260px;
         height: 269px;
-        top: 518px;
-        margin-left: -230px
+        top: 515px;
+        margin-left: -200px;
     }
 }
 
@@ -384,15 +404,16 @@
 
 @media screen and (min-width:576px) {
     #plant-ipad {
-        width: 1440px;
+        width: 895px;
         height: 517px;
-        top: 300px;
-        margin-left: -440px;
+        top: 155px;
+        margin-left: -496px;
     }
 }
 
 @media screen and (min-width:992px) {
     #plant-ipad {
+        width: 1440px;
         top: 9px;
         margin-left: -721px;
     }
@@ -411,8 +432,8 @@
     #coffee {
         width: 250px;
         height: 86px;
-        top: 300px;
-        margin-right: -440px
+        top: 220px;
+        margin-right: -365px;
     }
 }
 
@@ -436,7 +457,7 @@
     #headphones {
         width: 240px;
         height: 222px;
-        top: 300px;
+        top: 25px;
         margin-right: -440px
     }
 }
@@ -461,8 +482,8 @@
     #cactus {
         width: 230px;
         height: 161px;
-        top: 300px;
-        margin-right: -440px
+        top: 190px;
+        margin-right: -495px;
     }
 }
 
