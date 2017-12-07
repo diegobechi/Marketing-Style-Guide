@@ -281,7 +281,7 @@
 				<div class="rc_layout__md__6 rc_content__container">
 					<div class="rc_content">
 						<div class="rc_caption">
-							<span class="rc_hidden--xs">Partners</span>
+							<span>Partners</span>
 							<hr class="mini-hr">
 						</div>
 						<h3>We integrate with the best-of-breed apps</h3>
