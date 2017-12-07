@@ -9054,7 +9054,7 @@ table.feature-table {
       max-width: 449px; }
     .rc_section--integrations .rc_content {
       padding-top: 0; }
-      @media screen and (min-width: 576px) {
+      @media screen and (min-width: 768px) {
         .rc_section--integrations .rc_content {
           padding-top: 90px; } }
   .rc_section .features-order-container,
@@ -9085,8 +9085,9 @@ table.feature-table {
 
 @media screen and (min-width: 576px) {
   .background_features_1 {
-    top: 450px;
-    min-height: 1400px; } }
+    min-height: 2140px;
+    top: 350px;
+    background-position: 30% 50%; } }
 
 @media screen and (min-width: 768px) {
   .background_features_1 {
@@ -9111,14 +9112,15 @@ table.feature-table {
 
 @media screen and (min-width: 576px) {
   .background_features_2 {
-    background-position: 50% 50%;
-    top: 450px;
-    min-height: 1880px; } }
+    background-position: 84% 50%;
+    top: 4700px;
+    min-height: 2900px; } }
 
 @media screen and (min-width: 768px) {
   .background_features_2 {
     min-height: 1700px;
-    top: 2980px; } }
+    top: 2980px;
+    background-position: 50% 50%; } }
 
 @media screen and (min-width: 992px) {
   .background_features_2 {
@@ -9160,8 +9162,12 @@ table.feature-table {
   height: 736px; }
 
 .parallax-footer_container {
-  top: 7045px; }
+  top: 7020px; }
   @media screen and (min-width: 576px) {
+    .parallax-footer_container {
+      top: 7344px;
+      height: 600px; } }
+  @media screen and (min-width: 768px) {
     .parallax-footer_container {
       top: 4600px; } }
   @media screen and (min-width: 992px) {
@@ -9180,6 +9186,12 @@ table.feature-table {
   top: 471px; }
 
 @media screen and (min-width: 576px) {
+  #shorts {
+    width: 456px;
+    top: 430px;
+    margin-left: -450px; } }
+
+@media screen and (min-width: 768px) {
   #shorts {
     width: 550px;
     height: 343px;
@@ -9201,6 +9213,12 @@ table.feature-table {
 
 @media screen and (min-width: 576px) {
   #peanuts {
+    width: 90px;
+    top: 340px;
+    margin-left: -300px; } }
+
+@media screen and (min-width: 768px) {
+  #peanuts {
     width: 117px;
     height: 169px;
     top: 272.5px;
@@ -9219,6 +9237,12 @@ table.feature-table {
   margin-left: -35px; }
 
 @media screen and (min-width: 576px) {
+  #earphones {
+    width: 200px;
+    top: 530px;
+    margin-left: -70px; } }
+
+@media screen and (min-width: 768px) {
   #earphones {
     width: 260px;
     height: 269px;
@@ -9241,6 +9265,12 @@ table.feature-table {
 @media screen and (min-width: 576px) {
   #macbook {
     width: 585px;
+    top: 250px;
+    margin-right: -620px; } }
+
+@media screen and (min-width: 768px) {
+  #macbook {
+    width: 585px;
     top: 100px;
     margin-right: -780px; } }
 
@@ -9258,6 +9288,12 @@ table.feature-table {
   margin-right: -220px; }
 
 @media screen and (min-width: 576px) {
+  #granola {
+    width: 65px;
+    top: 535px;
+    margin-right: -140px; } }
+
+@media screen and (min-width: 768px) {
   #granola {
     width: 93px;
     height: 85px;
@@ -9278,6 +9314,12 @@ table.feature-table {
   margin-left: -300px; }
 
 @media screen and (min-width: 576px) {
+  #plant-ipad {
+    width: 695px;
+    top: 138px;
+    margin-left: -293px; } }
+
+@media screen and (min-width: 768px) {
   #plant-ipad {
     width: 895px;
     height: 517px;
@@ -9303,6 +9345,13 @@ table.feature-table {
     width: 250px;
     height: 86px;
     top: 220px;
+    margin-right: -150px; } }
+
+@media screen and (min-width: 768px) {
+  #coffee {
+    width: 250px;
+    height: 86px;
+    top: 220px;
     margin-right: -365px; } }
 
 @media screen and (min-width: 992px) {
@@ -9319,6 +9368,10 @@ table.feature-table {
   margin-right: -90px; }
 
 @media screen and (min-width: 576px) {
+  #headphones {
+    margin-right: -640px; } }
+
+@media screen and (min-width: 768px) {
   #headphones {
     width: 240px;
     height: 222px;
@@ -9339,6 +9392,13 @@ table.feature-table {
   top: 280px; }
 
 @media screen and (min-width: 576px) {
+  #cactus {
+    width: 200px;
+    height: 161px;
+    top: 225px;
+    margin-right: -290px; } }
+
+@media screen and (min-width: 768px) {
   #cactus {
     width: 230px;
     height: 161px;

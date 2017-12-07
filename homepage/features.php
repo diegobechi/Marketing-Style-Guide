@@ -10,7 +10,7 @@
 <div class="rc_section__container">
 	<div class="rc_section rc_section--hero rc_text--center">
 		<div class="rc_content">
-			<h1 class="rc_font--regular">Features that <span class="rc_font--bold rc_color_blue">empower</span> your business</h1>
+			<h1>Features that <strong><span class="rc_color_blue">empower</span></strong> your business</h1>
 			<p>Get up and running with subscriptions on your store in under 30 minutes</p>
 			<a href="#" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
@@ -297,7 +297,7 @@
 <div class="rc_section__container">
 	<div class="rc_section rc_section--features-footer rc_text--center">
 		<div class="rc_content">
-			<h3>Supperior customer support</h3>
+			<h3>Superior customer support</h3>
 			<hr class="mini-hr" style="margin-left: auto;">
 			<p>We have a team of customer advocates on standby to support you so that all your questions get an answer, fast.</p>
 		</div>
