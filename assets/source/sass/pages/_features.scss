@@ -2,7 +2,7 @@
 	z-index: 1;
 	&--features{
 		&-overview{
-            margin: 234px auto;
+            margin: 234px auto 180px;
             @media screen and (min-width:768px) {
                 margin: 252px auto 120px;
             }
@@ -96,6 +96,9 @@
                 @media screen and (min-width:992px) {
                     margin: 152px auto 0;
                 }
+                p{
+                    margin-top: 27px;
+                }
 			}
 		}
 		&-footer{
@@ -187,7 +190,7 @@
     z-index: -1;
     position: absolute;
     left: 0;
-    min-height: 2490px;
+    min-height: 2520px;
     background-position-y: -270px;
 }
 
@@ -256,7 +259,7 @@
 }
 
 .parallax-footer_container {
-    top: 6989px;
+    top: 7045px;
     @media screen and (min-width:576px) {
         top: 4600px;
     }

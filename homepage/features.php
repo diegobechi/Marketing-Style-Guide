@@ -35,7 +35,7 @@
 			<h3>We make it easy</h3>
 			<hr class="mini-hr" style="margin-left: auto;">
 			<div class="features-video_container rc_shadow_level5" >
-				<iframe width="558" height="314" src="https://www.youtube.com/embed/ktYcwYUkHGE?rel=0" frameborder="0" gesture="media" allowfullscreen></iframe>
+				<iframe width="558" height="314" src="https://www.youtube.com/embed/ktYcwYUkHGE?rel=0&showinfo=0" frameborder="0" gesture="media" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="rc_layout__container">
