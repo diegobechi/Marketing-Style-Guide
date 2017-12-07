@@ -8956,15 +8956,16 @@ table.feature-table {
 .rc_section {
   z-index: 1; }
   .rc_section--features-overview {
-    margin: 330px 0; }
+    max-width: 1107px;
+    margin: 335px auto 252px; }
     .rc_section--features-overview .features-video {
       max-width: 558px;
       margin: 0 auto; }
     .rc_section--features-overview .features-video_container {
       position: relative;
-      padding-bottom: 56.25%;
+      padding-bottom: 52.25%;
       /* 16:9 */
-      padding-top: 25px;
+      padding-top: 22px;
       height: 0;
       overflow: hidden;
       margin: 36px auto 48px; }
@@ -8977,39 +8978,51 @@ table.feature-table {
     .rc_section--features-overview .features-overview-container {
       margin-top: 48px; }
       .rc_section--features-overview .features-overview-container h4 {
-        margin: 16px 0 12px; }
+        margin: 16px 0 12px;
+        font-size: 18px; }
     .rc_section--features-overview h4 {
-      margin: 16px 0 12px; }
+      margin: 16px 0 12px;
+      font-size: 18px; }
   .rc_section--features-customer-portal {
-    margin: 0; }
+    margin: 0;
+    margin-bottom: 30px; }
     .rc_section--features-customer-portal .rc_content {
-      margin-top: 135px;
-      margin-left: 0; }
+      margin: 152px auto 0; }
+      .rc_section--features-customer-portal .rc_content p {
+        margin-top: 27px;
+        max-width: 359px; }
   .rc_section--features-payment, .rc_section--features-order {
     margin: 72px 0; }
-  .rc_section--features .features-order-container,
-  .rc_section--features .features-payment-container,
-  .rc_section--features .features-merchant-container,
-  .rc_section--features .features-subscriptions-container {
-    margin-top: 20px;
-    margin-bottom: 16px; }
-    .rc_section--features .features-order-container h4,
-    .rc_section--features .features-payment-container h4,
-    .rc_section--features .features-merchant-container h4,
-    .rc_section--features .features-subscriptions-container h4 {
-      margin-bottom: 12px; }
   .rc_section--features-subscriptions, .rc_section--features-merchant {
     margin: 0; }
   .rc_section--features-customized-store {
-    margin: 210px 0 0; }
+    margin: 176px 0 0; }
     .rc_section--features-customized-store .rc_content {
-      margin-top: 135px;
-      margin-left: 0; }
+      margin: 152px auto 0; }
   .rc_section--features-footer {
     margin: 300px 0; }
     .rc_section--features-footer .rc_content {
       max-width: 555px;
       margin: 0 auto; }
+  .rc_section--integrations {
+    margin-top: 100px; }
+    .rc_section--integrations img.img--responsive {
+      max-width: 449px; }
+    .rc_section--integrations .rc_content {
+      padding-top: 90px; }
+  .rc_section .features-order-container,
+  .rc_section .features-payment-container,
+  .rc_section .features-merchant-container,
+  .rc_section .features-subscriptions-container {
+    margin-top: 20px;
+    margin-bottom: 16px;
+    max-width: 328px; }
+    .rc_section .features-order-container h4,
+    .rc_section .features-payment-container h4,
+    .rc_section .features-merchant-container h4,
+    .rc_section .features-subscriptions-container h4 {
+      margin-bottom: 12px;
+      font-size: 18px; }
 
 .background_features_1 {
   background-image: url("../images/features/backgrounds/we-make-it-easy-bg.svg");
@@ -9054,11 +9067,11 @@ table.feature-table {
 
 @media screen and (min-width: 768px) {
   .background_features_2 {
-    min-height: 1880px; } }
+    min-height: 2050px; } }
 
 @media screen and (min-width: 992px) {
   .background_features_2 {
-    top: 3070px; } }
+    top: 3250px; } }
 
 .parallax_image,
 .parallax-footer_image {
@@ -9092,7 +9105,7 @@ table.feature-table {
   height: 736px; }
 
 .parallax-footer_container {
-  top: 4800px; }
+  top: 4933px; }
 
 .parallax-footer_banner {
   height: 742px; }
@@ -9107,15 +9120,15 @@ table.feature-table {
 
 @media screen and (min-width: 576px) {
   #shorts {
-    width: 468px;
+    width: 550px;
     height: 343px;
     top: 360px;
     margin-left: -625px; } }
 
 @media screen and (min-width: 992px) {
   #shorts {
-    top: 371px;
-    margin-left: -846px; } }
+    top: 365px;
+    margin-left: -850px; } }
 
 #peanuts {
   z-index: 2;
@@ -9154,7 +9167,7 @@ table.feature-table {
 @media screen and (min-width: 992px) {
   #earphones {
     top: 495px;
-    margin-left: -395px; } }
+    margin-left: -380px; } }
 
 #macbook {
   z-index: 3;
@@ -9185,7 +9198,7 @@ table.feature-table {
 
 @media screen and (min-width: 576px) {
   #granola {
-    width: 104px;
+    width: 93px;
     height: 85px;
     top: 450px;
     margin-right: -270px; } }

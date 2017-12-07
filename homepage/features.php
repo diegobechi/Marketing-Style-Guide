@@ -91,7 +91,7 @@
 
 <div class="rc_section__container">
 	<div class="rc_section rc_section--features-customer-portal">
-		<div class="rc_layout__container">
+		<div class="">
 			<div class="rc_layout">
 				<div class="rc_layout__md__6 rc_content__container">
 					<div class="rc_content">
@@ -138,7 +138,7 @@
 				<div class="rc_layout__md__4">
 					<div class="features-subscriptions-container">
 						<h4>Swap products</h4>
-						<p>Allow customers to try new products. Customers can easily swap out one subscription product for another with out swap product feature.</p>
+						<p>Allow customers to try new products. Customers can easily swap out one subscription product for another with our swap product feature.</p>
 					</div>
 				</div>
 			</div>
@@ -210,7 +210,7 @@
 
 <div class="rc_section__container">
 	<div class="rc_section rc_section--features-customized-store">
-		<div class="rc_layout__container">
+		<div class="">
 			<div class="rc_layout">
 				<div class="rc_layout__md__6 rc_content__container">
 					<div class="rc_content">
@@ -273,7 +273,7 @@
 
 <div class="rc_section__container">
 	<div class="rc_section rc_section--integrations">
-		<div class="rc_layout__container">
+		<div class="">
 			<div class="rc_layout">
 				<div class="rc_layout__md__6 rc_media__container">
 					<img src="/assets/images/layout/Integrations.png" alt="Integrations graphic" class="img--responsive">
