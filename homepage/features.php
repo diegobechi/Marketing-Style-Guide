@@ -10,7 +10,7 @@
 <div class="rc_section__container">
 	<div class="rc_section rc_section--hero rc_text--center">
 		<div class="rc_content">
-			<h1 class="rc_font--regular">Features that <span class="rc_color_blue">empower</span> your business</h1>
+			<h1 class="rc_font--regular">Features that <span class="rc_font--bold rc_color_blue">empower</span> your business</h1>
 			<p>Get up and running with subscriptions on your store in under 30 minutes</p>
 			<a href="#" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
@@ -31,11 +31,11 @@
 
 <div class="rc_section__container">
 	<div class="rc_section rc_section--features-overview">
-		<div class="rc_text--center">
+		<div class="rc_text--center features-video">
 			<h3>We make it easy</h3>
 			<hr class="mini-hr" style="margin-left: auto;">
-			<div class="features-video rc_shadow_level5" >
-				<iframe width="558" height="314" src="https://www.youtube.com/embed/ktYcwYUkHGE" frameborder="0" gesture="media" allowfullscreen></iframe>
+			<div class="features-video_container rc_shadow_level5" >
+				<iframe width="558" height="314" src="https://www.youtube.com/embed/ktYcwYUkHGE?rel=0" frameborder="0" gesture="media" allowfullscreen></iframe>
 			</div>
 		</div>
 		<div class="rc_layout__container">
@@ -304,12 +304,12 @@
 	</div>
 </div>
 
-<div class="parallax_container parallax_footer" style="display:none;">
-	<div class="parallax_banner">
-		<div id="plant-ipad" class="parallax_image" data-modifier=".1"><img src="/assets/images/features/footer/plant-ipad.png" alt="Plan + Ipad graphic"></div>
-		<div id="coffee" class="parallax_image" data-modifier=".15"><img src="/assets/images/features/footer/coffee.png" alt="Coffeee graphic"></div>
-		<div id="headphones" class="parallax_image" data-modifier=".19"><img src="/assets/images/features/footer/headphones.png" alt="Headphones graphic"></div>
-		<div id="cactus" class="parallax_image" data-modifier=".13"><img src="/assets/images/features/footer/cactus.png" alt="Cactus graphic"></div>
+<div class="parallax-footer_container">
+	<div class="parallax-footer_banner">
+		<div id="plant-ipad" class="parallax-footer_image" data-modifier=".1"><img src="/assets/images/features/footer/plant-ipad.png" alt="Plan + Ipad graphic"></div>
+		<div id="coffee" class="parallax-footer_image" data-modifier=".15"><img src="/assets/images/features/footer/coffee.png" alt="Coffeee graphic"></div>
+		<div id="headphones" class="parallax-footer_image" data-modifier=".19"><img src="/assets/images/features/footer/headphones.png" alt="Headphones graphic"></div>
+		<div id="cactus" class="parallax-footer_image" data-modifier=".13"><img src="/assets/images/features/footer/cactus.png" alt="Cactus graphic"></div>
 	</div>
 </div>
 
