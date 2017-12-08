@@ -123,6 +123,12 @@
             @media screen and (min-width:768px) {
                 min-height: 345px;
             }
+            @media screen and (min-width:992px) {
+                min-height: 390px;
+            }
+            @media screen and (min-width:1200px) {
+                min-height: 508px;
+            }
 			.rc_content{
                 margin: 0 auto;
                 min-height: 239px;
@@ -151,6 +157,9 @@
             }
             @media screen and (min-width:992px) {
                 margin: 120px 0 300px;            
+            }
+            @media screen and (min-width:1200px) {
+                margin: 200px 0 300px;
             }
 			.rc_content{
 				max-width: 555px;
@@ -285,7 +294,7 @@
     .background_features_2 {
         top: 3135px;
         background-position: 50% 50%;
-        min-height: 2050px;   
+        min-height: 2170px;  
     }
 }
 
@@ -340,7 +349,7 @@
         top: 4725px;
     }
     @media screen and (min-width:1200px) {
-        top: 4933px;
+        top: 5230px;
     }
 }
 
