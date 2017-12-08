@@ -9003,13 +9003,15 @@ table.feature-table {
     margin: 0;
     margin-bottom: 30px;
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    min-height: 690px; }
     @media screen and (min-width: 992px) {
       .rc_section--features-customer-portal {
         padding-left: 28px;
         padding-right: 28px; } }
     .rc_section--features-customer-portal .rc_content {
-      margin: 0 auto; }
+      margin: 0 auto;
+      min-height: 239px; }
       @media screen and (min-width: 576px) {
         .rc_section--features-customer-portal .rc_content {
           margin: 0 auto; } }
@@ -9021,7 +9023,8 @@ table.feature-table {
           margin: 135px auto 0; } }
       .rc_section--features-customer-portal .rc_content p {
         margin-top: 27px;
-        max-width: 359px; }
+        max-width: 359px;
+        margin-bottom: 30px; }
   .rc_section--features-payment, .rc_section--features-order {
     margin: 72px 0; }
   .rc_section--features-subscriptions, .rc_section--features-merchant {
@@ -9029,13 +9032,15 @@ table.feature-table {
   .rc_section--features-customized-store {
     margin: 176px 0 0;
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    min-height: 690px; }
     @media screen and (min-width: 992px) {
       .rc_section--features-customized-store {
         padding-left: 28px;
         padding-right: 28px; } }
     .rc_section--features-customized-store .rc_content {
-      margin: 0 auto; }
+      margin: 0 auto;
+      min-height: 239px; }
       @media screen and (min-width: 768px) {
         .rc_section--features-customized-store .rc_content {
           margin: 0 auto; } }
@@ -9061,7 +9066,8 @@ table.feature-table {
   .rc_section--integrations {
     margin-top: 100px;
     padding-left: 0;
-    padding-right: 0; }
+    padding-right: 0;
+    min-height: 710px; }
     @media screen and (min-width: 992px) {
       .rc_section--integrations {
         padding-left: 28px;
@@ -9076,13 +9082,16 @@ table.feature-table {
       @media screen and (min-width: 992px) {
         .rc_section--integrations .rc_content {
           padding-top: 90px; } }
+    .rc_section--integrations .rc_media__container {
+      min-height: 400px; }
   .rc_section .features-order-container,
   .rc_section .features-payment-container,
   .rc_section .features-merchant-container,
   .rc_section .features-subscriptions-container {
     margin-top: 20px;
     margin-bottom: 16px;
-    max-width: 328px; }
+    max-width: 328px;
+    min-height: 160px; }
     .rc_section .features-order-container h4,
     .rc_section .features-payment-container h4,
     .rc_section .features-merchant-container h4,
@@ -9129,8 +9138,8 @@ table.feature-table {
   z-index: -1;
   position: absolute;
   left: 0;
-  min-height: 2520px;
-  background-position-y: -270px; }
+  min-height: 3060px;
+  top: 5430px; }
 
 @media screen and (min-width: 576px) {
   .background_features_2 {
@@ -9187,7 +9196,7 @@ table.feature-table {
   height: 736px; }
 
 .parallax-footer_container {
-  top: 7020px; }
+  top: 8415px; }
   @media screen and (min-width: 576px) {
     .parallax-footer_container {
       top: 7344px;
@@ -9452,35 +9461,30 @@ table.feature-table {
 
 #cactus {
   z-index: 4;
-  right: 50%;
   width: 203px;
   height: 161px;
-  margin-right: -195px;
+  right: 0;
   top: 280px; }
 
 @media screen and (min-width: 576px) {
   #cactus {
     width: 200px;
     height: 161px;
-    top: 225px;
-    margin-right: -290px; } }
+    top: 225px; } }
 
 @media screen and (min-width: 768px) {
   #cactus {
     width: 230px;
     height: 161px;
-    top: 285px;
-    margin-right: -385px; } }
+    top: 285px; } }
 
 @media screen and (min-width: 992px) {
   #cactus {
-    top: 500px;
-    margin-right: -500px; } }
+    top: 500px; } }
 
 @media screen and (min-width: 1200px) {
   #cactus {
-    top: 222px;
-    margin-right: -721px; } }
+    top: 222px; } }
 
 .page__partners .rc_section {
   margin: 95px 0; }
