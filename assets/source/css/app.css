@@ -9009,6 +9009,9 @@ table.feature-table {
       .rc_section--features-customer-portal {
         padding-left: 28px;
         padding-right: 28px; } }
+    @media screen and (min-width: 576px) {
+      .rc_section--features-customer-portal {
+        min-height: 850px; } }
     .rc_section--features-customer-portal .rc_content {
       margin: 0 auto;
       min-height: 239px; }
@@ -9038,6 +9041,9 @@ table.feature-table {
       .rc_section--features-customized-store {
         padding-left: 28px;
         padding-right: 28px; } }
+    @media screen and (min-width: 576px) {
+      .rc_section--features-customized-store {
+        min-height: 850px; } }
     .rc_section--features-customized-store .rc_content {
       margin: 0 auto;
       min-height: 239px; }
@@ -9053,7 +9059,11 @@ table.feature-table {
       .rc_section--features-customized-store .rc_content p {
         margin-top: 27px; }
   .rc_section--features-footer {
-    margin: 150px 0 250px; }
+    margin: 150px 0 250px;
+    min-height: 195px; }
+    @media screen and (min-width: 576px) {
+      .rc_section--features-footer {
+        min-height: 113px; } }
     @media screen and (min-width: 768px) {
       .rc_section--features-footer {
         margin: 190px 0 260px; } }
@@ -9092,6 +9102,12 @@ table.feature-table {
     margin-bottom: 16px;
     max-width: 328px;
     min-height: 160px; }
+    @media screen and (min-width: 576px) {
+      .rc_section .features-order-container,
+      .rc_section .features-payment-container,
+      .rc_section .features-merchant-container,
+      .rc_section .features-subscriptions-container {
+        min-height: 136px; } }
     .rc_section .features-order-container h4,
     .rc_section .features-payment-container h4,
     .rc_section .features-merchant-container h4,
@@ -9143,9 +9159,8 @@ table.feature-table {
 
 @media screen and (min-width: 576px) {
   .background_features_2 {
-    background-position: 84% 50%;
-    top: 4700px;
-    min-height: 2900px; } }
+    top: 5130px;
+    min-height: 3120px; } }
 
 @media screen and (min-width: 768px) {
   .background_features_2 {
@@ -9196,11 +9211,11 @@ table.feature-table {
   height: 736px; }
 
 .parallax-footer_container {
-  top: 8415px; }
+  top: 8460px; }
   @media screen and (min-width: 576px) {
     .parallax-footer_container {
-      top: 7344px;
-      height: 600px; } }
+      top: 8133px;
+      height: 900px; } }
   @media screen and (min-width: 768px) {
     .parallax-footer_container {
       top: 4620px;
@@ -9365,36 +9380,33 @@ table.feature-table {
 
 #plant-ipad {
   z-index: 4;
-  left: 50%;
+  left: 0;
   width: 29px;
   height: 21.5px;
   top: 452px;
-  margin-left: -300px; }
+  display: none; }
 
 @media screen and (min-width: 576px) {
   #plant-ipad {
     width: 695px;
-    top: 138px;
-    margin-left: -293px; } }
+    top: 170px;
+    display: block; } }
 
 @media screen and (min-width: 768px) {
   #plant-ipad {
     width: 895px;
     height: 517px;
-    top: 140px;
-    margin-left: -400px; } }
+    top: 140px; } }
 
 @media screen and (min-width: 992px) {
   #plant-ipad {
     width: 1240px;
-    top: 300px;
-    margin-left: -520px; } }
+    top: 300px; } }
 
 @media screen and (min-width: 1200px) {
   #plant-ipad {
     width: 1440px;
-    top: 9px;
-    margin-left: -721px; } }
+    top: 9px; } }
 
 #coffee {
   z-index: 4;
@@ -9438,7 +9450,8 @@ table.feature-table {
 
 @media screen and (min-width: 576px) {
   #headphones {
-    margin-right: -640px; } }
+    margin-right: -320px;
+    top: 65px; } }
 
 @media screen and (min-width: 768px) {
   #headphones {
@@ -9470,7 +9483,7 @@ table.feature-table {
   #cactus {
     width: 200px;
     height: 161px;
-    top: 225px; } }
+    top: 240px; } }
 
 @media screen and (min-width: 768px) {
   #cactus {

@@ -67,6 +67,9 @@
                 padding-left: 28px;
                 padding-right: 28px;
             }
+            @media screen and (min-width:576px) {
+                min-height: 850px;
+            }
 
 			.rc_content{
                 margin: 0 auto;
@@ -106,6 +109,9 @@
                 padding-left: 28px;
                 padding-right: 28px;
             }
+            @media screen and (min-width:576px) {
+                min-height: 850px;
+            }
 			.rc_content{
                 margin: 0 auto;
                 min-height: 239px;
@@ -125,6 +131,10 @@
 		}
 		&-footer{
             margin: 150px 0 250px;
+            min-height: 195px;
+            @media screen and (min-width:576px){
+                min-height: 113px;
+            }
             @media screen and (min-width:768px){
                 margin: 190px 0 260px;
             }
@@ -171,6 +181,9 @@
         margin-bottom: 16px;
         max-width: 328px;
         min-height: 160px;
+        @media screen and (min-width:576px) {
+            min-height: 136px;
+        }
         h4{
             margin-bottom: 12px;
             font-size: 18px;
@@ -230,9 +243,8 @@
 
 @media screen and (min-width:576px) {
     .background_features_2 {
-        background-position: 84% 50%;
-        top: 4700px;
-        min-height: 2900px
+        top: 5130px;
+        min-height: 3120px;
     }
 }
 @media screen and (min-width:768px) {
@@ -297,10 +309,10 @@
 }
 
 .parallax-footer_container {
-    top: 8415px;
+    top: 8460px;
     @media screen and (min-width:576px){
-        top: 7344px;
-        height: 600px;
+        top: 8133px;
+        height: 900px;
     }
     @media screen and (min-width:768px) {
         top: 4620px;
@@ -494,17 +506,17 @@
 
 #plant-ipad {
     z-index: 4;
-    left: 50%;
+    left: 0;
     width: 29px;
     height: 21.5px;
     top: 452px;
-    margin-left: -300px;
+    display: none;
 }
 @media screen and (min-width:576px){
     #plant-ipad {
         width: 695px;
-        top: 138px;
-        margin-left: -293px;
+        top: 170px;
+        display: block;
     }
 }
 @media screen and (min-width:768px) {
@@ -512,21 +524,18 @@
         width: 895px;
         height: 517px;
         top: 140px;
-        margin-left: -400px;
     }
 }
 @media screen and (min-width:992px) {
     #plant-ipad {
         width: 1240px;
         top: 300px;
-        margin-left: -520px;
     }
 }
 @media screen and (min-width:1200px) {
     #plant-ipad {
         width: 1440px;
         top: 9px;
-        margin-left: -721px;
     }
 }
 
@@ -577,7 +586,8 @@
 }
 @media screen and (min-width:576px) {
     #headphones {
-        margin-right: -640px;
+        margin-right: -320px;
+        top: 65px;
     }
 }
 @media screen and (min-width:768px) {
@@ -614,7 +624,7 @@
     #cactus {
         width: 200px;
         height: 161px;
-        top: 225px;
+        top: 240px;
     }
 }
 @media screen and (min-width:768px) {
