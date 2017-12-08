@@ -70,7 +70,15 @@
             @media screen and (min-width:576px) {
                 min-height: 850px;
             }
-
+            @media screen and (min-width:768px) {
+                min-height: 383px;
+            }
+            @media screen and (min-width:992px) {
+                min-height: 435px;
+            }
+            @media screen and (min-width:1200px) {
+                min-height: 568px;
+            }
 			.rc_content{
                 margin: 0 auto;
                 min-height: 239px;
@@ -112,6 +120,9 @@
             @media screen and (min-width:576px) {
                 min-height: 850px;
             }
+            @media screen and (min-width:768px) {
+                min-height: 345px;
+            }
 			.rc_content{
                 margin: 0 auto;
                 min-height: 239px;
@@ -136,10 +147,10 @@
                 min-height: 113px;
             }
             @media screen and (min-width:768px){
-                margin: 190px 0 260px;
+                margin: 60px 0 260px;
             }
             @media screen and (min-width:992px) {
-                margin: 300px 0;            
+                margin: 120px 0 300px;            
             }
 			.rc_content{
 				max-width: 555px;
@@ -157,6 +168,10 @@
             padding-right: 28px;
         }
 
+        @media screen and (min-width:768px) {
+            min-height: 472px;
+            margin-bottom: 0;
+        }
         img.img--responsive{
             max-width: 449px;
         }
@@ -183,6 +198,12 @@
         min-height: 160px;
         @media screen and (min-width:576px) {
             min-height: 136px;
+        }
+        @media screen and (min-width:768px) {
+            min-height: 186px;
+        }
+        @media screen and (min-width:992px) {
+            min-height: 160px;
         }
         h4{
             margin-bottom: 12px;
@@ -249,15 +270,14 @@
 }
 @media screen and (min-width:768px) {
     .background_features_2 {
-        min-height: 1670px;
-        top: 3100px;
+        min-height: 1700px;
+        top: 3250px;
         background-position: 40% 50%;
     }
 }
 @media screen and (min-width:992px) {
     .background_features_2 {
-        top: 3100px;
-        min-height: 1700px;     
+        top: 3330px;   
     }
 }
 
@@ -276,7 +296,6 @@
 .parallax-footer_image{
     position: absolute
 }
-
 
 .parallax_image img, 
 .parallax-footer_image img {
@@ -315,11 +334,10 @@
         height: 900px;
     }
     @media screen and (min-width:768px) {
-        top: 4620px;
-        height: 900px;
+        top: 4800px;
     }
     @media screen and (min-width:992px) {
-        top: 4535px;
+        top: 4725px;
     }
     @media screen and (min-width:1200px) {
         top: 4933px;
@@ -565,8 +583,8 @@
 }
 @media screen and (min-width:992px) {
     #coffee {
-        top: 560px;
-        margin-right: -200px;
+        top: 480px;
+        margin-right: -300px;
     }
 }
 @media screen and (min-width:1200px) {
@@ -600,9 +618,9 @@
 }
 @media screen and (min-width:992px) {
     #headphones {
-        top: 210px;
-        margin-right: -426px;
-        width: 300px;
+        top: 250px;
+        margin-right: -500px;
+        width: 270px;
     }
 }
 @media screen and (min-width:1200px) {
@@ -631,12 +649,12 @@
     #cactus {
         width: 230px;
         height: 161px;
-        top: 285px;
+        top: 243px;
     }
 }
 @media screen and (min-width:992px) {
     #cactus {
-        top: 500px;
+        top: 410px;
     }
 }
 @media screen and (min-width:1200px) {

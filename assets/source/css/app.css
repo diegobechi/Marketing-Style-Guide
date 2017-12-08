@@ -9012,6 +9012,15 @@ table.feature-table {
     @media screen and (min-width: 576px) {
       .rc_section--features-customer-portal {
         min-height: 850px; } }
+    @media screen and (min-width: 768px) {
+      .rc_section--features-customer-portal {
+        min-height: 383px; } }
+    @media screen and (min-width: 992px) {
+      .rc_section--features-customer-portal {
+        min-height: 435px; } }
+    @media screen and (min-width: 1200px) {
+      .rc_section--features-customer-portal {
+        min-height: 568px; } }
     .rc_section--features-customer-portal .rc_content {
       margin: 0 auto;
       min-height: 239px; }
@@ -9044,6 +9053,9 @@ table.feature-table {
     @media screen and (min-width: 576px) {
       .rc_section--features-customized-store {
         min-height: 850px; } }
+    @media screen and (min-width: 768px) {
+      .rc_section--features-customized-store {
+        min-height: 345px; } }
     .rc_section--features-customized-store .rc_content {
       margin: 0 auto;
       min-height: 239px; }
@@ -9066,10 +9078,10 @@ table.feature-table {
         min-height: 113px; } }
     @media screen and (min-width: 768px) {
       .rc_section--features-footer {
-        margin: 190px 0 260px; } }
+        margin: 60px 0 260px; } }
     @media screen and (min-width: 992px) {
       .rc_section--features-footer {
-        margin: 300px 0; } }
+        margin: 120px 0 300px; } }
     .rc_section--features-footer .rc_content {
       max-width: 555px;
       margin: 0 auto; }
@@ -9082,6 +9094,10 @@ table.feature-table {
       .rc_section--integrations {
         padding-left: 28px;
         padding-right: 28px; } }
+    @media screen and (min-width: 768px) {
+      .rc_section--integrations {
+        min-height: 472px;
+        margin-bottom: 0; } }
     .rc_section--integrations img.img--responsive {
       max-width: 449px; }
     .rc_section--integrations .rc_content {
@@ -9108,6 +9124,18 @@ table.feature-table {
       .rc_section .features-merchant-container,
       .rc_section .features-subscriptions-container {
         min-height: 136px; } }
+    @media screen and (min-width: 768px) {
+      .rc_section .features-order-container,
+      .rc_section .features-payment-container,
+      .rc_section .features-merchant-container,
+      .rc_section .features-subscriptions-container {
+        min-height: 186px; } }
+    @media screen and (min-width: 992px) {
+      .rc_section .features-order-container,
+      .rc_section .features-payment-container,
+      .rc_section .features-merchant-container,
+      .rc_section .features-subscriptions-container {
+        min-height: 160px; } }
     .rc_section .features-order-container h4,
     .rc_section .features-payment-container h4,
     .rc_section .features-merchant-container h4,
@@ -9164,14 +9192,13 @@ table.feature-table {
 
 @media screen and (min-width: 768px) {
   .background_features_2 {
-    min-height: 1670px;
-    top: 3100px;
+    min-height: 1700px;
+    top: 3250px;
     background-position: 40% 50%; } }
 
 @media screen and (min-width: 992px) {
   .background_features_2 {
-    top: 3100px;
-    min-height: 1700px; } }
+    top: 3330px; } }
 
 @media screen and (min-width: 1200px) {
   .background_features_2 {
@@ -9218,11 +9245,10 @@ table.feature-table {
       height: 900px; } }
   @media screen and (min-width: 768px) {
     .parallax-footer_container {
-      top: 4620px;
-      height: 900px; } }
+      top: 4800px; } }
   @media screen and (min-width: 992px) {
     .parallax-footer_container {
-      top: 4535px; } }
+      top: 4725px; } }
   @media screen and (min-width: 1200px) {
     .parallax-footer_container {
       top: 4933px; } }
@@ -9432,8 +9458,8 @@ table.feature-table {
 
 @media screen and (min-width: 992px) {
   #coffee {
-    top: 560px;
-    margin-right: -200px; } }
+    top: 480px;
+    margin-right: -300px; } }
 
 @media screen and (min-width: 1200px) {
   #coffee {
@@ -9462,9 +9488,9 @@ table.feature-table {
 
 @media screen and (min-width: 992px) {
   #headphones {
-    top: 210px;
-    margin-right: -426px;
-    width: 300px; } }
+    top: 250px;
+    margin-right: -500px;
+    width: 270px; } }
 
 @media screen and (min-width: 1200px) {
   #headphones {
@@ -9489,11 +9515,11 @@ table.feature-table {
   #cactus {
     width: 230px;
     height: 161px;
-    top: 285px; } }
+    top: 243px; } }
 
 @media screen and (min-width: 992px) {
   #cactus {
-    top: 500px; } }
+    top: 410px; } }
 
 @media screen and (min-width: 1200px) {
   #cactus {
