@@ -32,7 +32,7 @@
 <div class="rc_section__container">
 	<div class="rc_section rc_section--features-overview">
 		<div class="rc_text--center features-video">
-			<h3>We make it easy</h3>
+			<h3>Subscriptions made easy</h3>
 			<hr class="mini-hr" style="margin-left: auto;">
 			<div class="features-video_container rc_shadow_level5" >
 				<iframe width="558" height="314" src="https://www.youtube.com/embed/ktYcwYUkHGE?rel=0&showinfo=0" frameborder="0" gesture="media" allowfullscreen></iframe>
@@ -284,7 +284,7 @@
 							<span>Partners</span>
 							<hr class="mini-hr">
 						</div>
-						<h3>We integrate with the best-of-breed apps</h3>
+						<h3>We integrate with the <span class="rc_text--nowrap">best-of-breed</span> apps</h3>
 						<p>Create custom workflows to solve complex subscription needs</p>
 						<p><a href="#" class="rc_link">View all integrations</a></p>
 					</div>

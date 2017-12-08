@@ -8965,12 +8965,15 @@ table.feature-table {
         margin: 335px auto 252px; } }
     .rc_section--features-overview .features-video {
       max-width: 558px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      min-height: 382px; }
+      @media screen and (min-width: 576px) {
+        .rc_section--features-overview .features-video {
+          min-height: 405px; } }
     .rc_section--features-overview .features-video_container {
       position: relative;
-      padding-bottom: 52.25%;
-      /* 16:9 */
-      padding-top: 22px;
+      padding-bottom: 56%;
+      padding-top: 0;
       height: 0;
       overflow: hidden;
       margin: 36px auto 48px; }
@@ -8982,7 +8985,14 @@ table.feature-table {
       height: 100%; }
     .rc_section--features-overview .features-overview-container {
       margin-top: 48px;
-      max-width: 328px; }
+      max-width: 328px;
+      min-height: 198px; }
+      @media screen and (min-width: 576px) {
+        .rc_section--features-overview .features-overview-container {
+          min-height: 148px; } }
+      @media screen and (min-width: 768px) {
+        .rc_section--features-overview .features-overview-container {
+          min-height: 222px; } }
       .rc_section--features-overview .features-overview-container h4 {
         margin: 16px 0 12px;
         font-size: 18px; }
@@ -9084,11 +9094,11 @@ table.feature-table {
   background-image: url("../images/features/backgrounds/we-make-it-easy-bg.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 23% 50%;
+  background-position: 30% 50%;
   width: 100%;
   z-index: -1;
   position: absolute;
-  min-height: 2110px;
+  min-height: 2410px;
   top: 250px;
   left: 0; }
 
@@ -9107,7 +9117,7 @@ table.feature-table {
 @media screen and (min-width: 992px) {
   .background_features_1 {
     background-position: 50% 50%;
-    min-height: 1400px;
+    min-height: 1470px;
     top: 410px; } }
 
 .background_features_2 {
@@ -9225,38 +9235,33 @@ table.feature-table {
 @media screen and (min-width: 1200px) {
   #shorts {
     top: 365px;
-    margin-left: -850px; } }
+    margin-left: -750px; } }
 
 #peanuts {
   z-index: 2;
-  left: 50%;
   width: 65px;
   height: 114px;
-  margin-left: -195px;
+  left: 0;
   top: 395px; }
 
 @media screen and (min-width: 576px) {
   #peanuts {
     width: 90px;
-    top: 340px;
-    margin-left: -300px; } }
+    top: 340px; } }
 
 @media screen and (min-width: 768px) {
   #peanuts {
     width: 117px;
     height: 169px;
-    top: 310px;
-    margin-left: -397px; } }
+    top: 310px; } }
 
 @media screen and (min-width: 992px) {
   #peanuts {
-    margin-left: -500px;
     top: 254px; } }
 
 @media screen and (min-width: 1200px) {
   #peanuts {
-    margin-left: -720px;
-    top: 310px; } }
+    top: 360px; } }
 
 #earphones {
   z-index: 3;
@@ -9286,7 +9291,7 @@ table.feature-table {
 
 @media screen and (min-width: 1200px) {
   #earphones {
-    margin-left: -380px; } }
+    margin-left: -260px; } }
 
 #macbook {
   z-index: 3;
@@ -9316,7 +9321,7 @@ table.feature-table {
 @media screen and (min-width: 1200px) {
   #macbook {
     top: 16px;
-    margin-right: -1002px; } }
+    margin-right: -902px; } }
 
 #granola {
   z-index: 4;
@@ -9347,7 +9352,7 @@ table.feature-table {
 @media screen and (min-width: 1200px) {
   #granola {
     top: 327px;
-    margin-right: -475px; } }
+    margin-right: -375px; } }
 
 #plant-ipad {
   z-index: 4;
