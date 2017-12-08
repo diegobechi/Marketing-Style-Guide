@@ -317,7 +317,7 @@
 	<div class="rc_section rc_section--final rc_text--center background_2">
 		<div class="rc_content">
 			<h4>Ready to get started?</h4>
-			<p>Grounds and redeye strong dripper grinder fair trade. So trifecta barista a robust siphon ut aroma spoon cinnamon seasonal.</p>
+			<p>Get started with the subscription platform trusted by over 1 million subscribers across the world.</p>
 			<a href="#" class="rc_button rc_button_secondary">Book demo</a>
 			<a href="#" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
