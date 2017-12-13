@@ -167,7 +167,27 @@
 			}
 		}
 	}
-    &--integrations{
+    &--features-integrations{
+        .rc_content {
+            max-width: 460px;
+
+            @media screen and (min-width: $screen-sm-min) {
+                padding-top: 76px;
+            }
+        }
+
+        h3 {
+            margin-top: 23px;
+            line-height: 36px;
+            margin-bottom: 14px;
+        }
+
+        img.img--responsive {
+            width: 100%;
+            max-width: 424px;
+            height: auto;
+        }
+
         margin-top: 100px;
         padding-left: 0;
         padding-right: 0;

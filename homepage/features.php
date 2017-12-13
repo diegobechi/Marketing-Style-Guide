@@ -272,7 +272,7 @@
 </div>
 
 <div class="rc_section__container">
-	<div class="rc_section rc_section--integrations">
+	<div class="rc_section rc_section--features-integrations">
 		<div class="">
 			<div class="rc_layout">
 				<div class="rc_layout__md__6 rc_media__container">

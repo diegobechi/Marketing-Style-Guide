@@ -9094,30 +9094,43 @@ table.feature-table {
     .rc_section--features-footer .rc_content {
       max-width: 555px;
       margin: 0 auto; }
-  .rc_section--integrations {
+  .rc_section--features-integrations {
     margin-top: 100px;
     padding-left: 0;
     padding-right: 0;
     min-height: 710px; }
+    .rc_section--features-integrations .rc_content {
+      max-width: 460px; }
+      @media screen and (min-width: 576px) {
+        .rc_section--features-integrations .rc_content {
+          padding-top: 76px; } }
+    .rc_section--features-integrations h3 {
+      margin-top: 23px;
+      line-height: 36px;
+      margin-bottom: 14px; }
+    .rc_section--features-integrations img.img--responsive {
+      width: 100%;
+      max-width: 424px;
+      height: auto; }
     @media screen and (min-width: 992px) {
-      .rc_section--integrations {
+      .rc_section--features-integrations {
         padding-left: 28px;
         padding-right: 28px; } }
     @media screen and (min-width: 768px) {
-      .rc_section--integrations {
+      .rc_section--features-integrations {
         min-height: 472px;
         margin-bottom: 0; } }
-    .rc_section--integrations img.img--responsive {
+    .rc_section--features-integrations img.img--responsive {
       max-width: 449px; }
-    .rc_section--integrations .rc_content {
+    .rc_section--features-integrations .rc_content {
       padding-top: 0; }
       @media screen and (min-width: 768px) {
-        .rc_section--integrations .rc_content {
+        .rc_section--features-integrations .rc_content {
           padding-top: 30px; } }
       @media screen and (min-width: 992px) {
-        .rc_section--integrations .rc_content {
+        .rc_section--features-integrations .rc_content {
           padding-top: 90px; } }
-    .rc_section--integrations .rc_media__container {
+    .rc_section--features-integrations .rc_media__container {
       min-height: 400px; }
   .rc_section .features-order-container,
   .rc_section .features-payment-container,
