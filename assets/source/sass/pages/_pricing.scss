@@ -1,0 +1,184 @@
+.rc_section--pricing_plans{
+	margin: 0;
+	padding: 0;
+}
+
+.rc_pricing{
+	&__hero{
+		background-image: url('../images/pricing/pricing_hero_bg.svg');
+		background-repeat: no-repeat;
+		background-position: 0 0;
+	
+		.rc_content{
+			margin: 0 auto;
+    		padding: 49px 0;
+    		color: $color-white;
+    		span{
+    			font-weight: 800;
+    		}
+    		p{
+    			max-width: 558px;
+    		}
+		}
+		.rc_section--hero{
+			margin: 0;
+			min-height: 660px;
+		}
+	}
+	
+	&__plan{
+		max-width: 459px;
+		margin: 48px auto;
+
+		&__container{
+		    max-width: 979px;
+    		margin: 0 auto !important;
+		}
+		&_header{
+			padding: 26px 0 36px;
+			span{
+				text-transform: uppercase;
+				font-size: $font-size-extra-small;
+			}
+			div{
+				border-radius: 14.5px;
+				width: 185px;
+				margin: 0 auto;
+				p{
+					font-size: $font-size-small;
+					line-height: 36px;
+				}
+			}
+		}
+
+		&_body{
+			padding: 26px 0 36px;
+			p{
+				font-weight: $font-semibold;
+				line-height: 36px;
+			}
+			h4{
+				margin: 4px 0 44px;
+				font-size: 28px;
+				font-weight: $font-semibold;
+				line-height: 36px;
+			}
+			ul{
+				margin: 0 28px;
+				@media screen and (min-width: $screen-xs-max) {
+					margin: 0 auto;
+				}
+				li{
+					line-height: 30px;
+					font-size: $font-size-small;
+					&:before{
+						font-family: "Fontawesome";
+						content: "\f00c";
+						margin-right: 10px;
+					}
+				}
+			}
+			button{
+				margin-top: 45px;
+			}
+		}
+
+		&--regular{
+			background-color: $color-white;
+
+			.rc_pricing__plan_header{
+				background-color: #F5F5F5;
+				color: $color-blue;
+				div{
+					background-color: $color-white;
+				}
+			}
+			.rc_pricing__plan_body{
+				h4{
+					color: $color-blue;
+				}
+				ul{
+					max-width: 286px;
+					li{
+						&:before{
+							color: $color-blue;
+						}
+					}
+				}
+			}
+		}
+		&--pro{
+			background-color: #022034;
+			color: $color-white;
+
+			.rc_pricing__plan_header{
+				background-color: $color-black;
+				color: $color-green;
+				div{
+					background-color: rgba(255, 255, 255, 0.05);
+				}
+			}
+			.rc_pricing__plan_body{
+				h4{
+					color: $color-green;
+				}
+				ul{
+					max-width: 215px;
+					li{
+						&:before{
+							color: $color-green;
+						}
+					}
+				}
+				button{
+					background-color: $color-green;
+					border: 0;
+					color: $color-white;
+				}
+			}
+		}
+	}
+	
+	&_faqs{
+		margin: 0 auto;
+		max-width: 947px;
+		width: 100%;
+		padding: 56px 0 78px;
+
+		h2{
+			text-align: center;
+		}
+		
+		.card{
+			margin: 25px 0;
+			padding: 20px 25px;
+			background-color: $color-white;
+			&-header{
+				line-height: 36px;
+				h5{
+					margin: 0;
+				}
+				a{
+					float: right;
+					background-color: $color-grey-silver;
+					border-radius: 50%;
+					width: 36px;
+					text-align: center;
+				}
+				span:before{
+					font-family: "Fontawesome";
+					font-weight: $font-thin;
+					font-size: $font-size-extra-small;
+					content: "\f068";
+					color: $color-grey-medium;	
+				}
+				a.collapsed span:before{
+					content: "\f067";
+				}
+			}
+			&-body{
+
+			}
+		}
+	}
+}

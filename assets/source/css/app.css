@@ -9758,3 +9758,127 @@ table.feature-table {
 .rc_section--contact-form {
   background: #53BAD3 url(/assets/images/partners/skyline.png) no-repeat bottom;
   background-size: contain; }
+
+.rc_section--pricing_plans {
+  margin: 0;
+  padding: 0; }
+
+.rc_pricing__hero {
+  background-image: url("../images/pricing/pricing_hero_bg.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0; }
+  .rc_pricing__hero .rc_content {
+    margin: 0 auto;
+    padding: 49px 0;
+    color: #FFFFFF; }
+    .rc_pricing__hero .rc_content span {
+      font-weight: 800; }
+    .rc_pricing__hero .rc_content p {
+      max-width: 558px; }
+  .rc_pricing__hero .rc_section--hero {
+    margin: 0;
+    min-height: 660px; }
+
+.rc_pricing__plan {
+  max-width: 459px;
+  margin: 48px auto; }
+  .rc_pricing__plan__container {
+    max-width: 979px;
+    margin: 0 auto !important; }
+  .rc_pricing__plan_header {
+    padding: 26px 0 36px; }
+    .rc_pricing__plan_header span {
+      text-transform: uppercase;
+      font-size: 12px; }
+    .rc_pricing__plan_header div {
+      border-radius: 14.5px;
+      width: 185px;
+      margin: 0 auto; }
+      .rc_pricing__plan_header div p {
+        font-size: 14px;
+        line-height: 36px; }
+  .rc_pricing__plan_body {
+    padding: 26px 0 36px; }
+    .rc_pricing__plan_body p {
+      font-weight: 600;
+      line-height: 36px; }
+    .rc_pricing__plan_body h4 {
+      margin: 4px 0 44px;
+      font-size: 28px;
+      font-weight: 600;
+      line-height: 36px; }
+    .rc_pricing__plan_body ul {
+      margin: 0 28px; }
+      @media screen and (min-width: 575px) {
+        .rc_pricing__plan_body ul {
+          margin: 0 auto; } }
+      .rc_pricing__plan_body ul li {
+        line-height: 30px;
+        font-size: 14px; }
+        .rc_pricing__plan_body ul li:before {
+          font-family: "Fontawesome";
+          content: "\f00c";
+          margin-right: 10px; }
+    .rc_pricing__plan_body button {
+      margin-top: 45px; }
+  .rc_pricing__plan--regular {
+    background-color: #FFFFFF; }
+    .rc_pricing__plan--regular .rc_pricing__plan_header {
+      background-color: #F5F5F5;
+      color: #53BAD3; }
+      .rc_pricing__plan--regular .rc_pricing__plan_header div {
+        background-color: #FFFFFF; }
+    .rc_pricing__plan--regular .rc_pricing__plan_body h4 {
+      color: #53BAD3; }
+    .rc_pricing__plan--regular .rc_pricing__plan_body ul {
+      max-width: 286px; }
+      .rc_pricing__plan--regular .rc_pricing__plan_body ul li:before {
+        color: #53BAD3; }
+  .rc_pricing__plan--pro {
+    background-color: #022034;
+    color: #FFFFFF; }
+    .rc_pricing__plan--pro .rc_pricing__plan_header {
+      background-color: #000000;
+      color: #4DD6B7; }
+      .rc_pricing__plan--pro .rc_pricing__plan_header div {
+        background-color: rgba(255, 255, 255, 0.05); }
+    .rc_pricing__plan--pro .rc_pricing__plan_body h4 {
+      color: #4DD6B7; }
+    .rc_pricing__plan--pro .rc_pricing__plan_body ul {
+      max-width: 215px; }
+      .rc_pricing__plan--pro .rc_pricing__plan_body ul li:before {
+        color: #4DD6B7; }
+    .rc_pricing__plan--pro .rc_pricing__plan_body button {
+      background-color: #4DD6B7;
+      border: 0;
+      color: #FFFFFF; }
+
+.rc_pricing_faqs {
+  margin: 0 auto;
+  max-width: 947px;
+  width: 100%;
+  padding: 56px 0 78px; }
+  .rc_pricing_faqs h2 {
+    text-align: center; }
+  .rc_pricing_faqs .card {
+    margin: 25px 0;
+    padding: 20px 25px;
+    background-color: #FFFFFF; }
+    .rc_pricing_faqs .card-header {
+      line-height: 36px; }
+      .rc_pricing_faqs .card-header h5 {
+        margin: 0; }
+      .rc_pricing_faqs .card-header a {
+        float: right;
+        background-color: #EEEEEE;
+        border-radius: 50%;
+        width: 36px;
+        text-align: center; }
+      .rc_pricing_faqs .card-header span:before {
+        font-family: "Fontawesome";
+        font-weight: 100;
+        font-size: 12px;
+        content: "\f068";
+        color: #8E8F8E; }
+      .rc_pricing_faqs .card-header a.collapsed span:before {
+        content: "\f067"; }
