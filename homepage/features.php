@@ -12,7 +12,7 @@
 		<div class="rc_content">
 			<h1>Features that <strong><span class="rc_color_blue">empower</span></strong> your business</h1>
 			<p>Get up and running with subscriptions on your store in under 30 minutes</p>
-			<a href="#" class="rc_button rc_button_primary">Sign up free</a>
+			<a href="https://www.shopifysubscriptions.com/app/install?utm_source=homepage&utm_medium=button&utm_campaign=newfeatures" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
 	</div>
 </div>
@@ -130,7 +130,7 @@
 				<div class="rc_layout__md__4">
 					<div class="features-subscriptions-container">
 						<h4>Skip or reschedule deliveries</h4>
-						<p>Prevent customers from cncelling by providing them control to optionally set delivery options.</p>
+						<p>Prevent customers from cancelling by providing them control to optionally set delivery options.</p>
 					</div>
 				</div>
 			</div>
@@ -249,7 +249,7 @@
 				<div class="rc_layout__md__4">
 					<div class="features-merchant-container">
 						<h4>Decrease churn</h4>
-						<p>Our customer retention feature lets your customers select a reason for cancellating their subscription so you cn offer a custom incentive to continue their subscription.</p>
+						<p>Our customer retention feature lets your customers select a reason for cancellating their subscription so you can offer a custom incentive to continue their subscription.</p>
 					</div>
 				</div>
 			</div>
@@ -318,8 +318,7 @@
 		<div class="rc_content">
 			<h4>Ready to get started?</h4>
 			<p>Get started with the subscription platform trusted by over 1 million subscribers across the world.</p>
-			<a href="#" class="rc_button rc_button_secondary">Book demo</a>
-			<a href="#" class="rc_button rc_button_primary">Sign up free</a>
+			<a href="https://www.shopifysubscriptions.com/app/install?utm_source=homepage&utm_medium=button&utm_campaign=newfeatures" class="rc_button rc_button_primary">Sign up free</a>
 		</div>
 	</div>
 </div>
