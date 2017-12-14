@@ -81,7 +81,7 @@ $page_active = 'pricing';
 					</div>
 					<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#rc_pricing_faqs_list">
 						<div class="card-body">
-							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							<p>ReCharge has a base fee of $19.99 per month plus 1% on recurring orders only. We do not ever charge you on non-recurring products. The 1% fee for ReCharge is only based on what was charged for the product itself, without shipping or taxes. You will also want to keep in mind that the payment processor (Stripe or Braintree) also carries a fee 2.9% + $0.30 per transaction.You do not get charged the Shopify payments fee of 2.9% + 0.30 that you would normally incur for non-recurring items.</p>
 						</div>
 					</div>
 				</div>

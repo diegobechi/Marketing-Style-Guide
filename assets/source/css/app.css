@@ -9765,7 +9765,13 @@ table.feature-table {
 .rc_section--pricing_plans {
   margin: 0;
   padding: 0;
-  margin-top: -450px; }
+  margin-top: -350px; }
+  @media screen and (min-width: 576px) {
+    .rc_section--pricing_plans {
+      margin-top: -400px; } }
+  @media screen and (min-width: 992px) {
+    .rc_section--pricing_plans {
+      margin-top: -450px; } }
 
 .pricing-background {
   background-image: url("../images/layout/bg-2.svg");
@@ -9773,17 +9779,19 @@ table.feature-table {
   background-size: cover;
   background-position: 50% 0%;
   position: absolute;
-  height: 2000px;
   margin-top: -320px;
-  width: 100%; }
+  width: 100%;
+  height: 455px; }
   @media screen and (min-width: 576px) {
     .pricing-background {
-      height: 1800px;
       background-position: 72% 0%;
-      margin-top: -350px; } }
+      margin-top: -300px; } }
   @media screen and (min-width: 768px) {
     .pricing-background {
-      height: 455px; } }
+      margin-top: -300px; } }
+  @media screen and (min-width: 992px) {
+    .pricing-background {
+      margin-top: -370px; } }
 
 .rc_pricing__hero {
   background-image: url("../images/pricing/pricing_hero_bg.svg");

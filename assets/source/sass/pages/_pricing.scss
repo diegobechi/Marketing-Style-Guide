@@ -4,7 +4,13 @@
 .rc_section--pricing_plans{
 	margin: 0;
 	padding: 0;
-	margin-top: -450px;
+	margin-top: -350px;
+    @media screen and (min-width: $screen-sm-min) {
+		margin-top: -400px;
+	}
+	@media screen and (min-width: $screen-lg-min) {
+		margin-top: -450px;
+	}
 }
 
 .pricing-background{
@@ -13,17 +19,19 @@
 	background-size: cover;
 	background-position: 50% 0%;
 	position: absolute;
-	height: 2000px;
 	margin-top: -320px;
 	width: 100%;
+	height: 455px;
 
 	@media screen and (min-width: $screen-sm-min) {
-		height: 1800px;
 		background-position: 72% 0%;
-		margin-top: -350px;
+		margin-top: -300px;
 	}
 	@media screen and (min-width: $screen-md-min) {
-		height: 455px;
+		margin-top: -300px;
+	}
+	@media screen and (min-width: $screen-lg-min) {
+		margin-top: -370px;
 	}
 }
 
