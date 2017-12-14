@@ -1,0 +1,475 @@
+.api {
+    &__block {
+        padding: 60px 0;
+        
+        &--contact-form{
+            background-image: url("../images/api/API_formBackground.jpg"); 
+            background-position: center 0px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            padding: 60px 0;
+        }
+
+        &--api-workflows,
+        &--api-insights,
+        &--api-customerportal{
+            padding: 60px 0 0;
+        }
+
+        &--thirdparty-integrations {
+            padding: 60px 0;
+            margin-top: 60px;
+            background-color: $gray-lighter;
+        }
+
+        &--chat-box {
+            background-color: $mint;
+            overflow: hidden;
+            padding-bottom: 70px;
+
+            @media screen and (max-width: $screen-xs-max) {
+                padding-top: calc(2em + 10px);
+            }
+        }
+    }
+
+    &__container {
+        @extend .container;
+
+        &--chat-box {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media screen and (min-width: $screen-xs-max) {
+    .api-workflows--left,
+    .api-insights--left,
+    .api-customerportal--left{
+        padding-right: 70px;
+    }
+}
+
+.api-growithus,
+.api-workflows,
+.api-insights,
+.api-customerportal,
+.api-developer {
+    padding: 0 60px;
+
+    @media screen and (max-width: $screen-xs-max) {
+        padding: 0 30px;
+    }
+
+    &__item{
+
+        h5{
+            line-height: inherit;
+        }
+
+        h3{
+            margin-top: 0;
+        }
+
+        &--image {
+
+            .image-box {
+                width: 100%;
+                height: 100%;
+
+                .customerportal{
+                    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+                }
+
+                img {
+                    height: auto;
+                    width: 100%;
+                    // max-width: 500px;
+                    margin: 0 auto;
+                    position: relative;
+                    overflow: hidden;
+                }
+            }
+        }
+        
+
+        .check__list {
+            list-style: none;
+            padding: 0;
+
+            li {
+                position: relative;
+                margin: 20px 0;
+                margin-left: 40px;
+
+                &:before {
+                    position: absolute;
+                    font-family: FontAwesome;
+                    content: '\f058';
+                    top: -3px;
+                    left: -40px;
+                    font-size: 30px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+}
+
+
+
+.thirdparty-integrations {
+    text-align: center;
+    color: $gray-dark;
+    padding: 0 60px;
+
+    @media screen and (max-width: $screen-xs-max) {
+        padding: 0 30px;
+    }
+    
+    & h1 {
+        margin-bottom: 10px;
+        color: $gray-darker;
+    }
+    
+    label {
+        display: inline-block;
+        margin-left: 10px;
+        font-size: 20px;
+    }
+    
+    &--grid {
+        margin-top: 20px;
+
+        @media screen and (min-width: $screen-sm-min) {
+            margin-top: 40px;
+
+            .grid__sm__4 {
+                padding: 0;
+            }
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            .grid__xs__12 {
+                padding: 20px;
+            }
+        }
+    }
+
+    &__item {
+        color: $blue;
+        text-align: left;
+
+        &--smaller {
+            img {
+                height: 40px;
+                width: 40px;
+            }
+        }
+
+        &--image{
+            display: inline-block;
+            vertical-align: middle;
+
+            @media screen and (max-width: $screen-xs-max) {
+                padding: 20px !important;
+            }
+
+            &.loyalty{
+                width: 50px;
+                height: 40px;
+                padding: 10px 20px 10px 0;
+            }
+            &.analytics{
+                width: 60px;
+                height: 40px;
+                padding: 10px 20px 10px 0;
+
+            }
+            &.marketing{
+                width: 50px;
+                height: 44px;
+                padding: 10px 20px 10px 0;
+
+            }
+            &.emails{
+                width: 45px;
+                height: 45px;
+                padding: 10px 35px 10px 0;
+
+            }
+        }
+
+        @media screen and (max-width: $screen-xs-max) {
+            width: 225px;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+}
+
+.get-started {
+
+    max-width: 945px;
+    margin: 0 auto;
+
+    &__title {
+        margin-bottom: 20px;
+    }
+
+    &__item {
+        max-width: 525px;
+        margin: 0 auto;
+        padding: 0 40px;
+        width:90%;
+
+        &--contact {
+            padding-left: 20px;
+
+            @media screen and (max-width: $screen-xs-max) {
+                padding: 0;
+                margin-top: 40px;
+            }
+        }
+
+        &__form {
+            background-color: white;
+            padding: 10px;
+
+            fieldset {
+                margin: 0 15px 5px;
+
+                //override to make all options visible
+                .dk-select-options {
+                    max-height: inherit;
+                }
+            }
+        }
+    }
+}
+
+.api-growithus {
+    padding: 0 60px;
+
+    @media screen and (max-width: $screen-xs-max) {
+        padding: 0 30px;
+    }
+
+    &__title{
+        text-align: center;    
+        margin-bottom: 40px;
+    }
+
+    &__item {
+
+        &--hubble {
+
+            @media screen and (max-width: $screen-xxs-max) {
+                padding: 0;
+            }
+
+            .hubble__box {
+                background-image: url(../images/api/hubble_contacts.jpg);
+                height: 310px;
+                min-height: 280px;
+                // max-height: 410px;
+                // max-width: 600px;
+                min-width: 320px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                overflow: hidden;
+                text-align: center;
+
+                @media screen and (max-width: $screen-xxs-max) {
+                    min-width: 230px;
+                    height: calc(33vw - 40px);
+                }
+
+                @media screen and (min-width: $screen-sm-min) {
+                    height: calc(33vw - 40px);
+                }
+
+                img {
+                    position: absolute;
+                    top: 30%;
+                    right: 0;
+                    left: 0;
+                    margin: auto;
+                    width: 75%;
+                    max-width: 420px;
+                    min-width: 200px;
+                }
+            }
+        }
+
+        &__details{
+
+            @media screen and (max-width: $screen-xs-max) {
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            &__button{
+                @media screen and (max-width: $screen-xs-max) {
+                    text-align: center;
+                }    
+            }
+        }
+
+        &--image {
+            padding: 20px;
+
+            .image-box {
+                background-image: url(../images/api/API_Integrations.png);
+                height: 240px;
+                max-width: 430px;
+                min-width: 340px;
+                margin: 0 auto;
+                background-position: center 0;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+                overflow: hidden;
+            }
+        }
+        
+        .button{
+            color: $gray-dark !important;
+            border-width: 2px;
+            margin-top: 50px;
+        }
+
+        .check__list {
+            list-style: none;
+            padding: 0;
+
+            li {
+                position: relative;
+                margin: 20px 0;
+                margin-left: 40px;
+
+                &:before {
+                    position: absolute;
+                    font-family: FontAwesome;
+                    content: '\f058';
+                    top: -3px;
+                    left: -40px;
+                    font-size: 30px;
+                    line-height: 1;
+                }
+            }
+        }
+    }
+
+}
+
+.chat__box {
+    position: relative;
+    display: block;
+    padding: 40px 60px;
+    background: $white;
+    text-align: center;
+    min-width: 180px;
+    margin: 0 2em;
+    color: #424242;
+  
+    @include long-shadow(box, $blue, 380, false, right, bottom, 0.5);
+  
+    &:before {
+        content: ' ';
+        position: absolute;
+        width: 0;
+        height: 0;
+        top: 100%;
+        left: 0;
+        border-top: 30px solid $white;
+        border-right: 40px solid $blue;
+    
+        @include long-shadow(box, $blue, 180, false, right, bottom, 0.5);
+    }
+  
+    &__content {
+        text-align: left;
+    
+        &:before,
+        &:after {
+            font-family: FontAwesome;
+            position: absolute;
+            font-size: 36px;
+            color: $blue;
+        }
+    
+        &:before {
+            content: '\f10d';
+            top: 5px;
+            left: 10px;
+            line-height: 1;
+        }
+    
+        &:after {
+            content: '\f10e';
+            bottom: 5px;
+            right: 10px;
+        }
+    }
+  
+    &__ref {
+        position: absolute;
+        top:calc(100% + 25px);
+        right: 0;
+        color: $white;
+        text-align: right;
+    
+        &__title {
+            margin: 0 0 5px;
+        }
+    }
+}
+
+.api-developer{
+    
+    &__header{
+        &__title{
+            margin-bottom: 20px;
+        }
+    }
+
+    &__features{
+        &__item{
+
+            @media screen and (min-width: $screen-xs-max) {
+                padding-right: 130px;
+            }
+
+            &__title{
+                margin: 40px 0 0;
+            }
+
+            &__details{
+                margin: 10px 0 0;
+            }
+        }
+    }
+    
+    label {
+        display: inline-block;
+    }
+
+    &__button{
+        text-align: center;
+        margin-top: 40px;
+
+        .button{
+            color: $gray-dark !important;
+            border-width: 2px;
+        }
+    }
+}
+
+
+
+
