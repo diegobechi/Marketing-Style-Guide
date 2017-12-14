@@ -9763,10 +9763,28 @@ table.feature-table {
   margin: 0;
   padding: 0; }
 
+.pricing-background {
+  background-image: url("../images/layout/bg-2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 0%;
+  height: 2000px;
+  margin-top: -320px; }
+  @media screen and (min-width: 576px) {
+    .pricing-background {
+      height: 1800px;
+      background-position: 72% 0%;
+      margin-top: -380px; } }
+  @media screen and (min-width: 768px) {
+    .pricing-background {
+      height: 1200px;
+      margin-top: -455px; } }
+
 .rc_pricing__hero {
   background-image: url("../images/pricing/pricing_hero_bg.svg");
   background-repeat: no-repeat;
-  background-position: 0 0; }
+  background-position: 0 -77px;
+  background-size: cover; }
   .rc_pricing__hero .rc_content {
     margin: 0 auto;
     padding: 49px 0;
@@ -9867,7 +9885,9 @@ table.feature-table {
     .rc_pricing_faqs .card-header {
       line-height: 36px; }
       .rc_pricing_faqs .card-header h5 {
-        margin: 0; }
+        margin: 0;
+        width: 80%;
+        display: inline-block; }
       .rc_pricing_faqs .card-header a {
         float: right;
         background-color: #EEEEEE;
@@ -9882,3 +9902,5 @@ table.feature-table {
         color: #8E8F8E; }
       .rc_pricing_faqs .card-header a.collapsed span:before {
         content: "\f067"; }
+    .rc_pricing_faqs .card-body p {
+      width: 75%; }

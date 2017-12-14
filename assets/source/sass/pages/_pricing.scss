@@ -3,11 +3,32 @@
 	padding: 0;
 }
 
+.pricing-background{
+	background-image: url('../images/layout/bg-2.svg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 0%;
+
+	height: 2000px;
+	margin-top: -320px;
+
+	@media screen and (min-width: $screen-sm-min) {
+		height: 1800px;
+		background-position: 72% 0%;
+		margin-top: -380px;
+	}
+	@media screen and (min-width: $screen-md-min) {
+		height: 1200px;
+		margin-top: -455px;
+	}
+}
+
 .rc_pricing{
 	&__hero{
 		background-image: url('../images/pricing/pricing_hero_bg.svg');
 		background-repeat: no-repeat;
-		background-position: 0 0;
+		background-position: 0 -77px;
+		background-size: cover;
 	
 		.rc_content{
 			margin: 0 auto;
@@ -157,6 +178,8 @@
 				line-height: 36px;
 				h5{
 					margin: 0;
+					width: 80%;
+					display: inline-block;
 				}
 				a{
 					float: right;
@@ -177,6 +200,9 @@
 				}
 			}
 			&-body{
+				p{
+					width: 75%;
+				}
 
 			}
 		}

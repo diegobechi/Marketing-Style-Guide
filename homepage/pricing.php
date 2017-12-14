@@ -17,7 +17,7 @@ $page_active = 'pricing';
 	</div>
 </div>
 
-<div class="rc_section__container">
+<div class="rc_section__container pricing-background">
 	<div class="rc_section rc_section--pricing_plans">
 		<div class="rc_layout__container">
 			<div class="rc_layout rc_pricing__plan__container rc_text--center">
@@ -69,65 +69,59 @@ $page_active = 'pricing';
 		</div>
 	</div>
 	<div class="rc_section rc_pricing_faqs">
-		<h2>Frequently asked questions</h2>
-		<div id="rc_pricing_faqs_list" role="tablist">
-			<div class="card rc_shadow_level1">
-				<div class="card-header" role="tab" id="headingOne">
-					<h5>
-						How does pricing work?
+		<div class="rc_layout__container">
+			<h2>Frequently asked questions</h2>
+			<div id="rc_pricing_faqs_list" role="tablist">
+				<div class="card rc_shadow_level1">
+					<div class="card-header" role="tab" id="headingOne">
+						<h5>How does pricing work?</h5>
 						<a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
 							<span></span>
 						</a>
-					</h5>
-				</div>
-				<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#rc_pricing_faqs_list">
-					<div class="card-body">
-						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					</div>
+					<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#rc_pricing_faqs_list">
+						<div class="card-body">
+							Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="card rc_shadow_level1">
-				<div class="card-header" role="tab" id="headingTwo">
-					<h5>
-						How do I qualify for ReCharge Pro?
+				<div class="card rc_shadow_level1">
+					<div class="card-header" role="tab" id="headingTwo">
+						<h5>How do I qualify for ReCharge Pro?</h5>
 						<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
 							<span></span>
 						</a>
-					</h5>
-				</div>
-				<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#rc_pricing_faqs_list">
-					<div class="card-body">
-						Stores that have $100K in MRR or higher qualify for ReCharge Pro. Contact us here to get reduced pricing.
+					</div>
+					<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#rc_pricing_faqs_list">
+						<div class="card-body">
+							<p>Stores that have $100K in MRR or higher qualify for ReCharge Pro. Contact us here to get reduced pricing.</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="card rc_shadow_level1">
-				<div class="card-header" role="tab" id="headingThree">
-					<h5>
-						What is the discount for ReCharge Pro?
+				<div class="card rc_shadow_level1">
+					<div class="card-header" role="tab" id="headingThree">
+						<h5>What is the discount for ReCharge Pro?</h5>
 						<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 							<span></span>
 						</a>
-					</h5>
-				</div>
-				<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#rc_pricing_faqs_list">
-					<div class="card-body">
-						Pro stores receive a 30% discount. Instead of the standard 1% fee, the processing fee is reduced to 0.7%.
+					</div>
+					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#rc_pricing_faqs_list">
+						<div class="card-body">
+							<p>Pro stores receive a 30% discount. Instead of the standard 1% fee, the processing fee is reduced to 0.7%.</p>
+						</div>
 					</div>
 				</div>
-			</div>
-			<div class="card rc_shadow_level1">
-				<div class="card-header" role="tab" id="headingThree">
-					<h5>
-						What is the discount for Shopify Plus stores?
+				<div class="card rc_shadow_level1">
+					<div class="card-header" role="tab" id="headingThree">
+						<h5>What is the discount for Shopify Plus stores?</h5>
 						<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
 							<span></span>
 						</a>
-					</h5>
-				</div>
-				<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#rc_pricing_faqs_list">
-					<div class="card-body">
-						Shopify Plus stores automatically qualify for the Pro discount pricing regardless of your current MRR.
+					</div>
+					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#rc_pricing_faqs_list">
+						<div class="card-body">
+							<p>Shopify Plus stores automatically qualify for the Pro discount pricing regardless of your current MRR.</p>
+						</div>
 					</div>
 				</div>
 			</div>
