@@ -1,6 +1,10 @@
+.page__pricing{
+	background-color: #F8F8F8;
+}
 .rc_section--pricing_plans{
 	margin: 0;
 	padding: 0;
+	margin-top: -450px;
 }
 
 .pricing-background{
@@ -8,18 +12,18 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 0%;
-
+	position: absolute;
 	height: 2000px;
 	margin-top: -320px;
+	width: 100%;
 
 	@media screen and (min-width: $screen-sm-min) {
 		height: 1800px;
 		background-position: 72% 0%;
-		margin-top: -380px;
+		margin-top: -350px;
 	}
 	@media screen and (min-width: $screen-md-min) {
-		height: 1200px;
-		margin-top: -455px;
+		height: 455px;
 	}
 }
 

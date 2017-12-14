@@ -16,8 +16,8 @@ $page_active = 'pricing';
 		</div>
 	</div>
 </div>
-
-<div class="rc_section__container pricing-background">
+<div class="pricing-background"></div>
+<div class="rc_section__container">
 	<div class="rc_section rc_section--pricing_plans">
 		<div class="rc_layout__container">
 			<div class="rc_layout rc_pricing__plan__container rc_text--center">

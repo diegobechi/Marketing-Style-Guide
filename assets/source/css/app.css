@@ -9759,26 +9759,31 @@ table.feature-table {
   background: #53BAD3 url(/assets/images/partners/skyline.png) no-repeat bottom;
   background-size: contain; }
 
+.page__pricing {
+  background-color: #F8F8F8; }
+
 .rc_section--pricing_plans {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  margin-top: -450px; }
 
 .pricing-background {
   background-image: url("../images/layout/bg-2.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 0%;
+  position: absolute;
   height: 2000px;
-  margin-top: -320px; }
+  margin-top: -320px;
+  width: 100%; }
   @media screen and (min-width: 576px) {
     .pricing-background {
       height: 1800px;
       background-position: 72% 0%;
-      margin-top: -380px; } }
+      margin-top: -350px; } }
   @media screen and (min-width: 768px) {
     .pricing-background {
-      height: 1200px;
-      margin-top: -455px; } }
+      height: 455px; } }
 
 .rc_pricing__hero {
   background-image: url("../images/pricing/pricing_hero_bg.svg");
