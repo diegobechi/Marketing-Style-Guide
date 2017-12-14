@@ -73,52 +73,52 @@ $page_active = 'pricing';
 			<h2>Frequently asked questions</h2>
 			<div id="rc_pricing_faqs_list" role="tablist">
 				<div class="card rc_shadow_level1">
-					<div class="card-header" role="tab" id="headingOne">
+					<div class="card-header" role="tab" id="rc_pricing_faq1">
 						<h5>How does pricing work?</h5>
-						<a class="collapsed" data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+						<a class="collapsed" data-toggle="collapse" href="#rc_pricing_faq1-details" aria-expanded="false" aria-controls="rc_pricing_faq1-details">
 							<span></span>
 						</a>
 					</div>
-					<div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne" data-parent="#rc_pricing_faqs_list">
+					<div id="rc_pricing_faq1-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq1" data-parent="#rc_pricing_faqs_list">
 						<div class="card-body">
 							<p>ReCharge has a base fee of $19.99 per month plus 1% on recurring orders only. We do not ever charge you on non-recurring products. The 1% fee for ReCharge is only based on what was charged for the product itself, without shipping or taxes. You will also want to keep in mind that the payment processor (Stripe or Braintree) also carries a fee 2.9% + $0.30 per transaction.You do not get charged the Shopify payments fee of 2.9% + 0.30 that you would normally incur for non-recurring items.</p>
 						</div>
 					</div>
 				</div>
 				<div class="card rc_shadow_level1">
-					<div class="card-header" role="tab" id="headingTwo">
+					<div class="card-header" role="tab" id="rc_pricing_faq2">
 						<h5>How do I qualify for ReCharge Pro?</h5>
-						<a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						<a class="collapsed" data-toggle="collapse" href="#rc_pricing_faq2-details" aria-expanded="false" aria-controls="rc_pricing_faq2-details">
 							<span></span>
 						</a>
 					</div>
-					<div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#rc_pricing_faqs_list">
+					<div id="rc_pricing_faq2-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq2" data-parent="#rc_pricing_faqs_list">
 						<div class="card-body">
 							<p>Stores that have $100K in MRR or higher qualify for ReCharge Pro. Contact us here to get reduced pricing.</p>
 						</div>
 					</div>
 				</div>
 				<div class="card rc_shadow_level1">
-					<div class="card-header" role="tab" id="headingThree">
+					<div class="card-header" role="tab" id="rc_pricing_faq3">
 						<h5>What is the discount for ReCharge Pro?</h5>
-						<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						<a class="collapsed" data-toggle="collapse" href="#rc_pricing_faq3-details" aria-expanded="false" aria-controls="rc_pricing_faq3-details">
 							<span></span>
 						</a>
 					</div>
-					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#rc_pricing_faqs_list">
+					<div id="rc_pricing_faq3-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq3" data-parent="#rc_pricing_faqs_list">
 						<div class="card-body">
 							<p>Pro stores receive a 30% discount. Instead of the standard 1% fee, the processing fee is reduced to 0.7%.</p>
 						</div>
 					</div>
 				</div>
 				<div class="card rc_shadow_level1">
-					<div class="card-header" role="tab" id="headingThree">
+					<div class="card-header" role="tab" id="rc_pricing_faq4">
 						<h5>What is the discount for Shopify Plus stores?</h5>
-						<a class="collapsed" data-toggle="collapse" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+						<a class="collapsed" data-toggle="collapse" href="#rc_pricing_faq4-details" aria-expanded="false" aria-controls="rc_pricing_faq4-details">
 							<span></span>
 						</a>
 					</div>
-					<div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree" data-parent="#rc_pricing_faqs_list">
+					<div id="rc_pricing_faq4-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq4" data-parent="#rc_pricing_faqs_list">
 						<div class="card-body">
 							<p>Shopify Plus stores automatically qualify for the Pro discount pricing regardless of your current MRR.</p>
 						</div>
