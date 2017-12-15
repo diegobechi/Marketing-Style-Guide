@@ -72,19 +72,19 @@ $page_active = 'pricing';
 		<div class="rc_layout__container">
 			<h2>Frequently asked questions</h2>
 			<div id="rc_pricing_faqs_list" role="tablist">
-				<div class="card rc_shadow_level1">
-					<div class="card-header" role="tab" id="rc_pricing_faq1">
-						<h5>How does pricing work?</h5>
-						<a class="collapsed" data-toggle="collapse" href="#rc_pricing_faq1-details" aria-expanded="false" aria-controls="rc_pricing_faq1-details">
-							<span></span>
-						</a>
-					</div>
-					<div id="rc_pricing_faq1-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq1" data-parent="#rc_pricing_faqs_list">
-						<div class="card-body">
-							<p>ReCharge has a base fee of $19.99 per month plus 1% on recurring orders only. We do not charge you on non-recurring products. The 1% fee for ReCharge is only based on what was charged for the product itself, without shipping or taxes. You will also want to keep in mind that the payment processor (Stripe or Braintree) also carries a fee 2.9% + $0.30 per transaction. You do not get charged the Shopify payments fee of 2.9% + 0.30 that you would normally incur for non-recurring items.</p>
+				<a class="collapsed" data-toggle="collapse" href="#rc_pricing_faq1-details" aria-expanded="false" aria-controls="rc_pricing_faq1-details">
+					<div class="card rc_shadow_level1">
+						<div class="card-header" role="tab" id="rc_pricing_faq1">
+							<h5>How does pricing work?</h5>	
+							<div><span></span></div>
+						</div>
+						<div id="rc_pricing_faq1-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq1" data-parent="#rc_pricing_faqs_list">
+							<div class="card-body">
+								<p>ReCharge has a base fee of $19.99 per month plus 1% on recurring orders only. We do not charge you on non-recurring products. The 1% fee for ReCharge is only based on what was charged for the product itself, without shipping or taxes. You will also want to keep in mind that the payment processor (Stripe or Braintree) also carries a fee 2.9% + $0.30 per transaction. You do not get charged the Shopify payments fee of 2.9% + 0.30 that you would normally incur for non-recurring items.</p>
+							</div>
 						</div>
 					</div>
-				</div>
+				</a>
 				<div class="card rc_shadow_level1">
 					<div class="card-header" role="tab" id="rc_pricing_faq2">
 						<h5>How do I qualify for ReCharge Pro?</h5>

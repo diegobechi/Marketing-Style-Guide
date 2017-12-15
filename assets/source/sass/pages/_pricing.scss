@@ -190,7 +190,9 @@
 		@media screen and (min-width: $screen-sm-max) {
 			padding: 56px 0 78px;
 		}
-
+		a{
+			color: $color-grey-dark !important;
+		}
 		h2{
 			text-align: center;
 			max-width: 350px;
@@ -211,7 +213,7 @@
 					width: 80%;
 					display: inline-block;
 				}
-				a{
+				div{
 					float: right;
 					background-color: $color-grey-silver;
 					border-radius: 50%;

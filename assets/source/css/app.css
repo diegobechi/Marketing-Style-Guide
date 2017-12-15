@@ -9900,6 +9900,8 @@ table.feature-table {
   @media screen and (min-width: 767px) {
     .rc_pricing_faqs {
       padding: 56px 0 78px; } }
+  .rc_pricing_faqs a {
+    color: #424242 !important; }
   .rc_pricing_faqs h2 {
     text-align: center;
     max-width: 350px;
@@ -9917,7 +9919,7 @@ table.feature-table {
         margin: 0;
         width: 80%;
         display: inline-block; }
-      .rc_pricing_faqs .card-header a {
+      .rc_pricing_faqs .card-header div {
         float: right;
         background-color: #EEEEEE;
         border-radius: 50%;
