@@ -9904,11 +9904,7 @@ table.feature-table {
     color: #424242 !important; }
   .rc_pricing_faqs h2 {
     text-align: center;
-    max-width: 350px;
     margin-bottom: 48px; }
-    @media screen and (min-width: 767px) {
-      .rc_pricing_faqs h2 {
-        max-width: 100%; } }
   .rc_pricing_faqs .card {
     margin: 25px 0;
     padding: 20px 25px;
@@ -9938,6 +9934,9 @@ table.feature-table {
       font-weight: 600; }
   .rc_pricing_faqs a.collapsed span.rc_faq-icon:before {
     content: "\f067"; }
+
+.rc_pricing_faq1-details, .rc_pricing_faq2-details, .rc_pricing_faq3-details, .rc_pricing_faq4-details {
+  width: 75%; }
 
 .api__block {
   padding: 60px 0; }

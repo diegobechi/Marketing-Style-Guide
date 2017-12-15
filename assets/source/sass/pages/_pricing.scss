@@ -195,11 +195,7 @@
 		}
 		h2{
 			text-align: center;
-			max-width: 350px;
 			margin-bottom: 48px;
-			@media screen and (min-width: $screen-sm-max) {
-				max-width: 100%;
-			}
 		}
 		
 		.card{
@@ -242,5 +238,11 @@
 		a.collapsed span.rc_faq-icon:before{
 			content: "\f067";
 		}
+	}
+	&_faq1-details,
+	&_faq2-details,
+	&_faq3-details,
+	&_faq4-details{
+		width:75%;
 	}
 }
