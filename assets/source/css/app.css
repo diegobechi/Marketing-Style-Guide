@@ -9931,12 +9931,13 @@ table.feature-table {
         font-size: 12px;
         content: "\f068";
         color: #8E8F8E; }
-      .rc_pricing_faqs .card-header a.collapsed div span:before {
-        content: "\f067"; }
     .rc_pricing_faqs .card-body p {
       width: 75%; }
     .rc_pricing_faqs .card-body .rc_link {
-      color: #53BAD3 !important; }
+      color: #53BAD3 !important;
+      font-weight: 600; }
+  .rc_pricing_faqs a.collapsed span:before {
+    content: "\f067"; }
 
 .api__block {
   padding: 60px 0; }

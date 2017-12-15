@@ -226,10 +226,7 @@
 					font-size: $font-size-extra-small;
 					content: "\f068";
 					color: $color-grey-medium;	
-				}
-				a.collapsed div span:before{
-					content: "\f067";
-				}
+				}				
 			}
 			&-body{
 				p{
@@ -237,9 +234,13 @@
 				}
 				.rc_link{
 					color: $color-blue !important;
+					font-weight: $font-semibold;
 				}
 
 			}
+		}
+		a.collapsed span:before{
+			content: "\f067";
 		}
 	}
 }
