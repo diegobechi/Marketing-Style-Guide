@@ -9927,8 +9927,6 @@ table.feature-table {
         font-size: 12px;
         content: "\f068";
         color: #8E8F8E; }
-    .rc_pricing_faqs .card-body p {
-      width: 75%; }
     .rc_pricing_faqs .card-body .rc_link {
       color: #53BAD3 !important;
       font-weight: 600; }
