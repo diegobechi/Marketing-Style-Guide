@@ -9817,7 +9817,8 @@ table.feature-table {
     max-width: 979px;
     margin: 0 auto !important; }
   .rc_pricing__plan_header {
-    padding: 26px 0 36px; }
+    padding: 26px 0 36px;
+    font-weight: 600; }
     .rc_pricing__plan_header span {
       text-transform: uppercase;
       font-size: 12px; }
@@ -9870,7 +9871,11 @@ table.feature-table {
         color: #53BAD3; }
   .rc_pricing__plan--pro {
     background-color: #022034;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    margin-top: 10px; }
+    @media screen and (min-width: 767px) {
+      .rc_pricing__plan--pro {
+        margin: 48px auto; } }
     .rc_pricing__plan--pro .rc_pricing__plan_header {
       background-color: #000000;
       color: #4DD6B7; }
@@ -9891,10 +9896,14 @@ table.feature-table {
   margin: 0 auto;
   max-width: 947px;
   width: 100%;
-  padding: 56px 0 78px; }
+  padding: 56px 20px 78px; }
+  @media screen and (min-width: 767px) {
+    .rc_pricing_faqs {
+      padding: 56px 0 78px; } }
   .rc_pricing_faqs h2 {
     text-align: center;
-    max-width: 350px; }
+    max-width: 350px;
+    margin-bottom: 48px; }
     @media screen and (min-width: 767px) {
       .rc_pricing_faqs h2 {
         max-width: 100%; } }
