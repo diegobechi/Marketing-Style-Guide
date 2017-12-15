@@ -9858,6 +9858,9 @@ table.feature-table {
       margin-top: 45px; }
   .rc_pricing__plan--regular {
     background-color: #FFFFFF; }
+    @media screen and (max-width: 340px) {
+      .rc_pricing__plan--regular {
+        margin-top: 70px; } }
     .rc_pricing__plan--regular .rc_pricing__plan_header {
       background-color: #F5F5F5;
       color: #53BAD3; }
