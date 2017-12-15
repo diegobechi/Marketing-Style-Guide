@@ -69,12 +69,13 @@
 		}
 		&_header{
 			padding: 26px 0 36px;
+			font-weight: $font-semibold
 			span{
 				text-transform: uppercase;
 				font-size: $font-size-extra-small;
 			}
 			div{
-				border-radius: 14.5px;
+				border-radius: 20px;
 				width: 185px;
 				margin: 0 auto;
 				p{
@@ -147,6 +148,11 @@
 		&--pro{
 			background-color: #022034;
 			color: $color-white;
+			margin-top: 10px;
+			@media screen and (min-width: $screen-sm-max) {
+				margin: 48px auto;
+			}
+			
 
 			.rc_pricing__plan_header{
 				background-color: $color-black;
@@ -180,12 +186,15 @@
 		margin: 0 auto;
 		max-width: 947px;
 		width: 100%;
-		padding: 56px 0 78px;
+		padding: 56px 20px 78px;
+		@media screen and (min-width: $screen-sm-max) {
+			padding: 56px 0 78px;
+		}
 
 		h2{
 			text-align: center;
 			max-width: 350px;
-
+			margin-bottom: 48px;
 			@media screen and (min-width: $screen-sm-max) {
 				max-width: 100%;
 			}

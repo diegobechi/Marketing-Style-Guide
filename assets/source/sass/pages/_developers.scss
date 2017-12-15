@@ -20,11 +20,11 @@
         &--thirdparty-integrations {
             padding: 60px 0;
             margin-top: 60px;
-            background-color: $gray-lighter;
+            background-color: $color-grey-light;
         }
 
         &--chat-box {
-            background-color: $mint;
+            background-color: $color-green-pale;
             overflow: hidden;
             padding-bottom: 70px;
 
@@ -122,7 +122,7 @@
 
 .thirdparty-integrations {
     text-align: center;
-    color: $gray-dark;
+    color: $color-grey-dark;
     padding: 0 60px;
 
     @media screen and (max-width: $screen-xs-max) {
@@ -131,7 +131,7 @@
     
     & h1 {
         margin-bottom: 10px;
-        color: $gray-darker;
+        color: $color-grey-dark;
     }
     
     label {
@@ -159,7 +159,7 @@
     }
 
     &__item {
-        color: $blue;
+        color: $color-blue;
         text-align: left;
 
         &--smaller {
@@ -235,7 +235,7 @@
         }
 
         &__form {
-            background-color: white;
+            background-color: $color-white;
             padding: 10px;
 
             fieldset {
@@ -266,7 +266,7 @@
 
         &--hubble {
 
-            @media screen and (max-width: $screen-xxs-max) {
+            @media screen and (max-width: $screen-xs-max) {
                 padding: 0;
             }
 
@@ -284,7 +284,7 @@
                 overflow: hidden;
                 text-align: center;
 
-                @media screen and (max-width: $screen-xxs-max) {
+                @media screen and (max-width: $screen-xs-max) {
                     min-width: 230px;
                     height: calc(33vw - 40px);
                 }
@@ -338,7 +338,7 @@
         }
         
         .button{
-            color: $gray-dark !important;
+            color: $color-grey-dark !important;
             border-width: 2px;
             margin-top: 50px;
         }
@@ -371,13 +371,11 @@
     position: relative;
     display: block;
     padding: 40px 60px;
-    background: $white;
+    background: $color-white;
     text-align: center;
     min-width: 180px;
     margin: 0 2em;
     color: #424242;
-  
-    @include long-shadow(box, $blue, 380, false, right, bottom, 0.5);
   
     &:before {
         content: ' ';
@@ -386,10 +384,8 @@
         height: 0;
         top: 100%;
         left: 0;
-        border-top: 30px solid $white;
-        border-right: 40px solid $blue;
-    
-        @include long-shadow(box, $blue, 180, false, right, bottom, 0.5);
+        border-top: 30px solid $color-white;
+        border-right: 40px solid $color-blue;
     }
   
     &__content {
@@ -400,7 +396,7 @@
             font-family: FontAwesome;
             position: absolute;
             font-size: 36px;
-            color: $blue;
+            color: $color-blue;
         }
     
         &:before {
@@ -421,7 +417,7 @@
         position: absolute;
         top:calc(100% + 25px);
         right: 0;
-        color: $white;
+        color: $color-white;
         text-align: right;
     
         &__title {
@@ -464,7 +460,7 @@
         margin-top: 40px;
 
         .button{
-            color: $gray-dark !important;
+            color: $color-grey-dark !important;
             border-width: 2px;
         }
     }
