@@ -220,7 +220,7 @@
 					width: 36px;
 					text-align: center;
 				}
-				span:before{
+				span.rc_faq-icon:before{
 					font-family: "Fontawesome";
 					font-weight: $font-thin;
 					font-size: $font-size-extra-small;
@@ -239,7 +239,7 @@
 
 			}
 		}
-		a.collapsed span:before{
+		a.collapsed span.rc_faq-icon:before{
 			content: "\f067";
 		}
 	}

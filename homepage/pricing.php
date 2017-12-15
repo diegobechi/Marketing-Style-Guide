@@ -76,7 +76,7 @@ $page_active = 'pricing';
 					<div class="card rc_shadow_level1">
 						<div class="card-header" role="tab" id="rc_pricing_faq1">
 							<h5>How does pricing work?</h5>
-							<div><span></span></div>
+							<div><span class="rc_faq-icon"></span></div>
 						</div>
 						<div id="rc_pricing_faq1-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq1" data-parent="#rc_pricing_faqs_list">
 							<div class="card-body">
@@ -89,7 +89,7 @@ $page_active = 'pricing';
 					<div class="card rc_shadow_level1">
 						<div class="card-header" role="tab" id="rc_pricing_faq2">
 							<h5>How do I qualify for ReCharge Pro?</h5>
-							<div><span></span></div>
+							<div><span class="rc_faq-icon"></span></div>
 						</div>
 						<div id="rc_pricing_faq2-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq2" data-parent="#rc_pricing_faqs_list">
 							<div class="card-body">
@@ -102,7 +102,7 @@ $page_active = 'pricing';
 					<div class="card rc_shadow_level1">
 						<div class="card-header" role="tab" id="rc_pricing_faq3">
 							<h5>What is the discount for ReCharge Pro?</h5>
-							<div><span></span></div>
+							<div><span class="rc_faq-icon"></span></div>
 						</div>
 						<div id="rc_pricing_faq3-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq3" data-parent="#rc_pricing_faqs_list">
 							<div class="card-body">
@@ -115,7 +115,7 @@ $page_active = 'pricing';
 					<div class="card rc_shadow_level1">
 						<div class="card-header" role="tab" id="rc_pricing_faq4">
 							<h5>What is the discount for Shopify Plus stores?</h5>
-							<div><span></span></div>
+							<div><span class="rc_faq-icon"></span></div>
 						</div>
 						<div id="rc_pricing_faq4-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq4" data-parent="#rc_pricing_faqs_list">
 							<div class="card-body">

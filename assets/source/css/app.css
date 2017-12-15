@@ -9925,7 +9925,7 @@ table.feature-table {
         border-radius: 50%;
         width: 36px;
         text-align: center; }
-      .rc_pricing_faqs .card-header span:before {
+      .rc_pricing_faqs .card-header span.rc_faq-icon:before {
         font-family: "Fontawesome";
         font-weight: 100;
         font-size: 12px;
@@ -9936,7 +9936,7 @@ table.feature-table {
     .rc_pricing_faqs .card-body .rc_link {
       color: #53BAD3 !important;
       font-weight: 600; }
-  .rc_pricing_faqs a.collapsed span:before {
+  .rc_pricing_faqs a.collapsed span.rc_faq-icon:before {
     content: "\f067"; }
 
 .api__block {
