@@ -39,7 +39,7 @@ $page_active = 'pricing';
 									<li>Integration with the best-of-breed apps</li>
 								</ul>
 							</div>
-							<button class="rc_button rc_button_large rc_button_primary">Get started</button>
+							<a href="https://www.shopifysubscriptions.com/app/install?utm_source=pricingpage&utm_medium=button&utm_campaign=pricingpage" class="rc_button rc_button_large rc_button_primary">Get started</a>
 						</div>
 					</div>
 				</div>
@@ -61,7 +61,7 @@ $page_active = 'pricing';
 									<li>Reduced processing fee</li>
 								</ul>
 							</div>
-							<button class="rc_button rc_button_large rc_button_secondary">Apply for Pro</button>
+							<a href="/enterprise#become-pro" class="rc_button rc_button_large rc_button_secondary">Apply for Pro</a>
 						</div>
 					</div>		
 				</div>
@@ -81,7 +81,7 @@ $page_active = 'pricing';
 					</div>
 					<div id="rc_pricing_faq1-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq1" data-parent="#rc_pricing_faqs_list">
 						<div class="card-body">
-							<p>ReCharge has a base fee of $19.99 per month plus 1% on recurring orders only. We do not ever charge you on non-recurring products. The 1% fee for ReCharge is only based on what was charged for the product itself, without shipping or taxes. You will also want to keep in mind that the payment processor (Stripe or Braintree) also carries a fee 2.9% + $0.30 per transaction.You do not get charged the Shopify payments fee of 2.9% + 0.30 that you would normally incur for non-recurring items.</p>
+							<p>ReCharge has a base fee of $19.99 per month plus 1% on recurring orders only. We do not charge you on non-recurring products. The 1% fee for ReCharge is only based on what was charged for the product itself, without shipping or taxes. You will also want to keep in mind that the payment processor (Stripe or Braintree) also carries a fee 2.9% + $0.30 per transaction. You do not get charged the Shopify payments fee of 2.9% + 0.30 that you would normally incur for non-recurring items.</p>
 						</div>
 					</div>
 				</div>
@@ -94,7 +94,7 @@ $page_active = 'pricing';
 					</div>
 					<div id="rc_pricing_faq2-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq2" data-parent="#rc_pricing_faqs_list">
 						<div class="card-body">
-							<p>Stores that have $100K in MRR or higher qualify for ReCharge Pro. Contact us here to get reduced pricing.</p>
+							<p>Stores that have $100K in MRR or higher qualify for ReCharge Pro. Contact us <a href="/enterprise#become-pro">here</a> to get reduced pricing.</p>
 						</div>
 					</div>
 				</div>
