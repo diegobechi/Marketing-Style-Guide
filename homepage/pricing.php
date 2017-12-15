@@ -39,7 +39,7 @@ $page_active = 'pricing';
 									<li>Integration with the best-of-breed apps</li>
 								</ul>
 							</div>
-							<a href="https://www.shopifysubscriptions.com/app/install?utm_source=pricingpage&utm_medium=button&utm_campaign=pricingpage" class="rc_button rc_button_large rc_button_primary">Get started</a>
+							<a href="https://www.shopifysubscriptions.com/app/install?utm_source=pricingpage&utm_medium=button&utm_campaign=pricingpage" target="_blank" class="rc_button rc_button_primary">Get started</a>
 						</div>
 					</div>
 				</div>
@@ -61,7 +61,7 @@ $page_active = 'pricing';
 									<li>Reduced processing fee</li>
 								</ul>
 							</div>
-							<a href="/enterprise#become-pro" class="rc_button rc_button_large rc_button_secondary">Apply for Pro</a>
+							<a href="/enterprise#become-pro" class="rc_button rc_button_secondary">Apply for Pro</a>
 						</div>
 					</div>		
 				</div>
