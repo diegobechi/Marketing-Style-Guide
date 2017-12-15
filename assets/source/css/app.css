@@ -9854,7 +9854,7 @@ table.feature-table {
           font-family: "Fontawesome";
           content: "\f00c";
           margin-right: 10px; }
-    .rc_pricing__plan_body button {
+    .rc_pricing__plan_body a {
       margin-top: 45px; }
   .rc_pricing__plan--regular {
     background-color: #FFFFFF; }
@@ -9887,7 +9887,7 @@ table.feature-table {
       max-width: 215px; }
       .rc_pricing__plan--pro .rc_pricing__plan_body ul li:before {
         color: #4DD6B7; }
-    .rc_pricing__plan--pro .rc_pricing__plan_body button {
+    .rc_pricing__plan--pro .rc_pricing__plan_body a {
       background-color: #4DD6B7;
       border: 0;
       color: #FFFFFF; }
