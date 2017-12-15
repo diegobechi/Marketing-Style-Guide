@@ -9935,7 +9935,10 @@ table.feature-table {
   .rc_pricing_faqs a.collapsed span.rc_faq-icon:before {
     content: "\f067"; }
 
-.rc_pricing_faq1-details, .rc_pricing_faq2-details, .rc_pricing_faq3-details, .rc_pricing_faq4-details {
+#rc_pricing_faq1-details,
+#rc_pricing_faq2-details,
+#rc_pricing_faq3-details,
+#rc_pricing_faq4-details {
   width: 75%; }
 
 .api__block {

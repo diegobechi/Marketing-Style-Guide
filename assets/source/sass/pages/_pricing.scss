@@ -238,11 +238,11 @@
 		a.collapsed span.rc_faq-icon:before{
 			content: "\f067";
 		}
-	}
-	&_faq1-details,
-	&_faq2-details,
-	&_faq3-details,
-	&_faq4-details{
-		width:75%;
-	}
+	}	
+}
+#rc_pricing_faq1-details,
+#rc_pricing_faq2-details,
+#rc_pricing_faq3-details,
+#rc_pricing_faq4-details{
+	width:75%;
 }
