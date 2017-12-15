@@ -94,7 +94,7 @@ $page_active = 'pricing';
 					</div>
 					<div id="rc_pricing_faq2-details" class="collapse" role="tabpanel" aria-labelledby="rc_pricing_faq2" data-parent="#rc_pricing_faqs_list">
 						<div class="card-body">
-							<p>Stores that have $100K in MRR or higher qualify for ReCharge Pro. Contact us <a href="/enterprise#become-pro">here</a> to get reduced pricing.</p>
+							<p>Stores that have $100K in MRR or higher qualify for ReCharge Pro. Contact us <a class="rc_link" href="/enterprise#become-pro">here</a> to get reduced pricing.</p>
 						</div>
 					</div>
 				</div>
