@@ -227,13 +227,16 @@
 					content: "\f068";
 					color: $color-grey-medium;	
 				}
-				a.collapsed span:before{
+				a.collapsed div span:before{
 					content: "\f067";
 				}
 			}
 			&-body{
 				p{
 					width: 75%;
+				}
+				.rc_link{
+					color: $color-blue !important;
 				}
 
 			}
